@@ -8,3 +8,6 @@ httpx>=0.24.0
 # Vector Search & LLM Client
 chromadb>=0.4.0
 ollama>=0.1.0
+
+# WSGI Adapter for PythonAnywhere
+a2wsgi>=1.10.0
