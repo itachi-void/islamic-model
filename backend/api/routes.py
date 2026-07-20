@@ -23,36 +23,47 @@ from backend.data.ingest import run_ingestion
 
 router = APIRouter()
 
-# 1. Load Quran documents and initialize exact search engine
-search_documents = load_search_documents()
-exact_engine = ExactSearchEngine(search_documents)
+# Global Lazy Singletons
+_pipeline = None
+_hadith_service = None
+_chat_service = None
 
-# 2. Initialize embedding provider and vector store
-embedding_provider = BGEEmbeddingProvider(settings.EMBEDDING_MODEL)
-chroma_store = ChromaVectorStore(
-    persist_directory=settings.CHROMA_PATH,
-    embedding_provider=embedding_provider,
-    collection_name="quran"
-)
+def get_pipeline():
+    global _pipeline
+    if _pipeline is None:
+        search_documents = load_search_documents()
+        exact_engine = ExactSearchEngine(search_documents)
+        embedding_provider = BGEEmbeddingProvider(settings.EMBEDDING_MODEL)
+        chroma_store = ChromaVectorStore(
+            persist_directory=settings.CHROMA_PATH,
+            embedding_provider=embedding_provider,
+            collection_name="quran"
+        )
+        exact_retriever = ExactRetriever(exact_engine)
+        semantic_retriever = SemanticRetriever(chroma_store)
+        hybrid_retriever = HybridRetriever(
+            exact_retriever=exact_retriever,
+            semantic_retriever=semantic_retriever
+        )
+        _pipeline = RetrievalPipeline(
+            retriever=hybrid_retriever,
+            ranker=CoverageRanker(),
+            filter_step=MetadataFilter(),
+            response_builder=ResponseBuilder()
+        )
+    return _pipeline
 
-# 3. Wire the modular retrievers and pipeline for Quran
-exact_retriever = ExactRetriever(exact_engine)
-semantic_retriever = SemanticRetriever(chroma_store)
-hybrid_retriever = HybridRetriever(
-    exact_retriever=exact_retriever,
-    semantic_retriever=semantic_retriever
-)
+def get_hadith_service():
+    global _hadith_service
+    if _hadith_service is None:
+        _hadith_service = HadithSearchService()
+    return _hadith_service
 
-pipeline = RetrievalPipeline(
-    retriever=hybrid_retriever,
-    ranker=CoverageRanker(),
-    filter_step=MetadataFilter(),
-    response_builder=ResponseBuilder()
-)
-
-# 4. Wire Hadith Search Service and Chat Service
-hadith_service = HadithSearchService()
-chat_service = ChatService(quran_pipeline=pipeline, hadith_service=hadith_service)
+def get_chat_service():
+    global _chat_service
+    if _chat_service is None:
+        _chat_service = ChatService(quran_pipeline=get_pipeline(), hadith_service=get_hadith_service())
+    return _chat_service
 
 
 @router.get("/test")
@@ -83,7 +94,7 @@ def search_endpoint(
         filters["revelation_type"] = revelation_type
 
     query = SearchQuery(text=q, limit=limit, filters=filters if filters else None)
-    response = pipeline.retrieve(query)
+    response = get_pipeline().retrieve(query)
     return response
 
 
@@ -97,7 +108,7 @@ def hadith_search_get(
     """
     Search Sahih Al-Bukhari hadith collection (GET).
     """
-    return hadith_service.search(query_text=q, limit=limit, book=book, narrator=narrator)
+    return get_hadith_service().search(query_text=q, limit=limit, book=book, narrator=narrator)
 
 
 @router.post("/hadith/search")
@@ -112,7 +123,7 @@ def hadith_search_post(payload: Dict[str, Any] = Body(...)):
     limit = payload.get("limit", settings.TOP_K)
     book = payload.get("book")
     narrator = payload.get("narrator")
-    return hadith_service.search(query_text=q, limit=limit, book=book, narrator=narrator)
+    return get_hadith_service().search(query_text=q, limit=limit, book=book, narrator=narrator)
 
 
 from fastapi.responses import StreamingResponse
@@ -132,7 +143,7 @@ def chat_endpoint(
     if revelation_type is not None:
         filters["revelation_type"] = revelation_type
 
-    response = chat_service.chat(
+    response = get_chat_service().chat(
         query_text=q,
         limit=limit,
         filters=filters if filters else None,
@@ -158,7 +169,7 @@ def chat_stream_endpoint(
     if revelation_type is not None:
         filters["revelation_type"] = revelation_type
 
-    generator = chat_service.chat_stream(
+    generator = get_chat_service().chat_stream(
         query_text=q,
         limit=limit,
         filters=filters if filters else None,
