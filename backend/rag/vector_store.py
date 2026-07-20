@@ -20,8 +20,13 @@ class ChromaVectorStore(BaseVectorStore):
         self.collection_name = collection_name
         
         os.makedirs(persist_directory, exist_ok=True)
-        self.client = chromadb.PersistentClient(path=persist_directory)
-        self.collection = self.client.get_or_create_collection(name=collection_name)
+        try:
+            self.client = chromadb.PersistentClient(path=persist_directory)
+            self.collection = self.client.get_or_create_collection(name=collection_name)
+        except Exception as e:
+            print(f"ChromaDB initialization fallback: {e}")
+            self.client = None
+            self.collection = None
 
     def reset_collection(self) -> None:
         """
@@ -79,6 +84,9 @@ class ChromaVectorStore(BaseVectorStore):
         """
         Performs vector similarity search on Chroma collection using the query embedding.
         """
+        if not self.collection:
+            return []
+
         query_embedding = self.embedding_provider.embed_query(query)
         where_clause = self._build_where_clause(filters)
 

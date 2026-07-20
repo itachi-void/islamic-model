@@ -110,8 +110,8 @@ class HadithSearchService:
             filters=filters if filters else None
         )
 
-        # Fallback to exact BM25/Exact match if Chroma vector store is empty or building
-        if self.vector_store.collection.count() == 0:
+        # Fallback to exact BM25/Exact match if Chroma vector store is uninitialized or empty
+        if not self.vector_store.collection or self.vector_store.collection.count() == 0:
             results = self.exact_engine.search(query_text, limit=limit)
             return SearchResponse(query=query_text, count=len(results), documents=results)
 
