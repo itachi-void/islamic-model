@@ -1,0 +1,177 @@
+[
+  {
+    "id": "g_025",
+    "category": "Famous Verse",
+    "question": "اليوم أكملت لكم دينكم وأتممت عليكم نعمتي",
+    "expected_ids": [
+      "5:3"
+    ]
+  },
+  {
+    "id": "g_006",
+    "category": "Famous Verse",
+    "question": "آية النور",
+    "expected_ids": [
+      "24:35"
+    ]
+  },
+  {
+    "id": "g_007",
+    "category": "Famous Verse",
+    "question": "خواتيم سورة البقرة آمن الرسول بما أنزل إليه",
+    "expected_ids": [
+      "2:285",
+      "2:286"
+    ]
+  },
+  {
+    "id": "g_068",
+    "category": "Topic",
+    "question": "تحريم الخمر والميسر والأنصاب والأزلام",
+    "expected_ids": [
+      "5:90",
+      "2:219"
+    ]
+  },
+  {
+    "id": "g_083",
+    "category": "Person",
+    "question": "ذكر أوب عليه السلام والشفاء من الضر",
+    "expected_ids": [
+      "21:83",
+      "38:41"
+    ]
+  },
+  {
+    "id": "g_020",
+    "category": "Famous Verse",
+    "question": "إن الصفا والمروة من شعائر الله",
+    "expected_ids": [
+      "2:158"
+    ]
+  },
+  {
+    "id": "g_080",
+    "category": "Person",
+    "question": "ذكر يوسف عليه السلام مع إخوته والعزيز",
+    "expected_ids": [
+      "12:4",
+      "12:21",
+      "12:54"
+    ]
+  },
+  {
+    "id": "g_044",
+    "category": "Exact Quote",
+    "question": "ليلة القدر خير من ألف شهر",
+    "expected_ids": [
+      "97:3"
+    ]
+  },
+  {
+    "id": "g_091",
+    "category": "Story",
+    "question": "قصة طالوت وجالوت وداوود",
+    "expected_ids": [
+      "2:247",
+      "2:249",
+      "2:251"
+    ]
+  },
+  {
+    "id": "g_021",
+    "category": "Famous Verse",
+    "question": "آية المباهلة في سورة آل عمران",
+    "expected_ids": [
+      "3:61"
+    ]
+  },
+  {
+    "id": "g_001",
+    "category": "Famous Verse",
+    "question": "ما هي آية الكرسي؟",
+    "expected_ids": [
+      "2:255"
+    ]
+  },
+  {
+    "id": "g_096",
+    "category": "Out-of-domain",
+    "question": "كم عدد كواكب المجرة الشمسية ونظام الفلك الحديث؟",
+    "expected_ids": []
+  },
+  {
+    "id": "g_058",
+    "category": "Topic",
+    "question": "فضل البر والأمر ببر الوالدين",
+    "expected_ids": [
+      "17:23",
+      "31:14",
+      "46:15"
+    ]
+  },
+  {
+    "id": "g_094",
+    "category": "Story",
+    "question": "قصة قوم عاد ونبي الله هود",
+    "expected_ids": [
+      "7:65",
+      "11:50",
+      "46:21"
+    ]
+  },
+  {
+    "id": "g_054",
+    "category": "Exact Quote",
+    "question": "لإيلاف قريش",
+    "expected_ids": [
+      "106:1"
+    ]
+  },
+  {
+    "id": "g_090",
+    "category": "Story",
+    "question": "قصة أصحاب الفيل والطير الأبابيل",
+    "expected_ids": [
+      "105:1",
+      "105:3"
+    ]
+  },
+  {
+    "id": "g_026",
+    "category": "Exact Quote",
+    "question": "الله لا إله إلا هو الحي القيوم",
+    "expected_ids": [
+      "2:255",
+      "3:2"
+    ]
+  },
+  {
+    "id": "g_072",
+    "category": "Topic",
+    "question": "إن أكرمكم عند الله أتقاكم",
+    "expected_ids": [
+      "49:13"
+    ]
+  },
+  {
+    "id": "g_085",
+    "category": "Person",
+    "question": "ذكر زكريا عليه السلام والدعاء بالذرية",
+    "expected_ids": [
+      "3:38",
+      "19:4",
+      "21:89"
+    ]
+  },
+  {
+    "id": "g_078",
+    "category": "Person",
+    "question": "ذكر عيسى ابن مريم عليه السلام والروح القدس",
+    "expected_ids": [
+      "2:87",
+      "4:171",
+      "5:110"
+    ]
+  }
+]

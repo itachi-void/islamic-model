@@ -1,0 +1,175 @@
+[
+  {
+    "id": "g_065",
+    "category": "Topic",
+    "question": "العدل والقسط والإشهاد بالحق",
+    "expected_ids": [
+      "4:135",
+      "5:8",
+      "16:90"
+    ]
+  },
+  {
+    "id": "g_030",
+    "category": "Exact Quote",
+    "question": "إياك نعبد وإياك نستعين",
+    "expected_ids": [
+      "1:5"
+    ]
+  },
+  {
+    "id": "g_028",
+    "category": "Exact Quote",
+    "question": "الرحمن الرحيم",
+    "expected_ids": [
+      "1:3"
+    ]
+  },
+  {
+    "id": "g_089",
+    "category": "Story",
+    "question": "قصة قارون وآتاه الله من الكنوز فخسف به الأرض",
+    "expected_ids": [
+      "28:76",
+      "28:81"
+    ]
+  },
+  {
+    "id": "g_098",
+    "category": "Out-of-domain",
+    "question": "كيف تبرمج بلغة بايثون وتستخدم مكتبة فاست بي أي؟",
+    "expected_ids": []
+  },
+  {
+    "id": "g_005",
+    "category": "Famous Verse",
+    "question": "سورة الإخلاص",
+    "expected_ids": [
+      "112:1"
+    ]
+  },
+  {
+    "id": "g_055",
+    "category": "Exact Quote",
+    "question": "أرأيت الذي يكذب بالدين",
+    "expected_ids": [
+      "107:1"
+    ]
+  },
+  {
+    "id": "g_076",
+    "category": "Person",
+    "question": "ذكر إبراهيم عليه السلام وبناء الكعبة",
+    "expected_ids": [
+      "2:125",
+      "2:127",
+      "14:37"
+    ]
+  },
+  {
+    "id": "g_012",
+    "category": "Famous Verse",
+    "question": "فاتحة الكتاب البسملة",
+    "expected_ids": [
+      "1:1"
+    ]
+  },
+  {
+    "id": "g_070",
+    "category": "Topic",
+    "question": "الصلح والأخوة بين المؤمنين",
+    "expected_ids": [
+      "49:10",
+      "49:9"
+    ]
+  },
+  {
+    "id": "g_087",
+    "category": "Story",
+    "question": "قصة ذي القرنين وبناء السد",
+    "expected_ids": [
+      "18:83",
+      "18:94",
+      "18:96"
+    ]
+  },
+  {
+    "id": "g_014",
+    "category": "Famous Verse",
+    "question": "فإن تولوا فقل حسبي الله لا إله إلا هو",
+    "expected_ids": [
+      "9:129"
+    ]
+  },
+  {
+    "id": "g_018",
+    "category": "Famous Verse",
+    "question": "واستعينوا بالصبر والصلاة وإنها لكبيرة إلا على الخاشعين",
+    "expected_ids": [
+      "2:45"
+    ]
+  },
+  {
+    "id": "g_029",
+    "category": "Exact Quote",
+    "question": "مالك يوم الدين",
+    "expected_ids": [
+      "1:4"
+    ]
+  },
+  {
+    "id": "g_032",
+    "category": "Exact Quote",
+    "question": "قل هو الله أحد",
+    "expected_ids": [
+      "112:1"
+    ]
+  },
+  {
+    "id": "g_036",
+    "category": "Exact Quote",
+    "question": "قل أعوذ برب الفلق",
+    "expected_ids": [
+      "113:1"
+    ]
+  },
+  {
+    "id": "g_095",
+    "category": "Story",
+    "question": "قصة فرعون والغرق في البحر مع موسى",
+    "expected_ids": [
+      "10:90",
+      "10:92",
+      "20:78"
+    ]
+  },
+  {
+    "id": "g_004",
+    "category": "Famous Verse",
+    "question": "السورة التي تعدل ثلث القرآن",
+    "expected_ids": [
+      "112:1",
+      "112:2",
+      "112:3",
+      "112:4"
+    ]
+  },
+  {
+    "id": "g_015",
+    "category": "Famous Verse",
+    "question": "هو الله الذي لا إله إلا هو الملك القدوس السلام",
+    "expected_ids": [
+      "59:23"
+    ]
+  },
+  {
+    "id": "g_082",
+    "category": "Person",
+    "question": "ذكر داوود عليه السلام والزبور والحديد",
+    "expected_ids": [
+      "34:10",
+      "4:163",
+      "21:79"
+    ]
+  }
+]

@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "qr_large_2213",
+    "question": "آية أَمْ أَنْزَلْنَا عَلَيْهِمْ سُلْطَانًا فَهُوَ في سورة الروم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "30:35"
+    ]
+  },
+  {
+    "id": "qr_large_1310",
+    "question": "آية وَمَنْ يَعْشُ عَنْ ذِكْرِ الرَّحْمَٰنِ في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:36"
+    ]
+  },
+  {
+    "id": "qr_large_1376",
+    "question": "آية قَالُوا ادْعُ لَنَا رَبَّكَ يُبَيِّنْ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:69"
+    ]
+  },
+  {
+    "id": "qr_large_1113",
+    "question": "آية وَلِلَّهِ غَيْبُ السَّمَاوَاتِ وَالْأَرْضِ ۚ في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:77"
+    ]
+  },
+  {
+    "id": "qr_large_0961",
+    "question": "آية مُتَّكِئِينَ فِيهَا عَلَى الْأَرَائِكِ ۖ في سورة الانسان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "76:13"
+    ]
+  },
+  {
+    "id": "qr_large_1171",
+    "question": "آية فَلَمْ تَقْتُلُوهُمْ وَلَٰكِنَّ اللَّهَ قَتَلَهُمْ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:17"
+    ]
+  },
+  {
+    "id": "qr_large_0318",
+    "question": "آية إِلَّا مَنْ ظَلَمَ ثُمَّ بَدَّلَ في سورة النمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "27:11"
+    ]
+  },
+  {
+    "id": "qr_large_1802",
+    "question": "آية كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:110"
+    ]
+  },
+  {
+    "id": "qr_large_1125",
+    "question": "آية لِئَلَّا يَعْلَمَ أَهْلُ الْكِتَابِ أَلَّا في سورة الحديد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "57:29"
+    ]
+  },
+  {
+    "id": "qr_large_0980",
+    "question": "آية ۞ إِنَّ الْإِنْسَانَ خُلِقَ هَلُوعًا في سورة المعارج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "70:19"
+    ]
+  },
+  {
+    "id": "qr_large_1985",
+    "question": "آية وَمَا أَنْتُمْ بِمُعْجِزِينَ فِي الْأَرْضِ في سورة الشورى",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "42:31"
+    ]
+  },
+  {
+    "id": "qr_large_2136",
+    "question": "آية فَذَاقَتْ وَبَالَ أَمْرِهَا وَكَانَ عَاقِبَةُ في سورة الطلاق",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "65:9"
+    ]
+  },
+  {
+    "id": "qr_large_1136",
+    "question": "آية وَقُلْ رَبِّ أَدْخِلْنِي مُدْخَلَ صِدْقٍ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:80"
+    ]
+  },
+  {
+    "id": "qr_large_1013",
+    "question": "آية كِتَابٌ أَنْزَلْنَاهُ إِلَيْكَ مُبَارَكٌ لِيَدَّبَّرُوا في سورة ص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "38:29"
+    ]
+  },
+  {
+    "id": "qr_large_1062",
+    "question": "آية أُولَٰئِكَ الَّذِينَ حَبِطَتْ أَعْمَالُهُمْ فِي في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:22"
+    ]
+  },
+  {
+    "id": "qr_large_1844",
+    "question": "آية اتَّبِعُوا مَا أُنْزِلَ إِلَيْكُمْ مِنْ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:3"
+    ]
+  },
+  {
+    "id": "qr_large_1945",
+    "question": "آية إِلَّا مَنْ خَطِفَ الْخَطْفَةَ فَأَتْبَعَهُ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:10"
+    ]
+  },
+  {
+    "id": "qr_large_0652",
+    "question": "آية أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:38"
+    ]
+  },
+  {
+    "id": "qr_large_1827",
+    "question": "آية أَأَمِنْتُمْ مَنْ فِي السَّمَاءِ أَنْ في سورة الملك",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "67:16"
+    ]
+  },
+  {
+    "id": "qr_large_2479",
+    "question": "آية وَقَالَتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:72"
+    ]
+  },
+  {
+    "id": "qr_large_1748",
+    "question": "آية وَإِذْ أَنْجَيْنَاكُمْ مِنْ آلِ فِرْعَوْنَ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:141"
+    ]
+  },
+  {
+    "id": "qr_large_2068",
+    "question": "آية ثُمَّ إِنِّي أَعْلَنْتُ لَهُمْ وَأَسْرَرْتُ في سورة نوح",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "71:9"
+    ]
+  },
+  {
+    "id": "qr_large_1813",
+    "question": "آية إِنَّ الَّذِينَ اتَّقَوْا إِذَا مَسَّهُمْ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:201"
+    ]
+  },
+  {
+    "id": "qr_large_1300",
+    "question": "آية فَقَالَ إِنِّي سَقِيمٌ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:89"
+    ]
+  },
+  {
+    "id": "qr_large_2290",
+    "question": "آية أَلَمْ يَعْلَمْ بِأَنَّ اللَّهَ يَرَىٰ في سورة العلق",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "96:14"
+    ]
+  },
+  {
+    "id": "qr_large_2679",
+    "question": "آية وَلَئِنْ سَأَلْتَهُمْ مَنْ خَلَقَهُمْ لَيَقُولُنَّ في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:87"
+    ]
+  },
+  {
+    "id": "qr_large_1904",
+    "question": "آية قَدْ خَسِرَ الَّذِينَ قَتَلُوا أَوْلَادَهُمْ في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:140"
+    ]
+  },
+  {
+    "id": "qr_large_0547",
+    "question": "آية يَوْمَ يُكْشَفُ عَنْ سَاقٍ وَيُدْعَوْنَ في سورة القلم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "68:42"
+    ]
+  },
+  {
+    "id": "qr_large_1870",
+    "question": "آية وَيَسْتَفْتُونَكَ فِي النِّسَاءِ ۖ قُلِ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:127"
+    ]
+  },
+  {
+    "id": "qr_large_0498",
+    "question": "آية فَأَعْقَبَهُمْ نِفَاقًا فِي قُلُوبِهِمْ إِلَىٰ في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:77"
+    ]
+  },
+  {
+    "id": "qr_large_1021",
+    "question": "آية فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَا ۖ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:31"
+    ]
+  },
+  {
+    "id": "qr_large_2284",
+    "question": "آية وَمُصَدِّقًا لِمَا بَيْنَ يَدَيَّ مِنَ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:50"
+    ]
+  },
+  {
+    "id": "qr_large_2683",
+    "question": "آية رَبَّنَا إِنَّكَ مَنْ تُدْخِلِ النَّارَ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:192"
+    ]
+  },
+  {
+    "id": "qr_large_1903",
+    "question": "آية قَالَ إِنَّمَا أَنَا رَسُولُ رَبِّكِ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:19"
+    ]
+  },
+  {
+    "id": "qr_large_2122",
+    "question": "آية وَإِنَّا إِلَىٰ رَبِّنَا لَمُنْقَلِبُونَ في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:14"
+    ]
+  },
+  {
+    "id": "qr_large_0721",
+    "question": "آية وَاذْكُرْ فِي الْكِتَابِ إِسْمَاعِيلَ ۚ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:54"
+    ]
+  },
+  {
+    "id": "qr_large_0897",
+    "question": "آية وَضَلَّ عَنْهُمْ مَا كَانُوا يَدْعُونَ في سورة فصلت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "41:48"
+    ]
+  },
+  {
+    "id": "qr_large_1742",
+    "question": "آية أُولَٰئِكَ الَّذِينَ أَنْعَمَ اللَّهُ عَلَيْهِمْ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:58"
+    ]
+  },
+  {
+    "id": "qr_large_0437",
+    "question": "آية ۞ قُلْ كُونُوا حِجَارَةً أَوْ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:50"
+    ]
+  },
+  {
+    "id": "qr_large_0023",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ الْحَمْدُ في سورة سبإ",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "34:1"
+    ]
+  },
+  {
+    "id": "qr_large_0605",
+    "question": "آية وَقِيلَ لَهُمْ أَيْنَ مَا كُنْتُمْ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:92"
+    ]
+  },
+  {
+    "id": "qr_large_1000",
+    "question": "آية وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ اللَّهَ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:247"
+    ]
+  },
+  {
+    "id": "qr_large_1637",
+    "question": "آية رَبَّنَا وَاجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِنْ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:128"
+    ]
+  },
+  {
+    "id": "qr_large_2025",
+    "question": "آية اللَّهُ الَّذِي جَعَلَ لَكُمُ الْأَنْعَامَ في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:79"
+    ]
+  },
+  {
+    "id": "qr_large_1573",
+    "question": "آية ۞ اللَّهُ الَّذِي سَخَّرَ لَكُمُ في سورة الجاثية",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "45:12"
+    ]
+  },
+  {
+    "id": "qr_large_0797",
+    "question": "آية وَاتَّقُوا يَوْمًا لَا تَجْزِي نَفْسٌ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:123"
+    ]
+  },
+  {
+    "id": "qr_large_2358",
+    "question": "آية وَمِنَ النَّاسِ وَالدَّوَابِّ وَالْأَنْعَامِ مُخْتَلِفٌ في سورة فاطر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "35:28"
+    ]
+  },
+  {
+    "id": "qr_large_1698",
+    "question": "آية وَمَنْ يَهْدِ اللَّهُ فَمَا لَهُ في سورة الزمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "39:37"
+    ]
+  },
+  {
+    "id": "qr_large_1866",
+    "question": "آية فَلِذَٰلِكَ فَادْعُ ۖ وَاسْتَقِمْ كَمَا في سورة الشورى",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "42:15"
+    ]
+  },
+  {
+    "id": "qr_large_0299",
+    "question": "آية يَتِيمًا ذَا مَقْرَبَةٍ في سورة البلد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "90:15"
+    ]
+  },
+  {
+    "id": "qr_large_2917",
+    "question": "آية كَلَّا بَلْ تُحِبُّونَ الْعَاجِلَةَ في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:20"
+    ]
+  },
+  {
+    "id": "qr_large_2910",
+    "question": "آية فَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ وَهُوَ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:94"
+    ]
+  },
+  {
+    "id": "qr_large_0190",
+    "question": "آية لَابِثِينَ فِيهَا أَحْقَابًا في سورة النبإ",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "78:23"
+    ]
+  },
+  {
+    "id": "qr_large_0101",
+    "question": "آية وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِآيَاتِنَا إِلَىٰ في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:46"
+    ]
+  },
+  {
+    "id": "qr_large_0604",
+    "question": "آية وَالَّذِينَ آمَنُوا وَاتَّبَعَتْهُمْ ذُرِّيَّتُهُمْ بِإِيمَانٍ في سورة الطور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "52:21"
+    ]
+  },
+  {
+    "id": "qr_large_0816",
+    "question": "آية إِلَّا أَنْ يَشَاءَ اللَّهُ ۚ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:24"
+    ]
+  },
+  {
+    "id": "qr_large_2780",
+    "question": "آية فَلَيْسَ لَهُ الْيَوْمَ هَاهُنَا حَمِيمٌ في سورة الحاقة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "69:35"
+    ]
+  },
+  {
+    "id": "qr_large_1272",
+    "question": "آية ذَٰلِكَ لِيَعْلَمَ أَنِّي لَمْ أَخُنْهُ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:52"
+    ]
+  },
+  {
+    "id": "qr_large_0963",
+    "question": "آية لِيُبَيِّنَ لَهُمُ الَّذِي يَخْتَلِفُونَ فِيهِ في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:39"
+    ]
+  },
+  {
+    "id": "qr_large_2712",
+    "question": "آية لَقَدْ أَنْزَلْنَا إِلَيْكُمْ كِتَابًا فِيهِ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:10"
+    ]
+  },
+  {
+    "id": "qr_large_1373",
+    "question": "آية إِنَّا كُنَّا مِنْ قَبْلُ نَدْعُوهُ في سورة الطور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "52:28"
+    ]
+  },
+  {
+    "id": "qr_large_2112",
+    "question": "آية قَالُوا إِنَّمَا أَنْتَ مِنَ الْمُسَحَّرِينَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:185"
+    ]
+  },
+  {
+    "id": "qr_large_1163",
+    "question": "آية وَقَالُوا رَبَّنَا إِنَّا أَطَعْنَا سَادَتَنَا في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:67"
+    ]
+  },
+  {
+    "id": "qr_large_0348",
+    "question": "آية يَوْمَ تَرْجُفُ الرَّاجِفَةُ في سورة النازعات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "79:6"
+    ]
+  },
+  {
+    "id": "qr_large_0696",
+    "question": "آية وَمَا نُرِيهِمْ مِنْ آيَةٍ إِلَّا في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:48"
+    ]
+  },
+  {
+    "id": "qr_large_1939",
+    "question": "آية حَتَّىٰ إِذَا جَاءُوا قَالَ أَكَذَّبْتُمْ في سورة النمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "27:84"
+    ]
+  },
+  {
+    "id": "qr_large_2094",
+    "question": "آية يُصْهَرُ بِهِ مَا فِي بُطُونِهِمْ في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:20"
+    ]
+  },
+  {
+    "id": "qr_large_2706",
+    "question": "آية وَانْتَظِرُوا إِنَّا مُنْتَظِرُونَ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:122"
+    ]
+  },
+  {
+    "id": "qr_large_1812",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا لَا في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:95"
+    ]
+  },
+  {
+    "id": "qr_large_2590",
+    "question": "آية قَالُوا إِنْ هَٰذَانِ لَسَاحِرَانِ يُرِيدَانِ في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:63"
+    ]
+  },
+  {
+    "id": "qr_large_1905",
+    "question": "آية وَعَدَكُمُ اللَّهُ مَغَانِمَ كَثِيرَةً تَأْخُذُونَهَا في سورة الفتح",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "48:20"
+    ]
+  },
+  {
+    "id": "qr_large_1320",
+    "question": "آية يَوْمَ يَسْمَعُونَ الصَّيْحَةَ بِالْحَقِّ ۚ في سورة ق",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "50:42"
+    ]
+  },
+  {
+    "id": "qr_large_2376",
+    "question": "آية وَبَشَّرْنَاهُ بِإِسْحَاقَ نَبِيًّا مِنَ الصَّالِحِينَ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:112"
+    ]
+  },
+  {
+    "id": "qr_large_2576",
+    "question": "آية وَوَصَّيْنَا الْإِنْسَانَ بِوَالِدَيْهِ إِحْسَانًا ۖ في سورة الأحقاف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "46:15"
+    ]
+  },
+  {
+    "id": "qr_large_2569",
+    "question": "آية أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:12"
+    ]
+  },
+  {
+    "id": "qr_large_1176",
+    "question": "آية قَالُوا أَرْجِهْ وَأَخَاهُ وَابْعَثْ فِي في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:36"
+    ]
+  },
+  {
+    "id": "qr_large_1245",
+    "question": "آية وَمِنْ قَوْمِ مُوسَىٰ أُمَّةٌ يَهْدُونَ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:159"
+    ]
+  },
+  {
+    "id": "qr_large_0002",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ سَبِّحِ في سورة الأعلى",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "87:1"
+    ]
+  },
+  {
+    "id": "qr_large_2245",
+    "question": "آية وَاللَّاتِي يَأْتِينَ الْفَاحِشَةَ مِنْ نِسَائِكُمْ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:15"
+    ]
+  },
+  {
+    "id": "qr_large_1664",
+    "question": "آية كَلَّا ۖ إِنَّهُ كَانَ لِآيَاتِنَا في سورة المدثر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "74:16"
+    ]
+  },
+  {
+    "id": "qr_large_1233",
+    "question": "آية قُلْ لِمَنْ مَا فِي السَّمَاوَاتِ في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:12"
+    ]
+  },
+  {
+    "id": "qr_large_2332",
+    "question": "آية وَجَعَلَ فِيهَا رَوَاسِيَ مِنْ فَوْقِهَا في سورة فصلت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "41:10"
+    ]
+  },
+  {
+    "id": "qr_large_0713",
+    "question": "آية وَإِنَّ لَهُ عِنْدَنَا لَزُلْفَىٰ وَحُسْنَ في سورة ص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "38:40"
+    ]
+  },
+  {
+    "id": "qr_large_2702",
+    "question": "آية وَعَدَ اللَّهُ الَّذِينَ آمَنُوا وَعَمِلُوا في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:9"
+    ]
+  },
+  {
+    "id": "qr_large_1723",
+    "question": "آية وَلَمَّا جَاءَهُمْ رَسُولٌ مِنْ عِنْدِ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:101"
+    ]
+  },
+  {
+    "id": "qr_large_0786",
+    "question": "آية وَآيَةٌ لَهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:41"
+    ]
+  },
+  {
+    "id": "qr_large_0522",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ حم في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:1"
+    ]
+  },
+  {
+    "id": "qr_large_2271",
+    "question": "آية فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا كَيْفَ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:29"
+    ]
+  },
+  {
+    "id": "qr_large_1212",
+    "question": "آية وَنَجِّنَا بِرَحْمَتِكَ مِنَ الْقَوْمِ الْكَافِرِينَ في سورة يونس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "10:86"
+    ]
+  },
+  {
+    "id": "qr_large_1649",
+    "question": "آية إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ في سورة المطففين",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "83:22"
+    ]
+  },
+  {
+    "id": "qr_large_1337",
+    "question": "آية وَوَقَعَ الْقَوْلُ عَلَيْهِمْ بِمَا ظَلَمُوا في سورة النمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "27:85"
+    ]
+  },
+  {
+    "id": "qr_large_1673",
+    "question": "آية أَلَمْ تَرَ أَنَّ الْفُلْكَ تَجْرِي في سورة لقمان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "31:31"
+    ]
+  },
+  {
+    "id": "qr_large_1267",
+    "question": "آية ۞ وَسَارِعُوا إِلَىٰ مَغْفِرَةٍ مِنْ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:133"
+    ]
+  },
+  {
+    "id": "qr_large_2078",
+    "question": "آية وَيُنَجِّي اللَّهُ الَّذِينَ اتَّقَوْا بِمَفَازَتِهِمْ في سورة الزمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "39:61"
+    ]
+  },
+  {
+    "id": "qr_large_1231",
+    "question": "آية وَإِنِّي مُرْسِلَةٌ إِلَيْهِمْ بِهَدِيَّةٍ فَنَاظِرَةٌ في سورة النمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "27:35"
+    ]
+  },
+  {
+    "id": "qr_large_0511",
+    "question": "آية كِرَامٍ بَرَرَةٍ في سورة عبس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "80:16"
+    ]
+  },
+  {
+    "id": "qr_large_1286",
+    "question": "آية قُلْ إِنِّي لَا أَمْلِكُ لَكُمْ في سورة الجن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "72:21"
+    ]
+  },
+  {
+    "id": "qr_large_1353",
+    "question": "آية وَمَا أَرْسَلْنَا قَبْلَكَ إِلَّا رِجَالًا في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:7"
+    ]
+  },
+  {
+    "id": "qr_large_0287",
+    "question": "آية فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:73"
+    ]
+  },
+  {
+    "id": "qr_large_1767",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ سُبْحَانَ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:1"
+    ]
+  },
+  {
+    "id": "qr_large_1492",
+    "question": "آية أَمْ يَقُولُونَ افْتَرَاهُ ۖ قُلْ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:13"
+    ]
+  },
+  {
+    "id": "qr_large_0808",
+    "question": "آية تَنْزِيلٌ مِنْ رَبِّ الْعَالَمِينَ في سورة الحاقة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "69:43"
+    ]
+  },
+  {
+    "id": "qr_large_2206",
+    "question": "آية وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُمْ في سورة المرسلات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "77:27"
+    ]
+  },
+  {
+    "id": "qr_large_2130",
+    "question": "آية قُلْ مَنْ ذَا الَّذِي يَعْصِمُكُمْ في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:17"
+    ]
+  },
+  {
+    "id": "qr_large_0007",
+    "question": "آية كُلُّ نَفْسٍ بِمَا كَسَبَتْ رَهِينَةٌ في سورة المدثر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "74:38"
+    ]
+  },
+  {
+    "id": "qr_large_1787",
+    "question": "آية فَأَمَّا ثَمُودُ فَأُهْلِكُوا بِالطَّاغِيَةِ في سورة الحاقة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "69:5"
+    ]
+  },
+  {
+    "id": "qr_large_0182",
+    "question": "آية وَظِلٍّ مِنْ يَحْمُومٍ في سورة الواقعة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "56:43"
+    ]
+  },
+  {
+    "id": "qr_large_1044",
+    "question": "آية اللَّهُ يَتَوَفَّى الْأَنْفُسَ حِينَ مَوْتِهَا في سورة الزمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "39:42"
+    ]
+  },
+  {
+    "id": "qr_large_0779",
+    "question": "آية وَفِرْعَوْنَ ذِي الْأَوْتَادِ في سورة الفجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "89:10"
+    ]
+  },
+  {
+    "id": "qr_large_2362",
+    "question": "آية بَلِ الْإِنْسَانُ عَلَىٰ نَفْسِهِ بَصِيرَةٌ في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:14"
+    ]
+  },
+  {
+    "id": "qr_large_1578",
+    "question": "آية أَوْ كَالَّذِي مَرَّ عَلَىٰ قَرْيَةٍ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:259"
+    ]
+  },
+  {
+    "id": "qr_large_0474",
+    "question": "آية يُجَادِلُونَكَ فِي الْحَقِّ بَعْدَمَا تَبَيَّنَ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:6"
+    ]
+  },
+  {
+    "id": "qr_large_2095",
+    "question": "آية أَوْ يَكُونَ لَكَ بَيْتٌ مِنْ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:93"
+    ]
+  },
+  {
+    "id": "qr_large_2484",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:172"
+    ]
+  },
+  {
+    "id": "qr_large_1788",
+    "question": "آية إِلَّا الَّذِي فَطَرَنِي فَإِنَّهُ سَيَهْدِينِ في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:27"
+    ]
+  },
+  {
+    "id": "qr_large_2888",
+    "question": "آية أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا في سورة السجدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "32:26"
+    ]
+  },
+  {
+    "id": "qr_large_1416",
+    "question": "آية فَإِنْ لَمْ تَأْتُونِي بِهِ فَلَا في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:60"
+    ]
+  },
+  {
+    "id": "qr_large_1780",
+    "question": "آية فَقَرَأَهُ عَلَيْهِمْ مَا كَانُوا بِهِ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:199"
+    ]
+  },
+  {
+    "id": "qr_large_2444",
+    "question": "آية وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَىٰ في سورة الليل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "92:13"
+    ]
+  },
+  {
+    "id": "qr_large_0445",
+    "question": "آية فَلَمَّا أَنْجَاهُمْ إِذَا هُمْ يَبْغُونَ في سورة يونس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "10:23"
+    ]
+  },
+  {
+    "id": "qr_large_0157",
+    "question": "آية ۞ ذَٰلِكَ وَمَنْ عَاقَبَ بِمِثْلِ في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:60"
+    ]
+  },
+  {
+    "id": "qr_large_2651",
+    "question": "آية لَقَدْ كَانَ لَكُمْ فِيهِمْ أُسْوَةٌ في سورة الممتحنة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "60:6"
+    ]
+  },
+  {
+    "id": "qr_large_2379",
+    "question": "آية هَٰذَا فَوْجٌ مُقْتَحِمٌ مَعَكُمْ ۖ في سورة ص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "38:59"
+    ]
+  },
+  {
+    "id": "qr_large_2834",
+    "question": "آية ۞ وَحَرَّمْنَا عَلَيْهِ الْمَرَاضِعَ مِنْ في سورة القصص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "28:12"
+    ]
+  },
+  {
+    "id": "qr_large_1070",
+    "question": "آية قُلْ مَنْ حَرَّمَ زِينَةَ اللَّهِ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:32"
+    ]
+  },
+  {
+    "id": "qr_large_2615",
+    "question": "آية مَا قَدَرُوا اللَّهَ حَقَّ قَدْرِهِ في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:74"
+    ]
+  },
+  {
+    "id": "qr_large_0114",
+    "question": "آية وَقَالَ لِلَّذِي ظَنَّ أَنَّهُ نَاجٍ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:42"
+    ]
+  },
+  {
+    "id": "qr_large_1357",
+    "question": "آية ثُمَّ إِنَّكُمْ يَوْمَ الْقِيَامَةِ تُبْعَثُونَ في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:16"
+    ]
+  },
+  {
+    "id": "qr_large_2728",
+    "question": "آية وَنَضَعُ الْمَوَازِينَ الْقِسْطَ لِيَوْمِ الْقِيَامَةِ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:47"
+    ]
+  },
+  {
+    "id": "qr_large_1638",
+    "question": "آية قَالُوا إِنَّا كُنَّا قَبْلُ فِي في سورة الطور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "52:26"
+    ]
+  },
+  {
+    "id": "qr_large_2087",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:282"
+    ]
+  },
+  {
+    "id": "qr_large_1439",
+    "question": "آية وَلِيُمَحِّصَ اللَّهُ الَّذِينَ آمَنُوا وَيَمْحَقَ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:141"
+    ]
+  },
+  {
+    "id": "qr_large_1144",
+    "question": "آية أَفَلَا تَذَكَّرُونَ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:155"
+    ]
+  },
+  {
+    "id": "qr_large_2937",
+    "question": "آية يَوْمَ يَتَذَكَّرُ الْإِنْسَانُ مَا سَعَىٰ في سورة النازعات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "79:35"
+    ]
+  },
+  {
+    "id": "qr_large_1142",
+    "question": "آية وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا في سورة الفجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "89:22"
+    ]
+  },
+  {
+    "id": "qr_large_1345",
+    "question": "آية وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي في سورة الحجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "15:28"
+    ]
+  },
+  {
+    "id": "qr_large_1633",
+    "question": "آية لَقَدْ تَابَ اللَّهُ عَلَى النَّبِيِّ في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:117"
+    ]
+  },
+  {
+    "id": "qr_large_0792",
+    "question": "آية تَنْزِعُ النَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ في سورة القمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "54:20"
+    ]
+  },
+  {
+    "id": "qr_large_0097",
+    "question": "آية إِنَّهُ كَانَ لَا يُؤْمِنُ بِاللَّهِ في سورة الحاقة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "69:33"
+    ]
+  },
+  {
+    "id": "qr_large_0914",
+    "question": "آية يَا وَيْلَتَىٰ لَيْتَنِي لَمْ أَتَّخِذْ في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:28"
+    ]
+  },
+  {
+    "id": "qr_large_0933",
+    "question": "آية سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:31"
+    ]
+  },
+  {
+    "id": "qr_large_1251",
+    "question": "آية لَكُمْ فِيهَا مَنَافِعُ إِلَىٰ أَجَلٍ في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:33"
+    ]
+  },
+  {
+    "id": "qr_large_1433",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا لَا في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:144"
+    ]
+  },
+  {
+    "id": "qr_large_1886",
+    "question": "آية وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ في سورة القارعة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "101:8"
+    ]
+  },
+  {
+    "id": "qr_large_0818",
+    "question": "آية وَلَقَدِ اسْتُهْزِئَ بِرُسُلٍ مِنْ قَبْلِكَ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:41"
+    ]
+  },
+  {
+    "id": "qr_large_0912",
+    "question": "آية قُلْ مَا يَعْبَأُ بِكُمْ رَبِّي في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:77"
+    ]
+  },
+  {
+    "id": "qr_large_1928",
+    "question": "آية ثُمَّ لَنَنْزِعَنَّ مِنْ كُلِّ شِيعَةٍ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:69"
+    ]
+  },
+  {
+    "id": "qr_large_0159",
+    "question": "آية تَنَزَّلُ عَلَىٰ كُلِّ أَفَّاكٍ أَثِيمٍ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:222"
+    ]
+  },
+  {
+    "id": "qr_large_1567",
+    "question": "آية وَقَالَتِ الْيَهُودُ يَدُ اللَّهِ مَغْلُولَةٌ في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:64"
+    ]
+  },
+  {
+    "id": "qr_large_0443",
+    "question": "آية وَيَوْمَ يَعَضُّ الظَّالِمُ عَلَىٰ يَدَيْهِ في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:27"
+    ]
+  },
+  {
+    "id": "qr_large_0653",
+    "question": "آية تَتَجَافَىٰ جُنُوبُهُمْ عَنِ الْمَضَاجِعِ يَدْعُونَ في سورة السجدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "32:16"
+    ]
+  },
+  {
+    "id": "qr_large_2845",
+    "question": "آية قَالُوا أَوَلَمْ تَكُ تَأْتِيكُمْ رُسُلُكُمْ في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:50"
+    ]
+  },
+  {
+    "id": "qr_large_1017",
+    "question": "آية وَلَقَدْ آتَيْنَا مُوسَى الْكِتَابَ لَعَلَّهُمْ في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:49"
+    ]
+  },
+  {
+    "id": "qr_large_1687",
+    "question": "آية وَيَوْمَ يَحْشُرُهُمْ كَأَنْ لَمْ يَلْبَثُوا في سورة يونس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "10:45"
+    ]
+  },
+  {
+    "id": "qr_large_1361",
+    "question": "آية إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ في سورة البينة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "98:6"
+    ]
+  },
+  {
+    "id": "qr_large_0735",
+    "question": "آية أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا الْجَنَّةَ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:214"
+    ]
+  },
+  {
+    "id": "qr_large_0102",
+    "question": "آية وَمَا نُرْسِلُ الْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:48"
+    ]
+  },
+  {
+    "id": "qr_large_1689",
+    "question": "آية لِيَمِيزَ اللَّهُ الْخَبِيثَ مِنَ الطَّيِّبِ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:37"
+    ]
+  },
+  {
+    "id": "qr_large_0726",
+    "question": "آية أَيَحْسَبُونَ أَنَّمَا نُمِدُّهُمْ بِهِ مِنْ في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:55"
+    ]
+  },
+  {
+    "id": "qr_large_0666",
+    "question": "آية إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:161"
+    ]
+  },
+  {
+    "id": "qr_large_0970",
+    "question": "آية أَأَنْتُمْ أَنْشَأْتُمْ شَجَرَتَهَا أَمْ نَحْنُ في سورة الواقعة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "56:72"
+    ]
+  },
+  {
+    "id": "qr_large_0634",
+    "question": "آية وَقَالَ مُوسَىٰ يَا فِرْعَوْنُ إِنِّي في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:104"
+    ]
+  },
+  {
+    "id": "qr_large_2543",
+    "question": "آية وَقَالَ الَّذِي آمَنَ يَا قَوْمِ في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:30"
+    ]
+  },
+  {
+    "id": "qr_large_2935",
+    "question": "آية وَقِهِمُ السَّيِّئَاتِ ۚ وَمَنْ تَقِ في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:9"
+    ]
+  },
+  {
+    "id": "qr_large_2294",
+    "question": "آية مَا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:43"
+    ]
+  },
+  {
+    "id": "qr_large_1449",
+    "question": "آية ۞ فَخَلَفَ مِنْ بَعْدِهِمْ خَلْفٌ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:59"
+    ]
+  },
+  {
+    "id": "qr_large_0422",
+    "question": "آية مَلْعُونِينَ ۖ أَيْنَمَا ثُقِفُوا أُخِذُوا في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:61"
+    ]
+  },
+  {
+    "id": "qr_large_1023",
+    "question": "آية أَلْقِيَا فِي جَهَنَّمَ كُلَّ كَفَّارٍ في سورة ق",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "50:24"
+    ]
+  },
+  {
+    "id": "qr_large_0861",
+    "question": "آية وَيَوْمَ نَبْعَثُ مِنْ كُلِّ أُمَّةٍ في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:84"
+    ]
+  },
+  {
+    "id": "qr_large_1466",
+    "question": "آية إِذًا لَأَذَقْنَاكَ ضِعْفَ الْحَيَاةِ وَضِعْفَ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:75"
+    ]
+  },
+  {
+    "id": "qr_large_0164",
+    "question": "آية وَتَذَرُونَ الْآخِرَةَ في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:21"
+    ]
+  },
+  {
+    "id": "qr_large_1494",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا أَنْفِقُوا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:254"
+    ]
+  },
+  {
+    "id": "qr_large_1263",
+    "question": "آية فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:61"
+    ]
+  },
+  {
+    "id": "qr_large_0172",
+    "question": "آية فَاتَّقُوا اللَّهَ وَأَطِيعُونِ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:179"
+    ]
+  },
+  {
+    "id": "qr_large_0523",
+    "question": "آية وَلَا تُؤْتُوا السُّفَهَاءَ أَمْوَالَكُمُ الَّتِي في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:5"
+    ]
+  },
+  {
+    "id": "qr_large_1761",
+    "question": "آية إِنِّي لَكُمْ رَسُولٌ أَمِينٌ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:178"
+    ]
+  },
+  {
+    "id": "qr_large_0607",
+    "question": "آية ۞ وَاعْلَمُوا أَنَّمَا غَنِمْتُمْ مِنْ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:41"
+    ]
+  },
+  {
+    "id": "qr_large_2264",
+    "question": "آية ۞ وَاذْكُرْ أَخَا عَادٍ إِذْ في سورة الأحقاف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "46:21"
+    ]
+  },
+  {
+    "id": "qr_large_2386",
+    "question": "آية كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ ۖ في سورة العنكبوت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "29:57"
+    ]
+  },
+  {
+    "id": "qr_large_1513",
+    "question": "آية فِي جَنَّاتٍ يَتَسَاءَلُونَ في سورة المدثر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "74:40"
+    ]
+  },
+  {
+    "id": "qr_large_0148",
+    "question": "آية وَإِذَا ضَرَبْتُمْ فِي الْأَرْضِ فَلَيْسَ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:101"
+    ]
+  },
+  {
+    "id": "qr_large_2235",
+    "question": "آية يَوْمَ هُمْ عَلَى النَّارِ يُفْتَنُونَ في سورة الذاريات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "51:13"
+    ]
+  },
+  {
+    "id": "qr_large_0611",
+    "question": "آية وَحُمِلَتِ الْأَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً في سورة الحاقة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "69:14"
+    ]
+  },
+  {
+    "id": "qr_large_2720",
+    "question": "آية وَإِنَّ لُوطًا لَمِنَ الْمُرْسَلِينَ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:133"
+    ]
+  },
+  {
+    "id": "qr_large_2815",
+    "question": "آية مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:19"
+    ]
+  },
+  {
+    "id": "qr_large_0040",
+    "question": "آية فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:71"
+    ]
+  },
+  {
+    "id": "qr_large_2298",
+    "question": "آية قَالُوا لَنْ نُؤْثِرَكَ عَلَىٰ مَا في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:72"
+    ]
+  },
+  {
+    "id": "qr_large_1752",
+    "question": "آية فَالْيَوْمَ لَا يُؤْخَذُ مِنْكُمْ فِدْيَةٌ في سورة الحديد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "57:15"
+    ]
+  },
+  {
+    "id": "qr_large_2260",
+    "question": "آية يَا إِبْرَاهِيمُ أَعْرِضْ عَنْ هَٰذَا في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:76"
+    ]
+  },
+  {
+    "id": "qr_large_1810",
+    "question": "آية فَاتَّقُوا اللَّهَ وَأَطِيعُونِ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:150"
+    ]
+  },
+  {
+    "id": "qr_large_2823",
+    "question": "آية فَلْيَأْتُوا بِحَدِيثٍ مِثْلِهِ إِنْ كَانُوا في سورة الطور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "52:34"
+    ]
+  },
+  {
+    "id": "qr_large_1073",
+    "question": "آية وَلَا يَسْتَطِيعُونَ لَهُمْ نَصْرًا وَلَا في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:192"
+    ]
+  },
+  {
+    "id": "qr_large_0536",
+    "question": "آية إِنَّ الْمُصَّدِّقِينَ وَالْمُصَّدِّقَاتِ وَأَقْرَضُوا اللَّهَ في سورة الحديد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "57:18"
+    ]
+  },
+  {
+    "id": "qr_large_1367",
+    "question": "آية رَبُّ الْمَشْرِقِ وَالْمَغْرِبِ لَا إِلَٰهَ في سورة المزمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "73:9"
+    ]
+  },
+  {
+    "id": "qr_large_0015",
+    "question": "آية هُوَ الَّذِي أَنْزَلَ عَلَيْكَ الْكِتَابَ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:7"
+    ]
+  },
+  {
+    "id": "qr_large_0181",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ الم في سورة العنكبوت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "29:1"
+    ]
+  },
+  {
+    "id": "qr_large_1134",
+    "question": "آية فَأَخَذَتْهُمُ الرَّجْفَةُ فَأَصْبَحُوا فِي دَارِهِمْ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:78"
+    ]
+  },
+  {
+    "id": "qr_large_2742",
+    "question": "آية قَالَ خُذْهَا وَلَا تَخَفْ ۖ في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:21"
+    ]
+  },
+  {
+    "id": "qr_large_0379",
+    "question": "آية وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:204"
+    ]
+  },
+  {
+    "id": "qr_large_0209",
+    "question": "آية قَالَ رَبِّ اجْعَلْ لِي آيَةً في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:10"
+    ]
+  },
+  {
+    "id": "qr_large_1029",
+    "question": "آية أَلَمْ نَجْعَلْ لَهُ عَيْنَيْنِ في سورة البلد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "90:8"
+    ]
+  },
+  {
+    "id": "qr_large_2817",
+    "question": "آية قَالُوا كَذَٰلِكِ قَالَ رَبُّكِ ۖ في سورة الذاريات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "51:30"
+    ]
+  },
+  {
+    "id": "qr_large_2071",
+    "question": "آية وَيُمْدِدْكُمْ بِأَمْوَالٍ وَبَنِينَ وَيَجْعَلْ لَكُمْ في سورة نوح",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "71:12"
+    ]
+  },
+  {
+    "id": "qr_large_1082",
+    "question": "آية وَالَّذِينَ يَبِيتُونَ لِرَبِّهِمْ سُجَّدًا وَقِيَامًا في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:64"
+    ]
+  },
+  {
+    "id": "qr_large_2598",
+    "question": "آية يَحْسَبُونَ الْأَحْزَابَ لَمْ يَذْهَبُوا ۖ في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:20"
+    ]
+  },
+  {
+    "id": "qr_large_0834",
+    "question": "آية وَالَّذِينَ يُظَاهِرُونَ مِنْ نِسَائِهِمْ ثُمَّ في سورة المجادلة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "58:3"
+    ]
+  },
+  {
+    "id": "qr_large_1405",
+    "question": "آية وَتَسِيرُ الْجِبَالُ سَيْرًا في سورة الطور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "52:10"
+    ]
+  },
+  {
+    "id": "qr_large_0863",
+    "question": "آية فَلَعَلَّكَ بَاخِعٌ نَفْسَكَ عَلَىٰ آثَارِهِمْ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:6"
+    ]
+  },
+  {
+    "id": "qr_large_2478",
+    "question": "آية إِنَّ رَبَّكَ لَبِالْمِرْصَادِ في سورة الفجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "89:14"
+    ]
+  },
+  {
+    "id": "qr_large_1155",
+    "question": "آية الْيَوْمَ أُحِلَّ لَكُمُ الطَّيِّبَاتُ ۖ في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:5"
+    ]
+  },
+  {
+    "id": "qr_large_1116",
+    "question": "آية وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍ في سورة القلم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "68:3"
+    ]
+  },
+  {
+    "id": "qr_large_2962",
+    "question": "آية كَذَٰلِكَ وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:91"
+    ]
+  },
+  {
+    "id": "qr_large_2851",
+    "question": "آية قَالَ رَبُّكُمْ وَرَبُّ آبَائِكُمُ الْأَوَّلِينَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:26"
+    ]
+  },
+  {
+    "id": "qr_large_0439",
+    "question": "آية قُلْ إِنَّ رَبِّي يَبْسُطُ الرِّزْقَ في سورة سبإ",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "34:36"
+    ]
+  },
+  {
+    "id": "qr_large_0473",
+    "question": "آية وَقَالَ الَّذِي اشْتَرَاهُ مِنْ مِصْرَ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:21"
+    ]
+  },
+  {
+    "id": "qr_large_2952",
+    "question": "آية وَيُدْخِلُهُمُ الْجَنَّةَ عَرَّفَهَا لَهُمْ في سورة محمد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "47:6"
+    ]
+  },
+  {
+    "id": "qr_large_0551",
+    "question": "آية وَإِنْ كَانَ ذُو عُسْرَةٍ فَنَظِرَةٌ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:280"
+    ]
+  },
+  {
+    "id": "qr_large_0425",
+    "question": "آية أَوْ يُصْبِحَ مَاؤُهَا غَوْرًا فَلَنْ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:41"
+    ]
+  },
+  {
+    "id": "qr_large_1227",
+    "question": "آية قَالَ لَهُمْ مُوسَىٰ أَلْقُوا مَا في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:43"
+    ]
+  },
+  {
+    "id": "qr_large_2272",
+    "question": "آية وَمِنَ الْأَعْرَابِ مَنْ يَتَّخِذُ مَا في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:98"
+    ]
+  },
+  {
+    "id": "qr_large_0033",
+    "question": "آية قَالَتْ لَهُمْ رُسُلُهُمْ إِنْ نَحْنُ في سورة ابراهيم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "14:11"
+    ]
+  },
+  {
+    "id": "qr_large_2167",
+    "question": "آية إِنَّ وَلِيِّيَ اللَّهُ الَّذِي نَزَّلَ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:196"
+    ]
+  },
+  {
+    "id": "qr_large_2506",
+    "question": "آية هَلْ أَتَاكَ حَدِيثُ مُوسَىٰ في سورة النازعات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "79:15"
+    ]
+  },
+  {
+    "id": "qr_large_1240",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ يس في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:1"
+    ]
+  },
+  {
+    "id": "qr_large_2226",
+    "question": "آية وَمِنْهُمْ مَنْ يَسْتَمِعُ إِلَيْكَ ۖ في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:25"
+    ]
+  },
+  {
+    "id": "qr_large_2785",
+    "question": "آية وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَابْعَثُوا في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:35"
+    ]
+  },
+  {
+    "id": "qr_large_0647",
+    "question": "آية ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ الْآيَاتِ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:58"
+    ]
+  },
+  {
+    "id": "qr_large_1168",
+    "question": "آية خَالِدِينَ فِيهَا ۖ وَعْدَ اللَّهِ في سورة لقمان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "31:9"
+    ]
+  },
+  {
+    "id": "qr_large_1514",
+    "question": "آية وَلَا تَشْتَرُوا بِعَهْدِ اللَّهِ ثَمَنًا في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:95"
+    ]
+  },
+  {
+    "id": "qr_large_1001",
+    "question": "آية فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:107"
+    ]
+  },
+  {
+    "id": "qr_large_0282",
+    "question": "آية إِنَّا مَكَّنَّا لَهُ فِي الْأَرْضِ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:84"
+    ]
+  },
+  {
+    "id": "qr_large_1430",
+    "question": "آية وَالَّذِينَ عَمِلُوا السَّيِّئَاتِ ثُمَّ تَابُوا في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:153"
+    ]
+  },
+  {
+    "id": "qr_large_0543",
+    "question": "آية الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا في سورة الملك",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "67:3"
+    ]
+  },
+  {
+    "id": "qr_large_2699",
+    "question": "آية وَيَا قَوْمِ لَا أَسْأَلُكُمْ عَلَيْهِ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:29"
+    ]
+  },
+  {
+    "id": "qr_large_2073",
+    "question": "آية وَمَا أَرْسَلْنَا قَبْلَكَ مِنَ الْمُرْسَلِينَ في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:20"
+    ]
+  },
+  {
+    "id": "qr_large_0874",
+    "question": "آية اللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ الْقِيَامَةِ في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:69"
+    ]
+  },
+  {
+    "id": "qr_large_2203",
+    "question": "آية فَلَمْ يَكُ يَنْفَعُهُمْ إِيمَانُهُمْ لَمَّا في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:85"
+    ]
+  },
+  {
+    "id": "qr_large_0301",
+    "question": "آية أَمِ اتَّخَذُوا مِنْ دُونِهِ آلِهَةً في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:24"
+    ]
+  },
+  {
+    "id": "qr_large_0410",
+    "question": "آية كَلَّا لَئِنْ لَمْ يَنْتَهِ لَنَسْفَعًا في سورة العلق",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "96:15"
+    ]
+  },
+  {
+    "id": "qr_large_2307",
+    "question": "آية أَلَمْ تَرَ أَنَّ اللَّهَ يُزْجِي في سورة النور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "24:43"
+    ]
+  },
+  {
+    "id": "qr_large_2545",
+    "question": "آية فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَالشَّيَاطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:68"
+    ]
+  },
+  {
+    "id": "qr_large_1878",
+    "question": "آية ثَانِيَ عِطْفِهِ لِيُضِلَّ عَنْ سَبِيلِ في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:9"
+    ]
+  },
+  {
+    "id": "qr_large_0039",
+    "question": "آية وَإِذَا حُيِّيتُمْ بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:86"
+    ]
+  },
+  {
+    "id": "qr_large_0298",
+    "question": "آية قَالَ الَّذِينَ اسْتَكْبَرُوا إِنَّا كُلٌّ في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:48"
+    ]
+  },
+  {
+    "id": "qr_large_2656",
+    "question": "آية اللَّهُ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ في سورة السجدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "32:4"
+    ]
+  },
+  {
+    "id": "qr_large_1873",
+    "question": "آية أَلَمْ تَرَ أَنَّ اللَّهَ يُولِجُ في سورة لقمان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "31:29"
+    ]
+  },
+  {
+    "id": "qr_large_1229",
+    "question": "آية أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا في سورة النبإ",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "78:6"
+    ]
+  },
+  {
+    "id": "qr_large_2644",
+    "question": "آية أَيْنَمَا تَكُونُوا يُدْرِكْكُمُ الْمَوْتُ وَلَوْ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:78"
+    ]
+  },
+  {
+    "id": "qr_large_0537",
+    "question": "آية لَا يُؤَاخِذُكُمُ اللَّهُ بِاللَّغْوِ فِي في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:89"
+    ]
+  },
+  {
+    "id": "qr_large_1622",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ الر في سورة الحجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "15:1"
+    ]
+  },
+  {
+    "id": "qr_large_1088",
+    "question": "آية إِنَّ فِرْعَوْنَ عَلَا فِي الْأَرْضِ في سورة القصص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "28:4"
+    ]
+  },
+  {
+    "id": "qr_large_0978",
+    "question": "آية عَفَا اللَّهُ عَنْكَ لِمَ أَذِنْتَ في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:43"
+    ]
+  },
+  {
+    "id": "qr_large_1287",
+    "question": "آية نَتْلُو عَلَيْكَ مِنْ نَبَإِ مُوسَىٰ في سورة القصص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "28:3"
+    ]
+  },
+  {
+    "id": "qr_large_0837",
+    "question": "آية وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُمْ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:235"
+    ]
+  },
+  {
+    "id": "qr_large_1069",
+    "question": "آية كَذَّبَتْ قَوْمُ لُوطٍ بِالنُّذُرِ في سورة القمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "54:33"
+    ]
+  },
+  {
+    "id": "qr_large_1296",
+    "question": "آية وَنُمَكِّنَ لَهُمْ فِي الْأَرْضِ وَنُرِيَ في سورة القصص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "28:6"
+    ]
+  },
+  {
+    "id": "qr_large_2142",
+    "question": "آية يَوْمَ يَدْعُوكُمْ فَتَسْتَجِيبُونَ بِحَمْدِهِ وَتَظُنُّونَ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:52"
+    ]
+  },
+  {
+    "id": "qr_large_2316",
+    "question": "آية وَهُوَ الَّذِي أَحْيَاكُمْ ثُمَّ يُمِيتُكُمْ في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:66"
+    ]
+  },
+  {
+    "id": "qr_large_2874",
+    "question": "آية رَبِّ نَجِّنِي وَأَهْلِي مِمَّا يَعْمَلُونَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:169"
+    ]
+  },
+  {
+    "id": "qr_large_1718",
+    "question": "آية فَجَعَلْنَا عَالِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهِمْ في سورة الحجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "15:74"
+    ]
+  },
+  {
+    "id": "qr_large_0336",
+    "question": "آية أَجَعَلَ الْآلِهَةَ إِلَٰهًا وَاحِدًا ۖ في سورة ص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "38:5"
+    ]
+  },
+  {
+    "id": "qr_large_2537",
+    "question": "آية إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:121"
+    ]
+  },
+  {
+    "id": "qr_large_0163",
+    "question": "آية وَلَوْ نَشَاءُ لَطَمَسْنَا عَلَىٰ أَعْيُنِهِمْ في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:66"
+    ]
+  },
+  {
+    "id": "qr_large_2436",
+    "question": "آية وَإِذْ أَوْحَيْتُ إِلَى الْحَوَارِيِّينَ أَنْ في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:111"
+    ]
+  },
+  {
+    "id": "qr_large_2372",
+    "question": "آية أَنِ اعْبُدُوا اللَّهَ وَاتَّقُوهُ وَأَطِيعُونِ في سورة نوح",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "71:3"
+    ]
+  },
+  {
+    "id": "qr_large_1009",
+    "question": "آية وَيْلٌ لِكُلِّ أَفَّاكٍ أَثِيمٍ في سورة الجاثية",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "45:7"
+    ]
+  },
+  {
+    "id": "qr_large_2334",
+    "question": "آية إِنْ هِيَ إِلَّا مَوْتَتُنَا الْأُولَىٰ في سورة الدخان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "44:35"
+    ]
+  },
+  {
+    "id": "qr_large_0492",
+    "question": "آية إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:91"
+    ]
+  },
+  {
+    "id": "qr_large_1654",
+    "question": "آية مُسْتَكْبِرِينَ بِهِ سَامِرًا تَهْجُرُونَ في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:67"
+    ]
+  },
+  {
+    "id": "qr_large_0964",
+    "question": "آية وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ في سورة الضحى",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "93:5"
+    ]
+  },
+  {
+    "id": "qr_large_0279",
+    "question": "آية وَقَالَ فِرْعَوْنُ يَا أَيُّهَا الْمَلَأُ في سورة القصص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "28:38"
+    ]
+  },
+  {
+    "id": "qr_large_2438",
+    "question": "آية أُولَٰئِكَ الَّذِينَ حَقَّ عَلَيْهِمُ الْقَوْلُ في سورة الأحقاف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "46:18"
+    ]
+  },
+  {
+    "id": "qr_large_0281",
+    "question": "آية وَلَقَدْ آتَيْنَا مُوسَى الْكِتَابَ فَاخْتُلِفَ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:110"
+    ]
+  },
+  {
+    "id": "qr_large_0762",
+    "question": "آية فَخَرَجَ عَلَىٰ قَوْمِهِ مِنَ الْمِحْرَابِ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:11"
+    ]
+  },
+  {
+    "id": "qr_large_0329",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ سَبَّحَ في سورة الحشر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "59:1"
+    ]
+  },
+  {
+    "id": "qr_large_2081",
+    "question": "آية وَأَنَّا لَمَسْنَا السَّمَاءَ فَوَجَدْنَاهَا مُلِئَتْ في سورة الجن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "72:8"
+    ]
+  },
+  {
+    "id": "qr_large_0233",
+    "question": "آية وَأُخْرَىٰ تُحِبُّونَهَا ۖ نَصْرٌ مِنَ في سورة الصف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "61:13"
+    ]
+  },
+  {
+    "id": "qr_large_0645",
+    "question": "آية الْحَقُّ مِنْ رَبِّكَ ۖ فَلَا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:147"
+    ]
+  },
+  {
+    "id": "qr_large_2176",
+    "question": "آية إِنَّا زَيَّنَّا السَّمَاءَ الدُّنْيَا بِزِينَةٍ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:6"
+    ]
+  },
+  {
+    "id": "qr_large_2060",
+    "question": "آية أُولَٰئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:57"
+    ]
+  },
+  {
+    "id": "qr_large_1953",
+    "question": "آية بِلِسَانٍ عَرَبِيٍّ مُبِينٍ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:195"
+    ]
+  },
+  {
+    "id": "qr_large_2393",
+    "question": "آية يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:105"
+    ]
+  },
+  {
+    "id": "qr_large_0206",
+    "question": "آية وَإِذْ قَالَتْ أُمَّةٌ مِنْهُمْ لِمَ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:164"
+    ]
+  },
+  {
+    "id": "qr_large_0235",
+    "question": "آية وَمَنْ خَفَّتْ مَوَازِينُهُ فَأُولَٰئِكَ الَّذِينَ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:9"
+    ]
+  },
+  {
+    "id": "qr_large_1285",
+    "question": "آية إِنَّمَا قَوْلُنَا لِشَيْءٍ إِذَا أَرَدْنَاهُ في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:40"
+    ]
+  },
+  {
+    "id": "qr_large_0250",
+    "question": "آية أَقِمِ الصَّلَاةَ لِدُلُوكِ الشَّمْسِ إِلَىٰ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:78"
+    ]
+  },
+  {
+    "id": "qr_large_2221",
+    "question": "آية رَبُّكُمْ أَعْلَمُ بِمَا فِي نُفُوسِكُمْ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:25"
+    ]
+  },
+  {
+    "id": "qr_large_2373",
+    "question": "آية لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ في سورة الإنشقاق",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "84:19"
+    ]
+  },
+  {
+    "id": "qr_large_0240",
+    "question": "آية وَاتَّبِعُوا أَحْسَنَ مَا أُنْزِلَ إِلَيْكُمْ في سورة الزمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "39:55"
+    ]
+  },
+  {
+    "id": "qr_large_0892",
+    "question": "آية فَقُطِعَ دَابِرُ الْقَوْمِ الَّذِينَ ظَلَمُوا في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:45"
+    ]
+  },
+  {
+    "id": "qr_large_1216",
+    "question": "آية فَأَغْوَيْنَاكُمْ إِنَّا كُنَّا غَاوِينَ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:32"
+    ]
+  },
+  {
+    "id": "qr_large_0778",
+    "question": "آية اعْلَمُوا أَنَّ اللَّهَ شَدِيدُ الْعِقَابِ في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:98"
+    ]
+  },
+  {
+    "id": "qr_large_0635",
+    "question": "آية وَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:178"
+    ]
+  },
+  {
+    "id": "qr_large_1994",
+    "question": "آية فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَا قَوْمِ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:79"
+    ]
+  },
+  {
+    "id": "qr_large_2277",
+    "question": "آية وَقِيلَ الْيَوْمَ نَنْسَاكُمْ كَمَا نَسِيتُمْ في سورة الجاثية",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "45:34"
+    ]
+  },
+  {
+    "id": "qr_large_1733",
+    "question": "آية ذَٰلِكَ بِأَنَّهُمُ اتَّبَعُوا مَا أَسْخَطَ في سورة محمد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "47:28"
+    ]
+  },
+  {
+    "id": "qr_large_1169",
+    "question": "آية وَلَمَّا رَجَعَ مُوسَىٰ إِلَىٰ قَوْمِهِ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:150"
+    ]
+  },
+  {
+    "id": "qr_large_1864",
+    "question": "آية أَإِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَامًا في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:53"
+    ]
+  },
+  {
+    "id": "qr_large_1087",
+    "question": "آية إِنَّا نَخَافُ مِنْ رَبِّنَا يَوْمًا في سورة الانسان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "76:10"
+    ]
+  },
+  {
+    "id": "qr_large_1600",
+    "question": "آية وَيُعَلِّمُهُ الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنْجِيلَ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:48"
+    ]
+  },
+  {
+    "id": "qr_large_0009",
+    "question": "آية وَقُلْ رَبِّ أَنْزِلْنِي مُنْزَلًا مُبَارَكًا في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:29"
+    ]
+  },
+  {
+    "id": "qr_large_1553",
+    "question": "آية فَقَدْ كَذَّبُوكُمْ بِمَا تَقُولُونَ فَمَا في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:19"
+    ]
+  },
+  {
+    "id": "qr_large_0675",
+    "question": "آية وَالَّذِي قَالَ لِوَالِدَيْهِ أُفٍّ لَكُمَا في سورة الأحقاف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "46:17"
+    ]
+  },
+  {
+    "id": "qr_large_0241",
+    "question": "آية إِنَّ الَّذِينَ جَاءُوا بِالْإِفْكِ عُصْبَةٌ في سورة النور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "24:11"
+    ]
+  },
+  {
+    "id": "qr_large_1643",
+    "question": "آية إِنْ كَادَ لَيُضِلُّنَا عَنْ آلِهَتِنَا في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:42"
+    ]
+  },
+  {
+    "id": "qr_large_0876",
+    "question": "آية وَأَذَانٌ مِنَ اللَّهِ وَرَسُولِهِ إِلَى في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:3"
+    ]
+  },
+  {
+    "id": "qr_large_1972",
+    "question": "آية وَمَا نَحْنُ بِمُعَذَّبِينَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:138"
+    ]
+  },
+  {
+    "id": "qr_large_1990",
+    "question": "آية إِنِّي لَكُمْ رَسُولٌ أَمِينٌ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:143"
+    ]
+  },
+  {
+    "id": "qr_large_1665",
+    "question": "آية يَقْدُمُ قَوْمَهُ يَوْمَ الْقِيَامَةِ فَأَوْرَدَهُمُ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:98"
+    ]
+  },
+  {
+    "id": "qr_large_0682",
+    "question": "آية وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَاهَا في سورة النازعات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "79:29"
+    ]
+  },
+  {
+    "id": "qr_large_0969",
+    "question": "آية قُلْ لَا أَمْلِكُ لِنَفْسِي نَفْعًا في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:188"
+    ]
+  },
+  {
+    "id": "qr_large_0383",
+    "question": "آية لِنُرِيَكَ مِنْ آيَاتِنَا الْكُبْرَى في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:23"
+    ]
+  },
+  {
+    "id": "qr_large_0061",
+    "question": "آية رَبَّنَا لَا تَجْعَلْنَا فِتْنَةً لِلَّذِينَ في سورة الممتحنة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "60:5"
+    ]
+  },
+  {
+    "id": "qr_large_2215",
+    "question": "آية فَانْظُرْ كَيْفَ كَانَ عَاقِبَةُ الْمُنْذَرِينَ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:73"
+    ]
+  },
+  {
+    "id": "qr_large_2672",
+    "question": "آية بَلْ قَالُوا أَضْغَاثُ أَحْلَامٍ بَلِ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:5"
+    ]
+  },
+  {
+    "id": "qr_large_0208",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا لَا في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:57"
+    ]
+  },
+  {
+    "id": "qr_large_0402",
+    "question": "آية وَإِذَا كَالُوهُمْ أَوْ وَزَنُوهُمْ يُخْسِرُونَ في سورة المطففين",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "83:3"
+    ]
+  },
+  {
+    "id": "qr_large_2255",
+    "question": "آية جَنَّاتُ عَدْنٍ يَدْخُلُونَهَا وَمَنْ صَلَحَ في سورة الرعد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "13:23"
+    ]
+  },
+  {
+    "id": "qr_large_1816",
+    "question": "آية وَالْقَمَرِ إِذَا تَلَاهَا في سورة الشمس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "91:2"
+    ]
+  },
+  {
+    "id": "qr_large_0309",
+    "question": "آية وَأَزْلَفْنَا ثَمَّ الْآخَرِينَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:64"
+    ]
+  },
+  {
+    "id": "qr_large_1024",
+    "question": "آية وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ وَمَا أَنْزَلَ في سورة الجاثية",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "45:5"
+    ]
+  },
+  {
+    "id": "qr_large_1895",
+    "question": "آية أَفَمَنْ يَمْشِي مُكِبًّا عَلَىٰ وَجْهِهِ في سورة الملك",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "67:22"
+    ]
+  },
+  {
+    "id": "qr_large_2760",
+    "question": "آية ذَٰلِكَ بِأَنَّهُمْ شَاقُّوا اللَّهَ وَرَسُولَهُ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:13"
+    ]
+  },
+  {
+    "id": "qr_large_0752",
+    "question": "آية أَلَمْ يَرَوْا كَمْ أَهْلَكْنَا قَبْلَهُمْ في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:31"
+    ]
+  },
+  {
+    "id": "qr_large_2988",
+    "question": "آية إِنَّا مُرْسِلُو النَّاقَةِ فِتْنَةً لَهُمْ في سورة القمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "54:27"
+    ]
+  },
+  {
+    "id": "qr_large_0575",
+    "question": "آية فَأَمَّا الَّذِينَ شَقُوا فَفِي النَّارِ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:106"
+    ]
+  },
+  {
+    "id": "qr_large_1838",
+    "question": "آية هُدًى وَرَحْمَةً لِلْمُحْسِنِينَ في سورة لقمان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "31:3"
+    ]
+  },
+  {
+    "id": "qr_large_2949",
+    "question": "آية أَمْ آتَيْنَاهُمْ كِتَابًا مِنْ قَبْلِهِ في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:21"
+    ]
+  },
+  {
+    "id": "qr_large_2748",
+    "question": "آية وَجَاءَ فِرْعَوْنُ وَمَنْ قَبْلَهُ وَالْمُؤْتَفِكَاتُ في سورة الحاقة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "69:9"
+    ]
+  },
+  {
+    "id": "qr_large_0785",
+    "question": "آية فَأَوْحَىٰ إِلَىٰ عَبْدِهِ مَا أَوْحَىٰ في سورة النجم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "53:10"
+    ]
+  },
+  {
+    "id": "qr_large_1019",
+    "question": "آية إِنَّ الَّذِينَ فَتَنُوا الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ في سورة البروج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "85:10"
+    ]
+  },
+  {
+    "id": "qr_large_0448",
+    "question": "آية وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّىٰ في سورة عبس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "80:3"
+    ]
+  },
+  {
+    "id": "qr_large_1390",
+    "question": "آية وَأَنْكِحُوا الْأَيَامَىٰ مِنْكُمْ وَالصَّالِحِينَ مِنْ في سورة النور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "24:32"
+    ]
+  },
+  {
+    "id": "qr_large_1650",
+    "question": "آية وَاصْبِرْ عَلَىٰ مَا يَقُولُونَ وَاهْجُرْهُمْ في سورة المزمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "73:10"
+    ]
+  },
+  {
+    "id": "qr_large_0249",
+    "question": "آية وَقَوْمُ إِبْرَاهِيمَ وَقَوْمُ لُوطٍ في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:43"
+    ]
+  },
+  {
+    "id": "qr_large_0404",
+    "question": "آية وَمَا أَصَابَكُمْ مِنْ مُصِيبَةٍ فَبِمَا في سورة الشورى",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "42:30"
+    ]
+  },
+  {
+    "id": "qr_large_2647",
+    "question": "آية وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَٰئِكَ في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:86"
+    ]
+  },
+  {
+    "id": "qr_large_2677",
+    "question": "آية فَلَمَّا آتَاهُمَا صَالِحًا جَعَلَا لَهُ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:190"
+    ]
+  },
+  {
+    "id": "qr_large_0222",
+    "question": "آية وَإِذَا الْجَنَّةُ أُزْلِفَتْ في سورة التكوير",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "81:13"
+    ]
+  },
+  {
+    "id": "qr_large_1913",
+    "question": "آية هَلْ يَنْظُرُونَ إِلَّا أَنْ تَأْتِيَهُمُ في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:33"
+    ]
+  },
+  {
+    "id": "qr_large_1684",
+    "question": "آية عَبْدًا إِذَا صَلَّىٰ في سورة العلق",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "96:10"
+    ]
+  },
+  {
+    "id": "qr_large_1735",
+    "question": "آية كُلُّ ذَٰلِكَ كَانَ سَيِّئُهُ عِنْدَ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:38"
+    ]
+  },
+  {
+    "id": "qr_large_1452",
+    "question": "آية وَلَا تَكُونُوا كَالَّذِينَ تَفَرَّقُوا وَاخْتَلَفُوا في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:105"
+    ]
+  },
+  {
+    "id": "qr_large_1766",
+    "question": "آية أَفَرَأَيْتُمُ اللَّاتَ وَالْعُزَّىٰ في سورة النجم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "53:19"
+    ]
+  },
+  {
+    "id": "qr_large_2700",
+    "question": "آية فَأَرَاهُ الْآيَةَ الْكُبْرَىٰ في سورة النازعات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "79:20"
+    ]
+  },
+  {
+    "id": "qr_large_0398",
+    "question": "آية وَكَمْ أَهْلَكْنَا قَبْلَهُمْ مِنْ قَرْنٍ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:74"
+    ]
+  },
+  {
+    "id": "qr_large_0387",
+    "question": "آية إِنَّ اللَّهَ يَعْلَمُ غَيْبَ السَّمَاوَاتِ في سورة الحجرات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "49:18"
+    ]
+  },
+  {
+    "id": "qr_large_0780",
+    "question": "آية قُلْ لِمَنِ الْأَرْضُ وَمَنْ فِيهَا في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:84"
+    ]
+  },
+  {
+    "id": "qr_large_1668",
+    "question": "آية قَالُوا يَا ذَا الْقَرْنَيْنِ إِنَّ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:94"
+    ]
+  },
+  {
+    "id": "qr_large_1938",
+    "question": "آية فَجَعَلْنَاهُ فِي قَرَارٍ مَكِينٍ في سورة المرسلات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "77:21"
+    ]
+  },
+  {
+    "id": "qr_large_0996",
+    "question": "آية كَذَّبَتْ ثَمُودُ وَعَادٌ بِالْقَارِعَةِ في سورة الحاقة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "69:4"
+    ]
+  },
+  {
+    "id": "qr_large_1937",
+    "question": "آية وَالَّذِينَ يَسْعَوْنَ فِي آيَاتِنَا مُعَاجِزِينَ في سورة سبإ",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "34:38"
+    ]
+  },
+  {
+    "id": "qr_large_2361",
+    "question": "آية وَالْبَحْرِ الْمَسْجُورِ في سورة الطور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "52:6"
+    ]
+  },
+  {
+    "id": "qr_large_2339",
+    "question": "آية فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:23"
+    ]
+  },
+  {
+    "id": "qr_large_0542",
+    "question": "آية وَأَنَّكَ لَا تَظْمَأُ فِيهَا وَلَا في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:119"
+    ]
+  },
+  {
+    "id": "qr_large_2792",
+    "question": "آية إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ في سورة الأعلى",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "87:18"
+    ]
+  },
+  {
+    "id": "qr_large_0878",
+    "question": "آية قَدْ جَاءَكُمْ بَصَائِرُ مِنْ رَبِّكُمْ في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:104"
+    ]
+  },
+  {
+    "id": "qr_large_1989",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:278"
+    ]
+  },
+  {
+    "id": "qr_large_2741",
+    "question": "آية وَإِذْ قَالَتْ طَائِفَةٌ مِنْهُمْ يَا في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:13"
+    ]
+  },
+  {
+    "id": "qr_large_1141",
+    "question": "آية فَوَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ في سورة الطور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "52:11"
+    ]
+  },
+  {
+    "id": "qr_large_0975",
+    "question": "آية لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ في سورة الواقعة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "56:2"
+    ]
+  },
+  {
+    "id": "qr_large_2106",
+    "question": "آية وَلَمْ تَكُنْ لَهُ فِئَةٌ يَنْصُرُونَهُ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:43"
+    ]
+  },
+  {
+    "id": "qr_large_2770",
+    "question": "آية وَمَا كَانَ صَلَاتُهُمْ عِنْدَ الْبَيْتِ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:35"
+    ]
+  },
+  {
+    "id": "qr_large_1354",
+    "question": "آية يَا بَنِي آدَمَ لَا يَفْتِنَنَّكُمُ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:27"
+    ]
+  },
+  {
+    "id": "qr_large_0129",
+    "question": "آية ذَٰلِكَ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْعَزِيزُ في سورة السجدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "32:6"
+    ]
+  },
+  {
+    "id": "qr_large_0277",
+    "question": "آية ۞ إِنَّ شَرَّ الدَّوَابِّ عِنْدَ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:22"
+    ]
+  },
+  {
+    "id": "qr_large_0938",
+    "question": "آية الَّذِينَ يُكَذِّبُونَ بِيَوْمِ الدِّينِ في سورة المطففين",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "83:11"
+    ]
+  },
+  {
+    "id": "qr_large_0242",
+    "question": "آية فَهَلْ تَرَىٰ لَهُمْ مِنْ بَاقِيَةٍ في سورة الحاقة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "69:8"
+    ]
+  },
+  {
+    "id": "qr_large_2585",
+    "question": "آية وَظِلٍّ مَمْدُودٍ في سورة الواقعة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "56:30"
+    ]
+  },
+  {
+    "id": "qr_large_0291",
+    "question": "آية كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا في سورة الفجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "89:21"
+    ]
+  },
+  {
+    "id": "qr_large_0030",
+    "question": "آية أَفَمَنْ وَعَدْنَاهُ وَعْدًا حَسَنًا فَهُوَ في سورة القصص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "28:61"
+    ]
+  },
+  {
+    "id": "qr_large_2972",
+    "question": "آية أَفَمَنْ حَقَّ عَلَيْهِ كَلِمَةُ الْعَذَابِ في سورة الزمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "39:19"
+    ]
+  },
+  {
+    "id": "qr_large_2411",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:20"
+    ]
+  },
+  {
+    "id": "qr_large_0943",
+    "question": "آية وَكُنَّا نَخُوضُ مَعَ الْخَائِضِينَ في سورة المدثر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "74:45"
+    ]
+  },
+  {
+    "id": "qr_large_2269",
+    "question": "آية قَالَ رَبِّ اجْعَلْ لِي آيَةً في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:41"
+    ]
+  },
+  {
+    "id": "qr_large_2410",
+    "question": "آية ۞ وَلَوْ أَرَادُوا الْخُرُوجَ لَأَعَدُّوا في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:46"
+    ]
+  },
+  {
+    "id": "qr_large_0087",
+    "question": "آية يُرِيدُونَ لِيُطْفِئُوا نُورَ اللَّهِ بِأَفْوَاهِهِمْ في سورة الصف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "61:8"
+    ]
+  },
+  {
+    "id": "qr_large_1385",
+    "question": "آية وَمَا أَظُنُّ السَّاعَةَ قَائِمَةً وَلَئِنْ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:36"
+    ]
+  },
+  {
+    "id": "qr_large_0263",
+    "question": "آية مَا يَأْتِيهِمْ مِنْ ذِكْرٍ مِنْ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:2"
+    ]
+  },
+  {
+    "id": "qr_large_0921",
+    "question": "آية قَالُوا آمَنَّا بِرَبِّ الْعَالَمِينَ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:121"
+    ]
+  },
+  {
+    "id": "qr_large_1016",
+    "question": "آية لَأُعَذِّبَنَّهُ عَذَابًا شَدِيدًا أَوْ لَأَذْبَحَنَّهُ في سورة النمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "27:21"
+    ]
+  },
+  {
+    "id": "qr_large_0496",
+    "question": "آية وَجَاءَتْ سَكْرَةُ الْمَوْتِ بِالْحَقِّ ۖ في سورة ق",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "50:19"
+    ]
+  },
+  {
+    "id": "qr_large_1850",
+    "question": "آية وَلَقَدْ تَرَكْنَاهَا آيَةً فَهَلْ مِنْ في سورة القمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "54:15"
+    ]
+  },
+  {
+    "id": "qr_large_2120",
+    "question": "آية وَمَنْ يَبْتَغِ غَيْرَ الْإِسْلَامِ دِينًا في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:85"
+    ]
+  },
+  {
+    "id": "qr_large_1795",
+    "question": "آية وَمَا أَسْأَلُكُمْ عَلَيْهِ مِنْ أَجْرٍ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:164"
+    ]
+  },
+  {
+    "id": "qr_large_1530",
+    "question": "آية وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَآمَنُوا في سورة محمد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "47:2"
+    ]
+  },
+  {
+    "id": "qr_large_2976",
+    "question": "آية فَإِذَا النُّجُومُ طُمِسَتْ في سورة المرسلات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "77:8"
+    ]
+  },
+  {
+    "id": "qr_large_2752",
+    "question": "آية وَرَسُولًا إِلَىٰ بَنِي إِسْرَائِيلَ أَنِّي في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:49"
+    ]
+  },
+  {
+    "id": "qr_large_1635",
+    "question": "آية رَبَّنَا إِنِّي أَسْكَنْتُ مِنْ ذُرِّيَّتِي في سورة ابراهيم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "14:37"
+    ]
+  },
+  {
+    "id": "qr_large_1277",
+    "question": "آية فَخَلَفَ مِنْ بَعْدِهِمْ خَلْفٌ وَرِثُوا في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:169"
+    ]
+  },
+  {
+    "id": "qr_large_0824",
+    "question": "آية الْجَوَارِ الْكُنَّسِ في سورة التكوير",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "81:16"
+    ]
+  },
+  {
+    "id": "qr_large_2209",
+    "question": "آية فِيهِ آيَاتٌ بَيِّنَاتٌ مَقَامُ إِبْرَاهِيمَ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:97"
+    ]
+  },
+  {
+    "id": "qr_large_0868",
+    "question": "آية فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:45"
+    ]
+  },
+  {
+    "id": "qr_large_1734",
+    "question": "آية أَوَلَمْ يَرَوْا كَيْفَ يُبْدِئُ اللَّهُ في سورة العنكبوت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "29:19"
+    ]
+  },
+  {
+    "id": "qr_large_2485",
+    "question": "آية قُلْ آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:84"
+    ]
+  },
+  {
+    "id": "qr_large_2162",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:59"
+    ]
+  },
+  {
+    "id": "qr_large_1086",
+    "question": "آية فَمَنْ شَاءَ ذَكَرَهُ في سورة عبس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "80:12"
+    ]
+  },
+  {
+    "id": "qr_large_0677",
+    "question": "آية وَقِيلَ يَا أَرْضُ ابْلَعِي مَاءَكِ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:44"
+    ]
+  },
+  {
+    "id": "qr_large_2252",
+    "question": "آية وَلَقَدْ نَعْلَمُ أَنَّهُمْ يَقُولُونَ إِنَّمَا في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:103"
+    ]
+  },
+  {
+    "id": "qr_large_1947",
+    "question": "آية فَأَثَابَهُمُ اللَّهُ بِمَا قَالُوا جَنَّاتٍ في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:85"
+    ]
+  },
+  {
+    "id": "qr_large_2703",
+    "question": "آية يَا قَوْمِ لَكُمُ الْمُلْكُ الْيَوْمَ في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:29"
+    ]
+  },
+  {
+    "id": "qr_large_0526",
+    "question": "آية وَمَا أَنْتُمْ بِمُعْجِزِينَ فِي الْأَرْضِ في سورة العنكبوت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "29:22"
+    ]
+  },
+  {
+    "id": "qr_large_0516",
+    "question": "آية وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ في سورة الإنفطار",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "82:17"
+    ]
+  },
+  {
+    "id": "qr_large_2182",
+    "question": "آية قُلْ هَلْ مِنْ شُرَكَائِكُمْ مَنْ في سورة يونس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "10:35"
+    ]
+  },
+  {
+    "id": "qr_large_0284",
+    "question": "آية وَلَقَدْ هَمَّتْ بِهِ ۖ وَهَمَّ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:24"
+    ]
+  },
+  {
+    "id": "qr_large_1991",
+    "question": "آية فِيهِمَا مِنْ كُلِّ فَاكِهَةٍ زَوْجَانِ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:52"
+    ]
+  },
+  {
+    "id": "qr_large_0351",
+    "question": "آية وَيُنْذِرَ الَّذِينَ قَالُوا اتَّخَذَ اللَّهُ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:4"
+    ]
+  },
+  {
+    "id": "qr_large_2946",
+    "question": "آية وَيُطْعِمُونَ الطَّعَامَ عَلَىٰ حُبِّهِ مِسْكِينًا في سورة الانسان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "76:8"
+    ]
+  },
+  {
+    "id": "qr_large_2891",
+    "question": "آية فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُنْ مِنَ في سورة الحجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "15:98"
+    ]
+  },
+  {
+    "id": "qr_large_0987",
+    "question": "آية وَوَهَبْنَا لِدَاوُودَ سُلَيْمَانَ ۚ نِعْمَ في سورة ص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "38:30"
+    ]
+  },
+  {
+    "id": "qr_large_0238",
+    "question": "آية أَفَمَنْ كَانَ عَلَىٰ بَيِّنَةٍ مِنْ في سورة محمد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "47:14"
+    ]
+  },
+  {
+    "id": "qr_large_0981",
+    "question": "آية وَقَالُوا أَسَاطِيرُ الْأَوَّلِينَ اكْتَتَبَهَا فَهِيَ في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:5"
+    ]
+  },
+  {
+    "id": "qr_large_1260",
+    "question": "آية وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ في سورة النازعات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "79:19"
+    ]
+  },
+  {
+    "id": "qr_large_1487",
+    "question": "آية ۞ وَمَنْ يَقُلْ مِنْهُمْ إِنِّي في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:29"
+    ]
+  },
+  {
+    "id": "qr_large_0459",
+    "question": "آية مِنْ فِرْعَوْنَ ۚ إِنَّهُ كَانَ في سورة الدخان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "44:31"
+    ]
+  },
+  {
+    "id": "qr_large_0080",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ لَا في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:1"
+    ]
+  },
+  {
+    "id": "qr_large_2002",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:29"
+    ]
+  },
+  {
+    "id": "qr_large_1328",
+    "question": "آية أَوَلَا يَعْلَمُونَ أَنَّ اللَّهَ يَعْلَمُ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:77"
+    ]
+  },
+  {
+    "id": "qr_large_2454",
+    "question": "آية يُطَافُ عَلَيْهِمْ بِكَأْسٍ مِنْ مَعِينٍ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:45"
+    ]
+  },
+  {
+    "id": "qr_large_0003",
+    "question": "آية لَقَدْ أَخَذْنَا مِيثَاقَ بَنِي إِسْرَائِيلَ في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:70"
+    ]
+  },
+  {
+    "id": "qr_large_2173",
+    "question": "آية كَيْفَ يَكُونُ لِلْمُشْرِكِينَ عَهْدٌ عِنْدَ في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:7"
+    ]
+  },
+  {
+    "id": "qr_large_2210",
+    "question": "آية قُلِ انْظُرُوا مَاذَا فِي السَّمَاوَاتِ في سورة يونس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "10:101"
+    ]
+  },
+  {
+    "id": "qr_large_0662",
+    "question": "آية وَلَوْ أَلْقَىٰ مَعَاذِيرَهُ في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:15"
+    ]
+  },
+  {
+    "id": "qr_large_1532",
+    "question": "آية تَاللَّهِ لَقَدْ أَرْسَلْنَا إِلَىٰ أُمَمٍ في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:63"
+    ]
+  },
+  {
+    "id": "qr_large_2864",
+    "question": "آية يَا أَيُّهَا النَّبِيُّ إِنَّا أَرْسَلْنَاكَ في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:45"
+    ]
+  },
+  {
+    "id": "qr_large_2978",
+    "question": "آية وَقَالُوا لَنْ يَدْخُلَ الْجَنَّةَ إِلَّا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:111"
+    ]
+  },
+  {
+    "id": "qr_large_2495",
+    "question": "آية وَفَاكِهَةٍ مِمَّا يَتَخَيَّرُونَ في سورة الواقعة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "56:20"
+    ]
+  },
+  {
+    "id": "qr_large_2833",
+    "question": "آية وَقَالَ الَّذِينَ اتَّبَعُوا لَوْ أَنَّ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:167"
+    ]
+  },
+  {
+    "id": "qr_large_2618",
+    "question": "آية وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:131"
+    ]
+  },
+  {
+    "id": "qr_large_1223",
+    "question": "آية قُلْ فَلِلَّهِ الْحُجَّةُ الْبَالِغَةُ ۖ في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:149"
+    ]
+  },
+  {
+    "id": "qr_large_2562",
+    "question": "آية سُبْحَانَ الَّذِي خَلَقَ الْأَزْوَاجَ كُلَّهَا في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:36"
+    ]
+  },
+  {
+    "id": "qr_large_0436",
+    "question": "آية بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ الم في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:1"
+    ]
+  },
+  {
+    "id": "qr_large_2080",
+    "question": "آية إِنَّ الَّذِينَ يَكْفُرُونَ بِآيَاتِ اللَّهِ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:21"
+    ]
+  },
+  {
+    "id": "qr_large_0732",
+    "question": "آية وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:4"
+    ]
+  },
+  {
+    "id": "qr_large_2051",
+    "question": "آية يُنَبَّأُ الْإِنْسَانُ يَوْمَئِذٍ بِمَا قَدَّمَ في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:13"
+    ]
+  },
+  {
+    "id": "qr_large_1079",
+    "question": "آية وَمَا مَنَعَهُمْ أَنْ تُقْبَلَ مِنْهُمْ في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:54"
+    ]
+  },
+  {
+    "id": "qr_large_0014",
+    "question": "آية وَلَقَدْ كَذَّبَ الَّذِينَ مِنْ قَبْلِهِمْ في سورة الملك",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "67:18"
+    ]
+  },
+  {
+    "id": "qr_large_1859",
+    "question": "آية وَتَوَكَّلْ عَلَى اللَّهِ ۚ وَكَفَىٰ في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:3"
+    ]
+  },
+  {
+    "id": "qr_large_0648",
+    "question": "آية فَانْتَقَمْنَا مِنْهُمْ ۖ فَانْظُرْ كَيْفَ في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:25"
+    ]
+  },
+  {
+    "id": "qr_large_1781",
+    "question": "آية أَوْ تَقُولُوا لَوْ أَنَّا أُنْزِلَ في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:157"
+    ]
+  },
+  {
+    "id": "qr_large_1203",
+    "question": "آية إِنْ تُبْدُوا الصَّدَقَاتِ فَنِعِمَّا هِيَ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:271"
+    ]
+  },
+  {
+    "id": "qr_large_2999",
+    "question": "آية قَالُوا لَئِنْ لَمْ تَنْتَهِ يَا في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:116"
+    ]
+  },
+  {
+    "id": "qr_large_2964",
+    "question": "آية إِنْ تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِنْ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:120"
+    ]
+  },
+  {
+    "id": "qr_large_2626",
+    "question": "آية فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ في سورة الواقعة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "56:74"
+    ]
+  },
+  {
+    "id": "qr_large_1093",
+    "question": "آية وَمَا أَرْسَلْنَا مِنْ رَسُولٍ إِلَّا في سورة ابراهيم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "14:4"
+    ]
+  },
+  {
+    "id": "qr_large_2200",
+    "question": "آية فَأَوْجَسَ فِي نَفْسِهِ خِيفَةً مُوسَىٰ في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:67"
+    ]
+  },
+  {
+    "id": "qr_large_2793",
+    "question": "آية فَمَا لَنَا مِنْ شَافِعِينَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:100"
+    ]
+  },
+  {
+    "id": "qr_large_0470",
+    "question": "آية لَهُمْ فِيهَا زَفِيرٌ وَهُمْ فِيهَا في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:100"
+    ]
+  },
+  {
+    "id": "qr_large_2787",
+    "question": "آية وَيَقُولُونَ سُبْحَانَ رَبِّنَا إِنْ كَانَ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:108"
+    ]
+  },
+  {
+    "id": "qr_large_0048",
+    "question": "آية كَذَٰلِكَ نَسْلُكُهُ فِي قُلُوبِ الْمُجْرِمِينَ في سورة الحجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "15:12"
+    ]
+  },
+  {
+    "id": "qr_large_2267",
+    "question": "آية ضَرَبَ اللَّهُ مَثَلًا رَجُلًا فِيهِ في سورة الزمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "39:29"
+    ]
+  },
+  {
+    "id": "qr_large_1030",
+    "question": "آية فَضَرَبْنَا عَلَىٰ آذَانِهِمْ فِي الْكَهْفِ في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:11"
+    ]
+  },
+  {
+    "id": "qr_large_2168",
+    "question": "آية هَلْ يَنْظُرُونَ إِلَّا تَأْوِيلَهُ ۚ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:53"
+    ]
+  },
+  {
+    "id": "qr_large_1918",
+    "question": "آية وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ الْكِتَابَ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:78"
+    ]
+  },
+  {
+    "id": "qr_large_2441",
+    "question": "آية وَإِنْ يُكَذِّبُوكَ فَقَدْ كَذَّبَ الَّذِينَ في سورة فاطر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "35:25"
+    ]
+  },
+  {
+    "id": "qr_large_1564",
+    "question": "آية وَثَمُودَ فَمَا أَبْقَىٰ في سورة النجم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "53:51"
+    ]
+  },
+  {
+    "id": "qr_large_1577",
+    "question": "آية قَالَ فَمَا خَطْبُكَ يَا سَامِرِيُّ في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:95"
+    ]
+  },
+  {
+    "id": "qr_large_0261",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا في سورة الحجرات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "49:12"
+    ]
+  },
+  {
+    "id": "qr_large_2443",
+    "question": "آية وَمَا أَفَاءَ اللَّهُ عَلَىٰ رَسُولِهِ في سورة الحشر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "59:6"
+    ]
+  },
+  {
+    "id": "qr_large_1730",
+    "question": "آية وَلَا تَحْسَبَنَّ اللَّهَ غَافِلًا عَمَّا في سورة ابراهيم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "14:42"
+    ]
+  },
+  {
+    "id": "qr_large_2788",
+    "question": "آية فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:88"
+    ]
+  },
+  {
+    "id": "qr_large_0656",
+    "question": "آية إِلَّا عَجُوزًا فِي الْغَابِرِينَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:171"
+    ]
+  },
+  {
+    "id": "qr_large_2571",
+    "question": "آية وَمَا بِكُمْ مِنْ نِعْمَةٍ فَمِنَ في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:53"
+    ]
+  },
+  {
+    "id": "qr_large_0627",
+    "question": "آية وَالشَّيَاطِينَ كُلَّ بَنَّاءٍ وَغَوَّاصٍ في سورة ص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "38:37"
+    ]
+  },
+  {
+    "id": "qr_large_0450",
+    "question": "آية يَوْمَ يُحْمَىٰ عَلَيْهَا فِي نَارِ في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:35"
+    ]
+  },
+  {
+    "id": "qr_large_0193",
+    "question": "آية وَهَٰذَا صِرَاطُ رَبِّكَ مُسْتَقِيمًا ۗ في سورة الأنعام",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "6:126"
+    ]
+  },
+  {
+    "id": "qr_large_0373",
+    "question": "آية نَارُ اللَّهِ الْمُوقَدَةُ في سورة الهمزة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "104:6"
+    ]
+  },
+  {
+    "id": "qr_large_2022",
+    "question": "آية أَمْ أَنَا خَيْرٌ مِنْ هَٰذَا في سورة الزخرف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "43:52"
+    ]
+  },
+  {
+    "id": "qr_large_2088",
+    "question": "آية وَمِنْ آيَاتِهِ خَلْقُ السَّمَاوَاتِ وَالْأَرْضِ في سورة الروم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "30:22"
+    ]
+  },
+  {
+    "id": "qr_large_0567",
+    "question": "آية مُسَوَّمَةً عِنْدَ رَبِّكَ لِلْمُسْرِفِينَ في سورة الذاريات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "51:34"
+    ]
+  },
+  {
+    "id": "qr_large_0899",
+    "question": "آية إِذْ يُوحِي رَبُّكَ إِلَى الْمَلَائِكَةِ في سورة الأنفال",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "8:12"
+    ]
+  },
+  {
+    "id": "qr_large_1483",
+    "question": "آية قَالَ ادْخُلُوا فِي أُمَمٍ قَدْ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:38"
+    ]
+  },
+  {
+    "id": "qr_large_1636",
+    "question": "آية وَبَشِّرِ الْمُؤْمِنِينَ بِأَنَّ لَهُمْ مِنَ في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:47"
+    ]
+  },
+  {
+    "id": "qr_large_2391",
+    "question": "آية قَالُوا سُبْحَانَكَ أَنْتَ وَلِيُّنَا مِنْ في سورة سبإ",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "34:41"
+    ]
+  },
+  {
+    "id": "qr_large_1755",
+    "question": "آية وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَائِيَ في سورة القصص",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "28:74"
+    ]
+  },
+  {
+    "id": "qr_large_2395",
+    "question": "آية وَلَقَدْ أَضَلَّ مِنْكُمْ جِبِلًّا كَثِيرًا في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:62"
+    ]
+  },
+  {
+    "id": "qr_large_1077",
+    "question": "آية وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ في سورة النازعات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "79:40"
+    ]
+  },
+  {
+    "id": "qr_large_2208",
+    "question": "آية وَلَكُمْ فِي الْقِصَاصِ حَيَاةٌ يَا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:179"
+    ]
+  },
+  {
+    "id": "qr_large_2300",
+    "question": "آية وَقَالَ الَّذِينَ كَفَرُوا لَوْلَا نُزِّلَ في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:32"
+    ]
+  },
+  {
+    "id": "qr_large_1011",
+    "question": "آية لِيَوْمِ الْفَصْلِ في سورة المرسلات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "77:13"
+    ]
+  },
+  {
+    "id": "qr_large_2994",
+    "question": "آية قَالَ الَّذِي عِنْدَهُ عِلْمٌ مِنَ في سورة النمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "27:40"
+    ]
+  },
+  {
+    "id": "qr_large_1085",
+    "question": "آية وَلِلَّهِ الْمَشْرِقُ وَالْمَغْرِبُ ۚ فَأَيْنَمَا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:115"
+    ]
+  },
+  {
+    "id": "qr_large_0586",
+    "question": "آية وَمَا هُمْ عَنْهَا بِغَائِبِينَ في سورة الإنفطار",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "82:16"
+    ]
+  },
+  {
+    "id": "qr_large_1880",
+    "question": "آية الَّذِينَ كَفَرُوا لَهُمْ عَذَابٌ شَدِيدٌ في سورة فاطر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "35:7"
+    ]
+  },
+  {
+    "id": "qr_large_2634",
+    "question": "آية قَالُوا تَاللَّهِ تَفْتَأُ تَذْكُرُ يُوسُفَ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:85"
+    ]
+  },
+  {
+    "id": "qr_large_1621",
+    "question": "آية لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي أَحْسَنِ في سورة التين",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "95:4"
+    ]
+  },
+  {
+    "id": "qr_large_2045",
+    "question": "آية وَمَا عَلَيْنَا إِلَّا الْبَلَاغُ الْمُبِينُ في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:17"
+    ]
+  },
+  {
+    "id": "qr_large_2685",
+    "question": "آية وَالَّذِينَ جَاهَدُوا فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا في سورة العنكبوت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "29:69"
+    ]
+  },
+  {
+    "id": "qr_large_0871",
+    "question": "آية مَتَاعًا لَكُمْ وَلِأَنْعَامِكُمْ في سورة عبس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "80:32"
+    ]
+  },
+  {
+    "id": "qr_large_1289",
+    "question": "آية وَعَلَّمْنَاهُ صَنْعَةَ لَبُوسٍ لَكُمْ لِتُحْصِنَكُمْ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:80"
+    ]
+  },
+  {
+    "id": "qr_large_2324",
+    "question": "آية يَا أَيُّهَا النَّبِيُّ قُلْ لِأَزْوَاجِكَ في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:28"
+    ]
+  },
+  {
+    "id": "qr_large_0865",
+    "question": "آية وَإِنَّ هَٰذِهِ أُمَّتُكُمْ أُمَّةً وَاحِدَةً في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:52"
+    ]
+  },
+  {
+    "id": "qr_large_0272",
+    "question": "آية إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ في سورة العصر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "103:3"
+    ]
+  },
+  {
+    "id": "qr_large_1097",
+    "question": "آية وَأَوْفُوا الْكَيْلَ إِذَا كِلْتُمْ وَزِنُوا في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:35"
+    ]
+  },
+  {
+    "id": "qr_large_1644",
+    "question": "آية وَمَا يَفْعَلُوا مِنْ خَيْرٍ فَلَنْ في سورة آل عمران",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "3:115"
+    ]
+  },
+  {
+    "id": "qr_large_1293",
+    "question": "آية يَسْأَلُونَكَ مَاذَا يُنْفِقُونَ ۖ قُلْ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:215"
+    ]
+  },
+  {
+    "id": "qr_large_0132",
+    "question": "آية كَلَّا لَا وَزَرَ في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:11"
+    ]
+  },
+  {
+    "id": "qr_large_0939",
+    "question": "آية هَلْ أُنَبِّئُكُمْ عَلَىٰ مَنْ تَنَزَّلُ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:221"
+    ]
+  },
+  {
+    "id": "qr_large_0230",
+    "question": "آية إِنَّهُ مَنْ يَأْتِ رَبَّهُ مُجْرِمًا في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:74"
+    ]
+  },
+  {
+    "id": "qr_large_1329",
+    "question": "آية يَأْتُوكَ بِكُلِّ سَاحِرٍ عَلِيمٍ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:112"
+    ]
+  },
+  {
+    "id": "qr_large_2805",
+    "question": "آية وَإِنْ كَادُوا لَيَسْتَفِزُّونَكَ مِنَ الْأَرْضِ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:76"
+    ]
+  },
+  {
+    "id": "qr_large_0900",
+    "question": "آية الَّذِينَ يَلْمِزُونَ الْمُطَّوِّعِينَ مِنَ الْمُؤْمِنِينَ في سورة التوبة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "9:79"
+    ]
+  },
+  {
+    "id": "qr_large_2282",
+    "question": "آية كَذَٰلِكَ وَزَوَّجْنَاهُمْ بِحُورٍ عِينٍ في سورة الدخان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "44:54"
+    ]
+  },
+  {
+    "id": "qr_large_2819",
+    "question": "آية فَاسْتَجَابَ لَهُ رَبُّهُ فَصَرَفَ عَنْهُ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:34"
+    ]
+  },
+  {
+    "id": "qr_large_2622",
+    "question": "آية قَالَ لِمَنْ حَوْلَهُ أَلَا تَسْتَمِعُونَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:25"
+    ]
+  },
+  {
+    "id": "qr_large_1106",
+    "question": "آية إِنِّي وَجَدْتُ امْرَأَةً تَمْلِكُهُمْ وَأُوتِيَتْ في سورة النمل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "27:23"
+    ]
+  },
+  {
+    "id": "qr_large_1555",
+    "question": "آية ذَٰلِكَ بِأَنَّهُمْ شَاقُّوا اللَّهَ وَرَسُولَهُ في سورة الحشر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "59:4"
+    ]
+  },
+  {
+    "id": "qr_large_1894",
+    "question": "آية وَمَنْ أَظْلَمُ مِمَّنْ ذُكِّرَ بِآيَاتِ في سورة السجدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "32:22"
+    ]
+  },
+  {
+    "id": "qr_large_0670",
+    "question": "آية وَالْمُؤْتَفِكَةَ أَهْوَىٰ في سورة النجم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "53:53"
+    ]
+  },
+  {
+    "id": "qr_large_1003",
+    "question": "آية وَقَاتِلُوا فِي سَبِيلِ اللَّهِ وَاعْلَمُوا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:244"
+    ]
+  },
+  {
+    "id": "qr_large_2188",
+    "question": "آية وَلَقَدْ عَهِدْنَا إِلَىٰ آدَمَ مِنْ في سورة طه",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "20:115"
+    ]
+  },
+  {
+    "id": "qr_large_0701",
+    "question": "آية وَأَمَّا الَّذِينَ فَسَقُوا فَمَأْوَاهُمُ النَّارُ في سورة السجدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "32:20"
+    ]
+  },
+  {
+    "id": "qr_large_2601",
+    "question": "آية إِنَّمَا كَانَ قَوْلَ الْمُؤْمِنِينَ إِذَا في سورة النور",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "24:51"
+    ]
+  },
+  {
+    "id": "qr_large_2496",
+    "question": "آية وَلَهُمْ فِيهَا مَنَافِعُ وَمَشَارِبُ ۖ في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:73"
+    ]
+  },
+  {
+    "id": "qr_large_0293",
+    "question": "آية إِنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ في سورة محمد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "47:36"
+    ]
+  },
+  {
+    "id": "qr_large_2655",
+    "question": "آية وَلَا يَحْزُنْكَ قَوْلُهُمْ ۘ إِنَّ في سورة يونس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "10:65"
+    ]
+  },
+  {
+    "id": "qr_large_2800",
+    "question": "آية وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:20"
+    ]
+  },
+  {
+    "id": "qr_large_2875",
+    "question": "آية وَقَالَ فِرْعَوْنُ ائْتُونِي بِكُلِّ سَاحِرٍ في سورة يونس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "10:79"
+    ]
+  },
+  {
+    "id": "qr_large_1094",
+    "question": "آية قَالُوا لَقَدْ عَلِمْتَ مَا لَنَا في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:79"
+    ]
+  },
+  {
+    "id": "qr_large_2746",
+    "question": "آية وَبَرًّا بِوَالِدَيْهِ وَلَمْ يَكُنْ جَبَّارًا في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:14"
+    ]
+  },
+  {
+    "id": "qr_large_0859",
+    "question": "آية يَا أَيُّهَا الَّذِينَ آمَنُوا لَا في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:2"
+    ]
+  },
+  {
+    "id": "qr_large_1456",
+    "question": "آية تَبَارَكَ الَّذِي إِنْ شَاءَ جَعَلَ في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:10"
+    ]
+  },
+  {
+    "id": "qr_large_1517",
+    "question": "آية فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ في سورة الفيل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "105:5"
+    ]
+  },
+  {
+    "id": "qr_large_0667",
+    "question": "آية يَا أَهْلَ الْكِتَابِ قَدْ جَاءَكُمْ في سورة المائدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "5:15"
+    ]
+  },
+  {
+    "id": "qr_large_1495",
+    "question": "آية إِنَّا أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَاحِدَةً في سورة القمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "54:31"
+    ]
+  },
+  {
+    "id": "qr_large_2604",
+    "question": "آية يَدْعُو مِنْ دُونِ اللَّهِ مَا في سورة الحج",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "22:12"
+    ]
+  },
+  {
+    "id": "qr_large_1858",
+    "question": "آية وَلَئِنْ سَأَلْتَهُمْ مَنْ خَلَقَ السَّمَاوَاتِ في سورة العنكبوت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "29:61"
+    ]
+  },
+  {
+    "id": "qr_large_2963",
+    "question": "آية فِي أَدْنَى الْأَرْضِ وَهُمْ مِنْ في سورة الروم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "30:3"
+    ]
+  },
+  {
+    "id": "qr_large_2957",
+    "question": "آية يُولِجُ اللَّيْلَ فِي النَّهَارِ وَيُولِجُ في سورة الحديد",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "57:6"
+    ]
+  },
+  {
+    "id": "qr_large_0414",
+    "question": "آية أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَا ۖ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:195"
+    ]
+  },
+  {
+    "id": "qr_large_0954",
+    "question": "آية وَاصْبِرْ فَإِنَّ اللَّهَ لَا يُضِيعُ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:115"
+    ]
+  },
+  {
+    "id": "qr_large_0327",
+    "question": "آية مَا يُقَالُ لَكَ إِلَّا مَا في سورة فصلت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "41:43"
+    ]
+  },
+  {
+    "id": "qr_large_1186",
+    "question": "آية فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:42"
+    ]
+  },
+  {
+    "id": "qr_large_0934",
+    "question": "آية إِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَاجَرُوا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:218"
+    ]
+  },
+  {
+    "id": "qr_large_2709",
+    "question": "آية مَنْ يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَيَحِلُّ في سورة الزمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "39:40"
+    ]
+  },
+  {
+    "id": "qr_large_0188",
+    "question": "آية فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:18"
+    ]
+  },
+  {
+    "id": "qr_large_0285",
+    "question": "آية وَجَعَلْنَا مِنْ بَيْنِ أَيْدِيهِمْ سَدًّا في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:9"
+    ]
+  },
+  {
+    "id": "qr_large_2886",
+    "question": "آية فَإِذَا بَرِقَ الْبَصَرُ في سورة القيامة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "75:7"
+    ]
+  },
+  {
+    "id": "qr_large_0788",
+    "question": "آية وَقَرْنَ فِي بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ في سورة الأحزاب",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "33:33"
+    ]
+  },
+  {
+    "id": "qr_large_2365",
+    "question": "آية وَإِذَا السَّمَاءُ فُرِجَتْ في سورة المرسلات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "77:9"
+    ]
+  },
+  {
+    "id": "qr_large_1482",
+    "question": "آية وَاسْتَبَقَا الْبَابَ وَقَدَّتْ قَمِيصَهُ مِنْ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:25"
+    ]
+  },
+  {
+    "id": "qr_large_2534",
+    "question": "آية إِنَّا جَعَلْنَا فِي أَعْنَاقِهِمْ أَغْلَالًا في سورة يس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "36:8"
+    ]
+  },
+  {
+    "id": "qr_large_2575",
+    "question": "آية إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ في سورة البينة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "98:7"
+    ]
+  },
+  {
+    "id": "qr_large_1201",
+    "question": "آية إِنَّ الَّذِينَ هُمْ مِنْ خَشْيَةِ في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:57"
+    ]
+  },
+  {
+    "id": "qr_large_2262",
+    "question": "آية وَبَيْنَهُمَا حِجَابٌ ۚ وَعَلَى الْأَعْرَافِ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:46"
+    ]
+  },
+  {
+    "id": "qr_large_0323",
+    "question": "آية وَثَمُودَ الَّذِينَ جَابُوا الصَّخْرَ بِالْوَادِ في سورة الفجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "89:9"
+    ]
+  },
+  {
+    "id": "qr_large_1551",
+    "question": "آية أَلَمْ تَرَ أَنَّ اللَّهَ خَلَقَ في سورة ابراهيم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "14:19"
+    ]
+  },
+  {
+    "id": "qr_large_0512",
+    "question": "آية انْظُرْ كَيْفَ ضَرَبُوا لَكَ الْأَمْثَالَ في سورة الإسراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "17:48"
+    ]
+  },
+  {
+    "id": "qr_large_2197",
+    "question": "آية خَالِدِينَ فِيهَا لَا يَبْغُونَ عَنْهَا في سورة الكهف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "18:108"
+    ]
+  },
+  {
+    "id": "qr_large_1882",
+    "question": "آية أَلَمْ تَرَ إِلَى الَّذِي حَاجَّ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:258"
+    ]
+  },
+  {
+    "id": "qr_large_0178",
+    "question": "آية وَوَهَبْنَا لَهُ مِنْ رَحْمَتِنَا أَخَاهُ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:53"
+    ]
+  },
+  {
+    "id": "qr_large_1084",
+    "question": "آية إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ في سورة فصلت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "41:8"
+    ]
+  },
+  {
+    "id": "qr_large_2473",
+    "question": "آية لَا تَدْعُوا الْيَوْمَ ثُبُورًا وَاحِدًا في سورة الفرقان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "25:14"
+    ]
+  },
+  {
+    "id": "qr_large_1409",
+    "question": "آية هُوَ الَّذِي خَلَقَ لَكُمْ مَا في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:29"
+    ]
+  },
+  {
+    "id": "qr_large_1471",
+    "question": "آية فَاجْتَبَاهُ رَبُّهُ فَجَعَلَهُ مِنَ الصَّالِحِينَ في سورة القلم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "68:50"
+    ]
+  },
+  {
+    "id": "qr_large_0397",
+    "question": "آية وَإِذْ قَالَ إِبْرَاهِيمُ رَبِّ اجْعَلْ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:126"
+    ]
+  },
+  {
+    "id": "qr_large_1557",
+    "question": "آية وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ۚ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:196"
+    ]
+  },
+  {
+    "id": "qr_large_0380",
+    "question": "آية فَالْيَوْمَ نُنَجِّيكَ بِبَدَنِكَ لِتَكُونَ لِمَنْ في سورة يونس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "10:92"
+    ]
+  },
+  {
+    "id": "qr_large_0419",
+    "question": "آية وَلَا تَقْعُدُوا بِكُلِّ صِرَاطٍ تُوعِدُونَ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:86"
+    ]
+  },
+  {
+    "id": "qr_large_1379",
+    "question": "آية وَمَا أَدْرَاكَ مَا سَقَرُ في سورة المدثر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "74:27"
+    ]
+  },
+  {
+    "id": "qr_large_0882",
+    "question": "آية وَلَقَدْ جَاءَتْ رُسُلُنَا إِبْرَاهِيمَ بِالْبُشْرَىٰ في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:69"
+    ]
+  },
+  {
+    "id": "qr_large_0637",
+    "question": "آية وَإِنِّي خِفْتُ الْمَوَالِيَ مِنْ وَرَائِي في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:5"
+    ]
+  },
+  {
+    "id": "qr_large_1139",
+    "question": "آية وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:34"
+    ]
+  },
+  {
+    "id": "qr_large_1394",
+    "question": "آية قُلْ يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ في سورة سبإ",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "34:26"
+    ]
+  },
+  {
+    "id": "qr_large_1732",
+    "question": "آية وَقَضَيْنَا إِلَيْهِ ذَٰلِكَ الْأَمْرَ أَنَّ في سورة الحجر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "15:66"
+    ]
+  },
+  {
+    "id": "qr_large_2860",
+    "question": "آية كُلُّ مَنْ عَلَيْهَا فَانٍ في سورة الرحمن",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "55:26"
+    ]
+  },
+  {
+    "id": "qr_large_0654",
+    "question": "آية حِكْمَةٌ بَالِغَةٌ ۖ فَمَا تُغْنِ في سورة القمر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "54:5"
+    ]
+  },
+  {
+    "id": "qr_large_0027",
+    "question": "آية ۞ يَسْأَلُونَكَ عَنِ الْأَهِلَّةِ ۖ في سورة البقرة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "2:189"
+    ]
+  },
+  {
+    "id": "qr_large_1140",
+    "question": "آية فَارْتَقِبْ إِنَّهُمْ مُرْتَقِبُونَ في سورة الدخان",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "44:59"
+    ]
+  },
+  {
+    "id": "qr_large_2414",
+    "question": "آية دَرَجَاتٍ مِنْهُ وَمَغْفِرَةً وَرَحْمَةً ۚ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:96"
+    ]
+  },
+  {
+    "id": "qr_large_1840",
+    "question": "آية وَلَمَّا جَاءَ أَمْرُنَا نَجَّيْنَا هُودًا في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:58"
+    ]
+  },
+  {
+    "id": "qr_large_0903",
+    "question": "آية وَمَا خَلَقْتُ الْجِنَّ وَالْإِنْسَ إِلَّا في سورة الذاريات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "51:56"
+    ]
+  },
+  {
+    "id": "qr_large_1719",
+    "question": "آية وَإِذَا السَّمَاءُ كُشِطَتْ في سورة التكوير",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "81:11"
+    ]
+  },
+  {
+    "id": "qr_large_2233",
+    "question": "آية مِنَ الَّذِينَ هَادُوا يُحَرِّفُونَ الْكَلِمَ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:46"
+    ]
+  },
+  {
+    "id": "qr_large_2873",
+    "question": "آية إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:96"
+    ]
+  },
+  {
+    "id": "qr_large_2662",
+    "question": "آية وَأَصْحَابُ الشِّمَالِ مَا أَصْحَابُ الشِّمَالِ في سورة الواقعة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "56:41"
+    ]
+  },
+  {
+    "id": "qr_large_2933",
+    "question": "آية فَلَمَّا بَلَغَ مَعَهُ السَّعْيَ قَالَ في سورة الصافات",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "37:102"
+    ]
+  },
+  {
+    "id": "qr_large_0815",
+    "question": "آية قَالَ مَا خَطْبُكُنَّ إِذْ رَاوَدْتُنَّ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:51"
+    ]
+  },
+  {
+    "id": "qr_large_2299",
+    "question": "آية فَلَا تَعْلَمُ نَفْسٌ مَا أُخْفِيَ في سورة السجدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "32:17"
+    ]
+  },
+  {
+    "id": "qr_large_0109",
+    "question": "آية فَرَجَعُوا إِلَىٰ أَنْفُسِهِمْ فَقَالُوا إِنَّكُمْ في سورة الأنبياء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "21:64"
+    ]
+  },
+  {
+    "id": "qr_large_2466",
+    "question": "آية وَلَنْ تَسْتَطِيعُوا أَنْ تَعْدِلُوا بَيْنَ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:129"
+    ]
+  },
+  {
+    "id": "qr_large_2070",
+    "question": "آية وَلَقَدْ جَاءَكُمْ يُوسُفُ مِنْ قَبْلُ في سورة غافر",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "40:34"
+    ]
+  },
+  {
+    "id": "qr_large_0953",
+    "question": "آية تَنْزِيلُ الْكِتَابِ لَا رَيْبَ فِيهِ في سورة السجدة",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "32:2"
+    ]
+  },
+  {
+    "id": "qr_large_0896",
+    "question": "آية ثُمَّ إِنَّكُمْ بَعْدَ ذَٰلِكَ لَمَيِّتُونَ في سورة المؤمنون",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "23:15"
+    ]
+  },
+  {
+    "id": "qr_large_0384",
+    "question": "آية قَالَ لَنْ أُرْسِلَهُ مَعَكُمْ حَتَّىٰ في سورة يوسف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "12:66"
+    ]
+  },
+  {
+    "id": "qr_large_0123",
+    "question": "آية وَلَا تَسْتَوِي الْحَسَنَةُ وَلَا السَّيِّئَةُ في سورة فصلت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "41:34"
+    ]
+  },
+  {
+    "id": "qr_large_0131",
+    "question": "آية وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَالِحًا ۗ في سورة الأعراف",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "7:73"
+    ]
+  },
+  {
+    "id": "qr_large_1729",
+    "question": "آية وَلَا يَخَافُ عُقْبَاهَا في سورة الشمس",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "91:15"
+    ]
+  },
+  {
+    "id": "qr_large_2419",
+    "question": "آية وَيَزِيدُ اللَّهُ الَّذِينَ اهْتَدَوْا هُدًى في سورة مريم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "19:76"
+    ]
+  },
+  {
+    "id": "qr_large_0357",
+    "question": "آية قَالُوا إِنَّمَا أَنْتَ مِنَ الْمُسَحَّرِينَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:153"
+    ]
+  },
+  {
+    "id": "qr_large_2234",
+    "question": "آية وَهُوَ الَّذِي سَخَّرَ الْبَحْرَ لِتَأْكُلُوا في سورة النحل",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "16:14"
+    ]
+  },
+  {
+    "id": "qr_large_2772",
+    "question": "آية لِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:7"
+    ]
+  },
+  {
+    "id": "qr_large_0420",
+    "question": "آية وَلَوْ جَعَلْنَاهُ قُرْآنًا أَعْجَمِيًّا لَقَالُوا في سورة فصلت",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "41:44"
+    ]
+  },
+  {
+    "id": "qr_large_0572",
+    "question": "آية أَمِ اتَّخَذُوا مِنْ دُونِهِ أَوْلِيَاءَ في سورة الشورى",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "42:9"
+    ]
+  },
+  {
+    "id": "qr_large_0915",
+    "question": "آية قَالُوا يَا هُودُ مَا جِئْتَنَا في سورة هود",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "11:53"
+    ]
+  },
+  {
+    "id": "qr_large_1004",
+    "question": "آية الَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ النَّاسَ بِالْبُخْلِ في سورة النساء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "4:37"
+    ]
+  },
+  {
+    "id": "qr_large_1127",
+    "question": "آية ثُمَّ أَغْرَقْنَا الْآخَرِينَ في سورة الشعراء",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "26:66"
+    ]
+  },
+  {
+    "id": "qr_large_0103",
+    "question": "آية فَذُوقُوا فَلَنْ نَزِيدَكُمْ إِلَّا عَذَابًا في سورة النبإ",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "78:30"
+    ]
+  },
+  {
+    "id": "qr_large_0457",
+    "question": "آية وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ في سورة الضحى",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "93:11"
+    ]
+  },
+  {
+    "id": "qr_large_2620",
+    "question": "آية وَاسْتَفْتَحُوا وَخَابَ كُلُّ جَبَّارٍ عَنِيدٍ في سورة ابراهيم",
+    "category": "Exact Quote",
+    "expected_ids": [
+      "14:15"
+    ]
+  }
+]

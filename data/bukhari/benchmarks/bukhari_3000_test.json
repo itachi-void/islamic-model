@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "bk_large_2213",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 512
+  },
+  {
+    "id": "bk_large_1310",
+    "query": "عن عائشة حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا يَزِيدُ",
+    "category": "Narrator",
+    "expected_hadith_number": 310
+  },
+  {
+    "id": "bk_large_1376",
+    "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ عَرْعَرَةَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 376
+  },
+  {
+    "id": "bk_large_1113",
+    "query": "عن عبد الله بن عمرو حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Narrator",
+    "expected_hadith_number": 113
+  },
+  {
+    "id": "bk_large_0961",
+    "query": "صَدَقَةً‏.‏ قُلْتُ لِعَطَاءٍ أَتَرَى حَقًّا عَلَى الإِمَامِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 958
+  },
+  {
+    "id": "bk_large_1171",
+    "query": "عن أبو طلحة حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ،",
+    "category": "Narrator",
+    "expected_hadith_number": 171
+  },
+  {
+    "id": "bk_large_0318",
+    "query": "ـ عَزَّ وَجَلَّ ـ وَكَّلَ بِالرَّحِمِ مَلَكًا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 318
+  },
+  {
+    "id": "bk_large_1802",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 102
+  },
+  {
+    "id": "bk_large_1125",
+    "query": "حديث حَدَّثَنَا قَيْسُ بْنُ حَفْصٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 125
+  },
+  {
+    "id": "bk_large_0980",
+    "query": "مَا شَهِدْتُهُ، حَتَّى أَتَى الْعَلَمَ الَّذِي عِنْدَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 977
+  },
+  {
+    "id": "bk_large_1985",
+    "query": "حديث في كتاب الغسل كتاب الغسل",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 285
+  },
+  {
+    "id": "bk_large_2136",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 435
+  },
+  {
+    "id": "bk_large_1136",
+    "query": "حديث حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 136
+  },
+  {
+    "id": "bk_large_1013",
+    "query": "حديث حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى،",
+    "category": "Narrator",
+    "expected_hadith_number": 13
+  },
+  {
+    "id": "bk_large_1062",
+    "query": "عن ابن عمر حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 62
+  },
+  {
+    "id": "bk_large_1844",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 144
+  },
+  {
+    "id": "bk_large_1945",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 245
+  },
+  {
+    "id": "bk_large_0652",
+    "query": "صلى الله عليه وسلم ‏ \"‏ أَعْظَمُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 651
+  },
+  {
+    "id": "bk_large_1827",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 127
+  },
+  {
+    "id": "bk_large_2479",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 79
+  },
+  {
+    "id": "bk_large_1748",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 48
+  },
+  {
+    "id": "bk_large_2068",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 368
+  },
+  {
+    "id": "bk_large_1813",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 113
+  },
+  {
+    "id": "bk_large_1300",
+    "query": "عن عائشة حَدَّثَنَا قَبِيصَةُ، قَالَ حَدَّثَنَا سُفْيَانُ،",
+    "category": "Narrator",
+    "expected_hadith_number": 300
+  },
+  {
+    "id": "bk_large_2290",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 589
+  },
+  {
+    "id": "bk_large_2679",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 279
+  },
+  {
+    "id": "bk_large_1904",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 204
+  },
+  {
+    "id": "bk_large_0547",
+    "query": "صَلاَةَ الْعَصْرِ وَالشَّمْسُ طَالِعَةٌ فِي حُجْرَتِي لَمْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 546
+  },
+  {
+    "id": "bk_large_1870",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 170
+  },
+  {
+    "id": "bk_large_0498",
+    "query": "عَنْ سَلَمَةَ، قَالَ كَانَ جِدَارُ الْمَسْجِدِ عِنْدَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 497
+  },
+  {
+    "id": "bk_large_1021",
+    "query": "حديث حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 21
+  },
+  {
+    "id": "bk_large_2284",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 583
+  },
+  {
+    "id": "bk_large_2683",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 283
+  },
+  {
+    "id": "bk_large_1903",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 203
+  },
+  {
+    "id": "bk_large_2122",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 421
+  },
+  {
+    "id": "bk_large_0721",
+    "query": "أَحْمَدُ بْنُ أَبِي رَجَاءٍ، قَالَ حَدَّثَنَا مُعَاوِيَةُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 719
+  },
+  {
+    "id": "bk_large_0897",
+    "query": "عَبْدَ اللَّهِ بْنَ عُمَرَ ـ رضى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 894
+  },
+  {
+    "id": "bk_large_1742",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 42
+  },
+  {
+    "id": "bk_large_0437",
+    "query": "فَقَالَ وَهْوَ كَذَلِكَ ‏ \"‏ لَعْنَةُ اللَّهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 436
+  },
+  {
+    "id": "bk_large_0023",
+    "query": "اللَّهِ، قَالَ حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 23
+  },
+  {
+    "id": "bk_large_0605",
+    "query": "عُمَرُ أَوَلاَ تَبْعَثُونَ رَجُلاً يُنَادِي بِالصَّلاَةِ‏.‏ فَقَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 604
+  },
+  {
+    "id": "bk_large_1000",
+    "query": "يَحْيَى، قَالَ حَدَّثَنَا هِشَامٌ، قَالَ حَدَّثَنِي أَبِي،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 997
+  },
+  {
+    "id": "bk_large_1637",
+    "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا ابْنُ",
+    "category": "Narrator",
+    "expected_hadith_number": 636
+  },
+  {
+    "id": "bk_large_2025",
+    "query": "حديث في كتاب الحيض كتاب الحيض",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 325
+  },
+  {
+    "id": "bk_large_1573",
+    "query": "حديث حَدَّثَنَا عَبْدُ الرَّحِيمِ الْمُحَارِبِيُّ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 572
+  },
+  {
+    "id": "bk_large_0797",
+    "query": "رضى الله عنها ـ قَالَتْ كَانَ النَّبِيُّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 794
+  },
+  {
+    "id": "bk_large_2358",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 657
+  },
+  {
+    "id": "bk_large_1698",
+    "query": "عن أنس بن مالك حَدَّثَنَا مُحَمَّدُ بْنُ أَبَانَ، حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 696
+  },
+  {
+    "id": "bk_large_1866",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 166
+  },
+  {
+    "id": "bk_large_0299",
+    "query": "وسلم مِنْ إِنَاءٍ وَاحِدٍ، كِلاَنَا جُنُبٌ‏.‏ وَكَانَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 299
+  },
+  {
+    "id": "bk_large_2917",
+    "query": "هو في حديث عن حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 217
+  },
+  {
+    "id": "bk_large_2910",
+    "query": "إيه الحديث اللي بيقول وَحَدَّثَنَا أَصْبَغُ، قَالَ أَخْبَرَنَا ابْنُ وَهْبٍ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 210
+  },
+  {
+    "id": "bk_large_0190",
+    "query": "إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَتْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 190
+  },
+  {
+    "id": "bk_large_0101",
+    "query": "لِلنَّبِيِّ صلى الله عليه وسلم غَلَبَنَا عَلَيْكَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 101
+  },
+  {
+    "id": "bk_large_0604",
+    "query": "حَدَّثَنَا خَالِدٌ الْحَذَّاءُ، عَنْ أَبِي قِلاَبَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 603
+  },
+  {
+    "id": "bk_large_0816",
+    "query": "صلى الله عليه وسلم فِي لَيْلَةِ الْقَدْرِ‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 813
+  },
+  {
+    "id": "bk_large_2780",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا عِمْرَانُ بْنُ مَيْسَرَةَ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 80
+  },
+  {
+    "id": "bk_large_1272",
+    "query": "عن عائشة حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ",
+    "category": "Narrator",
+    "expected_hadith_number": 272
+  },
+  {
+    "id": "bk_large_0963",
+    "query": "فَذَكَّرَهُنَّ وَهْوَ يَتَوَكَّأُ عَلَى يَدِ بِلاَلٍ، وَبِلاَلٌ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 960
+  },
+  {
+    "id": "bk_large_2712",
+    "query": "عايز حديث عن حَدَّثَنَا عَمْرُو بْنُ خَالِدٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 12
+  },
+  {
+    "id": "bk_large_1373",
+    "query": "عن أبيه عن عائشة حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 373
+  },
+  {
+    "id": "bk_large_2112",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 411
+  },
+  {
+    "id": "bk_large_1163",
+    "query": "عن عبد الله بن عمرو حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا أَبُو",
+    "category": "Narrator",
+    "expected_hadith_number": 163
+  },
+  {
+    "id": "bk_large_0348",
+    "query": "مُعْتَزِلاً لَمْ يُصَلِّ فِي الْقَوْمِ فَقَالَ ‏\"‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 348
+  },
+  {
+    "id": "bk_large_0696",
+    "query": "الأَشْيَبُ، قَالَ حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ عَبْدِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 694
+  },
+  {
+    "id": "bk_large_1939",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 239
+  },
+  {
+    "id": "bk_large_2094",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 394
+  },
+  {
+    "id": "bk_large_2706",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 6
+  },
+  {
+    "id": "bk_large_1812",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 112
+  },
+  {
+    "id": "bk_large_2590",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 190
+  },
+  {
+    "id": "bk_large_1905",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 205
+  },
+  {
+    "id": "bk_large_1320",
+    "query": "عن عائشة حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ،",
+    "category": "Narrator",
+    "expected_hadith_number": 320
+  },
+  {
+    "id": "bk_large_2376",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 675
+  },
+  {
+    "id": "bk_large_2576",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 176
+  },
+  {
+    "id": "bk_large_2569",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 169
+  },
+  {
+    "id": "bk_large_1176",
+    "query": "حديث حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ،",
+    "category": "Narrator",
+    "expected_hadith_number": 176
+  },
+  {
+    "id": "bk_large_1245",
+    "query": "حديث حَدَّثَنَا عُثْمَانُ، قَالَ حَدَّثَنَا جَرِيرٌ،",
+    "category": "Narrator",
+    "expected_hadith_number": 245
+  },
+  {
+    "id": "bk_large_0002",
+    "query": "عَنْهُ مَا قَالَ، وَأَحْيَانًا يَتَمَثَّلُ لِيَ الْمَلَكُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 2
+  },
+  {
+    "id": "bk_large_2245",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 544
+  },
+  {
+    "id": "bk_large_1664",
+    "query": "حديث حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ",
+    "category": "Narrator",
+    "expected_hadith_number": 663
+  },
+  {
+    "id": "bk_large_1233",
+    "query": "حديث حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 233
+  },
+  {
+    "id": "bk_large_2332",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 631
+  },
+  {
+    "id": "bk_large_0713",
+    "query": "النَّبِيِّ صلى الله عليه وسلم ثُمَّ يَأْتِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 711
+  },
+  {
+    "id": "bk_large_2702",
+    "query": "عايز حديث عن حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 2
+  },
+  {
+    "id": "bk_large_1723",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 23
+  },
+  {
+    "id": "bk_large_0786",
+    "query": "الْحَسَنِ، عَنْ أَبِي بَكْرَةَ، أَنَّهُ انْتَهَى إِلَى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 783
+  },
+  {
+    "id": "bk_large_0522",
+    "query": "فَدَخَلَ عَلَيْهِ عُرْوَةُ بْنُ الزُّبَيْرِ، فَأَخْبَرَهُ أَنَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 521
+  },
+  {
+    "id": "bk_large_2271",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 570
+  },
+  {
+    "id": "bk_large_1212",
+    "query": "عن عائشة حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 212
+  },
+  {
+    "id": "bk_large_1649",
+    "query": "عن أبو هريرة حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 648
+  },
+  {
+    "id": "bk_large_1337",
+    "query": "عن ابن عباس حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 337
+  },
+  {
+    "id": "bk_large_1673",
+    "query": "عن أنس بن مالك حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 672
+  },
+  {
+    "id": "bk_large_1267",
+    "query": "عن عائشة حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 267
+  },
+  {
+    "id": "bk_large_2078",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 378
+  },
+  {
+    "id": "bk_large_1231",
+    "query": "عن عائشة حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Narrator",
+    "expected_hadith_number": 231
+  },
+  {
+    "id": "bk_large_0511",
+    "query": "زَيْدَ بْنَ خَالِدٍ، أَرْسَلَهُ إِلَى أَبِي جُهَيْمٍ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 510
+  },
+  {
+    "id": "bk_large_1286",
+    "query": "عن عائشة حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 286
+  },
+  {
+    "id": "bk_large_1353",
+    "query": "عن جابر بن عبد الله حَدَّثَنَا مُطَرِّفٌ أَبُو مُصْعَبٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 353
+  },
+  {
+    "id": "bk_large_0287",
+    "query": "أَنَّ عُمَرَ بْنَ الْخَطَّابِ، سَأَلَ رَسُولَ اللَّهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 287
+  },
+  {
+    "id": "bk_large_1767",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 67
+  },
+  {
+    "id": "bk_large_1492",
+    "query": "عن عبد الله بن عمر وَأَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ",
+    "category": "Narrator",
+    "expected_hadith_number": 491
+  },
+  {
+    "id": "bk_large_0808",
+    "query": "مَرَّةٍ عَنِ الزُّهْرِيِّ، قَالَ سَمِعْتُ أَنَسَ بْنَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 805
+  },
+  {
+    "id": "bk_large_2206",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 505
+  },
+  {
+    "id": "bk_large_2130",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 429
+  },
+  {
+    "id": "bk_large_0007",
+    "query": "وَكَذَلِكَ أَمْرُ الإِيمَانِ حَتَّى يَتِمَّ، وَسَأَلْتُكَ أَيَرْتَدُّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 7
+  },
+  {
+    "id": "bk_large_1787",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 87
+  },
+  {
+    "id": "bk_large_0182",
+    "query": "قَالَ سَمِعْتُ يَحْيَى بْنَ سَعِيدٍ، قَالَ أَخْبَرَنِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 182
+  },
+  {
+    "id": "bk_large_1044",
+    "query": "حديث حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 44
+  },
+  {
+    "id": "bk_large_0779",
+    "query": "هَمَّامٌ، عَنْ يَحْيَى، عَنْ عَبْدِ اللَّهِ بْنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 776
+  },
+  {
+    "id": "bk_large_2362",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 661
+  },
+  {
+    "id": "bk_large_1578",
+    "query": "عن سهل بن سعد حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ،",
+    "category": "Narrator",
+    "expected_hadith_number": 577
+  },
+  {
+    "id": "bk_large_0474",
+    "query": "نَادَى النَّبِيَّ صلى الله عليه وسلم وَهُوَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 473
+  },
+  {
+    "id": "bk_large_2095",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 395
+  },
+  {
+    "id": "bk_large_2484",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 84
+  },
+  {
+    "id": "bk_large_1788",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 88
+  },
+  {
+    "id": "bk_large_2888",
+    "query": "إيه الحديث اللي بيقول وَقَالَ أَبُو مُوسَى دَعَا النَّبِيُّ صلى",
+    "category": "Colloquial",
+    "expected_hadith_number": 188
+  },
+  {
+    "id": "bk_large_1416",
+    "query": "عن أنس بن مالك حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Narrator",
+    "expected_hadith_number": 415
+  },
+  {
+    "id": "bk_large_1780",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 80
+  },
+  {
+    "id": "bk_large_2444",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 44
+  },
+  {
+    "id": "bk_large_0445",
+    "query": "الزُّرَقِيِّ، عَنْ أَبِي قَتَادَةَ السَّلَمِيِّ، أَنَّ رَسُولَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 444
+  },
+  {
+    "id": "bk_large_0157",
+    "query": "سُفْيَانُ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 157
+  },
+  {
+    "id": "bk_large_2651",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 251
+  },
+  {
+    "id": "bk_large_2379",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 678
+  },
+  {
+    "id": "bk_large_2834",
+    "query": "عايز حديث عن حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا ابْنُ أَبِي",
+    "category": "Colloquial",
+    "expected_hadith_number": 134
+  },
+  {
+    "id": "bk_large_1070",
+    "query": "حديث حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 70
+  },
+  {
+    "id": "bk_large_2615",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 215
+  },
+  {
+    "id": "bk_large_0114",
+    "query": "عَنِّي، وَلاَ يَنْبَغِي عِنْدِي التَّنَازُعُ ‏\"‏‏.‏ فَخَرَجَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 114
+  },
+  {
+    "id": "bk_large_1357",
+    "query": "حديث حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ،",
+    "category": "Narrator",
+    "expected_hadith_number": 357
+  },
+  {
+    "id": "bk_large_2728",
+    "query": "هو في حديث عن حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ",
+    "category": "Colloquial",
+    "expected_hadith_number": 28
+  },
+  {
+    "id": "bk_large_1638",
+    "query": "حديث حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 637
+  },
+  {
+    "id": "bk_large_2087",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 387
+  },
+  {
+    "id": "bk_large_1439",
+    "query": "عن جابر بن عبد الله حَدَّثَنَا مُحَمَّدُ بْنُ سِنَانٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 438
+  },
+  {
+    "id": "bk_large_1144",
+    "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا ابْنُ",
+    "category": "Narrator",
+    "expected_hadith_number": 144
+  },
+  {
+    "id": "bk_large_2937",
+    "query": "هو في حديث عن حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدٍ، قَالَ أَخْبَرَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 237
+  },
+  {
+    "id": "bk_large_1142",
+    "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Narrator",
+    "expected_hadith_number": 142
+  },
+  {
+    "id": "bk_large_1345",
+    "query": "عن عبد الله بن مسعود حَدَّثَنَا بِشْرُ بْنُ خَالِدٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 345
+  },
+  {
+    "id": "bk_large_1633",
+    "query": "عن ابن عمر حَدَّثَنَا مُسَدَّدٌ، قَالَ أَخْبَرَنَا يَحْيَى،",
+    "category": "Narrator",
+    "expected_hadith_number": 632
+  },
+  {
+    "id": "bk_large_0792",
+    "query": "حِينَ يَهْوِي، ثُمَّ يُكَبِّرُ حِينَ يَرْفَعُ رَأْسَهُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 789
+  },
+  {
+    "id": "bk_large_0097",
+    "query": "‏ \"‏ ثَلاَثَةٌ لَهُمْ أَجْرَانِ رَجُلٌ مِنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 97
+  },
+  {
+    "id": "bk_large_0914",
+    "query": "قَالَ أَخْبَرَنَا ابْنُ جُرَيْجٍ، قَالَ سَمِعْتُ نَافِعًا،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 911
+  },
+  {
+    "id": "bk_large_0933",
+    "query": "الْجُمُعَةِ فَقَالَ ‏\"‏ أَصَلَّيْتَ يَا فُلاَنُ ‏\"‏‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 930
+  },
+  {
+    "id": "bk_large_1251",
+    "query": "عن عائشة حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ،",
+    "category": "Narrator",
+    "expected_hadith_number": 251
+  },
+  {
+    "id": "bk_large_1433",
+    "query": "عن ابن عمر حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى،",
+    "category": "Narrator",
+    "expected_hadith_number": 432
+  },
+  {
+    "id": "bk_large_1886",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 186
+  },
+  {
+    "id": "bk_large_0818",
+    "query": "أَبُو النُّعْمَانِ، قَالَ حَدَّثَنَا حَمَّادٌ ـ وَهْوَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 815
+  },
+  {
+    "id": "bk_large_0912",
+    "query": "أَبِيهِ ـ عَنِ النَّبِيِّ صلى الله عليه",
+    "category": "Exact Quote",
+    "expected_hadith_number": 909
+  },
+  {
+    "id": "bk_large_1928",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 228
+  },
+  {
+    "id": "bk_large_0159",
+    "query": "أَخْبَرَهُ أَنَّهُ، رَأَى عُثْمَانَ بْنَ عَفَّانَ دَعَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 159
+  },
+  {
+    "id": "bk_large_1567",
+    "query": "عن عائشة حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 566
+  },
+  {
+    "id": "bk_large_0443",
+    "query": "فُضَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي حَازِمٍ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 442
+  },
+  {
+    "id": "bk_large_0653",
+    "query": "يَجِدُوا إِلاَّ أَنْ يَسْتَهِمُوا لاَسْتَهَمُوا عَلَيْهِ ‏\"‏‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 652
+  },
+  {
+    "id": "bk_large_2845",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 145
+  },
+  {
+    "id": "bk_large_1017",
+    "query": "حديث حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 17
+  },
+  {
+    "id": "bk_large_1687",
+    "query": "حديث حَدَّثَنَا مُعَاذُ بْنُ أَسَدٍ، أَخْبَرَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 686
+  },
+  {
+    "id": "bk_large_1361",
+    "query": "عن جابر بن عبد الله حَدَّثَنَا يَحْيَى بْنُ صَالِحٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 361
+  },
+  {
+    "id": "bk_large_0735",
+    "query": "وَإِذَا رَفَعَ فَارْفَعُوا، وَإِذَا قَالَ سَمِعَ اللَّهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 733
+  },
+  {
+    "id": "bk_large_0102",
+    "query": "حَازِمٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ ‏ \"‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 102
+  },
+  {
+    "id": "bk_large_1689",
+    "query": "عن عائشة حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 688
+  },
+  {
+    "id": "bk_large_0726",
+    "query": "شَيْئًا إِلاَّ أَنَّكُمْ لاَ تُقِيمُونَ الصُّفُوفَ‏.‏ وَقَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 724
+  },
+  {
+    "id": "bk_large_0666",
+    "query": "قُلْتُ لاَ‏.‏ قَالَ هُوَ عَلِيُّ بْنُ أَبِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 665
+  },
+  {
+    "id": "bk_large_0970",
+    "query": "وَأَنَا عِنْدَهُ، فَقَالَ كَيْفَ هُوَ فَقَالَ صَالِحٌ‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 967
+  },
+  {
+    "id": "bk_large_0634",
+    "query": "بْنُ عَوْنٍ، قَالَ حَدَّثَنَا أَبُو الْعُمَيْسِ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 633
+  },
+  {
+    "id": "bk_large_2543",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 143
+  },
+  {
+    "id": "bk_large_2935",
+    "query": "عايز حديث عن حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنِ",
+    "category": "Colloquial",
+    "expected_hadith_number": 235
+  },
+  {
+    "id": "bk_large_2294",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 593
+  },
+  {
+    "id": "bk_large_1449",
+    "query": "حديث حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Narrator",
+    "expected_hadith_number": 448
+  },
+  {
+    "id": "bk_large_0422",
+    "query": "أَنْتَ عَلَىَّ‏.‏ قَالَ ‏\"‏ لاَ ‏\"‏‏.‏ فَنَثَرَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 421
+  },
+  {
+    "id": "bk_large_1023",
+    "query": "عن عمر بن الخطاب حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدِ اللَّهِ،",
+    "category": "Narrator",
+    "expected_hadith_number": 23
+  },
+  {
+    "id": "bk_large_0861",
+    "query": "عليه وسلم قَالَ ‏ \"‏ الْغُسْلُ يَوْمَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 858
+  },
+  {
+    "id": "bk_large_1466",
+    "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 465
+  },
+  {
+    "id": "bk_large_0164",
+    "query": "صَلَّى رَكْعَتَيْنِ، لاَ يُحَدِّثُ فِيهِمَا نَفْسَهُ، غَفَرَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 164
+  },
+  {
+    "id": "bk_large_1494",
+    "query": "عن عبد الله بن عباس حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 493
+  },
+  {
+    "id": "bk_large_1263",
+    "query": "عن عائشة حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 263
+  },
+  {
+    "id": "bk_large_0172",
+    "query": "عليه وسلم قَالَ ‏ \"‏ إِذَا شَرِبَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 172
+  },
+  {
+    "id": "bk_large_0523",
+    "query": "الله عليه وسلم ثُمَّ صَلَّى فَصَلَّى رَسُولُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 522
+  },
+  {
+    "id": "bk_large_1761",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 61
+  },
+  {
+    "id": "bk_large_0607",
+    "query": "أَوْ يَضْرِبُوا نَاقُوسًا، فَأُمِرَ بِلاَلٌ أَنْ يَشْفَعَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 606
+  },
+  {
+    "id": "bk_large_2264",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 563
+  },
+  {
+    "id": "bk_large_2386",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 685
+  },
+  {
+    "id": "bk_large_1513",
+    "query": "عن عائشة حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى،",
+    "category": "Narrator",
+    "expected_hadith_number": 512
+  },
+  {
+    "id": "bk_large_0148",
+    "query": "بَيْتِ حَفْصَةَ لِبَعْضِ حَاجَتِي، فَرَأَيْتُ رَسُولَ اللَّهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 148
+  },
+  {
+    "id": "bk_large_2235",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 534
+  },
+  {
+    "id": "bk_large_0611",
+    "query": "قَالَ فَخَرَجْنَا إِلَى خَيْبَرَ فَانْتَهَيْنَا إِلَيْهِمْ لَيْلاً،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 610
+  },
+  {
+    "id": "bk_large_2720",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، قَالَ أَخْبَرَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 20
+  },
+  {
+    "id": "bk_large_2815",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا صَدَقَةُ، أَخْبَرَنَا ابْنُ عُيَيْنَةَ، عَنْ",
+    "category": "Colloquial",
+    "expected_hadith_number": 115
+  },
+  {
+    "id": "bk_large_0040",
+    "query": "الله عليه وسلم كَانَ أَوَّلَ مَا قَدِمَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 40
+  },
+  {
+    "id": "bk_large_2298",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 597
+  },
+  {
+    "id": "bk_large_1752",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 52
+  },
+  {
+    "id": "bk_large_2260",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 559
+  },
+  {
+    "id": "bk_large_1810",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 110
+  },
+  {
+    "id": "bk_large_2823",
+    "query": "هو في حديث عن حَدَّثَنَا عُثْمَانُ، قَالَ أَخْبَرَنَا جَرِيرٌ، عَنْ",
+    "category": "Colloquial",
+    "expected_hadith_number": 123
+  },
+  {
+    "id": "bk_large_1073",
+    "query": "عن عبد الله بن مسعود حَدَّثَنَا الْحُمَيْدِيُّ، قَالَ حَدَّثَنَا سُفْيَانُ،",
+    "category": "Narrator",
+    "expected_hadith_number": 73
+  },
+  {
+    "id": "bk_large_0536",
+    "query": "فَيْحِ جَهَنَّمَ، فَإِذَا اشْتَدَّ الْحَرُّ فَأَبْرِدُوا عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 535
+  },
+  {
+    "id": "bk_large_1367",
+    "query": "حديث حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 367
+  },
+  {
+    "id": "bk_large_0015",
+    "query": "عليه وسلم ح وَحَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 15
+  },
+  {
+    "id": "bk_large_0181",
+    "query": "زَيْدٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه",
+    "category": "Exact Quote",
+    "expected_hadith_number": 181
+  },
+  {
+    "id": "bk_large_1134",
+    "query": "عن ابن عمر حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا ابْنُ",
+    "category": "Narrator",
+    "expected_hadith_number": 134
+  },
+  {
+    "id": "bk_large_2742",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 42
+  },
+  {
+    "id": "bk_large_0379",
+    "query": "حَائِضٌ وَرُبَّمَا أَصَابَنِي ثَوْبُهُ إِذَا سَجَدَ‏.‏ قَالَتْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 379
+  },
+  {
+    "id": "bk_large_0209",
+    "query": "وَأَكَلْنَا، ثُمَّ قَامَ إِلَى الْمَغْرِبِ، فَمَضْمَضَ وَمَضْمَضْنَا،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 209
+  },
+  {
+    "id": "bk_large_1029",
+    "query": "عن ابن عباس حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 29
+  },
+  {
+    "id": "bk_large_2817",
+    "query": "هو في حديث عن حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 117
+  },
+  {
+    "id": "bk_large_2071",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 371
+  },
+  {
+    "id": "bk_large_1082",
+    "query": "عن عمر بن الخطاب حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 82
+  },
+  {
+    "id": "bk_large_2598",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 198
+  },
+  {
+    "id": "bk_large_0834",
+    "query": "‏ \"‏ إِنَّ اللَّهَ هُوَ السَّلاَمُ، فَإِذَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 831
+  },
+  {
+    "id": "bk_large_1405",
+    "query": "حديث حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى،",
+    "category": "Narrator",
+    "expected_hadith_number": 404
+  },
+  {
+    "id": "bk_large_0863",
+    "query": "إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ إِسْحَاقَ بْنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 860
+  },
+  {
+    "id": "bk_large_2478",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 78
+  },
+  {
+    "id": "bk_large_1155",
+    "query": "حديث حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدٍ الْمَكِّيُّ،",
+    "category": "Narrator",
+    "expected_hadith_number": 155
+  },
+  {
+    "id": "bk_large_1116",
+    "query": "عن عبد الله بن عمر حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 116
+  },
+  {
+    "id": "bk_large_2962",
+    "query": "هو في حديث عن حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا حَمَّادٌ، عَنْ",
+    "category": "Colloquial",
+    "expected_hadith_number": 262
+  },
+  {
+    "id": "bk_large_2851",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 151
+  },
+  {
+    "id": "bk_large_0439",
+    "query": "حَدَّثَنَا هُشَيْمٌ، قَالَ حَدَّثَنَا سَيَّارٌ ـ هُوَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 438
+  },
+  {
+    "id": "bk_large_0473",
+    "query": "\"‏ مَثْنَى مَثْنَى، فَإِذَا خَشِيَ الصُّبْحَ صَلَّى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 472
+  },
+  {
+    "id": "bk_large_2952",
+    "query": "هو في حديث عن حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 252
+  },
+  {
+    "id": "bk_large_0551",
+    "query": "شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي أَنَسُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 550
+  },
+  {
+    "id": "bk_large_0425",
+    "query": "عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، قَالَ حَدَّثَنَا إِبْرَاهِيمُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 424
+  },
+  {
+    "id": "bk_large_1227",
+    "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 227
+  },
+  {
+    "id": "bk_large_2272",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 571
+  },
+  {
+    "id": "bk_large_0033",
+    "query": "ثَلاَثٌ إِذَا حَدَّثَ كَذَبَ، وَإِذَا وَعَدَ أَخْلَفَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 33
+  },
+  {
+    "id": "bk_large_2167",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 466
+  },
+  {
+    "id": "bk_large_2506",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 106
+  },
+  {
+    "id": "bk_large_1240",
+    "query": "عن أبيه عن أبي إسحاق حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنِي أَبِي،",
+    "category": "Narrator",
+    "expected_hadith_number": 240
+  },
+  {
+    "id": "bk_large_2226",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 525
+  },
+  {
+    "id": "bk_large_2785",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا الْمَكِّيُّ بْنُ إِبْرَاهِيمَ، قَالَ أَخْبَرَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 85
+  },
+  {
+    "id": "bk_large_0647",
+    "query": "وسلم يَقُولُ ‏ \"‏ صَلاَةُ الْجَمَاعَةِ تَفْضُلُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 646
+  },
+  {
+    "id": "bk_large_1168",
+    "query": "عن عائشة حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 168
+  },
+  {
+    "id": "bk_large_1514",
+    "query": "عن عائشة حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 513
+  },
+  {
+    "id": "bk_large_1001",
+    "query": "عن عمر بن الخطاب حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ",
+    "category": "Narrator",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk_large_0282",
+    "query": "أُمِّ سَلَمَةَ أُمِّ الْمُؤْمِنِينَ، أَنَّهَا قَالَتْ جَاءَتْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 282
+  },
+  {
+    "id": "bk_large_1430",
+    "query": "حديث حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 429
+  },
+  {
+    "id": "bk_large_0543",
+    "query": "الرَّحْمَنِ، حَدَّثَنِي غَالِبٌ الْقَطَّانُ، عَنْ بَكْرِ بْنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 542
+  },
+  {
+    "id": "bk_large_2699",
+    "query": "كتاب الحيض",
+    "category": "Book Reference",
+    "expected_hadith_number": 299
+  },
+  {
+    "id": "bk_large_2073",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 373
+  },
+  {
+    "id": "bk_large_0874",
+    "query": "عَنْ إِسْحَاقَ، عَنْ أَنَسٍ ـ رضى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 871
+  },
+  {
+    "id": "bk_large_2203",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 502
+  },
+  {
+    "id": "bk_large_0301",
+    "query": "قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 301
+  },
+  {
+    "id": "bk_large_0410",
+    "query": "الرَّحْمَنِ، أَنَّ أَبَا هُرَيْرَةَ، وَأَبَا، سَعِيدٍ حَدَّثَاهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 409
+  },
+  {
+    "id": "bk_large_2307",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 606
+  },
+  {
+    "id": "bk_large_2545",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 145
+  },
+  {
+    "id": "bk_large_1878",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 178
+  },
+  {
+    "id": "bk_large_0039",
+    "query": "إِنَّ الدِّينَ يُسْرٌ، وَلَنْ يُشَادَّ الدِّينَ أَحَدٌ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 39
+  },
+  {
+    "id": "bk_large_0298",
+    "query": "قَالَتْ، بَيْنَا أَنَا مَعَ النَّبِيِّ، صلى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 298
+  },
+  {
+    "id": "bk_large_2656",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 256
+  },
+  {
+    "id": "bk_large_1873",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 173
+  },
+  {
+    "id": "bk_large_1229",
+    "query": "عن عائشة حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ",
+    "category": "Narrator",
+    "expected_hadith_number": 229
+  },
+  {
+    "id": "bk_large_2644",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 244
+  },
+  {
+    "id": "bk_large_0537",
+    "query": "فِي الصَّيْفِ، فَهُوَ أَشَدُّ مَا تَجِدُونَ مِنَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 536
+  },
+  {
+    "id": "bk_large_1622",
+    "query": "عن عبد الله بن مسعود حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 621
+  },
+  {
+    "id": "bk_large_1088",
+    "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ أَبُو",
+    "category": "Narrator",
+    "expected_hadith_number": 88
+  },
+  {
+    "id": "bk_large_0978",
+    "query": "عليه وسلم يَوْمَ فِطْرٍ أَوْ أَضْحَى، فَصَلَّى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 975
+  },
+  {
+    "id": "bk_large_1287",
+    "query": "عن عمر بن الخطاب حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا اللَّيْثُ،",
+    "category": "Narrator",
+    "expected_hadith_number": 287
+  },
+  {
+    "id": "bk_large_0837",
+    "query": "قَالَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم",
+    "category": "Exact Quote",
+    "expected_hadith_number": 834
+  },
+  {
+    "id": "bk_large_1069",
+    "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 69
+  },
+  {
+    "id": "bk_large_1296",
+    "query": "عن عائشة حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 296
+  },
+  {
+    "id": "bk_large_2142",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 441
+  },
+  {
+    "id": "bk_large_2316",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 615
+  },
+  {
+    "id": "bk_large_2874",
+    "query": "هو في حديث عن وَقَالَ أَحْمَدُ بْنُ شَبِيبٍ حَدَّثَنَا أَبِي،",
+    "category": "Colloquial",
+    "expected_hadith_number": 174
+  },
+  {
+    "id": "bk_large_1718",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 18
+  },
+  {
+    "id": "bk_large_0336",
+    "query": "بْنُ يَحْيَى، قَالَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 336
+  },
+  {
+    "id": "bk_large_2537",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 137
+  },
+  {
+    "id": "bk_large_0163",
+    "query": "بْنِ عَمْرٍو، قَالَ تَخَلَّفَ النَّبِيُّ صلى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 163
+  },
+  {
+    "id": "bk_large_2436",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 36
+  },
+  {
+    "id": "bk_large_2372",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 671
+  },
+  {
+    "id": "bk_large_1009",
+    "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ،",
+    "category": "Narrator",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk_large_2334",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 633
+  },
+  {
+    "id": "bk_large_0492",
+    "query": "عليه وسلم كَانَ يَنْزِلُ بِذِي طُوًى وَيَبِيتُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 491
+  },
+  {
+    "id": "bk_large_1654",
+    "query": "حديث حَدَّثَنَا قُتَيْبَةُ، عَنْ مَالِكٍ، عَنْ",
+    "category": "Narrator",
+    "expected_hadith_number": 653
+  },
+  {
+    "id": "bk_large_0964",
+    "query": "مَا بُويِعَ لَهُ إِنَّهُ لَمْ يَكُنْ يُؤَذَّنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 961
+  },
+  {
+    "id": "bk_large_0279",
+    "query": "أَيُّوبُ يَغْتَسِلُ عُرْيَانًا فَخَرَّ عَلَيْهِ جَرَادٌ مِنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 279
+  },
+  {
+    "id": "bk_large_2438",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 38
+  },
+  {
+    "id": "bk_large_0281",
+    "query": "الْجَنَابَةِ، فَغَسَلَ يَدَيْهِ ثُمَّ صَبَّ بِيَمِينِهِ عَلَى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 281
+  },
+  {
+    "id": "bk_large_0762",
+    "query": "قَالَ نَعَمْ‏.‏ قُلْنَا بِأَىِّ شَىْءٍ كُنْتُمْ تَعْرِفُونَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 760
+  },
+  {
+    "id": "bk_large_0329",
+    "query": "بْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 329
+  },
+  {
+    "id": "bk_large_2081",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 381
+  },
+  {
+    "id": "bk_large_0233",
+    "query": "حَمَّادُ بْنُ زَيْدٍ، عَنْ أَيُّوبَ، عَنْ أَبِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 233
+  },
+  {
+    "id": "bk_large_0645",
+    "query": "نَفْسِي بِيَدِهِ لَوْ يَعْلَمُ أَحَدُهُمْ أَنَّهُ يَجِدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 644
+  },
+  {
+    "id": "bk_large_2176",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 475
+  },
+  {
+    "id": "bk_large_2060",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 360
+  },
+  {
+    "id": "bk_large_1953",
+    "query": "حديث في كتاب الغسل كتاب الغسل",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 253
+  },
+  {
+    "id": "bk_large_2393",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 691
+  },
+  {
+    "id": "bk_large_0206",
+    "query": "كُنْتُ مَعَ النَّبِيِّ صلى الله عليه وسلم",
+    "category": "Exact Quote",
+    "expected_hadith_number": 206
+  },
+  {
+    "id": "bk_large_0235",
+    "query": "صلى الله عليه وسلم سُئِلَ عَنْ فَأْرَةٍ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 235
+  },
+  {
+    "id": "bk_large_1285",
+    "query": "حديث حَدَّثَنَا عَيَّاشٌ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Narrator",
+    "expected_hadith_number": 285
+  },
+  {
+    "id": "bk_large_0250",
+    "query": "عَائِشَةَ، قَالَتْ كُنْتُ أَغْتَسِلُ أَنَا وَالنَّبِيُّ، صلى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 250
+  },
+  {
+    "id": "bk_large_2221",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 520
+  },
+  {
+    "id": "bk_large_2373",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 672
+  },
+  {
+    "id": "bk_large_0240",
+    "query": "عَدَّ رَسُولُ اللَّهِ صلى الله عليه وسلم",
+    "category": "Exact Quote",
+    "expected_hadith_number": 240
+  },
+  {
+    "id": "bk_large_0892",
+    "query": "أَخْبَرَنَا سُفْيَانُ، عَنْ مَنْصُورٍ، وَحُصَيْنٍ، عَنْ أَبِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 889
+  },
+  {
+    "id": "bk_large_1216",
+    "query": "عن ابن عباس حَدَّثَنَا عُثْمَانُ، قَالَ حَدَّثَنَا جَرِيرٌ،",
+    "category": "Narrator",
+    "expected_hadith_number": 216
+  },
+  {
+    "id": "bk_large_0778",
+    "query": "فَذَكَرَ عِشْرِينَ سُورَةً مِنَ الْمُفَصَّلِ سُورَتَيْنِ فِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 775
+  },
+  {
+    "id": "bk_large_0635",
+    "query": "فَجَعَلْتُ أَتَتَبَّعُ فَاهُ هَا هُنَا وَهَا هُنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 634
+  },
+  {
+    "id": "bk_large_1994",
+    "query": "حديث في كتاب الغسل كتاب الغسل",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 294
+  },
+  {
+    "id": "bk_large_2277",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 576
+  },
+  {
+    "id": "bk_large_1733",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 33
+  },
+  {
+    "id": "bk_large_1169",
+    "query": "عن أنس بن مالك حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 169
+  },
+  {
+    "id": "bk_large_1864",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 164
+  },
+  {
+    "id": "bk_large_1087",
+    "query": "عن ابن عباس حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 87
+  },
+  {
+    "id": "bk_large_1600",
+    "query": "حديث حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى،",
+    "category": "Narrator",
+    "expected_hadith_number": 599
+  },
+  {
+    "id": "bk_large_0009",
+    "query": "بْنُ بِلاَلٍ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk_large_1553",
+    "query": "عن ابن عمر حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 552
+  },
+  {
+    "id": "bk_large_0675",
+    "query": "حَاجَتَهُ مِنْهُ، وَإِنْ أُقِيمَتِ الصَّلاَةُ ‏\"‏‏.‏ رَوَاهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 674
+  },
+  {
+    "id": "bk_large_0241",
+    "query": "سُفْيَانُ، عَنْ حُمَيْدٍ، عَنْ أَنَسٍ، قَالَ بَزَقَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 241
+  },
+  {
+    "id": "bk_large_1643",
+    "query": "عن عبد الله بن عمرو حَدَّثَنَا أَبُو مَعْمَرٍ عَبْدُ اللَّهِ",
+    "category": "Narrator",
+    "expected_hadith_number": 642
+  },
+  {
+    "id": "bk_large_0876",
+    "query": "النَّبِيِّ صلى الله عليه وسلم‏.‏ ‏ \"‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 873
+  },
+  {
+    "id": "bk_large_1972",
+    "query": "حديث في كتاب الغسل كتاب الغسل",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 272
+  },
+  {
+    "id": "bk_large_1990",
+    "query": "حديث في كتاب الغسل كتاب الغسل",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 290
+  },
+  {
+    "id": "bk_large_1665",
+    "query": "عن عائشة حَدَّثَنَا عُمَرُ بْنُ حَفْصِ بْنِ",
+    "category": "Narrator",
+    "expected_hadith_number": 664
+  },
+  {
+    "id": "bk_large_0682",
+    "query": "حِينَ وَضَحَ لَنَا، فَأَوْمَأَ النَّبِيُّ صلى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 681
+  },
+  {
+    "id": "bk_large_0969",
+    "query": "يَعُودُهُ فَقَالَ الْحَجَّاجُ لَوْ نَعْلَمُ مَنْ أَصَابَكَ‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 966
+  },
+  {
+    "id": "bk_large_0383",
+    "query": "وَبَيْنَ الْقِبْلَةِ عَلَى فِرَاشِ أَهْلِهِ، اعْتِرَاضَ الْجَنَازَةِ‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 383
+  },
+  {
+    "id": "bk_large_0061",
+    "query": "لاَ يَسْقُطُ وَرَقُهَا، وَإِنَّهَا مَثَلُ الْمُسْلِمِ، فَحَدِّثُونِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 61
+  },
+  {
+    "id": "bk_large_2215",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 514
+  },
+  {
+    "id": "bk_large_2672",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 272
+  },
+  {
+    "id": "bk_large_0208",
+    "query": "بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 208
+  },
+  {
+    "id": "bk_large_0402",
+    "query": "آيَةُ الْحِجَابِ، وَاجْتَمَعَ نِسَاءُ النَّبِيِّ صلى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 402
+  },
+  {
+    "id": "bk_large_2255",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 554
+  },
+  {
+    "id": "bk_large_1816",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 116
+  },
+  {
+    "id": "bk_large_0309",
+    "query": "أَنَّ عَائِشَةَ رَأَتْ مَاءَ الْعُصْفُرِ فَقَالَتْ كَأَنَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 309
+  },
+  {
+    "id": "bk_large_1024",
+    "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 24
+  },
+  {
+    "id": "bk_large_1895",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 195
+  },
+  {
+    "id": "bk_large_2760",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا أَبُو النُّعْمَانِ، عَارِمُ بْنُ الْفَضْلِ",
+    "category": "Colloquial",
+    "expected_hadith_number": 60
+  },
+  {
+    "id": "bk_large_0752",
+    "query": "مَا بَالُ أَقْوَامٍ يَرْفَعُونَ أَبْصَارَهُمْ إِلَى السَّمَاءِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 750
+  },
+  {
+    "id": "bk_large_2988",
+    "query": "هو في حديث عن حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 288
+  },
+  {
+    "id": "bk_large_0575",
+    "query": "بْنَ عَبْدِ اللَّهِ بْنِ قَيْسٍ أَخْبَرَهُ بِهَذَا‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 574
+  },
+  {
+    "id": "bk_large_1838",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 138
+  },
+  {
+    "id": "bk_large_2949",
+    "query": "عايز حديث عن حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 249
+  },
+  {
+    "id": "bk_large_2748",
+    "query": "عايز حديث عن حَدَّثَنَا مُحَمَّدُ بْنُ عَرْعَرَةَ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 48
+  },
+  {
+    "id": "bk_large_0785",
+    "query": "مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ سُمَىٍّ، مَوْلَى أَبِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 782
+  },
+  {
+    "id": "bk_large_1019",
+    "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 19
+  },
+  {
+    "id": "bk_large_0448",
+    "query": "ذِكْرُ بِنَاءِ الْمَسْجِدِ فَقَالَ كُنَّا نَحْمِلُ لَبِنَةً",
+    "category": "Exact Quote",
+    "expected_hadith_number": 447
+  },
+  {
+    "id": "bk_large_1390",
+    "query": "حديث أَخْبَرَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 390
+  },
+  {
+    "id": "bk_large_1650",
+    "query": "عن عبد الله بن عمر قَالَ شُعَيْبٌ وَحَدَّثَنِي نَافِعٌ، عَنْ",
+    "category": "Narrator",
+    "expected_hadith_number": 649
+  },
+  {
+    "id": "bk_large_0249",
+    "query": "فَرْجَهُ، وَمَا أَصَابَهُ مِنَ الأَذَى، ثُمَّ أَفَاضَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 249
+  },
+  {
+    "id": "bk_large_0404",
+    "query": "الْكَعْبَةَ فَاسْتَقْبِلُوهَا، وَكَانَتْ وُجُوهُهُمْ إِلَى الشَّأْمِ، فَاسْتَدَارُوا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 403
+  },
+  {
+    "id": "bk_large_2647",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 247
+  },
+  {
+    "id": "bk_large_2677",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 277
+  },
+  {
+    "id": "bk_large_0222",
+    "query": "عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 222
+  },
+  {
+    "id": "bk_large_1913",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 213
+  },
+  {
+    "id": "bk_large_1684",
+    "query": "عن عائشة حَدَّثَنَا زَكَرِيَّاءُ بْنُ يَحْيَى، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 683
+  },
+  {
+    "id": "bk_large_1735",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 35
+  },
+  {
+    "id": "bk_large_1452",
+    "query": "عن جابر بن عبد الله حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 451
+  },
+  {
+    "id": "bk_large_1766",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 66
+  },
+  {
+    "id": "bk_large_2700",
+    "query": "كتاب الحيض",
+    "category": "Book Reference",
+    "expected_hadith_number": 300
+  },
+  {
+    "id": "bk_large_0398",
+    "query": "عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، عَنْ عَطَاءٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 398
+  },
+  {
+    "id": "bk_large_0387",
+    "query": "الأَعْمَشِ، قَالَ سَمِعْتُ إِبْرَاهِيمَ، يُحَدِّثُ عَنْ هَمَّامِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 387
+  },
+  {
+    "id": "bk_large_0780",
+    "query": "عُمَيْرٍ، عَنْ أَبِي مَعْمَرٍ، قُلْتُ لِخَبَّابٍ أَكَانَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 777
+  },
+  {
+    "id": "bk_large_1668",
+    "query": "حديث حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ،",
+    "category": "Narrator",
+    "expected_hadith_number": 667
+  },
+  {
+    "id": "bk_large_1938",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 238
+  },
+  {
+    "id": "bk_large_0996",
+    "query": "وَهْبٍ، قَالَ أَخْبَرَنِي عَمْرٌو، أَنَّ عَبْدَ الرَّحْمَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 993
+  },
+  {
+    "id": "bk_large_1937",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 237
+  },
+  {
+    "id": "bk_large_2361",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 660
+  },
+  {
+    "id": "bk_large_2339",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 638
+  },
+  {
+    "id": "bk_large_0542",
+    "query": "ثُمَّ لَقِيتُهُ مَرَّةً فَقَالَ أَوْ ثُلُثِ اللَّيْلِ‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 541
+  },
+  {
+    "id": "bk_large_2792",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 92
+  },
+  {
+    "id": "bk_large_0878",
+    "query": "اللَّهِ صلى الله عليه وسلم إِذَا سَلَّمَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 875
+  },
+  {
+    "id": "bk_large_1989",
+    "query": "حديث في كتاب الغسل كتاب الغسل",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 289
+  },
+  {
+    "id": "bk_large_2741",
+    "query": "إيه الحديث اللي بيقول قَالَ مَالِكٌ أَخْبَرَنِي زَيْدُ بْنُ أَسْلَمَ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 41
+  },
+  {
+    "id": "bk_large_1141",
+    "query": "عن ابن عباس حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Narrator",
+    "expected_hadith_number": 141
+  },
+  {
+    "id": "bk_large_0975",
+    "query": "قَالَ حَدَّثَنَا عَبْدُ الْوَهَّابِ، قَالَ حَدَّثَنَا عُبَيْدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 972
+  },
+  {
+    "id": "bk_large_2106",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 405
+  },
+  {
+    "id": "bk_large_2770",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 70
+  },
+  {
+    "id": "bk_large_1354",
+    "query": "حديث حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى،",
+    "category": "Narrator",
+    "expected_hadith_number": 354
+  },
+  {
+    "id": "bk_large_0129",
+    "query": "ذُكِرَ لِي أَنَّ النَّبِيَّ صلى الله عليه",
+    "category": "Exact Quote",
+    "expected_hadith_number": 129
+  },
+  {
+    "id": "bk_large_0277",
+    "query": "بْنِ مُسْلِمٍ، عَنْ صَفِيَّةَ بِنْتِ شَيْبَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 277
+  },
+  {
+    "id": "bk_large_0938",
+    "query": "بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ أَبِي الزِّنَادِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 935
+  },
+  {
+    "id": "bk_large_0242",
+    "query": "عَنْ أَبِي سَلَمَةَ، عَنْ عَائِشَةَ، عَنِ النَّبِيِّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 242
+  },
+  {
+    "id": "bk_large_2585",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 185
+  },
+  {
+    "id": "bk_large_0291",
+    "query": "قَالَ ‏ \"‏ إِذَا جَلَسَ بَيْنَ شُعَبِهَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 291
+  },
+  {
+    "id": "bk_large_0030",
+    "query": "أَبَا ذَرٍّ أَعَيَّرْتَهُ بِأُمِّهِ إِنَّكَ امْرُؤٌ فِيكَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 30
+  },
+  {
+    "id": "bk_large_2972",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 272
+  },
+  {
+    "id": "bk_large_2411",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 11
+  },
+  {
+    "id": "bk_large_0943",
+    "query": "قَالَ سَمِعْتُ أَنَسًا، يَقُولُ كُنَّا نُبَكِّرُ إِلَى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 940
+  },
+  {
+    "id": "bk_large_2269",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 568
+  },
+  {
+    "id": "bk_large_2410",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 10
+  },
+  {
+    "id": "bk_large_0087",
+    "query": "مِنْ كُفَّارِ مُضَرَ، وَلاَ نَسْتَطِيعُ أَنْ نَأْتِيَكَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 87
+  },
+  {
+    "id": "bk_large_1385",
+    "query": "عن أنس بن مالك حَدَّثَنَا أَبُو الْوَلِيدِ، هِشَامُ بْنُ",
+    "category": "Narrator",
+    "expected_hadith_number": 385
+  },
+  {
+    "id": "bk_large_0263",
+    "query": "حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي بَكْرِ بْنِ حَفْصٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 263
+  },
+  {
+    "id": "bk_large_0921",
+    "query": "أَصْوَاتِ الْعِشَارِ حَتَّى نَزَلَ النَّبِيُّ صلى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 918
+  },
+  {
+    "id": "bk_large_1016",
+    "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 16
+  },
+  {
+    "id": "bk_large_0496",
+    "query": "أَنَّ النَّبِيَّ صلى الله عليه وسلم صَلَّى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 495
+  },
+  {
+    "id": "bk_large_1850",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 150
+  },
+  {
+    "id": "bk_large_2120",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 419
+  },
+  {
+    "id": "bk_large_1795",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 95
+  },
+  {
+    "id": "bk_large_1530",
+    "query": "حديث حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 529
+  },
+  {
+    "id": "bk_large_2976",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا أَبُو حَمْزَةَ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 276
+  },
+  {
+    "id": "bk_large_2752",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا زَكَرِيَّاءُ، عَنْ",
+    "category": "Colloquial",
+    "expected_hadith_number": 52
+  },
+  {
+    "id": "bk_large_1635",
+    "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 634
+  },
+  {
+    "id": "bk_large_1277",
+    "query": "عن عائشة حَدَّثَنَا خَلاَّدُ بْنُ يَحْيَى، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 277
+  },
+  {
+    "id": "bk_large_0824",
+    "query": "لَمْ أَرَكُمْ تَصْنَعُونَهُ، كَانَ إِذَا رَفَعَ رَأْسَهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 821
+  },
+  {
+    "id": "bk_large_2209",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 508
+  },
+  {
+    "id": "bk_large_0868",
+    "query": "عَنِ ابْنِ عُمَرَ عَنِ النَّبِيِّ صلى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 865
+  },
+  {
+    "id": "bk_large_1734",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 34
+  },
+  {
+    "id": "bk_large_2485",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 85
+  },
+  {
+    "id": "bk_large_2162",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 461
+  },
+  {
+    "id": "bk_large_1086",
+    "query": "عن عائشة حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 86
+  },
+  {
+    "id": "bk_large_0677",
+    "query": "بَيْتِهِ قَالَتْ كَانَ يَكُونُ فِي مِهْنَةِ أَهْلِهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 676
+  },
+  {
+    "id": "bk_large_2252",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 551
+  },
+  {
+    "id": "bk_large_1947",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 247
+  },
+  {
+    "id": "bk_large_2703",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 3
+  },
+  {
+    "id": "bk_large_0526",
+    "query": "يَحْفَظُ قَوْلَ رَسُولِ اللَّهِ صلى الله عليه",
+    "category": "Exact Quote",
+    "expected_hadith_number": 525
+  },
+  {
+    "id": "bk_large_0516",
+    "query": "يَقْطَعُهَا شَىْءٌ، أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ أَنَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 515
+  },
+  {
+    "id": "bk_large_2182",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 481
+  },
+  {
+    "id": "bk_large_0284",
+    "query": "فِي اللَّيْلَةِ الْوَاحِدَةِ، وَلَهُ يَوْمَئِذٍ تِسْعُ نِسْوَةٍ‏.‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 284
+  },
+  {
+    "id": "bk_large_1991",
+    "query": "حديث في كتاب الغسل كتاب الغسل",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 291
+  },
+  {
+    "id": "bk_large_0351",
+    "query": "حَدَّثَتْنَا أُمُّ عَطِيَّةَ، سَمِعْتُ النَّبِيَّ صلى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 351
+  },
+  {
+    "id": "bk_large_2946",
+    "query": "عايز حديث عن وَقَالَ عَفَّانُ حَدَّثَنَا صَخْرُ بْنُ جُوَيْرِيَةَ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 246
+  },
+  {
+    "id": "bk_large_2891",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا خَالِدُ بْنُ",
+    "category": "Colloquial",
+    "expected_hadith_number": 191
+  },
+  {
+    "id": "bk_large_0987",
+    "query": "عَنْ مُحَمَّدٍ، أَنَّ أَنَسَ بْنَ مَالِكٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 984
+  },
+  {
+    "id": "bk_large_0238",
+    "query": "شُعَيْبٌ، قَالَ أَخْبَرَنَا أَبُو الزِّنَادِ، أَنَّ عَبْدَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 238
+  },
+  {
+    "id": "bk_large_0981",
+    "query": "جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ سَمِعْتُهُ يَقُولُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 978
+  },
+  {
+    "id": "bk_large_1260",
+    "query": "عن ابن عباس حَدَّثَنَا الْحُمَيْدِيُّ، قَالَ حَدَّثَنَا سُفْيَانُ،",
+    "category": "Narrator",
+    "expected_hadith_number": 260
+  },
+  {
+    "id": "bk_large_1487",
+    "query": "عن ابن عمر وَأَنَّ ابْنَ عُمَرَ كَانَ يُصَلِّي",
+    "category": "Narrator",
+    "expected_hadith_number": 486
+  },
+  {
+    "id": "bk_large_0459",
+    "query": "قَبْرِهِ ‏\"‏‏.‏ ـ أَوْ قَالَ قَبْرِهَا ـ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 458
+  },
+  {
+    "id": "bk_large_0080",
+    "query": "عَبْدُ الْوَارِثِ، عَنْ أَبِي التَّيَّاحِ، عَنْ أَنَسٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 80
+  },
+  {
+    "id": "bk_large_2002",
+    "query": "حديث في كتاب الحيض كتاب الحيض",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 302
+  },
+  {
+    "id": "bk_large_1328",
+    "query": "عن عائشة حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 328
+  },
+  {
+    "id": "bk_large_2454",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 54
+  },
+  {
+    "id": "bk_large_0003",
+    "query": "‏\"‏ لَقَدْ خَشِيتُ عَلَى نَفْسِي ‏\"‏‏.‏ فَقَالَتْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3
+  },
+  {
+    "id": "bk_large_2173",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 472
+  },
+  {
+    "id": "bk_large_2210",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 509
+  },
+  {
+    "id": "bk_large_0662",
+    "query": "مَا صَلَّى فَقَالَ ‏ \"‏ صَلَّى النَّاسُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 661
+  },
+  {
+    "id": "bk_large_1532",
+    "query": "حديث حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 531
+  },
+  {
+    "id": "bk_large_2864",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 164
+  },
+  {
+    "id": "bk_large_2978",
+    "query": "هو في حديث عن حَدَّثَنَا إِسْحَاقُ بْنُ نَصْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 278
+  },
+  {
+    "id": "bk_large_2495",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 95
+  },
+  {
+    "id": "bk_large_2833",
+    "query": "ما هو الحديث الوارد في حَدَّثَنِي قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 133
+  },
+  {
+    "id": "bk_large_2618",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 218
+  },
+  {
+    "id": "bk_large_1223",
+    "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 223
+  },
+  {
+    "id": "bk_large_2562",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 162
+  },
+  {
+    "id": "bk_large_0436",
+    "query": "وَالنَّصَارَى اتَّخَذُوا قُبُورَ أَنْبِيَائِهِمْ مَسَاجِدَ ‏\"‏‏.‏ يُحَذِّرُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 435
+  },
+  {
+    "id": "bk_large_2080",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 380
+  },
+  {
+    "id": "bk_large_0732",
+    "query": "فُدَيْكٍ، قَالَ حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 730
+  },
+  {
+    "id": "bk_large_2051",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 351
+  },
+  {
+    "id": "bk_large_1079",
+    "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 79
+  },
+  {
+    "id": "bk_large_0014",
+    "query": "ـ رضى الله عنه ـ أَنَّ رَسُولَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 14
+  },
+  {
+    "id": "bk_large_1859",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 159
+  },
+  {
+    "id": "bk_large_0648",
+    "query": "عَلَيْهِ مَا دَامَ فِي مُصَلاَّهُ اللَّهُمَّ صَلِّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 647
+  },
+  {
+    "id": "bk_large_1781",
+    "query": "حديث في كتاب العلم كتاب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 81
+  },
+  {
+    "id": "bk_large_1203",
+    "query": "حديث حَدَّثَنَا عَمْرُو بْنُ خَالِدٍ الْحَرَّانِيُّ،",
+    "category": "Narrator",
+    "expected_hadith_number": 203
+  },
+  {
+    "id": "bk_large_2999",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا قَبِيصَةُ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ",
+    "category": "Colloquial",
+    "expected_hadith_number": 299
+  },
+  {
+    "id": "bk_large_2964",
+    "query": "هو في حديث عن حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 264
+  },
+  {
+    "id": "bk_large_2626",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 226
+  },
+  {
+    "id": "bk_large_1093",
+    "query": "عن أنس بن مالك حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 93
+  },
+  {
+    "id": "bk_large_2200",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 499
+  },
+  {
+    "id": "bk_large_2793",
+    "query": "عايز حديث عن حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 93
+  },
+  {
+    "id": "bk_large_0470",
+    "query": "ثُمَامَةُ بْنُ أُثَالٍ، فَرَبَطُوهُ بِسَارِيَةٍ مِنْ سَوَارِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 469
+  },
+  {
+    "id": "bk_large_2787",
+    "query": "عايز حديث عن حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 87
+  },
+  {
+    "id": "bk_large_0048",
+    "query": "وسلم قَالَ ‏ \"‏ سِبَابُ الْمُسْلِمِ فُسُوقٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 48
+  },
+  {
+    "id": "bk_large_2267",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 566
+  },
+  {
+    "id": "bk_large_1030",
+    "query": "حديث حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 30
+  },
+  {
+    "id": "bk_large_2168",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 467
+  },
+  {
+    "id": "bk_large_1918",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 218
+  },
+  {
+    "id": "bk_large_2441",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 41
+  },
+  {
+    "id": "bk_large_1564",
+    "query": "عن عبد الله بن عمرو حَدَّثَنَا أَبُو مَعْمَرٍ ـ هُوَ",
+    "category": "Narrator",
+    "expected_hadith_number": 563
+  },
+  {
+    "id": "bk_large_1577",
+    "query": "عن أنس بن مالك حَدَّثَنَا حَسَنُ بْنُ صَبَّاحٍ، سَمِعَ",
+    "category": "Narrator",
+    "expected_hadith_number": 576
+  },
+  {
+    "id": "bk_large_0261",
+    "query": "عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، أَخْبَرَنَا أَفْلَحُ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 261
+  },
+  {
+    "id": "bk_large_2443",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 43
+  },
+  {
+    "id": "bk_large_1730",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 30
+  },
+  {
+    "id": "bk_large_2788",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ أَبُو الْحَسَنِ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 88
+  },
+  {
+    "id": "bk_large_0656",
+    "query": "حُمَيْدٌ، عَنْ أَنَسٍ، قَالَ قَالَ النَّبِيُّ صلى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 655
+  },
+  {
+    "id": "bk_large_2571",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 171
+  },
+  {
+    "id": "bk_large_0627",
+    "query": "صَلاَةِ الْفَجْرِ بَعْدَ أَنْ يَسْتَبِينَ الْفَجْرُ، ثُمَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 626
+  },
+  {
+    "id": "bk_large_0450",
+    "query": "عَلَيْهِ، فَإِنَّ لِي غُلاَمًا نَجَّارًا قَالَ ‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 449
+  },
+  {
+    "id": "bk_large_0193",
+    "query": "وَالنِّسَاءُ يَتَوَضَّئُونَ فِي زَمَانِ رَسُولِ اللَّهِ صلى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 193
+  },
+  {
+    "id": "bk_large_0373",
+    "query": "شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ النَّبِيَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 373
+  },
+  {
+    "id": "bk_large_2022",
+    "query": "حديث في كتاب الحيض كتاب الحيض",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 322
+  },
+  {
+    "id": "bk_large_2088",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 388
+  },
+  {
+    "id": "bk_large_0567",
+    "query": "عليه وسلم لَيْلَةً بِالْعِشَاءِ، وَذَلِكَ قَبْلَ أَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 566
+  },
+  {
+    "id": "bk_large_0899",
+    "query": "قَبْلِنَا، وَأُوتِينَاهُ مِنْ بَعْدِهِمْ، فَهَذَا الْيَوْمُ الَّذِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 896
+  },
+  {
+    "id": "bk_large_1483",
+    "query": "عن أبو هريرة حَدَّثَنَا إِسْحَاقُ، قَالَ حَدَّثَنَا ابْنُ",
+    "category": "Narrator",
+    "expected_hadith_number": 482
+  },
+  {
+    "id": "bk_large_1636",
+    "query": "حديث حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 635
+  },
+  {
+    "id": "bk_large_2391",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 690
+  },
+  {
+    "id": "bk_large_1755",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 55
+  },
+  {
+    "id": "bk_large_2395",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 693
+  },
+  {
+    "id": "bk_large_1077",
+    "query": "حديث حَدَّثَنِي مُحَمَّدُ بْنُ يُوسُفَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 77
+  },
+  {
+    "id": "bk_large_2208",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 507
+  },
+  {
+    "id": "bk_large_2300",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 599
+  },
+  {
+    "id": "bk_large_1011",
+    "query": "عن أبي موسى رضى الله عنه حَدَّثَنَا سَعِيدُ بْنُ يَحْيَى بْنِ",
+    "category": "Narrator",
+    "expected_hadith_number": 11
+  },
+  {
+    "id": "bk_large_2994",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 294
+  },
+  {
+    "id": "bk_large_1085",
+    "query": "حديث حَدَّثَنَا الْمَكِّيُّ بْنُ إِبْرَاهِيمَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 85
+  },
+  {
+    "id": "bk_large_0586",
+    "query": "لاَ يَتَحَرَّى أَحَدُكُمْ فَيُصَلِّي عِنْدَ طُلُوعِ الشَّمْسِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 585
+  },
+  {
+    "id": "bk_large_1880",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 180
+  },
+  {
+    "id": "bk_large_2634",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 234
+  },
+  {
+    "id": "bk_large_1621",
+    "query": "عن عبد الله بن عمر حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 620
+  },
+  {
+    "id": "bk_large_2045",
+    "query": "حديث في كتاب التيمم كتاب التيمم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 345
+  },
+  {
+    "id": "bk_large_2685",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 285
+  },
+  {
+    "id": "bk_large_0871",
+    "query": "أَبِي كَثِيرٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 868
+  },
+  {
+    "id": "bk_large_1289",
+    "query": "حديث حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 289
+  },
+  {
+    "id": "bk_large_2324",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 623
+  },
+  {
+    "id": "bk_large_0865",
+    "query": "حَدَّثَنَا مَعْمَرٌ عَنِ الزُّهْرِيِّ عَنْ عُرْوَةَ عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 862
+  },
+  {
+    "id": "bk_large_0272",
+    "query": "عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 272
+  },
+  {
+    "id": "bk_large_1097",
+    "query": "حديث أَخْبَرَنَا مُحَمَّدٌ ـ هُوَ ابْنُ",
+    "category": "Narrator",
+    "expected_hadith_number": 97
+  },
+  {
+    "id": "bk_large_1644",
+    "query": "عن أنس بن مالك حَدَّثَنَا عَيَّاشُ بْنُ الْوَلِيدِ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 643
+  },
+  {
+    "id": "bk_large_1293",
+    "query": "حديث حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Narrator",
+    "expected_hadith_number": 293
+  },
+  {
+    "id": "bk_large_0132",
+    "query": "مَذَّاءً فَأَمَرْتُ الْمِقْدَادَ أَنْ يَسْأَلَ النَّبِيَّ صلى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 132
+  },
+  {
+    "id": "bk_large_0939",
+    "query": "حَتَّى مَا بَقِيَ مَعَ النَّبِيِّ صلى الله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 936
+  },
+  {
+    "id": "bk_large_0230",
+    "query": "ح وَحَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا عَبْدُ الْوَاحِدِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 230
+  },
+  {
+    "id": "bk_large_1329",
+    "query": "عن ابن عباس حَدَّثَنَا مُعَلَّى بْنُ أَسَدٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 329
+  },
+  {
+    "id": "bk_large_2805",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الْوَهَّابِ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 105
+  },
+  {
+    "id": "bk_large_0900",
+    "query": "كُلِّ مُسْلِمٍ أَنْ يَغْتَسِلَ فِي كُلِّ سَبْعَةِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 897
+  },
+  {
+    "id": "bk_large_2282",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 581
+  },
+  {
+    "id": "bk_large_2819",
+    "query": "هو في حديث عن حَدَّثَنَا أَحْمَدُ بْنُ أَبِي بَكْرٍ أَبُو",
+    "category": "Colloquial",
+    "expected_hadith_number": 119
+  },
+  {
+    "id": "bk_large_2622",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 222
+  },
+  {
+    "id": "bk_large_1106",
+    "query": "حديث حَدَّثَنَا عَلِيُّ بْنُ الْجَعْدِ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 106
+  },
+  {
+    "id": "bk_large_1555",
+    "query": "حديث حَدَّثَنَا الْحُمَيْدِيُّ، قَالَ حَدَّثَنَا مَرْوَانُ",
+    "category": "Narrator",
+    "expected_hadith_number": 554
+  },
+  {
+    "id": "bk_large_1894",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 194
+  },
+  {
+    "id": "bk_large_0670",
+    "query": "عَنْ يَحْيَى، عَنْ أَبِي سَلَمَةَ، قَالَ سَأَلْتُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 669
+  },
+  {
+    "id": "bk_large_1003",
+    "query": "عن عائشة حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 3
+  },
+  {
+    "id": "bk_large_2188",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 487
+  },
+  {
+    "id": "bk_large_0701",
+    "query": "عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ بِتُّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 699
+  },
+  {
+    "id": "bk_large_2601",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 201
+  },
+  {
+    "id": "bk_large_2496",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 96
+  },
+  {
+    "id": "bk_large_0293",
+    "query": "الْمَرْأَةَ مِنْهُ، ثُمَّ يَتَوَضَّأُ وَيُصَلِّي ‏\"‏‏.‏ قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 293
+  },
+  {
+    "id": "bk_large_2655",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 255
+  },
+  {
+    "id": "bk_large_2800",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 100
+  },
+  {
+    "id": "bk_large_2875",
+    "query": "عايز حديث عن حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 175
+  },
+  {
+    "id": "bk_large_1094",
+    "query": "حديث حَدَّثَنَا عَبْدَةُ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Narrator",
+    "expected_hadith_number": 94
+  },
+  {
+    "id": "bk_large_2746",
+    "query": "هو في حديث عن حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكُ بْنُ",
+    "category": "Colloquial",
+    "expected_hadith_number": 46
+  },
+  {
+    "id": "bk_large_0859",
+    "query": "عَنْ عَبْدِ الْعَزِيزِ، قَالَ سَأَلَ رَجُلٌ أَنَسًا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 856
+  },
+  {
+    "id": "bk_large_1456",
+    "query": "عن عائشة حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ",
+    "category": "Narrator",
+    "expected_hadith_number": 455
+  },
+  {
+    "id": "bk_large_1517",
+    "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 516
+  },
+  {
+    "id": "bk_large_0667",
+    "query": "نَافِعٍ، أَنَّ ابْنَ عُمَرَ، أَذَّنَ بِالصَّلاَةِ فِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 666
+  },
+  {
+    "id": "bk_large_1495",
+    "query": "عن ابن عمر حَدَّثَنَا إِسْحَاقُ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Narrator",
+    "expected_hadith_number": 494
+  },
+  {
+    "id": "bk_large_2604",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 204
+  },
+  {
+    "id": "bk_large_1858",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 158
+  },
+  {
+    "id": "bk_large_2963",
+    "query": "عايز حديث عن حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 263
+  },
+  {
+    "id": "bk_large_2957",
+    "query": "هو في حديث عن حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا عَبْدُ الْوَاحِدِ،",
+    "category": "Colloquial",
+    "expected_hadith_number": 257
+  },
+  {
+    "id": "bk_large_0414",
+    "query": "النَّبِيُّ صلى الله عليه وسلم ‏ \"‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 413
+  },
+  {
+    "id": "bk_large_0954",
+    "query": "سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَخْطُبُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 951
+  },
+  {
+    "id": "bk_large_0327",
+    "query": "عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ صلى الله عليه",
+    "category": "Exact Quote",
+    "expected_hadith_number": 327
+  },
+  {
+    "id": "bk_large_1186",
+    "query": "حديث حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا وُهَيْبٌ،",
+    "category": "Narrator",
+    "expected_hadith_number": 186
+  },
+  {
+    "id": "bk_large_0934",
+    "query": "سُفْيَانُ، عَنْ عَمْرٍو، سَمِعَ جَابِرًا، قَالَ دَخَلَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 931
+  },
+  {
+    "id": "bk_large_2709",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk_large_0188",
+    "query": "الله عليه وسلم بِقَدَحٍ فِيهِ مَاءٌ، فَغَسَلَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 188
+  },
+  {
+    "id": "bk_large_0285",
+    "query": "‏\"‏ فَقُلْتُ لَهُ‏.‏ فَقَالَ ‏\"‏ سُبْحَانَ اللَّهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 285
+  },
+  {
+    "id": "bk_large_2886",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا وُهَيْبٌ، عَنْ",
+    "category": "Colloquial",
+    "expected_hadith_number": 186
+  },
+  {
+    "id": "bk_large_0788",
+    "query": "مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 785
+  },
+  {
+    "id": "bk_large_2365",
+    "query": "حديث في كتاب الأذان كتاب الأذان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 664
+  },
+  {
+    "id": "bk_large_1482",
+    "query": "حديث حَدَّثَنَا خَلاَّدُ بْنُ يَحْيَى، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 481
+  },
+  {
+    "id": "bk_large_2534",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 134
+  },
+  {
+    "id": "bk_large_2575",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 175
+  },
+  {
+    "id": "bk_large_1201",
+    "query": "حديث حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 201
+  },
+  {
+    "id": "bk_large_2262",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 561
+  },
+  {
+    "id": "bk_large_0323",
+    "query": "سَلَمَةَ، قَالَتْ بَيْنَا أَنَا مَعَ النَّبِيِّ، صلى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 323
+  },
+  {
+    "id": "bk_large_1551",
+    "query": "عن أنس بن مالك حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 550
+  },
+  {
+    "id": "bk_large_0512",
+    "query": "وَعَنِ الأَعْمَشِ عَنْ إِبْرَاهِيمَ عَنِ الأَسْوَدِ عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 511
+  },
+  {
+    "id": "bk_large_2197",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 496
+  },
+  {
+    "id": "bk_large_1882",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 182
+  },
+  {
+    "id": "bk_large_0178",
+    "query": "الأَسْوَدِ فَسَأَلَهُ فَقَالَ ‏ \"‏ فِيهِ الْوُضُوءُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 178
+  },
+  {
+    "id": "bk_large_1084",
+    "query": "عن ابن عباس حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 84
+  },
+  {
+    "id": "bk_large_2473",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 73
+  },
+  {
+    "id": "bk_large_1409",
+    "query": "حديث حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 408
+  },
+  {
+    "id": "bk_large_1471",
+    "query": "عن عمر بن الخطاب حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Narrator",
+    "expected_hadith_number": 470
+  },
+  {
+    "id": "bk_large_0397",
+    "query": "هَذَا رَسُولُ اللَّهِ صلى الله عليه وسلم",
+    "category": "Exact Quote",
+    "expected_hadith_number": 397
+  },
+  {
+    "id": "bk_large_1557",
+    "query": "حديث حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا",
+    "category": "Narrator",
+    "expected_hadith_number": 556
+  },
+  {
+    "id": "bk_large_0380",
+    "query": "لَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم",
+    "category": "Exact Quote",
+    "expected_hadith_number": 380
+  },
+  {
+    "id": "bk_large_0419",
+    "query": "الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 418
+  },
+  {
+    "id": "bk_large_1379",
+    "query": "حديث حَدَّثَنَا مُسَدَّدٌ، عَنْ خَالِدٍ، قَالَ",
+    "category": "Narrator",
+    "expected_hadith_number": 379
+  },
+  {
+    "id": "bk_large_0882",
+    "query": "‏ \"‏ غُسْلُ يَوْمِ الْجُمُعَةِ وَاجِبٌ عَلَى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 879
+  },
+  {
+    "id": "bk_large_0637",
+    "query": "سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 636
+  },
+  {
+    "id": "bk_large_1139",
+    "query": "عن ابن عباس حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ،",
+    "category": "Narrator",
+    "expected_hadith_number": 139
+  },
+  {
+    "id": "bk_large_1394",
+    "query": "عن عطاء حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Narrator",
+    "expected_hadith_number": 394
+  },
+  {
+    "id": "bk_large_1732",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 32
+  },
+  {
+    "id": "bk_large_2860",
+    "query": "هو في حديث عن وَعَنْ إِبْرَاهِيمَ، قَالَ قَالَ صَالِحُ بْنُ",
+    "category": "Colloquial",
+    "expected_hadith_number": 160
+  },
+  {
+    "id": "bk_large_0654",
+    "query": "لاَسْتَهَمُوا عَلَيْهِ ‏\"‏‏.‏ ‏\"‏ وَلَوْ يَعْلَمُونَ مَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 653
+  },
+  {
+    "id": "bk_large_0027",
+    "query": "إِلَىَّ فَقُلْتُ يَا رَسُولَ اللَّهِ مَا لَكَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 27
+  },
+  {
+    "id": "bk_large_1140",
+    "query": "عن ابن عباس حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ،",
+    "category": "Narrator",
+    "expected_hadith_number": 140
+  },
+  {
+    "id": "bk_large_2414",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 14
+  },
+  {
+    "id": "bk_large_1840",
+    "query": "حديث في كتاب الوضوء كتاب الوضوء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 140
+  },
+  {
+    "id": "bk_large_0903",
+    "query": "تَشْهَدُ صَلاَةَ الصُّبْحِ وَالْعِشَاءِ فِي الْجَمَاعَةِ فِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 900
+  },
+  {
+    "id": "bk_large_1719",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 19
+  },
+  {
+    "id": "bk_large_2233",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 532
+  },
+  {
+    "id": "bk_large_2873",
+    "query": "عايز حديث عن حَدَّثَنَا إِسْحَاقُ، أَخْبَرَنَا عَبْدُ الصَّمَدِ، حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 173
+  },
+  {
+    "id": "bk_large_2662",
+    "query": "كتاب الغسل",
+    "category": "Book Reference",
+    "expected_hadith_number": 262
+  },
+  {
+    "id": "bk_large_2933",
+    "query": "إيه الحديث اللي بيقول حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Colloquial",
+    "expected_hadith_number": 233
+  },
+  {
+    "id": "bk_large_0815",
+    "query": "النَّبِيُّ صلى الله عليه وسلم ‏ \"‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 812
+  },
+  {
+    "id": "bk_large_2299",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 598
+  },
+  {
+    "id": "bk_large_0109",
+    "query": "بْنُ أَبِي عُبَيْدٍ، عَنْ سَلَمَةَ، قَالَ سَمِعْتُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 109
+  },
+  {
+    "id": "bk_large_2466",
+    "query": "كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 66
+  },
+  {
+    "id": "bk_large_2070",
+    "query": "حديث في كتاب الصلاة كتاب الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 370
+  },
+  {
+    "id": "bk_large_0953",
+    "query": "أَنَّ مُحَمَّدَ بْنَ عَبْدِ الرَّحْمَنِ الأَسَدِيَّ، حَدَّثَهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 950
+  },
+  {
+    "id": "bk_large_0896",
+    "query": "عُمَرَ ـ رضى الله عنهما ـ أَنَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 893
+  },
+  {
+    "id": "bk_large_0384",
+    "query": "حَدَّثَنَا اللَّيْثُ، عَنْ يَزِيدَ، عَنْ عِرَاكٍ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 384
+  },
+  {
+    "id": "bk_large_0123",
+    "query": "قَاتَلَ لِتَكُونَ كَلِمَةُ اللَّهِ هِيَ الْعُلْيَا فَهُوَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 123
+  },
+  {
+    "id": "bk_large_0131",
+    "query": "اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏",
+    "category": "Exact Quote",
+    "expected_hadith_number": 131
+  },
+  {
+    "id": "bk_large_1729",
+    "query": "حديث في كتاب الإيمان كتاب الإيمان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 29
+  },
+  {
+    "id": "bk_large_2419",
+    "query": "كتاب الإيمان",
+    "category": "Book Reference",
+    "expected_hadith_number": 19
+  },
+  {
+    "id": "bk_large_0357",
+    "query": "اللَّهِ صلى الله عليه وسلم عَامَ الْفَتْحِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 357
+  },
+  {
+    "id": "bk_large_2234",
+    "query": "حديث في كتاب مواقيت الصلاة كتاب مواقيت الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 533
+  },
+  {
+    "id": "bk_large_2772",
+    "query": "ما هو الحديث الوارد في حَدَّثَنَا عَلِيٌّ، حَدَّثَنَا سُفْيَانُ، قَالَ قَالَ",
+    "category": "Colloquial",
+    "expected_hadith_number": 72
+  },
+  {
+    "id": "bk_large_0420",
+    "query": "صَلاَةً ثُمَّ رَقِيَ الْمِنْبَرَ، فَقَالَ فِي الصَّلاَةِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 419
+  },
+  {
+    "id": "bk_large_0572",
+    "query": "نَافِعٌ، قَالَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عُمَرَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 571
+  },
+  {
+    "id": "bk_large_0915",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 912
+  },
+  {
+    "id": "bk_large_1004",
+    "query": "عن جابر بن عبد الله قَالَ ابْنُ شِهَابٍ وَأَخْبَرَنِي أَبُو",
+    "category": "Narrator",
+    "expected_hadith_number": 4
+  },
+  {
+    "id": "bk_large_1127",
+    "query": "حديث حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى",
+    "category": "Narrator",
+    "expected_hadith_number": 127
+  },
+  {
+    "id": "bk_large_0103",
+    "query": "تَعْرِفُهُ إِلاَّ رَاجَعَتْ فِيهِ حَتَّى تَعْرِفَهُ، وَأَنَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 103
+  },
+  {
+    "id": "bk_large_0457",
+    "query": "قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ يَحْيَى، عَنْ عَمْرَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 456
+  },
+  {
+    "id": "bk_large_2620",
+    "query": "كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 220
+  }
+]

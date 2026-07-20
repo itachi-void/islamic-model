@@ -358,22 +358,48 @@ def evaluate_tafsir_collection(benchmarks: List[dict], top_k: int):
     }
 
 
+def get_split_benchmark_file(collection: str, split: str = "all") -> str:
+    if split == "all":
+        return get_benchmark_file(collection)
+
+    col_map = {
+        "bukhari": os.path.join("data", "bukhari", "benchmarks", f"bukhari_{split}.json"),
+        "quran": os.path.join("data", "quran", "benchmarks", f"quran_{split}.json"),
+        "muslim": os.path.join("data", "muslim", "benchmarks", f"muslim_{split}.json"),
+        "tafsir": os.path.join("data", "tafsir", "benchmarks", f"tafsir_{split}.json"),
+    }
+    path = col_map.get(collection, "")
+    if os.path.exists(path):
+        return path
+    return get_benchmark_file(collection)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Unified Evaluation CLI")
-    parser.add_argument("--collection", type=str, required=True, choices=["quran", "bukhari", "muslim", "tafsir"])
-    parser.add_argument("--benchmark_file", type=str, default=None, help="Custom benchmark file path (e.g. data/evaluation_bukhari_3000.json)")
+    parser.add_argument("--collection", type=str, default="bukhari", choices=["quran", "bukhari", "muslim", "tafsir"])
+    parser.add_argument("--split", type=str, default="all", choices=["all", "train", "dev", "test"], help="Data split to evaluate")
+    parser.add_argument("--benchmark_file", type=str, default=None, help="Custom benchmark file path")
     parser.add_argument("--top_k", type=int, default=5, help="Top-K candidates limit")
-    parser.add_argument("--debug", action="store_true", help="Print per-document score breakdown (Semantic / BM25 / Metadata / Final)")
+    parser.add_argument("--debug", action="store_true", help="Print per-document score breakdown")
+    parser.add_argument("--dashboard", action="store_true", help="Print experiment history dashboard")
     args = parser.parse_args()
 
+    if args.dashboard:
+        from backend.eval.experiment_tracker import print_experiment_dashboard
+        print_experiment_dashboard(args.collection)
+        return
+
     collection = args.collection.lower()
-    file_path = args.benchmark_file if args.benchmark_file and os.path.exists(args.benchmark_file) else get_benchmark_file(collection)
+    if args.benchmark_file and os.path.exists(args.benchmark_file):
+        file_path = args.benchmark_file
+    else:
+        file_path = get_split_benchmark_file(collection, args.split)
 
     with open(file_path, "r", encoding="utf-8") as f:
         benchmarks = json.load(f)
 
     print("=" * 70)
-    print(f"UNIFIED EVALUATION BENCHMARK: [{collection.upper()}]")
+    print(f"UNIFIED EVALUATION BENCHMARK: [{collection.upper()}] (Split: {args.split.upper()})")
     print(f"Benchmark File : {file_path}")
     print(f"Total Cases    : {len(benchmarks)}")
     print("=" * 70)
@@ -402,6 +428,16 @@ def main():
         print(f"  - {cat:<24} | Total: {stats['total']:<3} | Hits@5: {h5:.1f}% | MRR: {mrr:.4f}")
 
     print("\n" + "=" * 70)
+
+    # Auto-log experiment to dashboard
+    from backend.eval.experiment_tracker import log_experiment
+    rec = log_experiment(
+        collection=collection,
+        split_type=args.split,
+        metrics=metrics,
+        notes=f"Evaluated on split '{args.split}' from {os.path.basename(file_path)}"
+    )
+    print(f"[EXPERIMENT LOGGED]: Run ID {rec['run_id']} saved to data/experiments/experiment_history.json")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,28 @@
+[
+  {
+    "run_id": "run_001",
+    "timestamp": "2026-07-21 00:58:50",
+    "collection": "bukhari",
+    "split_type": "dev",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 29.52,
+    "hits_5": 58.1,
+    "mrr": 0.4162,
+    "avg_latency_ms": 667.79,
+    "total_queries": 105,
+    "notes": "Evaluated on split 'dev' from bukhari_dev.json"
+  },
+  {
+    "run_id": "run_002",
+    "timestamp": "2026-07-21 01:00:13",
+    "collection": "bukhari",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 28.57,
+    "hits_5": 60.95,
+    "mrr": 0.4179,
+    "avg_latency_ms": 637.21,
+    "total_queries": 105,
+    "notes": "Evaluated on split 'test' from bukhari_test.json"
+  }
+]
