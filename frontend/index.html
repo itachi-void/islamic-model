@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المحرك الإسلامي الذكي | القرآن الكريم وصحيح البخاري</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-area">
+                <div class="logo-icon">✨</div>
+                <div>
+                    <h1>المحرك الإسلامي الموثوق</h1>
+                    <p class="subtitle">بحث موثق وإجابات بالذكاء الاصطناعي مدعومة بالأدلة الشرعية</p>
+                </div>
+            </div>
+            <div class="header-badges">
+                <span class="badge badge-quran">📖 القرآن الكريم</span>
+                <span class="badge badge-bukhari">📚 صحيح البخاري</span>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+            <button class="tab-btn active" id="tab-chat" onclick="switchTab('chat')">
+                💬 المحادثة المباشرة (Live Stream AI)
+            </button>
+            <button class="tab-btn" id="tab-search" onclick="switchTab('search')">
+                🔍 البحث الفوري في المصادر
+            </button>
+        </nav>
+
+        <!-- Domain Router / Options Bar -->
+        <div class="domain-selector">
+            <div class="selector-row">
+                <span class="domain-label">المصدر المستهدف:</span>
+                <div class="pills-group">
+                    <button class="pill-btn active" data-domain="hybrid" onclick="selectDomain(this, 'hybrid')">
+                        🌟 هجين (توجيه ذكي)
+                    </button>
+                    <button class="pill-btn" data-domain="quran" onclick="selectDomain(this, 'quran')">
+                        📖 القرآن الكريم
+                    </button>
+                    <button class="pill-btn" data-domain="hadith" onclick="selectDomain(this, 'hadith')">
+                        📚 صحيح البخاري
+                    </button>
+                </div>
+            </div>
+
+            <div class="options-row">
+                <label class="toggle-label">
+                    <input type="checkbox" id="toggle-sanad" onchange="toggleSanadDisplay(this.checked)">
+                    <span>إظهار سند الحديث الشرعي 📜</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Chat View -->
+        <main class="main-content" id="view-chat">
+            <div class="chat-history" id="chat-history">
+                <div class="message assistant-message welcome-msg">
+                    <div class="msg-avatar">🤖</div>
+                    <div class="msg-body">
+                        <p>السلام عليكم ورحمة الله وبركاته!</p>
+                        <p>أنا مساعدك الإسلامي الموثوق. يمكنك وسؤالي عن أي مسألة، وسأجيبك بث حي مباشر بالأدلة الشرعية بين قوسين [1]، [2].</p>
+                        <div class="sample-queries">
+                            <span onclick="sendSampleQuery('إنما الأعمال بالنيات')">💡 إنما الأعمال بالنيات</span>
+                            <span onclick="sendSampleQuery('قال الله تعالى عن الصبر')">💡 قال الله تعالى عن الصبر</span>
+                            <span onclick="sendSampleQuery('بني الإسلام على خمس')">💡 بني الإسلام على خمس</span>
+                            <span onclick="sendSampleQuery('آية الكرسي')">💡 آية الكرسي</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Box -->
+            <form class="input-form" onsubmit="handleChatSubmit(event)">
+                <input type="text" id="chat-input" placeholder="اسأل عن آية أو حديث أو موضوع شرعي..." autocomplete="off">
+                <button type="submit" id="chat-send-btn">إرسال 🚀</button>
+            </form>
+        </main>
+
+        <!-- Search View (Hidden by default) -->
+        <main class="main-content hidden" id="view-search">
+            <form class="input-form" onsubmit="handleSearchSubmit(event)">
+                <input type="text" id="search-input" placeholder="ابحث في آيات القرآن الكريم أو أحاديث البخاري..." autocomplete="off">
+                <button type="submit">بحث 🔍</button>
+            </form>
+
+            <div class="search-results-list" id="search-results">
+                <div class="placeholder-text">أدخل كلمة البحث للبحث الفوري في نصوص القرآن الكريم وصحيح البخاري.</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

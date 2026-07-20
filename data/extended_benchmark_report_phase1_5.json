@@ -1,0 +1,901 @@
+{
+  "elapsed_seconds": 32.95,
+  "avg_latency_ms": 732.22,
+  "overall_metrics": {
+    "total_queries": 45,
+    "in_domain_queries": 40,
+    "hits_at_1": 0.575,
+    "hits_at_5": 0.675,
+    "mrr": 0.624
+  },
+  "category_breakdown": {
+    "Colloquial": {
+      "total_queries": 10,
+      "hits_at_1": 0.5,
+      "hits_at_5": 0.6,
+      "mrr": 0.5333
+    },
+    "Typos": {
+      "total_queries": 10,
+      "hits_at_1": 0.9,
+      "hits_at_5": 0.9,
+      "mrr": 0.9125
+    },
+    "Topics": {
+      "total_queries": 10,
+      "hits_at_1": 0.5,
+      "hits_at_5": 0.6,
+      "mrr": 0.55
+    },
+    "Prophets": {
+      "total_queries": 5,
+      "hits_at_1": 0.0,
+      "hits_at_5": 0.4,
+      "mrr": 0.2
+    },
+    "Stories": {
+      "total_queries": 5,
+      "hits_at_1": 0.8,
+      "hits_at_5": 0.8,
+      "mrr": 0.8
+    },
+    "Out-of-domain": {
+      "total_queries": 0,
+      "hits_at_1": 0.0,
+      "hits_at_5": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "eval_details": [
+    {
+      "id": "ext_001",
+      "category": "Colloquial",
+      "question": "عايز آية بتتكلم عن الصبر والفرج",
+      "expected": [
+        "3:200",
+        "65:3",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "113:1",
+        "114:1",
+        "2:45",
+        "2:37",
+        "51:37"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_002",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن بر الوالدين والوالدين إحسانا",
+      "expected": [
+        "2:83",
+        "46:15",
+        "17:23"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "46:15",
+        "114:1",
+        "31:14",
+        "112:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_003",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا",
+      "expected": [
+        "94:6",
+        "94:5"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "23:2",
+        "51:37",
+        "51:20"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_004",
+      "category": "Colloquial",
+      "question": "عايز الآية اللي بتقول الله لا إله إلا هو الحي القيوم",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "3:2",
+        "2:255",
+        "3:18",
+        "112:1",
+        "59:22"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_005",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار",
+      "expected": [
+        "3:135",
+        "3:17",
+        "4:110"
+      ],
+      "retrieved_top_5": [
+        "4:110",
+        "12:98",
+        "2:263",
+        "5:74",
+        "38:66"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_006",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها لا يكلف الله نفسا إلا وسعها",
+      "expected": [
+        "2:286"
+      ],
+      "retrieved_top_5": [
+        "2:286",
+        "2:255",
+        "3:2",
+        "2:233",
+        "6:152"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_007",
+      "category": "Colloquial",
+      "question": "عايز آية تحث على الإنفاق والصدقة",
+      "expected": [
+        "2:267",
+        "2:261",
+        "2:274"
+      ],
+      "retrieved_top_5": [
+        "11:64",
+        "48:3",
+        "22:16",
+        "37:14",
+        "3:138"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_008",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الشفاء في القرآن ومصنع العسل",
+      "expected": [
+        "17:82",
+        "16:69"
+      ],
+      "retrieved_top_5": [
+        "97:1",
+        "2:37",
+        "38:41",
+        "37:31",
+        "36:58"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_009",
+      "category": "Colloquial",
+      "question": "آية عن الظلم وعاقبة الظالمين",
+      "expected": [
+        "42:42",
+        "14:42",
+        "3:151"
+      ],
+      "retrieved_top_5": [
+        "2:145",
+        "21:87",
+        "11:64",
+        "51:37",
+        "39:40"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_010",
+      "category": "Colloquial",
+      "question": "عايز آية تيسير الأمور والدعاء ربنا آتنا في الدنيا حسنة",
+      "expected": [
+        "2:201"
+      ],
+      "retrieved_top_5": [
+        "3:38",
+        "14:37",
+        "2:201",
+        "46:15",
+        "2:37"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "ext_011",
+      "category": "Typos",
+      "question": "قل هو الله احد الله الصمد",
+      "expected": [
+        "112:2",
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "112:2",
+        "5:76",
+        "10:58",
+        "3:2"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_012",
+      "category": "Typos",
+      "question": "انا اعطيناك الكوثر فصل لربك وانحر",
+      "expected": [
+        "108:2",
+        "108:1"
+      ],
+      "retrieved_top_5": [
+        "108:2",
+        "108:1",
+        "19:19",
+        "53:34",
+        "44:20"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_013",
+      "category": "Typos",
+      "question": "تبت يدا ابي لهب وتب",
+      "expected": [
+        "111:1"
+      ],
+      "retrieved_top_5": [
+        "111:1",
+        "2:37",
+        "20:122",
+        "78:22",
+        "69:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_014",
+      "category": "Typos",
+      "question": "اذا جاء نصر الله والفتح ورأيت الناس يدخلون",
+      "expected": [
+        "110:2",
+        "110:1"
+      ],
+      "retrieved_top_5": [
+        "110:2",
+        "110:1",
+        "29:10",
+        "4:133",
+        "4:174"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_015",
+      "category": "Typos",
+      "question": "قل اعوذ برب الفلق من شر ما خلق",
+      "expected": [
+        "113:2",
+        "113:1"
+      ],
+      "retrieved_top_5": [
+        "113:1",
+        "114:1",
+        "96:1",
+        "19:75",
+        "39:38"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_016",
+      "category": "Typos",
+      "question": "قل اعوذ برب الناس ملك الناس اله الناس",
+      "expected": [
+        "114:1",
+        "114:3",
+        "114:2"
+      ],
+      "retrieved_top_5": [
+        "114:1",
+        "7:158",
+        "113:1",
+        "2:37",
+        "2:94"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_017",
+      "category": "Typos",
+      "question": "مالك يوم الدين اياك نعبد واياك نستعين",
+      "expected": [
+        "1:4",
+        "1:5"
+      ],
+      "retrieved_top_5": [
+        "1:5",
+        "1:4",
+        "97:1",
+        "43:77",
+        "14:40"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_018",
+      "category": "Typos",
+      "question": "اهدنا الصراط المستقيم صراط الذين انعمت عليهم",
+      "expected": [
+        "1:6",
+        "1:7"
+      ],
+      "retrieved_top_5": [
+        "1:6",
+        "1:7",
+        "18:13",
+        "37:118",
+        "24:46"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_019",
+      "category": "Typos",
+      "question": "والشمس وضحاها والقمر اذا تلاها",
+      "expected": [
+        "91:2",
+        "91:1"
+      ],
+      "retrieved_top_5": [
+        "16:12",
+        "6:96",
+        "7:54",
+        "12:4",
+        "21:33"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.125
+    },
+    {
+      "id": "ext_020",
+      "category": "Typos",
+      "question": "والضحي والليل اذا سجي ما ودعك ربك وما قلي",
+      "expected": [
+        "93:1",
+        "93:3",
+        "93:2"
+      ],
+      "retrieved_top_5": [
+        "93:3",
+        "19:71",
+        "16:68",
+        "11:117",
+        "17:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_021",
+      "category": "Topics",
+      "question": "أحكام الوصية والإشهاد عند الموت",
+      "expected": [
+        "5:106",
+        "2:180"
+      ],
+      "retrieved_top_5": [
+        "2:180",
+        "5:106",
+        "49:9",
+        "3:158",
+        "4:159"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_022",
+      "category": "Topics",
+      "question": "الأمر بالوفاء بالعقود والعهود",
+      "expected": [
+        "17:34",
+        "5:1",
+        "16:91"
+      ],
+      "retrieved_top_5": [
+        "27:2",
+        "77:7",
+        "53:34",
+        "27:77",
+        "77:6"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_023",
+      "category": "Topics",
+      "question": "أحكام التيمم والطهارة عند فقد الماء",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "47:15",
+        "14:16",
+        "72:16",
+        "79:31",
+        "103:2"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_024",
+      "category": "Topics",
+      "question": "تحريم أكل الخنزير والميتة والدم",
+      "expected": [
+        "2:173",
+        "5:3",
+        "16:115"
+      ],
+      "retrieved_top_5": [
+        "5:3",
+        "2:173",
+        "16:115",
+        "73:13",
+        "54:39"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_025",
+      "category": "Topics",
+      "question": "أحكام الرضاعة وحرمة أمهات الرضاعة",
+      "expected": [
+        "2:233",
+        "4:23"
+      ],
+      "retrieved_top_5": [
+        "4:23",
+        "4:11",
+        "4:12",
+        "2:233",
+        "28:13"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_026",
+      "category": "Topics",
+      "question": "الأمر بالقسط والعدل في الكيل والميزان",
+      "expected": [
+        "55:9",
+        "17:35",
+        "6:152",
+        "83:1"
+      ],
+      "retrieved_top_5": [
+        "6:152",
+        "7:85",
+        "11:85",
+        "16:90",
+        "53:34"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_027",
+      "category": "Topics",
+      "question": "آيات فضل ليلة القدر ونزول القرآن",
+      "expected": [
+        "97:3",
+        "97:1",
+        "44:3"
+      ],
+      "retrieved_top_5": [
+        "97:1",
+        "3:97",
+        "11:64",
+        "40:81",
+        "27:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_028",
+      "category": "Topics",
+      "question": "نهي عن أكل أموال اليتامى ظلماً",
+      "expected": [
+        "4:10",
+        "4:2",
+        "17:34"
+      ],
+      "retrieved_top_5": [
+        "2:220",
+        "4:10",
+        "4:2",
+        "4:6",
+        "4:29"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "ext_029",
+      "category": "Topics",
+      "question": "أحكام الإيلاء والطلاق والعدة للمرأة",
+      "expected": [
+        "65:1",
+        "2:226",
+        "2:228"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:176",
+        "4:12",
+        "13:8",
+        "4:7"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_030",
+      "category": "Topics",
+      "question": "تحريم السرقة وحد قطع اليد",
+      "expected": [
+        "5:38"
+      ],
+      "retrieved_top_5": [
+        "37:10",
+        "7:108",
+        "26:33",
+        "73:2",
+        "56:26"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_031",
+      "category": "Prophets",
+      "question": "قصة صالح عليه السلام والناقة والمؤامرة",
+      "expected": [
+        "7:73",
+        "26:155",
+        "11:64"
+      ],
+      "retrieved_top_5": [
+        "38:41",
+        "27:20",
+        "2:45",
+        "19:6",
+        "39:66"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_032",
+      "category": "Prophets",
+      "question": "قصة هود عليه السلام وقوم عاد والريح الصرصر",
+      "expected": [
+        "69:6",
+        "11:50",
+        "41:15",
+        "7:65"
+      ],
+      "retrieved_top_5": [
+        "2:251",
+        "7:65",
+        "29:14",
+        "2:37",
+        "11:50"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "ext_033",
+      "category": "Prophets",
+      "question": "قصة شعيب عليه السلام وأصحاب الأيكة ونقص المكيال",
+      "expected": [
+        "7:85",
+        "11:84",
+        "26:176"
+      ],
+      "retrieved_top_5": [
+        "38:41",
+        "18:9",
+        "30:38",
+        "25:5",
+        "38:48"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_034",
+      "category": "Prophets",
+      "question": "قصة إدريس عليه السلام ورفعه مكانا عليا",
+      "expected": [
+        "19:56",
+        "21:85",
+        "19:57"
+      ],
+      "retrieved_top_5": [
+        "19:16",
+        "36:1",
+        "27:20",
+        "38:41",
+        "97:1"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.1667
+    },
+    {
+      "id": "ext_035",
+      "category": "Prophets",
+      "question": "قصة يحيى عليه السلام وآتاه الحكم صبيا",
+      "expected": [
+        "19:13",
+        "19:12",
+        "3:39"
+      ],
+      "retrieved_top_5": [
+        "38:41",
+        "21:83",
+        "19:12",
+        "37:84",
+        "37:112"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "ext_036",
+      "category": "Stories",
+      "question": "قصة أصحاب الجنة الذين أقسموا ليصرمنها مصبحين",
+      "expected": [
+        "68:17",
+        "68:20",
+        "68:18"
+      ],
+      "retrieved_top_5": [
+        "68:17",
+        "11:23",
+        "46:16",
+        "9:1",
+        "23:8"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_037",
+      "category": "Stories",
+      "question": "قصة أصحاب الأخدود والنار ذات الوقود",
+      "expected": [
+        "85:4",
+        "85:5",
+        "85:6"
+      ],
+      "retrieved_top_5": [
+        "85:5",
+        "11:106",
+        "90:20",
+        "54:48",
+        "14:50"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_038",
+      "category": "Stories",
+      "question": "قصة أصحاب القرية إذ جاءها المرسلون وجاء من أقصى المدينة رجل يسعى",
+      "expected": [
+        "36:13",
+        "36:20"
+      ],
+      "retrieved_top_5": [
+        "36:20",
+        "36:13",
+        "28:20",
+        "15:67",
+        "41:41"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_039",
+      "category": "Stories",
+      "question": "قصة لقمان وحكمته وتوصيته لابنه",
+      "expected": [
+        "31:17",
+        "31:12",
+        "31:13"
+      ],
+      "retrieved_top_5": [
+        "31:13",
+        "31:14",
+        "37:97",
+        "23:50",
+        "21:26"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ext_040",
+      "category": "Stories",
+      "question": "قصة مريم ومولد عيسى عليه السلام تحت النخلة",
+      "expected": [
+        "19:25",
+        "19:23",
+        "19:24"
+      ],
+      "retrieved_top_5": [
+        "5:110",
+        "2:87",
+        "4:171",
+        "19:16",
+        "61:6"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "ext_041",
+      "category": "Out-of-domain",
+      "question": "كم عدد سكان القاهرة في عام 2026؟",
+      "expected": [],
+      "retrieved_top_5": [
+        "2:130",
+        "7:97",
+        "23:112",
+        "54:44",
+        "34:35"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "ext_042",
+      "category": "Out-of-domain",
+      "question": "ما هي القوانين الفيزياء النسبية لإنشتاين؟",
+      "expected": [],
+      "retrieved_top_5": [
+        "57:4",
+        "7:54",
+        "11:7",
+        "10:3",
+        "32:4"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "ext_043",
+      "category": "Out-of-domain",
+      "question": "كيف تترجم لغة بايثون للغة التجميع؟",
+      "expected": [],
+      "retrieved_top_5": [
+        "12:54",
+        "1:5",
+        "21:110",
+        "68:6",
+        "37:144"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "ext_044",
+      "category": "Out-of-domain",
+      "question": "من فاز بالدوري الإسباني لكرة القدم؟",
+      "expected": [],
+      "retrieved_top_5": [
+        "23:1",
+        "36:59",
+        "78:31",
+        "31:5",
+        "3:82"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "ext_045",
+      "category": "Out-of-domain",
+      "question": "كيف يتم تصنيع الهواتف الذكية؟",
+      "expected": [],
+      "retrieved_top_5": [
+        "80:18",
+        "56:72",
+        "77:20",
+        "7:191",
+        "16:17"
+      ],
+      "out_of_domain_pass": true
+    }
+  ]
+}

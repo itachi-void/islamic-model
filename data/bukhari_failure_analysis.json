@@ -1,0 +1,1890 @@
+{
+  "total_valid_test_cases": 180,
+  "total_failures_top5": 125,
+  "failure_breakdown": {
+    "Exact Match": 15,
+    "Metadata (Narrator)": 0,
+    "Metadata (Book/Chapter)": 15,
+    "Ranking": 24,
+    "Semantic": 9,
+    "Missing Knowledge": 0,
+    "Semantic / Synonym": 62
+  },
+  "failures": [
+    {
+      "id": "bk006",
+      "query": "المسلم من سلم المسلمون من لسانه ويده",
+      "category": "Exact Quote",
+      "expected_hadith_number": 9,
+      "hit_rank": null,
+      "top5_retrieved": [
+        10,
+        6484,
+        11,
+        2731,
+        2732
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk012",
+      "query": "إذا أقيمت الصلاة فلا تأتوها تسعون",
+      "category": "Exact Quote",
+      "expected_hadith_number": 636,
+      "hit_rank": null,
+      "top5_retrieved": [
+        908,
+        637,
+        638,
+        674,
+        139
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk014",
+      "query": "من شهد الجنازة حتى يصلى عليها فله قيراط",
+      "category": "Exact Quote",
+      "expected_hadith_number": 1253,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1325,
+        47,
+        1323,
+        1324,
+        7170
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk017",
+      "query": "صدقة السر تطفئ غضب الرب",
+      "category": "Exact Quote",
+      "expected_hadith_number": 1421,
+      "hit_rank": null,
+      "top5_retrieved": [
+        5518,
+        6721,
+        4849,
+        3267,
+        3392
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk020",
+      "query": "الصائم في عبادة وإن كان نائما",
+      "category": "Exact Quote",
+      "expected_hadith_number": 1894,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7,
+        2661,
+        4141,
+        4554,
+        4750
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk023",
+      "query": "الجهاد ماضٍ منذ بعثني الله إلى أن يقاتل آخر أمتي الدجال",
+      "category": "Exact Quote",
+      "expected_hadith_number": 2797,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4625,
+        7510,
+        2826,
+        4740,
+        3159
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk024",
+      "query": "انتدب الله لمن خرج في سبيله",
+      "category": "Exact Quote",
+      "expected_hadith_number": 2787,
+      "hit_rank": 12,
+      "top5_retrieved": [
+        36,
+        3123,
+        7457,
+        7463,
+        567
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk027",
+      "query": "أحب الناس إلى الله أنفعهم للناس",
+      "category": "Exact Quote",
+      "expected_hadith_number": 6011,
+      "hit_rank": null,
+      "top5_retrieved": [
+        131,
+        1681,
+        2168,
+        2272,
+        2307
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk034",
+      "query": "تعافوا الحدود فيما بينكم فما بلغني من حد فقد وجب",
+      "category": "Exact Quote",
+      "expected_hadith_number": 6787,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4418,
+        2661,
+        4141,
+        4750,
+        2731
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk035",
+      "query": "لا ترجعوا بعدي كفارا يضرب بعضكم رقاب بعض",
+      "category": "Exact Quote",
+      "expected_hadith_number": 7080,
+      "hit_rank": 12,
+      "top5_retrieved": [
+        121,
+        1739,
+        6868,
+        6869,
+        7078
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk036",
+      "query": "من رأى منكم منكرا فليغيره بيده",
+      "category": "Exact Quote",
+      "expected_hadith_number": 7054,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1386,
+        4726,
+        7,
+        3700,
+        4230
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk037",
+      "query": "إن الله لا ينام ولا ينبغي له أن ينام",
+      "category": "Exact Quote",
+      "expected_hadith_number": 7404,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7517,
+        2731,
+        2732,
+        3168,
+        4726
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk040",
+      "query": "إن الله جميل يحب الجمال",
+      "category": "Exact Quote",
+      "expected_hadith_number": 6029,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2893,
+        2661,
+        4141,
+        4750,
+        4757
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk041",
+      "query": "لقد كان في يوسف وإخوته آيات للسائلين",
+      "category": "Exact Quote",
+      "expected_hadith_number": 3382,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2661,
+        4141,
+        4750,
+        7,
+        2940
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk042",
+      "query": "أُعطيت مفاتيح خزائن الأرض",
+      "category": "Exact Quote",
+      "expected_hadith_number": 3255,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1344,
+        4085,
+        6426,
+        6590,
+        3596
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk044",
+      "query": "كانت غزوة بدر في رمضان",
+      "category": "Exact Quote",
+      "expected_hadith_number": 3998,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3889,
+        4418,
+        4275,
+        3951,
+        4677
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk045",
+      "query": "اللهم أنجز لي ما وعدتني",
+      "category": "Exact Quote",
+      "expected_hadith_number": 3953,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4328,
+        1120,
+        1392,
+        1568,
+        1982
+      ],
+      "failure_type": "Exact Match"
+    },
+    {
+      "id": "bk051",
+      "query": "حديث أبي هريرة عن فضل الصلاة في جماعة",
+      "category": "Narrator",
+      "expected_hadith_number": 645,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2119,
+        4717,
+        1190,
+        843,
+        60
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk053",
+      "query": "حديث أنس بن مالك عن محبة الله للعبد",
+      "category": "Narrator",
+      "expected_hadith_number": 6502,
+      "hit_rank": null,
+      "top5_retrieved": [
+        63,
+        65,
+        93,
+        139,
+        150
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk054",
+      "query": "ما روى ابن عمر عن الجهاد",
+      "category": "Narrator",
+      "expected_hadith_number": 2797,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4513,
+        4514,
+        4515,
+        6452,
+        1483
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk055",
+      "query": "حديث ابن عباس في تفسير سورة الفاتحة",
+      "category": "Narrator",
+      "expected_hadith_number": 4474,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4572,
+        4762,
+        4532,
+        183,
+        763
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk056",
+      "query": "ما روى أبو سعيد الخدري عن الصوم",
+      "category": "Narrator",
+      "expected_hadith_number": 1894,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1197,
+        466,
+        509,
+        806,
+        956
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk057",
+      "query": "حديث جابر بن عبد الله في الحج",
+      "category": "Narrator",
+      "expected_hadith_number": 1521,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1785,
+        7230,
+        7367,
+        855,
+        5639
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk058",
+      "query": "ما روى عمر بن الخطاب عن النية",
+      "category": "Narrator",
+      "expected_hadith_number": 1,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2529,
+        5070,
+        6953,
+        6689,
+        3682
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk059",
+      "query": "حديث أبي هريرة في الاستغفار",
+      "category": "Narrator",
+      "expected_hadith_number": 6307,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4418,
+        1228,
+        118,
+        278,
+        482
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk060",
+      "query": "ما روته أم سلمة عن النكاح",
+      "category": "Narrator",
+      "expected_hadith_number": 5090,
+      "hit_rank": null,
+      "top5_retrieved": [
+        5101,
+        5106,
+        5107,
+        5119,
+        5123
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk061",
+      "query": "حديث أبي ذر في التواضع",
+      "category": "Narrator",
+      "expected_hadith_number": 6050,
+      "hit_rank": null,
+      "top5_retrieved": [
+        6443,
+        539,
+        2518,
+        3522,
+        3966
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk063",
+      "query": "ما روى أبو موسى الأشعري عن الأخلاق",
+      "category": "Narrator",
+      "expected_hadith_number": 6018,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2260,
+        2261,
+        3915,
+        5518,
+        6718
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk065",
+      "query": "ما روى ابن مسعود عن القرآن",
+      "category": "Narrator",
+      "expected_hadith_number": 5027,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4141,
+        4750,
+        253,
+        3758,
+        3806
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk066",
+      "query": "حديث أنس في المعراج",
+      "category": "Narrator",
+      "expected_hadith_number": 3207,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1374,
+        3,
+        49,
+        63,
+        65
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk067",
+      "query": "ما روى أبو هريرة عن صفة الجنة",
+      "category": "Narrator",
+      "expected_hadith_number": 3254,
+      "hit_rank": null,
+      "top5_retrieved": [
+        6452,
+        2047,
+        36,
+        806,
+        1149
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk068",
+      "query": "حديث ابن عباس في فضل القرآن",
+      "category": "Narrator",
+      "expected_hadith_number": 5027,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2661,
+        4141,
+        4750,
+        1483,
+        297
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk069",
+      "query": "ما روت عائشة عن غزوة بدر",
+      "category": "Narrator",
+      "expected_hadith_number": 3998,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4418,
+        4677,
+        2879,
+        4141,
+        4750
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk070",
+      "query": "حديث أبي هريرة في الصدقة الجارية",
+      "category": "Narrator",
+      "expected_hadith_number": 1383,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3472,
+        3989,
+        1463,
+        1468,
+        1485
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk071",
+      "query": "ما روى سلمة بن الأكوع في الجهاد",
+      "category": "Narrator",
+      "expected_hadith_number": 2864,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3041,
+        2899,
+        2975,
+        3051,
+        2477
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk072",
+      "query": "حديث ابن عمر في الطهارة",
+      "category": "Narrator",
+      "expected_hadith_number": 135,
+      "hit_rank": null,
+      "top5_retrieved": [
+        61,
+        62,
+        82,
+        89,
+        116
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk073",
+      "query": "ما روى أبو بكر الصديق عن الإيمان",
+      "category": "Narrator",
+      "expected_hadith_number": 8,
+      "hit_rank": null,
+      "top5_retrieved": [
+        6679,
+        6452,
+        334,
+        2661,
+        3092
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk074",
+      "query": "حديث عمر في النهي عن الغلو",
+      "category": "Narrator",
+      "expected_hadith_number": 3261,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1435,
+        2143,
+        2172,
+        2173,
+        2247
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk075",
+      "query": "ما روى أبو هريرة عن الكلمة الطيبة",
+      "category": "Narrator",
+      "expected_hadith_number": 2989,
+      "hit_rank": 9,
+      "top5_retrieved": [
+        4701,
+        6452,
+        2753,
+        3779,
+        3841
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk076",
+      "query": "حديث أنس في حسن الخلق",
+      "category": "Narrator",
+      "expected_hadith_number": 6035,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7510,
+        4953,
+        600,
+        3207,
+        7296
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk077",
+      "query": "ما روى ابن عباس عن خطبة الوداع",
+      "category": "Narrator",
+      "expected_hadith_number": 4406,
+      "hit_rank": null,
+      "top5_retrieved": [
+        253,
+        958,
+        959,
+        960,
+        961
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk078",
+      "query": "حديث عائشة عن صلاة الليل",
+      "category": "Narrator",
+      "expected_hadith_number": 1130,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2468,
+        5191,
+        515,
+        569,
+        729
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk079",
+      "query": "ما روى أبو هريرة عن المساجد",
+      "category": "Narrator",
+      "expected_hadith_number": 450,
+      "hit_rank": null,
+      "top5_retrieved": [
+        6452,
+        4701,
+        7481,
+        253,
+        660
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk080",
+      "query": "حديث جابر في الزكاة",
+      "category": "Narrator",
+      "expected_hadith_number": 1399,
+      "hit_rank": null,
+      "top5_retrieved": [
+        5639,
+        978,
+        53,
+        87,
+        523
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk081",
+      "query": "ما روى أنس عن فضل قراءة القرآن",
+      "category": "Narrator",
+      "expected_hadith_number": 5027,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2661,
+        4141,
+        4750,
+        2297,
+        3905
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk082",
+      "query": "حديث أبي هريرة عن صدقة الفطر",
+      "category": "Narrator",
+      "expected_hadith_number": 1503,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1462,
+        1925,
+        1926,
+        1993,
+        2989
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk083",
+      "query": "ما روى ابن عمر عن الطلاق",
+      "category": "Narrator",
+      "expected_hadith_number": 5251,
+      "hit_rank": null,
+      "top5_retrieved": [
+        6452,
+        1483,
+        3682,
+        253,
+        5290
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk084",
+      "query": "حديث عائشة في أدب النبي",
+      "category": "Narrator",
+      "expected_hadith_number": 6030,
+      "hit_rank": 8,
+      "top5_retrieved": [
+        2468,
+        5191,
+        6391,
+        3669,
+        3670
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk087",
+      "query": "ما روى أبو هريرة عن رمضان",
+      "category": "Narrator",
+      "expected_hadith_number": 1901,
+      "hit_rank": 11,
+      "top5_retrieved": [
+        6452,
+        50,
+        2311,
+        3220,
+        6164
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk088",
+      "query": "حديث أنس في فضل العلم",
+      "category": "Narrator",
+      "expected_hadith_number": 100,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4141,
+        4757,
+        2661,
+        4750,
+        4953
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk089",
+      "query": "ما روى ابن مسعود عن الصلاة الوسطى",
+      "category": "Narrator",
+      "expected_hadith_number": 371,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7,
+        521,
+        522,
+        6671,
+        344
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk090",
+      "query": "حديث عمر بن الخطاب في العدل",
+      "category": "Narrator",
+      "expected_hadith_number": 7138,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4913,
+        2491,
+        344,
+        4642,
+        7286
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk091",
+      "query": "ما حكم الصلاة في الجماعة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 645,
+      "hit_rank": null,
+      "top5_retrieved": [
+        647,
+        2119,
+        7,
+        676,
+        1226
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk092",
+      "query": "حكم الإسلام في الزكاة على الذهب والفضة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 1454,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1406,
+        5632,
+        5831,
+        1404,
+        4660
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk093",
+      "query": "ما حكم الصوم في رمضان",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 1901,
+      "hit_rank": 11,
+      "top5_retrieved": [
+        1902,
+        1937,
+        1950,
+        2009,
+        3569
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk094",
+      "query": "حكم الحج على المستطيع",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 1513,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3717,
+        1563,
+        7,
+        56,
+        187
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk095",
+      "query": "ما أقوال النبي في الطهارة قبل الصلاة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 135,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7,
+        40,
+        349,
+        955,
+        958
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk097",
+      "query": "ما حكم الغيبة والنميمة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6056,
+      "hit_rank": null,
+      "top5_retrieved": [
+        216,
+        218,
+        1361,
+        1378,
+        6052
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk098",
+      "query": "حكم الربا في البيوع",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 2083,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2085,
+        2174,
+        2178,
+        2179,
+        459
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk099",
+      "query": "ما حكم الطلاق في الإسلام",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 5251,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7,
+        3855,
+        5273,
+        5310,
+        5316
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk100",
+      "query": "حكم قتل النفس في الإسلام",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6878,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3855,
+        7,
+        4610,
+        4476,
+        4726
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk101",
+      "query": "ما فضل قراءة القرآن",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 5027,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2297,
+        3905,
+        4992,
+        5041,
+        6936
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk102",
+      "query": "حكم السرقة وما الحد فيها",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6789,
+      "hit_rank": null,
+      "top5_retrieved": [
+        6949,
+        3475,
+        4304,
+        7,
+        1402
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk103",
+      "query": "أحاديث في فضل الصدقة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 1421,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2983,
+        4287,
+        4584,
+        5005,
+        5746
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk104",
+      "query": "ما أحاديث النبي في برّ الوالدين",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 5971,
+      "hit_rank": null,
+      "top5_retrieved": [
+        527,
+        5970,
+        3364,
+        4581,
+        5423
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk105",
+      "query": "حكم الغناء والموسيقى",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 5590,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4003,
+        6493,
+        6607,
+        7,
+        56
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk106",
+      "query": "فضل ليلة القدر وفضل العبادة فيها",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 2014,
+      "hit_rank": 12,
+      "top5_retrieved": [
+        6573,
+        2661,
+        4141,
+        4750,
+        4757
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk107",
+      "query": "ما حديث النبي في الحسد",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 2452,
+      "hit_rank": null,
+      "top5_retrieved": [
+        73,
+        1409,
+        5026,
+        7529,
+        7
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk108",
+      "query": "أحاديث في فضل ذكر الله",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6407,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3566,
+        4757,
+        3366,
+        3414,
+        3415
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk109",
+      "query": "حكم لحم الخنزير في الإسلام",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 5212,
+      "hit_rank": null,
+      "top5_retrieved": [
+        5310,
+        5316,
+        6856,
+        7,
+        3855
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk110",
+      "query": "ما أحاديث النبي في التوكل على الله",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6416,
+      "hit_rank": null,
+      "top5_retrieved": [
+        601,
+        6807,
+        3268,
+        3342,
+        3350
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk111",
+      "query": "أحاديث في صفة الجنة والنار",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 3254,
+      "hit_rank": 20,
+      "top5_retrieved": [
+        3332,
+        3342,
+        3348,
+        3350,
+        3450
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk112",
+      "query": "ما حديث النبي في الأمانة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 33,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2940,
+        2941,
+        59,
+        6497,
+        7086
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk113",
+      "query": "أحاديث في فضل الاستغفار",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6307,
+      "hit_rank": 19,
+      "top5_retrieved": [
+        3366,
+        3414,
+        3415,
+        4418,
+        60
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk114",
+      "query": "ما حديث النبي في التواضع",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6050,
+      "hit_rank": null,
+      "top5_retrieved": [
+        344,
+        7,
+        53,
+        62,
+        73
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk115",
+      "query": "أحاديث في حسن معاملة الجيران",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6015,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3258,
+        3291,
+        3364,
+        3378,
+        3463
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk116",
+      "query": "حكم الزنا وحده في الإسلام",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6830,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7,
+        844,
+        2940,
+        2941,
+        3855
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk117",
+      "query": "ما أحاديث النبي في طلب العلم",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 79,
+      "hit_rank": 12,
+      "top5_retrieved": [
+        3401,
+        2272,
+        3018,
+        3615,
+        3652
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk118",
+      "query": "فضل صيام يوم عرفة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 1988,
+      "hit_rank": 6,
+      "top5_retrieved": [
+        5604,
+        1989,
+        1999,
+        1658,
+        1661
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk119",
+      "query": "أحاديث في الدعاء وأوقات الإجابة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6304,
+      "hit_rank": null,
+      "top5_retrieved": [
+        834,
+        835,
+        4723,
+        6326,
+        6327
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk120",
+      "query": "ما حديث النبي في الصبر على البلاء",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 5641,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4418,
+        122,
+        3401,
+        4549,
+        4550
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk121",
+      "query": "حكم الخروج على الحاكم الظالم",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 7055,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7,
+        7352,
+        7170,
+        7195,
+        2441
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk122",
+      "query": "أحاديث في فضل العمل الصالح",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6407,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3293,
+        843,
+        1635,
+        6403,
+        4141
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk123",
+      "query": "ما حديث النبي في الحياء",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6118,
+      "hit_rank": 8,
+      "top5_retrieved": [
+        7,
+        2940,
+        2941,
+        4793,
+        5120
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk124",
+      "query": "أحاديث عن علامات الساعة",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 7121,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3280,
+        3329,
+        3906,
+        1166,
+        2962
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk126",
+      "query": "أحاديث في فضل الشهادة في سبيل الله",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 2787,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3700,
+        4141,
+        4750,
+        4757,
+        3400
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk127",
+      "query": "ما حكم كتابة الوصية",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 2738,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1392,
+        2747,
+        2767,
+        3700,
+        4578
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk128",
+      "query": "أحاديث عن المسيح الدجال",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 7122,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3439,
+        3440,
+        86,
+        832,
+        833
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk129",
+      "query": "فضل صلاة الفجر وصلاة العصر",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 529,
+      "hit_rank": null,
+      "top5_retrieved": [
+        555,
+        7429,
+        7486,
+        1683,
+        778
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk130",
+      "query": "ما حديث النبي في كتمان الأسرار",
+      "category": "Topic/Ruling",
+      "expected_hadith_number": 6289,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2524,
+        4855,
+        7531,
+        3919,
+        7
+      ],
+      "failure_type": "Semantic / Synonym"
+    },
+    {
+      "id": "bk131",
+      "query": "أحاديث كتاب الإيمان في صحيح البخاري",
+      "category": "Book Reference",
+      "expected_hadith_number": 8,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7,
+        2581,
+        3302,
+        2934,
+        4437
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk132",
+      "query": "ما أحاديث كتاب العلم",
+      "category": "Book Reference",
+      "expected_hadith_number": 59,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7,
+        7363,
+        7523,
+        2685,
+        3401
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk133",
+      "query": "أحاديث كتاب الصوم عند البخاري",
+      "category": "Book Reference",
+      "expected_hadith_number": 1886,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2581,
+        525,
+        1661,
+        1904,
+        1988
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk134",
+      "query": "أحاديث كتاب الحج",
+      "category": "Book Reference",
+      "expected_hadith_number": 1513,
+      "hit_rank": null,
+      "top5_retrieved": [
+        601,
+        1568,
+        305,
+        1638,
+        1788
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk135",
+      "query": "ما أحاديث كتاب البيوع",
+      "category": "Book Reference",
+      "expected_hadith_number": 2046,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2699,
+        2268,
+        2560,
+        3,
+        4251
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk137",
+      "query": "ما أحاديث كتاب الأدب",
+      "category": "Book Reference",
+      "expected_hadith_number": 5994,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2468,
+        5191,
+        6755,
+        2268,
+        7363
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk138",
+      "query": "أحاديث كتاب الطب عند البخاري",
+      "category": "Book Reference",
+      "expected_hadith_number": 5641,
+      "hit_rank": 20,
+      "top5_retrieved": [
+        3906,
+        2581,
+        5669,
+        5749,
+        5763
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk139",
+      "query": "أحاديث كتاب التوحيد",
+      "category": "Book Reference",
+      "expected_hadith_number": 7274,
+      "hit_rank": null,
+      "top5_retrieved": [
+        601,
+        2268,
+        3254,
+        3255,
+        3256
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk140",
+      "query": "ما أحاديث كتاب النكاح",
+      "category": "Book Reference",
+      "expected_hadith_number": 5083,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2763,
+        3991,
+        5127,
+        2268,
+        3
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk141",
+      "query": "أحاديث كتاب الزكاة",
+      "category": "Book Reference",
+      "expected_hadith_number": 1399,
+      "hit_rank": 15,
+      "top5_retrieved": [
+        3275,
+        8,
+        25,
+        46,
+        50
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk143",
+      "query": "أحاديث كتاب الوضوء",
+      "category": "Book Reference",
+      "expected_hadith_number": 135,
+      "hit_rank": 19,
+      "top5_retrieved": [
+        132,
+        136,
+        139,
+        5882,
+        180
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk144",
+      "query": "ما أحاديث كتاب الفتن",
+      "category": "Book Reference",
+      "expected_hadith_number": 7047,
+      "hit_rank": 10,
+      "top5_retrieved": [
+        755,
+        1878,
+        2467,
+        3597,
+        6362
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk146",
+      "query": "ما أحاديث كتاب الأحكام",
+      "category": "Book Reference",
+      "expected_hadith_number": 7138,
+      "hit_rank": null,
+      "top5_retrieved": [
+        7139,
+        601,
+        3172,
+        1458,
+        6755
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk147",
+      "query": "أحاديث كتاب الدعوات",
+      "category": "Book Reference",
+      "expected_hadith_number": 6304,
+      "hit_rank": 7,
+      "top5_retrieved": [
+        3518,
+        4151,
+        4905,
+        4907,
+        5666
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk148",
+      "query": "أحاديث كتاب المناقب في البخاري",
+      "category": "Book Reference",
+      "expected_hadith_number": 3481,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3500,
+        3872,
+        3906,
+        2581,
+        601
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk149",
+      "query": "ما أحاديث كتاب التفسير",
+      "category": "Book Reference",
+      "expected_hadith_number": 4474,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3906,
+        601,
+        3332,
+        7439,
+        7517
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk150",
+      "query": "أحاديث كتاب المغازي",
+      "category": "Book Reference",
+      "expected_hadith_number": 3913,
+      "hit_rank": null,
+      "top5_retrieved": [
+        601,
+        2350,
+        3254,
+        3255,
+        3256
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk151",
+      "query": "ما أحاديث كتاب الأنبياء",
+      "category": "Book Reference",
+      "expected_hadith_number": 3254,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3256,
+        3332,
+        2268,
+        4251,
+        2699
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk153",
+      "query": "أحاديث كتاب الحدود",
+      "category": "Book Reference",
+      "expected_hadith_number": 6768,
+      "hit_rank": 12,
+      "top5_retrieved": [
+        3475,
+        2213,
+        2214,
+        2257,
+        2493
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk154",
+      "query": "ما أحاديث كتاب القدر",
+      "category": "Book Reference",
+      "expected_hadith_number": 6594,
+      "hit_rank": 15,
+      "top5_retrieved": [
+        35,
+        576,
+        806,
+        813,
+        994
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk155",
+      "query": "أحاديث كتاب الديات",
+      "category": "Book Reference",
+      "expected_hadith_number": 6879,
+      "hit_rank": 6,
+      "top5_retrieved": [
+        2179,
+        2178,
+        7439,
+        4274,
+        3007
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk156",
+      "query": "أحاديث كتاب الأطعمة عند البخاري",
+      "category": "Book Reference",
+      "expected_hadith_number": 5354,
+      "hit_rank": null,
+      "top5_retrieved": [
+        2581,
+        602,
+        1936,
+        3581,
+        6721
+      ],
+      "failure_type": "Metadata (Book/Chapter)"
+    },
+    {
+      "id": "bk157",
+      "query": "أحاديث كتاب اللباس",
+      "category": "Book Reference",
+      "expected_hadith_number": 5780,
+      "hit_rank": 9,
+      "top5_retrieved": [
+        948,
+        3054,
+        7270,
+        2729,
+        2454
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk158",
+      "query": "ما أحاديث كتاب فضائل القرآن",
+      "category": "Book Reference",
+      "expected_hadith_number": 5063,
+      "hit_rank": 8,
+      "top5_retrieved": [
+        3696,
+        3623,
+        3624,
+        3758,
+        3
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk161",
+      "query": "النبي اتكلم إيه عن النية",
+      "category": "Colloquial",
+      "expected_hadith_number": 1,
+      "hit_rank": null,
+      "top5_retrieved": [
+        6830,
+        2529,
+        3898,
+        5070,
+        5863
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk164",
+      "query": "إيه الحديث عن فضل صوم رمضان",
+      "category": "Colloquial",
+      "expected_hadith_number": 1901,
+      "hit_rank": null,
+      "top5_retrieved": [
+        3275,
+        1950,
+        6713,
+        2311,
+        1892
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk165",
+      "query": "النبي قال إيه عن طلب العلم",
+      "category": "Colloquial",
+      "expected_hadith_number": 79,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1915,
+        50,
+        86,
+        184,
+        1053
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk167",
+      "query": "عايز حديث عن الصدقة الجارية",
+      "category": "Colloquial",
+      "expected_hadith_number": 1383,
+      "hit_rank": null,
+      "top5_retrieved": [
+        5504,
+        371,
+        1233,
+        2097,
+        2169
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk168",
+      "query": "النبي اتكلم عن الغضب إزاي",
+      "category": "Colloquial",
+      "expected_hadith_number": 6114,
+      "hit_rank": null,
+      "top5_retrieved": [
+        6144,
+        92,
+        2356,
+        2357,
+        2416
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk170",
+      "query": "إيه حديث النبي في الحسد والعين",
+      "category": "Colloquial",
+      "expected_hadith_number": 2452,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4727,
+        73,
+        1409,
+        7529,
+        1304
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk173",
+      "query": "النبي قال إيه في موضوع الجيران",
+      "category": "Colloquial",
+      "expected_hadith_number": 6015,
+      "hit_rank": null,
+      "top5_retrieved": [
+        370,
+        45,
+        50,
+        74,
+        78
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk174",
+      "query": "فين الحديث عن علامات القيامة الكبرى",
+      "category": "Colloquial",
+      "expected_hadith_number": 7121,
+      "hit_rank": null,
+      "top5_retrieved": [
+        4774,
+        4809,
+        4823,
+        99,
+        1166
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk176",
+      "query": "إيه قال النبي عن الأمانة",
+      "category": "Colloquial",
+      "expected_hadith_number": 33,
+      "hit_rank": 7,
+      "top5_retrieved": [
+        59,
+        2681,
+        2940,
+        2941,
+        4053
+      ],
+      "failure_type": "Ranking"
+    },
+    {
+      "id": "bk177",
+      "query": "حديث النبي عن بر الأم والأب",
+      "category": "Colloquial",
+      "expected_hadith_number": 5971,
+      "hit_rank": null,
+      "top5_retrieved": [
+        1511,
+        5423,
+        2699,
+        4251,
+        2069
+      ],
+      "failure_type": "Semantic"
+    },
+    {
+      "id": "bk179",
+      "query": "إيه حديث النبي عن الحياء",
+      "category": "Colloquial",
+      "expected_hadith_number": 6118,
+      "hit_rank": 6,
+      "top5_retrieved": [
+        4793,
+        7,
+        2940,
+        2941,
+        3562
+      ],
+      "failure_type": "Ranking"
+    }
+  ]
+}

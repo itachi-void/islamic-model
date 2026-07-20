@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ms001",
+    "query": "حديث جبريل وسؤاله عن الإسلام والإيمان والإحسان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "ms002",
+    "query": "خمس صلوات في اليوم والليلة أفلح إن صدق",
+    "category": "Exact Quote",
+    "expected_hadith_number": 2
+  },
+  {
+    "id": "ms003",
+    "query": "الإيمان بضع وسبعون شعبة والحياء شعبة من الإيمان",
+    "category": "Exact Quote",
+    "expected_hadith_number": 45
+  },
+  {
+    "id": "ms004",
+    "query": "الدين النصيحة لله ولكتابه ولرسوله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 55
+  },
+  {
+    "id": "ms005",
+    "query": "من رأى منكم منكرا فليغيره بيده",
+    "category": "Exact Quote",
+    "expected_hadith_number": 78
+  }
+]

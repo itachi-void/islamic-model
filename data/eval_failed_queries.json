@@ -1,0 +1,39 @@
+[
+  {
+    "id": "dev_07",
+    "type": "multi_surah_story",
+    "query": "قصة نبي الله يوسف مع إخوته والعزيز في مصر",
+    "expected": [
+      "12:7",
+      "12:54",
+      "12:4",
+      "12:21"
+    ],
+    "retrieved_top5": [
+      "12:87",
+      "12:76",
+      "12:7",
+      "12:46",
+      "12:69"
+    ],
+    "rank": 3,
+    "failure_enum": "RANKING_ERROR"
+  },
+  {
+    "id": "dev_18",
+    "type": "akhlaq_topic",
+    "query": "نهي عن الغيبة وسوء الظن والتجسس",
+    "expected": [
+      "49:12"
+    ],
+    "retrieved_top5": [
+      "2:119",
+      "10:105",
+      "18:76",
+      "42:13",
+      "3:30"
+    ],
+    "rank": "not_in_top5",
+    "failure_enum": "TOPIC_MISS"
+  }
+]

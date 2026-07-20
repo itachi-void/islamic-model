@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "bk001",
+    "query": "إنما الأعمال بالنيات",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk002",
+    "query": "فمن كانت هجرته إلى دنيا يصيبها",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk003",
+    "query": "بني الإسلام على خمس",
+    "category": "Exact Quote",
+    "expected_hadith_number": 8
+  },
+  {
+    "id": "bk004",
+    "query": "أفضل الإسلام تطعم الطعام",
+    "category": "Exact Quote",
+    "expected_hadith_number": 11
+  },
+  {
+    "id": "bk005",
+    "query": "لا يؤمن أحدكم حتى أكون أحب إليه من والده وولده",
+    "category": "Exact Quote",
+    "expected_hadith_number": 14
+  },
+  {
+    "id": "bk006",
+    "query": "المسلم من سلم المسلمون من لسانه ويده",
+    "category": "Exact Quote",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk007",
+    "query": "الإيمان بضع وستون شعبة",
+    "category": "Exact Quote",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk008",
+    "query": "من يرد الله به خيرا يفقهه في الدين",
+    "category": "Exact Quote",
+    "expected_hadith_number": 71
+  },
+  {
+    "id": "bk009",
+    "query": "بلغوا عني ولو آية",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3461
+  },
+  {
+    "id": "bk010",
+    "query": "لا تقبل صلاة من أحدث حتى يتوضأ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 135
+  },
+  {
+    "id": "bk011",
+    "query": "إذا استيقظ أحدكم من نومه فلا يغمس يده في الإناء",
+    "category": "Exact Quote",
+    "expected_hadith_number": 162
+  },
+  {
+    "id": "bk012",
+    "query": "إذا أقيمت الصلاة فلا تأتوها تسعون",
+    "category": "Exact Quote",
+    "expected_hadith_number": 636
+  },
+  {
+    "id": "bk013",
+    "query": "صلاة الجماعة أفضل من صلاة الفذ بسبع وعشرين درجة",
+    "category": "Exact Quote",
+    "expected_hadith_number": 645
+  },
+  {
+    "id": "bk014",
+    "query": "من شهد الجنازة حتى يصلى عليها فله قيراط",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1253
+  },
+  {
+    "id": "bk015",
+    "query": "أسرعوا بالجنازة فإن تك صالحة فخير تقدمونها إليه",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1315
+  },
+  {
+    "id": "bk016",
+    "query": "في كل أربعين شاة شاة",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1454
+  },
+  {
+    "id": "bk017",
+    "query": "صدقة السر تطفئ غضب الرب",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1421
+  },
+  {
+    "id": "bk018",
+    "query": "من صام رمضان إيمانا واحتسابا غفر له ما تقدم من ذنبه",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1901
+  },
+  {
+    "id": "bk019",
+    "query": "الصوم جنة",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1894
+  },
+  {
+    "id": "bk020",
+    "query": "الصائم في عبادة وإن كان نائما",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1894
+  },
+  {
+    "id": "bk021",
+    "query": "من حج فلم يرفث ولم يفسق رجع كيوم ولدته أمه",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1521
+  },
+  {
+    "id": "bk022",
+    "query": "العمرة إلى العمرة كفارة لما بينهما",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1773
+  },
+  {
+    "id": "bk023",
+    "query": "الجهاد ماضٍ منذ بعثني الله إلى أن يقاتل آخر أمتي الدجال",
+    "category": "Exact Quote",
+    "expected_hadith_number": 2797
+  },
+  {
+    "id": "bk024",
+    "query": "انتدب الله لمن خرج في سبيله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 2787
+  },
+  {
+    "id": "bk025",
+    "query": "تنكح المرأة لأربع لمالها ولحسبها ولجمالها ولدينها",
+    "category": "Exact Quote",
+    "expected_hadith_number": 5090
+  },
+  {
+    "id": "bk026",
+    "query": "يا معشر الشباب من استطاع منكم الباءة فليتزوج",
+    "category": "Exact Quote",
+    "expected_hadith_number": 5065
+  },
+  {
+    "id": "bk027",
+    "query": "أحب الناس إلى الله أنفعهم للناس",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6011
+  },
+  {
+    "id": "bk028",
+    "query": "ليس الشديد بالصرعة إنما الشديد الذي يملك نفسه عند الغضب",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6114
+  },
+  {
+    "id": "bk029",
+    "query": "سيد الاستغفار أن تقول اللهم أنت ربي لا إله إلا أنت",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6306
+  },
+  {
+    "id": "bk030",
+    "query": "من قال حين يصبح وحين يمسي سبحان الله وبحمده مائة مرة",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6405
+  },
+  {
+    "id": "bk031",
+    "query": "كن في الدنيا كأنك غريب أو عابر سبيل",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6416
+  },
+  {
+    "id": "bk032",
+    "query": "ما أصغر ما أخاف عليكم الفقر ولكن أخاف عليكم الدنيا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6425
+  },
+  {
+    "id": "bk033",
+    "query": "لا يحل دم امرئ مسلم إلا بإحدى ثلاث",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6878
+  },
+  {
+    "id": "bk034",
+    "query": "تعافوا الحدود فيما بينكم فما بلغني من حد فقد وجب",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6787
+  },
+  {
+    "id": "bk035",
+    "query": "لا ترجعوا بعدي كفارا يضرب بعضكم رقاب بعض",
+    "category": "Exact Quote",
+    "expected_hadith_number": 7080
+  },
+  {
+    "id": "bk036",
+    "query": "من رأى منكم منكرا فليغيره بيده",
+    "category": "Exact Quote",
+    "expected_hadith_number": 7054
+  },
+  {
+    "id": "bk037",
+    "query": "إن الله لا ينام ولا ينبغي له أن ينام",
+    "category": "Exact Quote",
+    "expected_hadith_number": 7404
+  },
+  {
+    "id": "bk038",
+    "query": "يتنزل ربنا تبارك وتعالى كل ليلة إلى السماء الدنيا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1145
+  },
+  {
+    "id": "bk039",
+    "query": "كل أمتي يدخلون الجنة إلا من أبى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 7280
+  },
+  {
+    "id": "bk040",
+    "query": "إن الله جميل يحب الجمال",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6029
+  },
+  {
+    "id": "bk041",
+    "query": "لقد كان في يوسف وإخوته آيات للسائلين",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3382
+  },
+  {
+    "id": "bk042",
+    "query": "أُعطيت مفاتيح خزائن الأرض",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3255
+  },
+  {
+    "id": "bk043",
+    "query": "إن موسى كان رجلا حييا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3404
+  },
+  {
+    "id": "bk044",
+    "query": "كانت غزوة بدر في رمضان",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3998
+  },
+  {
+    "id": "bk045",
+    "query": "اللهم أنجز لي ما وعدتني",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3953
+  },
+  {
+    "id": "bk046",
+    "query": "اقرأ باسم ربك الذي خلق",
+    "category": "Exact Quote",
+    "expected_hadith_number": 4953
+  },
+  {
+    "id": "bk047",
+    "query": "نزلت آية الكرسي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 5010
+  },
+  {
+    "id": "bk048",
+    "query": "ما أنزل الله داء إلا أنزل له شفاء",
+    "category": "Exact Quote",
+    "expected_hadith_number": 5678
+  },
+  {
+    "id": "bk049",
+    "query": "في الحبة السوداء شفاء من كل داء إلا السام",
+    "category": "Exact Quote",
+    "expected_hadith_number": 5688
+  },
+  {
+    "id": "bk050",
+    "query": "الشفاء في ثلاثة شربة عسل وشرطة محجم وكية نار",
+    "category": "Exact Quote",
+    "expected_hadith_number": 5680
+  },
+  {
+    "id": "bk051",
+    "query": "حديث أبي هريرة عن فضل الصلاة في جماعة",
+    "category": "Narrator",
+    "expected_hadith_number": 645
+  },
+  {
+    "id": "bk052",
+    "query": "ما روته عائشة عن بدء الوحي",
+    "category": "Narrator",
+    "expected_hadith_number": 2
+  },
+  {
+    "id": "bk053",
+    "query": "حديث أنس بن مالك عن محبة الله للعبد",
+    "category": "Narrator",
+    "expected_hadith_number": 6502
+  },
+  {
+    "id": "bk054",
+    "query": "ما روى ابن عمر عن الجهاد",
+    "category": "Narrator",
+    "expected_hadith_number": 2797
+  },
+  {
+    "id": "bk055",
+    "query": "حديث ابن عباس في تفسير سورة الفاتحة",
+    "category": "Narrator",
+    "expected_hadith_number": 4474
+  },
+  {
+    "id": "bk056",
+    "query": "ما روى أبو سعيد الخدري عن الصوم",
+    "category": "Narrator",
+    "expected_hadith_number": 1894
+  },
+  {
+    "id": "bk057",
+    "query": "حديث جابر بن عبد الله في الحج",
+    "category": "Narrator",
+    "expected_hadith_number": 1521
+  },
+  {
+    "id": "bk058",
+    "query": "ما روى عمر بن الخطاب عن النية",
+    "category": "Narrator",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk059",
+    "query": "حديث أبي هريرة في الاستغفار",
+    "category": "Narrator",
+    "expected_hadith_number": 6307
+  },
+  {
+    "id": "bk060",
+    "query": "ما روته أم سلمة عن النكاح",
+    "category": "Narrator",
+    "expected_hadith_number": 5090
+  },
+  {
+    "id": "bk061",
+    "query": "حديث أبي ذر في التواضع",
+    "category": "Narrator",
+    "expected_hadith_number": 6050
+  },
+  {
+    "id": "bk062",
+    "query": "حديث معاذ بن جبل عن حق الله على العباد",
+    "category": "Narrator",
+    "expected_hadith_number": 6267
+  },
+  {
+    "id": "bk063",
+    "query": "ما روى أبو موسى الأشعري عن الأخلاق",
+    "category": "Narrator",
+    "expected_hadith_number": 6018
+  },
+  {
+    "id": "bk064",
+    "query": "حديث عائشة في صيام النبي",
+    "category": "Narrator",
+    "expected_hadith_number": 1969
+  },
+  {
+    "id": "bk065",
+    "query": "ما روى ابن مسعود عن القرآن",
+    "category": "Narrator",
+    "expected_hadith_number": 5027
+  },
+  {
+    "id": "bk066",
+    "query": "حديث أنس في المعراج",
+    "category": "Narrator",
+    "expected_hadith_number": 3207
+  },
+  {
+    "id": "bk067",
+    "query": "ما روى أبو هريرة عن صفة الجنة",
+    "category": "Narrator",
+    "expected_hadith_number": 3254
+  },
+  {
+    "id": "bk068",
+    "query": "حديث ابن عباس في فضل القرآن",
+    "category": "Narrator",
+    "expected_hadith_number": 5027
+  },
+  {
+    "id": "bk069",
+    "query": "ما روت عائشة عن غزوة بدر",
+    "category": "Narrator",
+    "expected_hadith_number": 3998
+  },
+  {
+    "id": "bk070",
+    "query": "حديث أبي هريرة في الصدقة الجارية",
+    "category": "Narrator",
+    "expected_hadith_number": 1383
+  },
+  {
+    "id": "bk071",
+    "query": "ما روى سلمة بن الأكوع في الجهاد",
+    "category": "Narrator",
+    "expected_hadith_number": 2864
+  },
+  {
+    "id": "bk072",
+    "query": "حديث ابن عمر في الطهارة",
+    "category": "Narrator",
+    "expected_hadith_number": 135
+  },
+  {
+    "id": "bk073",
+    "query": "ما روى أبو بكر الصديق عن الإيمان",
+    "category": "Narrator",
+    "expected_hadith_number": 8
+  },
+  {
+    "id": "bk074",
+    "query": "حديث عمر في النهي عن الغلو",
+    "category": "Narrator",
+    "expected_hadith_number": 3261
+  },
+  {
+    "id": "bk075",
+    "query": "ما روى أبو هريرة عن الكلمة الطيبة",
+    "category": "Narrator",
+    "expected_hadith_number": 2989
+  },
+  {
+    "id": "bk076",
+    "query": "حديث أنس في حسن الخلق",
+    "category": "Narrator",
+    "expected_hadith_number": 6035
+  },
+  {
+    "id": "bk077",
+    "query": "ما روى ابن عباس عن خطبة الوداع",
+    "category": "Narrator",
+    "expected_hadith_number": 4406
+  },
+  {
+    "id": "bk078",
+    "query": "حديث عائشة عن صلاة الليل",
+    "category": "Narrator",
+    "expected_hadith_number": 1130
+  },
+  {
+    "id": "bk079",
+    "query": "ما روى أبو هريرة عن المساجد",
+    "category": "Narrator",
+    "expected_hadith_number": 450
+  },
+  {
+    "id": "bk080",
+    "query": "حديث جابر في الزكاة",
+    "category": "Narrator",
+    "expected_hadith_number": 1399
+  },
+  {
+    "id": "bk081",
+    "query": "ما روى أنس عن فضل قراءة القرآن",
+    "category": "Narrator",
+    "expected_hadith_number": 5027
+  },
+  {
+    "id": "bk082",
+    "query": "حديث أبي هريرة عن صدقة الفطر",
+    "category": "Narrator",
+    "expected_hadith_number": 1503
+  },
+  {
+    "id": "bk083",
+    "query": "ما روى ابن عمر عن الطلاق",
+    "category": "Narrator",
+    "expected_hadith_number": 5251
+  },
+  {
+    "id": "bk084",
+    "query": "حديث عائشة في أدب النبي",
+    "category": "Narrator",
+    "expected_hadith_number": 6030
+  },
+  {
+    "id": "bk085",
+    "query": "ما روى أبو موسى عن العلم",
+    "category": "Narrator",
+    "expected_hadith_number": 79
+  },
+  {
+    "id": "bk086",
+    "query": "حديث ابن عباس في الحج",
+    "category": "Narrator",
+    "expected_hadith_number": 1513
+  },
+  {
+    "id": "bk087",
+    "query": "ما روى أبو هريرة عن رمضان",
+    "category": "Narrator",
+    "expected_hadith_number": 1901
+  },
+  {
+    "id": "bk088",
+    "query": "حديث أنس في فضل العلم",
+    "category": "Narrator",
+    "expected_hadith_number": 100
+  },
+  {
+    "id": "bk089",
+    "query": "ما روى ابن مسعود عن الصلاة الوسطى",
+    "category": "Narrator",
+    "expected_hadith_number": 371
+  },
+  {
+    "id": "bk090",
+    "query": "حديث عمر بن الخطاب في العدل",
+    "category": "Narrator",
+    "expected_hadith_number": 7138
+  },
+  {
+    "id": "bk091",
+    "query": "ما حكم الصلاة في الجماعة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 645
+  },
+  {
+    "id": "bk092",
+    "query": "حكم الإسلام في الزكاة على الذهب والفضة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 1454
+  },
+  {
+    "id": "bk093",
+    "query": "ما حكم الصوم في رمضان",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 1901
+  },
+  {
+    "id": "bk094",
+    "query": "حكم الحج على المستطيع",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 1513
+  },
+  {
+    "id": "bk095",
+    "query": "ما أقوال النبي في الطهارة قبل الصلاة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 135
+  },
+  {
+    "id": "bk096",
+    "query": "حكم شرب الخمر في الإسلام",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 5575
+  },
+  {
+    "id": "bk097",
+    "query": "ما حكم الغيبة والنميمة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6056
+  },
+  {
+    "id": "bk098",
+    "query": "حكم الربا في البيوع",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 2083
+  },
+  {
+    "id": "bk099",
+    "query": "ما حكم الطلاق في الإسلام",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 5251
+  },
+  {
+    "id": "bk100",
+    "query": "حكم قتل النفس في الإسلام",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6878
+  },
+  {
+    "id": "bk101",
+    "query": "ما فضل قراءة القرآن",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 5027
+  },
+  {
+    "id": "bk102",
+    "query": "حكم السرقة وما الحد فيها",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6789
+  },
+  {
+    "id": "bk103",
+    "query": "أحاديث في فضل الصدقة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 1421
+  },
+  {
+    "id": "bk104",
+    "query": "ما أحاديث النبي في برّ الوالدين",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 5971
+  },
+  {
+    "id": "bk105",
+    "query": "حكم الغناء والموسيقى",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 5590
+  },
+  {
+    "id": "bk106",
+    "query": "فضل ليلة القدر وفضل العبادة فيها",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 2014
+  },
+  {
+    "id": "bk107",
+    "query": "ما حديث النبي في الحسد",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 2452
+  },
+  {
+    "id": "bk108",
+    "query": "أحاديث في فضل ذكر الله",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6407
+  },
+  {
+    "id": "bk109",
+    "query": "حكم لحم الخنزير في الإسلام",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 5212
+  },
+  {
+    "id": "bk110",
+    "query": "ما أحاديث النبي في التوكل على الله",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6416
+  },
+  {
+    "id": "bk111",
+    "query": "أحاديث في صفة الجنة والنار",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 3254
+  },
+  {
+    "id": "bk112",
+    "query": "ما حديث النبي في الأمانة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 33
+  },
+  {
+    "id": "bk113",
+    "query": "أحاديث في فضل الاستغفار",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6307
+  },
+  {
+    "id": "bk114",
+    "query": "ما حديث النبي في التواضع",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6050
+  },
+  {
+    "id": "bk115",
+    "query": "أحاديث في حسن معاملة الجيران",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6015
+  },
+  {
+    "id": "bk116",
+    "query": "حكم الزنا وحده في الإسلام",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6830
+  },
+  {
+    "id": "bk117",
+    "query": "ما أحاديث النبي في طلب العلم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 79
+  },
+  {
+    "id": "bk118",
+    "query": "فضل صيام يوم عرفة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 1988
+  },
+  {
+    "id": "bk119",
+    "query": "أحاديث في الدعاء وأوقات الإجابة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6304
+  },
+  {
+    "id": "bk120",
+    "query": "ما حديث النبي في الصبر على البلاء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 5641
+  },
+  {
+    "id": "bk121",
+    "query": "حكم الخروج على الحاكم الظالم",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 7055
+  },
+  {
+    "id": "bk122",
+    "query": "أحاديث في فضل العمل الصالح",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6407
+  },
+  {
+    "id": "bk123",
+    "query": "ما حديث النبي في الحياء",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6118
+  },
+  {
+    "id": "bk124",
+    "query": "أحاديث عن علامات الساعة",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 7121
+  },
+  {
+    "id": "bk125",
+    "query": "حكم إخراج زكاة الفطر",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 1503
+  },
+  {
+    "id": "bk126",
+    "query": "أحاديث في فضل الشهادة في سبيل الله",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 2787
+  },
+  {
+    "id": "bk127",
+    "query": "ما حكم كتابة الوصية",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 2738
+  },
+  {
+    "id": "bk128",
+    "query": "أحاديث عن المسيح الدجال",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 7122
+  },
+  {
+    "id": "bk129",
+    "query": "فضل صلاة الفجر وصلاة العصر",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 529
+  },
+  {
+    "id": "bk130",
+    "query": "ما حديث النبي في كتمان الأسرار",
+    "category": "Topic/Ruling",
+    "expected_hadith_number": 6289
+  },
+  {
+    "id": "bk131",
+    "query": "أحاديث كتاب الإيمان في صحيح البخاري",
+    "category": "Book Reference",
+    "expected_hadith_number": 8
+  },
+  {
+    "id": "bk132",
+    "query": "ما أحاديث كتاب العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 59
+  },
+  {
+    "id": "bk133",
+    "query": "أحاديث كتاب الصوم عند البخاري",
+    "category": "Book Reference",
+    "expected_hadith_number": 1886
+  },
+  {
+    "id": "bk134",
+    "query": "أحاديث كتاب الحج",
+    "category": "Book Reference",
+    "expected_hadith_number": 1513
+  },
+  {
+    "id": "bk135",
+    "query": "ما أحاديث كتاب البيوع",
+    "category": "Book Reference",
+    "expected_hadith_number": 2046
+  },
+  {
+    "id": "bk136",
+    "query": "أحاديث كتاب الجهاد والسير",
+    "category": "Book Reference",
+    "expected_hadith_number": 2782
+  },
+  {
+    "id": "bk137",
+    "query": "ما أحاديث كتاب الأدب",
+    "category": "Book Reference",
+    "expected_hadith_number": 5994
+  },
+  {
+    "id": "bk138",
+    "query": "أحاديث كتاب الطب عند البخاري",
+    "category": "Book Reference",
+    "expected_hadith_number": 5641
+  },
+  {
+    "id": "bk139",
+    "query": "أحاديث كتاب التوحيد",
+    "category": "Book Reference",
+    "expected_hadith_number": 7274
+  },
+  {
+    "id": "bk140",
+    "query": "ما أحاديث كتاب النكاح",
+    "category": "Book Reference",
+    "expected_hadith_number": 5083
+  },
+  {
+    "id": "bk141",
+    "query": "أحاديث كتاب الزكاة",
+    "category": "Book Reference",
+    "expected_hadith_number": 1399
+  },
+  {
+    "id": "bk142",
+    "query": "أحاديث كتاب الجنائز",
+    "category": "Book Reference",
+    "expected_hadith_number": 1250
+  },
+  {
+    "id": "bk143",
+    "query": "أحاديث كتاب الوضوء",
+    "category": "Book Reference",
+    "expected_hadith_number": 135
+  },
+  {
+    "id": "bk144",
+    "query": "ما أحاديث كتاب الفتن",
+    "category": "Book Reference",
+    "expected_hadith_number": 7047
+  },
+  {
+    "id": "bk145",
+    "query": "أحاديث كتاب الرقاق",
+    "category": "Book Reference",
+    "expected_hadith_number": 6407
+  },
+  {
+    "id": "bk146",
+    "query": "ما أحاديث كتاب الأحكام",
+    "category": "Book Reference",
+    "expected_hadith_number": 7138
+  },
+  {
+    "id": "bk147",
+    "query": "أحاديث كتاب الدعوات",
+    "category": "Book Reference",
+    "expected_hadith_number": 6304
+  },
+  {
+    "id": "bk148",
+    "query": "أحاديث كتاب المناقب في البخاري",
+    "category": "Book Reference",
+    "expected_hadith_number": 3481
+  },
+  {
+    "id": "bk149",
+    "query": "ما أحاديث كتاب التفسير",
+    "category": "Book Reference",
+    "expected_hadith_number": 4474
+  },
+  {
+    "id": "bk150",
+    "query": "أحاديث كتاب المغازي",
+    "category": "Book Reference",
+    "expected_hadith_number": 3913
+  },
+  {
+    "id": "bk151",
+    "query": "ما أحاديث كتاب الأنبياء",
+    "category": "Book Reference",
+    "expected_hadith_number": 3254
+  },
+  {
+    "id": "bk152",
+    "query": "أحاديث كتاب الشهادات",
+    "category": "Book Reference",
+    "expected_hadith_number": 2632
+  },
+  {
+    "id": "bk153",
+    "query": "أحاديث كتاب الحدود",
+    "category": "Book Reference",
+    "expected_hadith_number": 6768
+  },
+  {
+    "id": "bk154",
+    "query": "ما أحاديث كتاب القدر",
+    "category": "Book Reference",
+    "expected_hadith_number": 6594
+  },
+  {
+    "id": "bk155",
+    "query": "أحاديث كتاب الديات",
+    "category": "Book Reference",
+    "expected_hadith_number": 6879
+  },
+  {
+    "id": "bk156",
+    "query": "أحاديث كتاب الأطعمة عند البخاري",
+    "category": "Book Reference",
+    "expected_hadith_number": 5354
+  },
+  {
+    "id": "bk157",
+    "query": "أحاديث كتاب اللباس",
+    "category": "Book Reference",
+    "expected_hadith_number": 5780
+  },
+  {
+    "id": "bk158",
+    "query": "ما أحاديث كتاب فضائل القرآن",
+    "category": "Book Reference",
+    "expected_hadith_number": 5063
+  },
+  {
+    "id": "bk159",
+    "query": "أحاديث كتاب الاعتكاف",
+    "category": "Book Reference",
+    "expected_hadith_number": 2025
+  },
+  {
+    "id": "bk160",
+    "query": "ما أحاديث كتاب النفقات",
+    "category": "Book Reference",
+    "expected_hadith_number": 5318
+  },
+  {
+    "id": "bk161",
+    "query": "النبي اتكلم إيه عن النية",
+    "category": "Colloquial",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk162",
+    "query": "فين الحديث عن بني الإسلام على خمس",
+    "category": "Colloquial",
+    "expected_hadith_number": 8
+  },
+  {
+    "id": "bk163",
+    "query": "حديث بيتكلم عن الصلاة في جماعة",
+    "category": "Colloquial",
+    "expected_hadith_number": 645
+  },
+  {
+    "id": "bk164",
+    "query": "إيه الحديث عن فضل صوم رمضان",
+    "category": "Colloquial",
+    "expected_hadith_number": 1901
+  },
+  {
+    "id": "bk165",
+    "query": "النبي قال إيه عن طلب العلم",
+    "category": "Colloquial",
+    "expected_hadith_number": 79
+  },
+  {
+    "id": "bk166",
+    "query": "فين حديث الحبة السودا شفاء",
+    "category": "Colloquial",
+    "expected_hadith_number": 5688
+  },
+  {
+    "id": "bk167",
+    "query": "عايز حديث عن الصدقة الجارية",
+    "category": "Colloquial",
+    "expected_hadith_number": 1383
+  },
+  {
+    "id": "bk168",
+    "query": "النبي اتكلم عن الغضب إزاي",
+    "category": "Colloquial",
+    "expected_hadith_number": 6114
+  },
+  {
+    "id": "bk169",
+    "query": "فين حديث من صام رمضان إيمانا واحتسابا",
+    "category": "Colloquial",
+    "expected_hadith_number": 1901
+  },
+  {
+    "id": "bk170",
+    "query": "إيه حديث النبي في الحسد والعين",
+    "category": "Colloquial",
+    "expected_hadith_number": 2452
+  },
+  {
+    "id": "bk171",
+    "query": "حديث بيقول الشديد اللي بيتحكم في نفسه",
+    "category": "Colloquial",
+    "expected_hadith_number": 6114
+  },
+  {
+    "id": "bk172",
+    "query": "عايز حديث عن الكلمة الطيبة صدقة",
+    "category": "Colloquial",
+    "expected_hadith_number": 2989
+  },
+  {
+    "id": "bk173",
+    "query": "النبي قال إيه في موضوع الجيران",
+    "category": "Colloquial",
+    "expected_hadith_number": 6015
+  },
+  {
+    "id": "bk174",
+    "query": "فين الحديث عن علامات القيامة الكبرى",
+    "category": "Colloquial",
+    "expected_hadith_number": 7121
+  },
+  {
+    "id": "bk175",
+    "query": "حديث عن الكن في الدنيا زي الغريب",
+    "category": "Colloquial",
+    "expected_hadith_number": 6416
+  },
+  {
+    "id": "bk176",
+    "query": "إيه قال النبي عن الأمانة",
+    "category": "Colloquial",
+    "expected_hadith_number": 33
+  },
+  {
+    "id": "bk177",
+    "query": "حديث النبي عن بر الأم والأب",
+    "category": "Colloquial",
+    "expected_hadith_number": 5971
+  },
+  {
+    "id": "bk178",
+    "query": "عايز حديث عن سيد الاستغفار",
+    "category": "Colloquial",
+    "expected_hadith_number": 6306
+  },
+  {
+    "id": "bk179",
+    "query": "إيه حديث النبي عن الحياء",
+    "category": "Colloquial",
+    "expected_hadith_number": 6118
+  },
+  {
+    "id": "bk180",
+    "query": "فين حديث تنكح المرأة لأربع",
+    "category": "Colloquial",
+    "expected_hadith_number": 5090
+  },
+  {
+    "id": "bk181",
+    "query": "ما معنى آية الكرسي",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk182",
+    "query": "سورة الفاتحة كاملة",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk183",
+    "query": "ما هو حكم الصلاة في الفقه الشافعي",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk184",
+    "query": "شرح الأربعين النووية",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk185",
+    "query": "أين يقع المسجد النبوي",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk186",
+    "query": "ما أسماء الله الحسنى",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk187",
+    "query": "رياض الصالحين حديث",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk188",
+    "query": "ما صحيح مسلم في الصلاة",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk189",
+    "query": "كيف أحفظ القرآن",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk190",
+    "query": "ما قصة آدم وحواء في القرآن",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk191",
+    "query": "ما هو معنى التوحيد",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk192",
+    "query": "قصة يوسف عليه السلام في القرآن",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk193",
+    "query": "شرح خطبة الجمعة",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk194",
+    "query": "حكم اللحية في المذاهب الأربعة",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk195",
+    "query": "ما الفرق بين السنة والحديث",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk196",
+    "query": "كيف أؤدي مناسك الحج خطوة خطوة",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk197",
+    "query": "تفسير ابن كثير سورة البقرة",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk198",
+    "query": "ما حكم الصلاة على النبي في التشهد",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk199",
+    "query": "شرح الطهارة في الفقه الحنفي",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  },
+  {
+    "id": "bk200",
+    "query": "ما الفرق بين البخاري ومسلم",
+    "category": "Out-of-domain",
+    "expected_hadith_number": null
+  }
+]

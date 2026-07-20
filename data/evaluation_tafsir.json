@@ -1,0 +1,34 @@
+[
+  {
+    "id": "tf001",
+    "query": "تفسير البسملة والفرق بين الرحمن والرحيم ابن كثير",
+    "category": "Tafsir",
+    "expected_ids": [
+      "tafsir_1_1"
+    ]
+  },
+  {
+    "id": "tf002",
+    "query": "تفسير آية الكرسي ومعنى القيوم عند ابن كثير",
+    "category": "Tafsir",
+    "expected_ids": [
+      "tafsir_2_255"
+    ]
+  },
+  {
+    "id": "tf003",
+    "query": "تفسير الذين يأكلون الربا لا يقومون إلا كما يقوم الذي يتخبطه الشيطان",
+    "category": "Tafsir",
+    "expected_ids": [
+      "tafsir_2_275"
+    ]
+  },
+  {
+    "id": "tf004",
+    "query": "تفسير قل هو الله احد ومعنى الصمد في سورة الإخلاص",
+    "category": "Tafsir",
+    "expected_ids": [
+      "tafsir_112_1"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+# Production Dependencies for Islamic AI Engine
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+pydantic>=2.0.0
+requests>=2.28.0
+httpx>=0.24.0
+
+# Vector Search & Embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.2
+
+# Optional local LLM client
+ollama>=0.1.0

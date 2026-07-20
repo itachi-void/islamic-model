@@ -1,0 +1,423 @@
+:root {
+    --bg-dark: #0f172a;
+    --card-bg: #1e293b;
+    --card-border: #334155;
+    --primary-emerald: #10b981;
+    --primary-gold: #f59e0b;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --quran-color: #059669;
+    --bukhari-color: #d97706;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 920px;
+    background: #0b1120;
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    padding: 24px;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border-bottom: 1px solid var(--card-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo-icon {
+    font-size: 2.2rem;
+    background: rgba(16, 185, 129, 0.15);
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.header h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+
+.header-badges {
+    display: flex;
+    gap: 10px;
+}
+
+.badge {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.badge-quran {
+    background: rgba(5, 150, 105, 0.2);
+    color: #34d399;
+    border: 1px solid rgba(5, 150, 105, 0.4);
+}
+
+.badge-bukhari {
+    background: rgba(217, 119, 6, 0.2);
+    color: #fbbf24;
+    border: 1px solid rgba(217, 119, 6, 0.4);
+}
+
+/* Tabs */
+.nav-tabs {
+    display: flex;
+    background: #111827;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 14px;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tab-btn.active {
+    color: var(--primary-emerald);
+    border-bottom: 3px solid var(--primary-emerald);
+    background: rgba(16, 185, 129, 0.05);
+}
+
+/* Domain Selector & Controls */
+.domain-selector {
+    padding: 14px 24px;
+    background: #0f172a;
+    border-bottom: 1px solid var(--card-border);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.selector-row, .options-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.domain-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.pills-group {
+    display: flex;
+    gap: 8px;
+}
+
+.pill-btn {
+    padding: 6px 14px;
+    background: #1e293b;
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    color: var(--text-muted);
+    font-family: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pill-btn.active {
+    background: var(--primary-emerald);
+    color: #ffffff;
+    border-color: var(--primary-emerald);
+    font-weight: 600;
+}
+
+.toggle-label {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    user-select: none;
+}
+
+.toggle-label input {
+    accent-color: var(--primary-emerald);
+}
+
+/* Main Content Views */
+.main-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 480px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Chat History */
+.chat-history {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-height: 520px;
+    overflow-y: auto;
+    padding-left: 6px;
+}
+
+.message {
+    display: flex;
+    gap: 12px;
+    max-width: 92%;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.user-message {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.user-message .msg-body {
+    background: #0284c7;
+    color: #ffffff;
+    border-radius: 16px 16px 2px 16px;
+    padding: 12px 18px;
+}
+
+.assistant-message .msg-body {
+    background: #1e293b;
+    border: 1px solid var(--card-border);
+    border-radius: 16px 16px 16px 2px;
+    padding: 16px;
+    position: relative;
+}
+
+.msg-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #334155;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--card-border);
+    color: var(--text-muted);
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.copy-btn:hover {
+    background: var(--primary-emerald);
+    color: white;
+}
+
+.sample-queries {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sample-queries span {
+    background: #334155;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.sample-queries span:hover {
+    background: var(--primary-emerald);
+    color: white;
+}
+
+/* Citation Cards UI */
+.citations-box {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--card-border);
+}
+
+.citations-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--primary-gold);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.citation-card {
+    background: #0f172a;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+    border-right: 4px solid var(--primary-emerald);
+}
+
+.citation-card.quran-card {
+    border-right-color: var(--quran-color);
+}
+
+.citation-card.bukhari-card {
+    border-right-color: var(--bukhari-color);
+}
+
+.cit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.cit-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.cit-badge.quran {
+    background: rgba(5, 150, 105, 0.2);
+    color: #34d399;
+}
+
+.cit-badge.bukhari {
+    background: rgba(217, 119, 6, 0.2);
+    color: #fbbf24;
+}
+
+.cit-ref {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.cit-sanad {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 6px;
+    display: none;
+}
+
+.show-sanad .cit-sanad {
+    display: block;
+}
+
+.cit-text {
+    font-family: 'Amiri', serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #f1f5f9;
+}
+
+/* Input Form */
+.input-form {
+    display: flex;
+    gap: 10px;
+}
+
+.input-form input {
+    flex: 1;
+    padding: 14px 18px;
+    background: #1e293b;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    color: white;
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+.input-form input:focus {
+    outline: none;
+    border-color: var(--primary-emerald);
+}
+
+.input-form button {
+    padding: 14px 24px;
+    background: var(--primary-emerald);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.input-form button:hover {
+    background: #059669;
+}
+
+.placeholder-text {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 40px;
+    font-size: 0.9rem;
+}

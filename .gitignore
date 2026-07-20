@@ -1,0 +1,20 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Agents & IDE
+.agents/
+.gemini/
+
+# System / OS
+.DS_Store
+Thumbs.db
+
+# Heavy Vector Databases
+data/chroma/
+data/test_chroma/

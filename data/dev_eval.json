@@ -1,0 +1,22 @@
+[
+  {"id": "dev_01", "type": "hard_famous", "question": "ما هي اية الكرسي؟", "expected_ids": ["2:255"]},
+  {"id": "dev_02", "type": "hard_famous", "question": "ايه هي اعظم اية في القران", "expected_ids": ["2:255"]},
+  {"id": "dev_03", "type": "typo_dialect", "question": "ايه اية الدين بالبقرة", "expected_ids": ["2:282"]},
+  {"id": "dev_04", "type": "incomplete_quote", "question": "استعينوا بالصبر وان الله مع الصابرين", "expected_ids": ["2:153"]},
+  {"id": "dev_05", "type": "synonym_topic", "question": "ما حكم التحلي بالصبر وتجرع الشدائد؟", "expected_ids": ["2:153", "3:200", "16:127", "39:10"]},
+  {"id": "dev_06", "type": "multi_prophet", "question": "ذكر موسى وهارون وإرسالهما إلى فرعون", "expected_ids": ["10:75", "20:43", "20:47", "26:15", "26:16"]},
+  {"id": "dev_07", "type": "multi_surah_story", "question": "قصة نبي الله يوسف مع إخوته والعزيز في مصر", "expected_ids": ["12:7", "12:4", "12:21", "12:54"]},
+  {"id": "dev_08", "type": "multi_surah_story", "question": "قصة ذي القرنين وبناء سد يأجوج ومأجوج", "expected_ids": ["18:83", "18:94", "18:96"]},
+  {"id": "dev_09", "type": "non_famous_verse", "question": "آية تذكر صلاة الليل وتجافي الجُنوب عن المضاجع", "expected_ids": ["32:16"]},
+  {"id": "dev_10", "type": "fiqh_mirath", "question": "للذكر مثل حظ الأنثيين في الميراث", "expected_ids": ["4:11"]},
+  {"id": "dev_11", "type": "fiqh_riba", "question": "عاقبة أكل الربا والتخبط من الشيطان", "expected_ids": ["2:275"]},
+  {"id": "dev_12", "type": "creation_topic", "question": "خلق السماوات والأرض في ستة أيام والعرش", "expected_ids": ["7:54", "10:3", "11:7", "50:38", "32:4", "57:4"]},
+  {"id": "dev_13", "type": "tawbah_topic", "question": "لا تقنطوا من رحمة الله إن الله يغفر الذنوب جميعا", "expected_ids": ["39:53"]},
+  {"id": "dev_14", "type": "hard_quote", "question": "قد افلح المؤمنون الذين هم في صلاتهم خاشعون", "expected_ids": ["23:1", "23:2"]},
+  {"id": "dev_15", "type": "hard_quote", "question": "قل هو الله احد الله الصمد لم يلد ولم يولد", "expected_ids": ["112:1", "112:2", "112:3"]},
+  {"id": "dev_16", "type": "hard_quote", "question": "تبارك الذي بيده الملك وهو على كل شيء قدير", "expected_ids": ["67:1"]},
+  {"id": "dev_17", "type": "parent_birr", "question": "إما يبلغن عندك الكبر أحدهما أو كلاهما فلا تقل لهما أف", "expected_ids": ["17:23"]},
+  {"id": "dev_18", "type": "akhlaq_topic", "question": "نهي عن الغيبة وسوء الظن والتجسس", "expected_ids": ["49:12"]},
+  {"id": "dev_19", "type": "out_of_domain", "question": "ما هي الخطوات العملية لتعلم لغة البرمجة بايثون والتطوير بها؟", "expected_ids": []},
+  {"id": "dev_20", "type": "out_of_domain", "question": "كم عدد الدول في قارة أوروبا وما هي عواصمها؟", "expected_ids": []}
+]

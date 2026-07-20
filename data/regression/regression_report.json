@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-07-19 21:12:58",
+  "total_cases": 5,
+  "passed": 2,
+  "failed": 3,
+  "pass_rate_percent": 40.0,
+  "total_time_seconds": 4.18,
+  "details": [
+    {
+      "id": "reg_quran_01",
+      "domain": "quran",
+      "category": "multi_surah_story",
+      "query": "قصة نبي الله يوسف مع إخوته والعزيز في مصر",
+      "expected_ids": [
+        "12:7",
+        "12:54",
+        "12:4",
+        "12:21"
+      ],
+      "retrieved_ids": [
+        "12:99",
+        "12:7",
+        "12:87",
+        "7:111",
+        "12:58"
+      ],
+      "best_rank": 2,
+      "passed": true,
+      "historical_failure": "RANKING_ERROR"
+    },
+    {
+      "id": "reg_quran_02",
+      "domain": "quran",
+      "category": "akhlaq_topic",
+      "query": "نهي عن الغيبة وسوء الظن والتجسس",
+      "expected_ids": [
+        "49:12"
+      ],
+      "retrieved_ids": [
+        "2:119",
+        "77:6",
+        "49:12",
+        "74:28",
+        "74:36"
+      ],
+      "best_rank": 3,
+      "passed": true,
+      "historical_failure": "TOPIC_MISS"
+    },
+    {
+      "id": "reg_hadith_01",
+      "domain": "bukhari",
+      "category": "exact_quote",
+      "query": "المسلم من سلم المسلمون من لسانه ويده",
+      "expected_ids": [
+        "9"
+      ],
+      "retrieved_ids": [
+        "6484",
+        "11",
+        "10",
+        "5383",
+        "714"
+      ],
+      "best_rank": null,
+      "passed": false,
+      "historical_failure": "EXACT_MATCH_MISS"
+    },
+    {
+      "id": "reg_hadith_02",
+      "domain": "bukhari",
+      "category": "exact_quote",
+      "query": "إذا أقيمت الصلاة فلا تأتوها تسعون",
+      "expected_ids": [
+        "636"
+      ],
+      "retrieved_ids": [
+        "638",
+        "637",
+        "583",
+        "908",
+        "582"
+      ],
+      "best_rank": null,
+      "passed": false,
+      "historical_failure": "EXACT_MATCH_MISS"
+    },
+    {
+      "id": "reg_hadith_03",
+      "domain": "bukhari",
+      "category": "exact_quote",
+      "query": "من شهد الجنازة حتى يصلى عليها فله قيراط",
+      "expected_ids": [
+        "1253"
+      ],
+      "retrieved_ids": [
+        "1323",
+        "1325",
+        "460",
+        "360",
+        "458"
+      ],
+      "best_rank": null,
+      "passed": false,
+      "historical_failure": "EXACT_MATCH_MISS"
+    }
+  ]
+}

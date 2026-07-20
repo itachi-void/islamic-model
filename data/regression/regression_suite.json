@@ -1,0 +1,57 @@
+[
+  {
+    "id": "reg_quran_01",
+    "domain": "quran",
+    "category": "multi_surah_story",
+    "query": "قصة نبي الله يوسف مع إخوته والعزيز في مصر",
+    "expected_ids": ["12:7", "12:54", "12:4", "12:21"],
+    "target_hit_k": 5,
+    "target_rank": 3,
+    "historical_failure": "RANKING_ERROR",
+    "status": "active"
+  },
+  {
+    "id": "reg_quran_02",
+    "domain": "quran",
+    "category": "akhlaq_topic",
+    "query": "نهي عن الغيبة وسوء الظن والتجسس",
+    "expected_ids": ["49:12"],
+    "target_hit_k": 5,
+    "target_rank": 1,
+    "historical_failure": "TOPIC_MISS",
+    "status": "active"
+  },
+  {
+    "id": "reg_hadith_01",
+    "domain": "bukhari",
+    "category": "exact_quote",
+    "query": "المسلم من سلم المسلمون من لسانه ويده",
+    "expected_ids": ["9"],
+    "target_hit_k": 5,
+    "target_rank": 1,
+    "historical_failure": "EXACT_MATCH_MISS",
+    "status": "active"
+  },
+  {
+    "id": "reg_hadith_02",
+    "domain": "bukhari",
+    "category": "exact_quote",
+    "query": "إذا أقيمت الصلاة فلا تأتوها تسعون",
+    "expected_ids": ["636"],
+    "target_hit_k": 5,
+    "target_rank": 1,
+    "historical_failure": "EXACT_MATCH_MISS",
+    "status": "active"
+  },
+  {
+    "id": "reg_hadith_03",
+    "domain": "bukhari",
+    "category": "exact_quote",
+    "query": "من شهد الجنازة حتى يصلى عليها فله قيراط",
+    "expected_ids": ["1253"],
+    "target_hit_k": 5,
+    "target_rank": 1,
+    "historical_failure": "EXACT_MATCH_MISS",
+    "status": "active"
+  }
+]

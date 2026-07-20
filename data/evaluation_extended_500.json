@@ -1,0 +1,412 @@
+[
+  {
+    "id": "ext_001",
+    "category": "Colloquial",
+    "question": "عايز آية بتتكلم عن الصبر والفرج",
+    "expected_ids": [
+      "2:153",
+      "65:3",
+      "3:200"
+    ]
+  },
+  {
+    "id": "ext_002",
+    "category": "Colloquial",
+    "question": "فين ربنا قال عن بر الوالدين والوالدين إحسانا",
+    "expected_ids": [
+      "17:23",
+      "46:15",
+      "2:83"
+    ]
+  },
+  {
+    "id": "ext_003",
+    "category": "Colloquial",
+    "question": "ايه الآية اللي فيها إن مع العسر يسرا",
+    "expected_ids": [
+      "94:5",
+      "94:6"
+    ]
+  },
+  {
+    "id": "ext_004",
+    "category": "Colloquial",
+    "question": "عايز الآية اللي بتقول الله لا إله إلا هو الحي القيوم",
+    "expected_ids": [
+      "2:255",
+      "3:2"
+    ]
+  },
+  {
+    "id": "ext_005",
+    "category": "Colloquial",
+    "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار",
+    "expected_ids": [
+      "3:135",
+      "4:110",
+      "3:17"
+    ]
+  },
+  {
+    "id": "ext_006",
+    "category": "Colloquial",
+    "question": "ايه الآية اللي فيها لا يكلف الله نفسا إلا وسعها",
+    "expected_ids": [
+      "2:286"
+    ]
+  },
+  {
+    "id": "ext_007",
+    "category": "Colloquial",
+    "question": "عايز آية تحث على الإنفاق والصدقة",
+    "expected_ids": [
+      "2:261",
+      "2:274",
+      "2:267"
+    ]
+  },
+  {
+    "id": "ext_008",
+    "category": "Colloquial",
+    "question": "فين ربنا ذكر الشفاء في القرآن ومصنع العسل",
+    "expected_ids": [
+      "16:69",
+      "17:82"
+    ]
+  },
+  {
+    "id": "ext_009",
+    "category": "Colloquial",
+    "question": "آية عن الظلم وعاقبة الظالمين",
+    "expected_ids": [
+      "14:42",
+      "42:42",
+      "3:151"
+    ]
+  },
+  {
+    "id": "ext_010",
+    "category": "Colloquial",
+    "question": "عايز آية تيسير الأمور والدعاء ربنا آتنا في الدنيا حسنة",
+    "expected_ids": [
+      "2:201"
+    ]
+  },
+  {
+    "id": "ext_011",
+    "category": "Typos",
+    "question": "قل هو الله احد الله الصمد",
+    "expected_ids": [
+      "112:1",
+      "112:2"
+    ]
+  },
+  {
+    "id": "ext_012",
+    "category": "Typos",
+    "question": "انا اعطيناك الكوثر فصل لربك وانحر",
+    "expected_ids": [
+      "108:1",
+      "108:2"
+    ]
+  },
+  {
+    "id": "ext_013",
+    "category": "Typos",
+    "question": "تبت يدا ابي لهب وتب",
+    "expected_ids": [
+      "111:1"
+    ]
+  },
+  {
+    "id": "ext_014",
+    "category": "Typos",
+    "question": "اذا جاء نصر الله والفتح ورأيت الناس يدخلون",
+    "expected_ids": [
+      "110:1",
+      "110:2"
+    ]
+  },
+  {
+    "id": "ext_015",
+    "category": "Typos",
+    "question": "قل اعوذ برب الفلق من شر ما خلق",
+    "expected_ids": [
+      "113:1",
+      "113:2"
+    ]
+  },
+  {
+    "id": "ext_016",
+    "category": "Typos",
+    "question": "قل اعوذ برب الناس ملك الناس اله الناس",
+    "expected_ids": [
+      "114:1",
+      "114:2",
+      "114:3"
+    ]
+  },
+  {
+    "id": "ext_017",
+    "category": "Typos",
+    "question": "مالك يوم الدين اياك نعبد واياك نستعين",
+    "expected_ids": [
+      "1:4",
+      "1:5"
+    ]
+  },
+  {
+    "id": "ext_018",
+    "category": "Typos",
+    "question": "اهدنا الصراط المستقيم صراط الذين انعمت عليهم",
+    "expected_ids": [
+      "1:6",
+      "1:7"
+    ]
+  },
+  {
+    "id": "ext_019",
+    "category": "Typos",
+    "question": "والشمس وضحاها والقمر اذا تلاها",
+    "expected_ids": [
+      "91:1",
+      "91:2"
+    ]
+  },
+  {
+    "id": "ext_020",
+    "category": "Typos",
+    "question": "والضحي والليل اذا سجي ما ودعك ربك وما قلي",
+    "expected_ids": [
+      "93:1",
+      "93:2",
+      "93:3"
+    ]
+  },
+  {
+    "id": "ext_021",
+    "category": "Topics",
+    "question": "أحكام الوصية والإشهاد عند الموت",
+    "expected_ids": [
+      "5:106",
+      "2:180"
+    ]
+  },
+  {
+    "id": "ext_022",
+    "category": "Topics",
+    "question": "الأمر بالوفاء بالعقود والعهود",
+    "expected_ids": [
+      "5:1",
+      "17:34",
+      "16:91"
+    ]
+  },
+  {
+    "id": "ext_023",
+    "category": "Topics",
+    "question": "أحكام التيمم والطهارة عند فقد الماء",
+    "expected_ids": [
+      "4:43",
+      "5:6"
+    ]
+  },
+  {
+    "id": "ext_024",
+    "category": "Topics",
+    "question": "تحريم أكل الخنزير والميتة والدم",
+    "expected_ids": [
+      "2:173",
+      "5:3",
+      "16:115"
+    ]
+  },
+  {
+    "id": "ext_025",
+    "category": "Topics",
+    "question": "أحكام الرضاعة وحرمة أمهات الرضاعة",
+    "expected_ids": [
+      "2:233",
+      "4:23"
+    ]
+  },
+  {
+    "id": "ext_026",
+    "category": "Topics",
+    "question": "الأمر بالقسط والعدل في الكيل والميزان",
+    "expected_ids": [
+      "6:152",
+      "17:35",
+      "55:9",
+      "83:1"
+    ]
+  },
+  {
+    "id": "ext_027",
+    "category": "Topics",
+    "question": "آيات فضل ليلة القدر ونزول القرآن",
+    "expected_ids": [
+      "97:1",
+      "97:3",
+      "44:3"
+    ]
+  },
+  {
+    "id": "ext_028",
+    "category": "Topics",
+    "question": "نهي عن أكل أموال اليتامى ظلماً",
+    "expected_ids": [
+      "4:10",
+      "4:2",
+      "17:34"
+    ]
+  },
+  {
+    "id": "ext_029",
+    "category": "Topics",
+    "question": "أحكام الإيلاء والطلاق والعدة للمرأة",
+    "expected_ids": [
+      "2:226",
+      "2:228",
+      "65:1"
+    ]
+  },
+  {
+    "id": "ext_030",
+    "category": "Topics",
+    "question": "تحريم السرقة وحد قطع اليد",
+    "expected_ids": [
+      "5:38"
+    ]
+  },
+  {
+    "id": "ext_031",
+    "category": "Prophets",
+    "question": "قصة صالح عليه السلام والناقة والمؤامرة",
+    "expected_ids": [
+      "7:73",
+      "11:64",
+      "26:155"
+    ]
+  },
+  {
+    "id": "ext_032",
+    "category": "Prophets",
+    "question": "قصة هود عليه السلام وقوم عاد والريح الصرصر",
+    "expected_ids": [
+      "7:65",
+      "11:50",
+      "41:15",
+      "69:6"
+    ]
+  },
+  {
+    "id": "ext_033",
+    "category": "Prophets",
+    "question": "قصة شعيب عليه السلام وأصحاب الأيكة ونقص المكيال",
+    "expected_ids": [
+      "7:85",
+      "11:84",
+      "26:176"
+    ]
+  },
+  {
+    "id": "ext_034",
+    "category": "Prophets",
+    "question": "قصة إدريس عليه السلام ورفعه مكانا عليا",
+    "expected_ids": [
+      "19:56",
+      "19:57",
+      "21:85"
+    ]
+  },
+  {
+    "id": "ext_035",
+    "category": "Prophets",
+    "question": "قصة يحيى عليه السلام وآتاه الحكم صبيا",
+    "expected_ids": [
+      "19:12",
+      "19:13",
+      "3:39"
+    ]
+  },
+  {
+    "id": "ext_036",
+    "category": "Stories",
+    "question": "قصة أصحاب الجنة الذين أقسموا ليصرمنها مصبحين",
+    "expected_ids": [
+      "68:17",
+      "68:18",
+      "68:20"
+    ]
+  },
+  {
+    "id": "ext_037",
+    "category": "Stories",
+    "question": "قصة أصحاب الأخدود والنار ذات الوقود",
+    "expected_ids": [
+      "85:4",
+      "85:5",
+      "85:6"
+    ]
+  },
+  {
+    "id": "ext_038",
+    "category": "Stories",
+    "question": "قصة أصحاب القرية إذ جاءها المرسلون وجاء من أقصى المدينة رجل يسعى",
+    "expected_ids": [
+      "36:13",
+      "36:20"
+    ]
+  },
+  {
+    "id": "ext_039",
+    "category": "Stories",
+    "question": "قصة لقمان وحكمته وتوصيته لابنه",
+    "expected_ids": [
+      "31:12",
+      "31:13",
+      "31:17"
+    ]
+  },
+  {
+    "id": "ext_040",
+    "category": "Stories",
+    "question": "قصة مريم ومولد عيسى عليه السلام تحت النخلة",
+    "expected_ids": [
+      "19:23",
+      "19:24",
+      "19:25"
+    ]
+  },
+  {
+    "id": "ext_041",
+    "category": "Out-of-domain",
+    "question": "كم عدد سكان القاهرة في عام 2026؟",
+    "expected_ids": []
+  },
+  {
+    "id": "ext_042",
+    "category": "Out-of-domain",
+    "question": "ما هي القوانين الفيزياء النسبية لإنشتاين؟",
+    "expected_ids": []
+  },
+  {
+    "id": "ext_043",
+    "category": "Out-of-domain",
+    "question": "كيف تترجم لغة بايثون للغة التجميع؟",
+    "expected_ids": []
+  },
+  {
+    "id": "ext_044",
+    "category": "Out-of-domain",
+    "question": "من فاز بالدوري الإسباني لكرة القدم؟",
+    "expected_ids": []
+  },
+  {
+    "id": "ext_045",
+    "category": "Out-of-domain",
+    "question": "كيف يتم تصنيع الهواتف الذكية؟",
+    "expected_ids": []
+  }
+]

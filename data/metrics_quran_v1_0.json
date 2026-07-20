@@ -1,0 +1,9004 @@
+{
+  "version": "v1.0-quran-official",
+  "elapsed_seconds": 250.83,
+  "avg_latency_ms": 501.66,
+  "overall_metrics": {
+    "total_queries": 500,
+    "in_domain_queries": 450,
+    "hits_at_1": 0.7178,
+    "hits_at_5": 0.8622,
+    "mrr": 0.775
+  },
+  "category_breakdown": {
+    "Exact Quote": {
+      "total_queries": 100,
+      "hits_at_1": 0.94,
+      "hits_at_5": 1.0,
+      "mrr": 0.9683
+    },
+    "Surah Reference": {
+      "total_queries": 50,
+      "hits_at_1": 1.0,
+      "hits_at_5": 1.0,
+      "mrr": 1.0
+    },
+    "Colloquial": {
+      "total_queries": 100,
+      "hits_at_1": 0.5,
+      "hits_at_5": 0.8,
+      "mrr": 0.6333
+    },
+    "Prophets & Persons": {
+      "total_queries": 75,
+      "hits_at_1": 0.8,
+      "hits_at_5": 1.0,
+      "mrr": 0.8407
+    },
+    "Rulings & Topics": {
+      "total_queries": 75,
+      "hits_at_1": 0.52,
+      "hits_at_5": 0.7067,
+      "mrr": 0.5978
+    },
+    "Asbab al-Nuzul": {
+      "total_queries": 50,
+      "hits_at_1": 0.6,
+      "hits_at_5": 0.6,
+      "mrr": 0.6143
+    },
+    "Out-of-domain": {
+      "total_queries": 0,
+      "hits_at_1": 0.0,
+      "hits_at_5": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "eval_details": [
+    {
+      "id": "q500_quote_001",
+      "category": "Exact Quote",
+      "question": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "expected": [
+        "1:1"
+      ],
+      "retrieved_top_5": [
+        "1:1",
+        "2:1",
+        "3:1",
+        "4:1",
+        "5:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_002",
+      "category": "Exact Quote",
+      "question": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "expected": [
+        "1:2"
+      ],
+      "retrieved_top_5": [
+        "1:2",
+        "6:45",
+        "10:10",
+        "37:182",
+        "39:75"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_003",
+      "category": "Exact Quote",
+      "question": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "expected": [
+        "1:3"
+      ],
+      "retrieved_top_5": [
+        "1:1",
+        "1:3",
+        "2:1",
+        "2:163",
+        "3:1"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_quote_004",
+      "category": "Exact Quote",
+      "question": "مَالِكِ يَوْمِ الدِّينِ",
+      "expected": [
+        "1:4"
+      ],
+      "retrieved_top_5": [
+        "1:4",
+        "5:3",
+        "7:51",
+        "9:29",
+        "9:36"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_005",
+      "category": "Exact Quote",
+      "question": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "expected": [
+        "1:5"
+      ],
+      "retrieved_top_5": [
+        "1:5",
+        "2:133",
+        "3:64",
+        "11:62",
+        "14:35"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_006",
+      "category": "Exact Quote",
+      "question": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "expected": [
+        "1:6"
+      ],
+      "retrieved_top_5": [
+        "1:6",
+        "2:142",
+        "2:213",
+        "3:51",
+        "3:101"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_007",
+      "category": "Exact Quote",
+      "question": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ",
+      "expected": [
+        "1:7"
+      ],
+      "retrieved_top_5": [
+        "1:7",
+        "6:39",
+        "2:59",
+        "2:240",
+        "3:154"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_008",
+      "category": "Exact Quote",
+      "question": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ الم",
+      "expected": [
+        "2:1"
+      ],
+      "retrieved_top_5": [
+        "2:1",
+        "3:1",
+        "29:1",
+        "30:1",
+        "31:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_009",
+      "category": "Exact Quote",
+      "question": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ",
+      "expected": [
+        "2:2"
+      ],
+      "retrieved_top_5": [
+        "2:2",
+        "10:37",
+        "32:2",
+        "3:9",
+        "3:25"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_010",
+      "category": "Exact Quote",
+      "question": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا",
+      "expected": [
+        "2:3"
+      ],
+      "retrieved_top_5": [
+        "2:3",
+        "8:3",
+        "22:35",
+        "42:38",
+        "35:18"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_011",
+      "category": "Exact Quote",
+      "question": "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا",
+      "expected": [
+        "2:4"
+      ],
+      "retrieved_top_5": [
+        "2:4",
+        "4:162",
+        "29:47",
+        "4:60",
+        "13:36"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_012",
+      "category": "Exact Quote",
+      "question": "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ ۖ",
+      "expected": [
+        "2:5"
+      ],
+      "retrieved_top_5": [
+        "2:5",
+        "31:5",
+        "5:2",
+        "19:58",
+        "41:44"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_013",
+      "category": "Exact Quote",
+      "question": "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ",
+      "expected": [
+        "2:6"
+      ],
+      "retrieved_top_5": [
+        "2:6",
+        "22:25",
+        "60:1",
+        "2:105",
+        "2:161"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_014",
+      "category": "Exact Quote",
+      "question": "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ",
+      "expected": [
+        "2:7"
+      ],
+      "retrieved_top_5": [
+        "2:7",
+        "6:46",
+        "8:2",
+        "48:26",
+        "5:7"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_015",
+      "category": "Exact Quote",
+      "question": "وَمِنَ النَّاسِ مَنْ يَقُولُ آمَنَّا بِاللَّهِ",
+      "expected": [
+        "2:8"
+      ],
+      "retrieved_top_5": [
+        "2:8",
+        "29:10",
+        "5:41",
+        "2:126",
+        "3:97"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_016",
+      "category": "Exact Quote",
+      "question": "يُخَادِعُونَ اللَّهَ وَالَّذِينَ آمَنُوا وَمَا يَخْدَعُونَ",
+      "expected": [
+        "2:9"
+      ],
+      "retrieved_top_5": [
+        "2:9",
+        "2:26",
+        "2:213",
+        "3:156",
+        "11:29"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_017",
+      "category": "Exact Quote",
+      "question": "فِي قُلُوبِهِمْ مَرَضٌ فَزَادَهُمُ اللَّهُ مَرَضًا",
+      "expected": [
+        "2:10"
+      ],
+      "retrieved_top_5": [
+        "2:10",
+        "5:52",
+        "8:49",
+        "33:12",
+        "47:29"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_018",
+      "category": "Exact Quote",
+      "question": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا فِي",
+      "expected": [
+        "2:11"
+      ],
+      "retrieved_top_5": [
+        "2:11",
+        "2:13",
+        "2:170",
+        "5:104",
+        "77:48"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_019",
+      "category": "Exact Quote",
+      "question": "أَلَا إِنَّهُمْ هُمُ الْمُفْسِدُونَ وَلَٰكِنْ لَا",
+      "expected": [
+        "2:12"
+      ],
+      "retrieved_top_5": [
+        "2:12",
+        "2:13",
+        "9:56",
+        "4:46",
+        "58:18"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_020",
+      "category": "Exact Quote",
+      "question": "وَإِذَا قِيلَ لَهُمْ آمِنُوا كَمَا آمَنَ",
+      "expected": [
+        "2:13"
+      ],
+      "retrieved_top_5": [
+        "2:13",
+        "2:91",
+        "36:47",
+        "58:11",
+        "2:11"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_021",
+      "category": "Exact Quote",
+      "question": "وَإِذَا لَقُوا الَّذِينَ آمَنُوا قَالُوا آمَنَّا",
+      "expected": [
+        "2:14"
+      ],
+      "retrieved_top_5": [
+        "2:14",
+        "2:76",
+        "3:119",
+        "5:61",
+        "28:53"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_022",
+      "category": "Exact Quote",
+      "question": "اللَّهُ يَسْتَهْزِئُ بِهِمْ وَيَمُدُّهُمْ فِي طُغْيَانِهِمْ",
+      "expected": [
+        "2:15"
+      ],
+      "retrieved_top_5": [
+        "2:15",
+        "23:75",
+        "46:26",
+        "7:186",
+        "10:11"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_023",
+      "category": "Exact Quote",
+      "question": "أُولَٰئِكَ الَّذِينَ اشْتَرَوُا الضَّلَالَةَ بِالْهُدَىٰ فَمَا",
+      "expected": [
+        "2:16"
+      ],
+      "retrieved_top_5": [
+        "2:16",
+        "2:175",
+        "2:86",
+        "39:23",
+        "2:159"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_024",
+      "category": "Exact Quote",
+      "question": "مَثَلُهُمْ كَمَثَلِ الَّذِي اسْتَوْقَدَ نَارًا فَلَمَّا",
+      "expected": [
+        "2:17"
+      ],
+      "retrieved_top_5": [
+        "2:17",
+        "2:261",
+        "3:59",
+        "3:117",
+        "7:176"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_025",
+      "category": "Exact Quote",
+      "question": "صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يَرْجِعُونَ",
+      "expected": [
+        "2:18"
+      ],
+      "retrieved_top_5": [
+        "2:18",
+        "2:171",
+        "27:81",
+        "30:53",
+        "10:43"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_026",
+      "category": "Exact Quote",
+      "question": "أَوْ كَصَيِّبٍ مِنَ السَّمَاءِ فِيهِ ظُلُمَاتٌ",
+      "expected": [
+        "2:19"
+      ],
+      "retrieved_top_5": [
+        "2:19",
+        "2:231",
+        "16:33",
+        "24:40",
+        "10:61"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_027",
+      "category": "Exact Quote",
+      "question": "يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ ۖ كُلَّمَا",
+      "expected": [
+        "2:20"
+      ],
+      "retrieved_top_5": [
+        "2:20",
+        "24:43",
+        "13:12",
+        "30:24",
+        "75:7"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_028",
+      "category": "Exact Quote",
+      "question": "يَا أَيُّهَا النَّاسُ اعْبُدُوا رَبَّكُمُ الَّذِي",
+      "expected": [
+        "2:21"
+      ],
+      "retrieved_top_5": [
+        "2:21",
+        "4:1",
+        "7:85",
+        "4:170",
+        "4:174"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_029",
+      "category": "Exact Quote",
+      "question": "الَّذِي جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا وَالسَّمَاءَ",
+      "expected": [
+        "2:22"
+      ],
+      "retrieved_top_5": [
+        "2:22",
+        "20:53",
+        "40:64",
+        "43:10",
+        "67:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_030",
+      "category": "Exact Quote",
+      "question": "وَإِنْ كُنْتُمْ فِي رَيْبٍ مِمَّا نَزَّلْنَا",
+      "expected": [
+        "2:23"
+      ],
+      "retrieved_top_5": [
+        "2:23",
+        "22:5",
+        "22:7",
+        "5:48",
+        "2:176"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_031",
+      "category": "Exact Quote",
+      "question": "فَإِنْ لَمْ تَفْعَلُوا وَلَنْ تَفْعَلُوا فَاتَّقُوا",
+      "expected": [
+        "2:24"
+      ],
+      "retrieved_top_5": [
+        "2:24",
+        "2:282",
+        "2:279",
+        "2:196",
+        "2:197"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_032",
+      "category": "Exact Quote",
+      "question": "وَبَشِّرِ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ",
+      "expected": [
+        "2:25"
+      ],
+      "retrieved_top_5": [
+        "2:25",
+        "2:277",
+        "10:9",
+        "11:23",
+        "18:30"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_033",
+      "category": "Exact Quote",
+      "question": "۞ إِنَّ اللَّهَ لَا يَسْتَحْيِي أَنْ",
+      "expected": [
+        "2:26"
+      ],
+      "retrieved_top_5": [
+        "2:26",
+        "33:53",
+        "2:190",
+        "2:233",
+        "2:235"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_034",
+      "category": "Exact Quote",
+      "question": "الَّذِينَ يَنْقُضُونَ عَهْدَ اللَّهِ مِنْ بَعْدِ",
+      "expected": [
+        "2:27"
+      ],
+      "retrieved_top_5": [
+        "2:27",
+        "13:25",
+        "3:183",
+        "9:4",
+        "2:159"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_035",
+      "category": "Exact Quote",
+      "question": "كَيْفَ تَكْفُرُونَ بِاللَّهِ وَكُنْتُمْ أَمْوَاتًا فَأَحْيَاكُمْ",
+      "expected": [
+        "2:28"
+      ],
+      "retrieved_top_5": [
+        "2:28",
+        "3:101",
+        "3:169",
+        "3:103",
+        "6:93"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_036",
+      "category": "Exact Quote",
+      "question": "هُوَ الَّذِي خَلَقَ لَكُمْ مَا فِي",
+      "expected": [
+        "2:29"
+      ],
+      "retrieved_top_5": [
+        "2:29",
+        "57:4",
+        "32:4",
+        "10:5",
+        "41:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_037",
+      "category": "Exact Quote",
+      "question": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ",
+      "expected": [
+        "2:30"
+      ],
+      "retrieved_top_5": [
+        "2:30",
+        "15:28",
+        "38:71",
+        "17:61",
+        "8:12"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_038",
+      "category": "Exact Quote",
+      "question": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا ثُمَّ عَرَضَهُمْ",
+      "expected": [
+        "2:31"
+      ],
+      "retrieved_top_5": [
+        "2:31",
+        "3:59",
+        "8:66",
+        "20:56",
+        "36:36"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_039",
+      "category": "Exact Quote",
+      "question": "قَالُوا سُبْحَانَكَ لَا عِلْمَ لَنَا إِلَّا",
+      "expected": [
+        "2:32"
+      ],
+      "retrieved_top_5": [
+        "2:32",
+        "5:109",
+        "2:249",
+        "7:131",
+        "25:18"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_040",
+      "category": "Exact Quote",
+      "question": "قَالَ يَا آدَمُ أَنْبِئْهُمْ بِأَسْمَائِهِمْ ۖ",
+      "expected": [
+        "2:33"
+      ],
+      "retrieved_top_5": [
+        "2:33",
+        "20:120",
+        "2:31",
+        "2:35",
+        "7:26"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_041",
+      "category": "Exact Quote",
+      "question": "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا",
+      "expected": [
+        "2:34"
+      ],
+      "retrieved_top_5": [
+        "2:34",
+        "17:61",
+        "18:50",
+        "20:116",
+        "7:11"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_042",
+      "category": "Exact Quote",
+      "question": "وَقُلْنَا يَا آدَمُ اسْكُنْ أَنْتَ وَزَوْجُكَ",
+      "expected": [
+        "2:35"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "2:33",
+        "7:26",
+        "7:27"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_043",
+      "category": "Exact Quote",
+      "question": "فَأَزَلَّهُمَا الشَّيْطَانُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا",
+      "expected": [
+        "2:36"
+      ],
+      "retrieved_top_5": [
+        "2:36",
+        "2:168",
+        "6:142",
+        "5:75",
+        "4:121"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_044",
+      "category": "Exact Quote",
+      "question": "فَتَلَقَّىٰ آدَمُ مِنْ رَبِّهِ كَلِمَاتٍ فَتَابَ",
+      "expected": [
+        "2:37"
+      ],
+      "retrieved_top_5": [
+        "2:37",
+        "20:121",
+        "20:122",
+        "17:39",
+        "2:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_045",
+      "category": "Exact Quote",
+      "question": "قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا ۖ فَإِمَّا",
+      "expected": [
+        "2:38"
+      ],
+      "retrieved_top_5": [
+        "2:38",
+        "20:123",
+        "2:58",
+        "3:103",
+        "24:31"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_046",
+      "category": "Exact Quote",
+      "question": "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَٰئِكَ أَصْحَابُ",
+      "expected": [
+        "2:39"
+      ],
+      "retrieved_top_5": [
+        "2:39",
+        "5:10",
+        "5:86",
+        "64:10",
+        "57:19"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_047",
+      "category": "Exact Quote",
+      "question": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي",
+      "expected": [
+        "2:40"
+      ],
+      "retrieved_top_5": [
+        "2:40",
+        "2:47",
+        "2:122",
+        "5:110",
+        "7:137"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_048",
+      "category": "Exact Quote",
+      "question": "وَآمِنُوا بِمَا أَنْزَلْتُ مُصَدِّقًا لِمَا مَعَكُمْ",
+      "expected": [
+        "2:41"
+      ],
+      "retrieved_top_5": [
+        "2:41",
+        "4:47",
+        "2:91",
+        "5:48",
+        "28:24"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_049",
+      "category": "Exact Quote",
+      "question": "وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُوا الْحَقَّ",
+      "expected": [
+        "2:42"
+      ],
+      "retrieved_top_5": [
+        "2:42",
+        "3:71",
+        "8:8",
+        "13:17",
+        "17:81"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_050",
+      "category": "Exact Quote",
+      "question": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ",
+      "expected": [
+        "2:43"
+      ],
+      "retrieved_top_5": [
+        "2:43",
+        "2:83",
+        "2:110",
+        "4:77",
+        "22:78"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_051",
+      "category": "Exact Quote",
+      "question": "۞ أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ وَتَنْسَوْنَ أَنْفُسَكُمْ",
+      "expected": [
+        "2:44"
+      ],
+      "retrieved_top_5": [
+        "2:44",
+        "2:102",
+        "2:187",
+        "10:23",
+        "10:44"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_052",
+      "category": "Exact Quote",
+      "question": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ",
+      "expected": [
+        "2:45"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "31:17",
+        "2:143",
+        "5:26"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_053",
+      "category": "Exact Quote",
+      "question": "الَّذِينَ يَظُنُّونَ أَنَّهُمْ مُلَاقُو رَبِّهِمْ وَأَنَّهُمْ",
+      "expected": [
+        "2:46"
+      ],
+      "retrieved_top_5": [
+        "2:46",
+        "2:249",
+        "11:29",
+        "23:60",
+        "83:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_054",
+      "category": "Exact Quote",
+      "question": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي",
+      "expected": [
+        "2:47"
+      ],
+      "retrieved_top_5": [
+        "2:40",
+        "2:47",
+        "2:122",
+        "5:110",
+        "7:137"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_quote_055",
+      "category": "Exact Quote",
+      "question": "وَاتَّقُوا يَوْمًا لَا تَجْزِي نَفْسٌ عَنْ",
+      "expected": [
+        "2:48"
+      ],
+      "retrieved_top_5": [
+        "2:48",
+        "2:123",
+        "2:281",
+        "2:233",
+        "40:17"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_056",
+      "category": "Exact Quote",
+      "question": "وَإِذْ نَجَّيْنَاكُمْ مِنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ",
+      "expected": [
+        "2:49"
+      ],
+      "retrieved_top_5": [
+        "2:49",
+        "7:141",
+        "14:6",
+        "2:50",
+        "7:167"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_057",
+      "category": "Exact Quote",
+      "question": "وَإِذْ فَرَقْنَا بِكُمُ الْبَحْرَ فَأَنْجَيْنَاكُمْ وَأَغْرَقْنَا",
+      "expected": [
+        "2:50"
+      ],
+      "retrieved_top_5": [
+        "2:50",
+        "10:90",
+        "2:49",
+        "2:185",
+        "26:63"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_058",
+      "category": "Exact Quote",
+      "question": "وَإِذْ وَاعَدْنَا مُوسَىٰ أَرْبَعِينَ لَيْلَةً ثُمَّ",
+      "expected": [
+        "2:51"
+      ],
+      "retrieved_top_5": [
+        "2:51",
+        "7:142",
+        "2:187",
+        "2:53",
+        "2:54"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_059",
+      "category": "Exact Quote",
+      "question": "ثُمَّ عَفَوْنَا عَنْكُمْ مِنْ بَعْدِ ذَٰلِكَ",
+      "expected": [
+        "2:52"
+      ],
+      "retrieved_top_5": [
+        "2:52",
+        "5:12",
+        "3:152",
+        "2:64",
+        "2:74"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_060",
+      "category": "Exact Quote",
+      "question": "وَإِذْ آتَيْنَا مُوسَى الْكِتَابَ وَالْفُرْقَانَ لَعَلَّكُمْ",
+      "expected": [
+        "2:53"
+      ],
+      "retrieved_top_5": [
+        "2:53",
+        "6:154",
+        "23:49",
+        "28:43",
+        "21:48"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_061",
+      "category": "Exact Quote",
+      "question": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ يَا قَوْمِ",
+      "expected": [
+        "2:54"
+      ],
+      "retrieved_top_5": [
+        "2:54",
+        "5:20",
+        "61:5",
+        "2:67",
+        "14:6"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_062",
+      "category": "Exact Quote",
+      "question": "وَإِذْ قُلْتُمْ يَا مُوسَىٰ لَنْ نُؤْمِنَ",
+      "expected": [
+        "2:55"
+      ],
+      "retrieved_top_5": [
+        "2:55",
+        "2:61",
+        "5:22",
+        "5:24",
+        "2:54"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_063",
+      "category": "Exact Quote",
+      "question": "ثُمَّ بَعَثْنَاكُمْ مِنْ بَعْدِ مَوْتِكُمْ لَعَلَّكُمْ",
+      "expected": [
+        "2:56"
+      ],
+      "retrieved_top_5": [
+        "2:56",
+        "2:52",
+        "57:17",
+        "2:259",
+        "2:164"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_064",
+      "category": "Exact Quote",
+      "question": "وَظَلَّلْنَا عَلَيْكُمُ الْغَمَامَ وَأَنْزَلْنَا عَلَيْكُمُ الْمَنَّ",
+      "expected": [
+        "2:57"
+      ],
+      "retrieved_top_5": [
+        "2:57",
+        "7:160",
+        "20:80",
+        "2:23",
+        "2:59"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_065",
+      "category": "Exact Quote",
+      "question": "وَإِذْ قُلْنَا ادْخُلُوا هَٰذِهِ الْقَرْيَةَ فَكُلُوا",
+      "expected": [
+        "2:58"
+      ],
+      "retrieved_top_5": [
+        "2:58",
+        "7:161",
+        "2:34",
+        "17:60",
+        "17:61"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_066",
+      "category": "Exact Quote",
+      "question": "فَبَدَّلَ الَّذِينَ ظَلَمُوا قَوْلًا غَيْرَ الَّذِي",
+      "expected": [
+        "2:59"
+      ],
+      "retrieved_top_5": [
+        "2:59",
+        "7:162",
+        "7:53",
+        "11:101",
+        "33:32"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_067",
+      "category": "Exact Quote",
+      "question": "۞ وَإِذِ اسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِ فَقُلْنَا",
+      "expected": [
+        "2:60"
+      ],
+      "retrieved_top_5": [
+        "2:60",
+        "2:54",
+        "2:67",
+        "5:20",
+        "14:6"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_068",
+      "category": "Exact Quote",
+      "question": "وَإِذْ قُلْتُمْ يَا مُوسَىٰ لَنْ نَصْبِرَ",
+      "expected": [
+        "2:61"
+      ],
+      "retrieved_top_5": [
+        "2:61",
+        "2:55",
+        "5:22",
+        "5:24",
+        "2:54"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_069",
+      "category": "Exact Quote",
+      "question": "إِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَادُوا وَالنَّصَارَىٰ",
+      "expected": [
+        "2:62"
+      ],
+      "retrieved_top_5": [
+        "2:62",
+        "5:69",
+        "22:17",
+        "5:51",
+        "5:82"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_070",
+      "category": "Exact Quote",
+      "question": "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ",
+      "expected": [
+        "2:63"
+      ],
+      "retrieved_top_5": [
+        "2:63",
+        "2:93",
+        "4:154",
+        "2:83",
+        "2:84"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_071",
+      "category": "Exact Quote",
+      "question": "ثُمَّ تَوَلَّيْتُمْ مِنْ بَعْدِ ذَٰلِكَ ۖ",
+      "expected": [
+        "2:64"
+      ],
+      "retrieved_top_5": [
+        "2:64",
+        "2:52",
+        "2:74",
+        "4:153",
+        "5:32"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_072",
+      "category": "Exact Quote",
+      "question": "وَلَقَدْ عَلِمْتُمُ الَّذِينَ اعْتَدَوْا مِنْكُمْ فِي",
+      "expected": [
+        "2:65"
+      ],
+      "retrieved_top_5": [
+        "2:65",
+        "3:155",
+        "3:152",
+        "2:234",
+        "2:240"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_073",
+      "category": "Exact Quote",
+      "question": "فَجَعَلْنَاهَا نَكَالًا لِمَا بَيْنَ يَدَيْهَا وَمَا",
+      "expected": [
+        "2:66"
+      ],
+      "retrieved_top_5": [
+        "2:66",
+        "3:50",
+        "61:6",
+        "2:213",
+        "10:13"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_074",
+      "category": "Exact Quote",
+      "question": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ إِنَّ اللَّهَ",
+      "expected": [
+        "2:67"
+      ],
+      "retrieved_top_5": [
+        "2:67",
+        "5:20",
+        "14:6",
+        "61:5",
+        "2:54"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_075",
+      "category": "Exact Quote",
+      "question": "قَالُوا ادْعُ لَنَا رَبَّكَ يُبَيِّنْ لَنَا",
+      "expected": [
+        "2:68"
+      ],
+      "retrieved_top_5": [
+        "2:68",
+        "2:69",
+        "2:70",
+        "7:134",
+        "43:49"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_076",
+      "category": "Exact Quote",
+      "question": "قَالُوا ادْعُ لَنَا رَبَّكَ يُبَيِّنْ لَنَا",
+      "expected": [
+        "2:69"
+      ],
+      "retrieved_top_5": [
+        "2:68",
+        "2:69",
+        "2:70",
+        "7:134",
+        "43:49"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_quote_077",
+      "category": "Exact Quote",
+      "question": "قَالُوا ادْعُ لَنَا رَبَّكَ يُبَيِّنْ لَنَا",
+      "expected": [
+        "2:70"
+      ],
+      "retrieved_top_5": [
+        "2:68",
+        "2:69",
+        "2:70",
+        "7:134",
+        "43:49"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_quote_078",
+      "category": "Exact Quote",
+      "question": "قَالَ إِنَّهُ يَقُولُ إِنَّهَا بَقَرَةٌ لَا",
+      "expected": [
+        "2:71"
+      ],
+      "retrieved_top_5": [
+        "2:71",
+        "2:68",
+        "2:69",
+        "6:33",
+        "48:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_079",
+      "category": "Exact Quote",
+      "question": "وَإِذْ قَتَلْتُمْ نَفْسًا فَادَّارَأْتُمْ فِيهَا ۖ",
+      "expected": [
+        "2:72"
+      ],
+      "retrieved_top_5": [
+        "2:72",
+        "7:42",
+        "2:30",
+        "5:110",
+        "3:157"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_080",
+      "category": "Exact Quote",
+      "question": "فَقُلْنَا اضْرِبُوهُ بِبَعْضِهَا ۚ كَذَٰلِكَ يُحْيِي",
+      "expected": [
+        "2:73"
+      ],
+      "retrieved_top_5": [
+        "2:73",
+        "2:85",
+        "2:251",
+        "3:155",
+        "4:19"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_081",
+      "category": "Exact Quote",
+      "question": "ثُمَّ قَسَتْ قُلُوبُكُمْ مِنْ بَعْدِ ذَٰلِكَ",
+      "expected": [
+        "2:74"
+      ],
+      "retrieved_top_5": [
+        "2:74",
+        "3:154",
+        "9:117",
+        "2:52",
+        "2:64"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_082",
+      "category": "Exact Quote",
+      "question": "۞ أَفَتَطْمَعُونَ أَنْ يُؤْمِنُوا لَكُمْ وَقَدْ",
+      "expected": [
+        "2:75"
+      ],
+      "retrieved_top_5": [
+        "2:75",
+        "6:119",
+        "57:8",
+        "28:38",
+        "29:38"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_083",
+      "category": "Exact Quote",
+      "question": "وَإِذَا لَقُوا الَّذِينَ آمَنُوا قَالُوا آمَنَّا",
+      "expected": [
+        "2:76"
+      ],
+      "retrieved_top_5": [
+        "2:14",
+        "2:76",
+        "3:119",
+        "5:61",
+        "28:53"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_quote_084",
+      "category": "Exact Quote",
+      "question": "أَوَلَا يَعْلَمُونَ أَنَّ اللَّهَ يَعْلَمُ مَا",
+      "expected": [
+        "2:77"
+      ],
+      "retrieved_top_5": [
+        "2:77",
+        "2:75",
+        "2:235",
+        "3:75",
+        "5:97"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_085",
+      "category": "Exact Quote",
+      "question": "وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ الْكِتَابَ إِلَّا",
+      "expected": [
+        "2:78"
+      ],
+      "retrieved_top_5": [
+        "2:78",
+        "3:75",
+        "2:235",
+        "6:59",
+        "7:131"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_086",
+      "category": "Exact Quote",
+      "question": "فَوَيْلٌ لِلَّذِينَ يَكْتُبُونَ الْكِتَابَ بِأَيْدِيهِمْ ثُمَّ",
+      "expected": [
+        "2:79"
+      ],
+      "retrieved_top_5": [
+        "2:79",
+        "59:2",
+        "3:23",
+        "35:32",
+        "2:282"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_087",
+      "category": "Exact Quote",
+      "question": "وَقَالُوا لَنْ تَمَسَّنَا النَّارُ إِلَّا أَيَّامًا",
+      "expected": [
+        "2:80"
+      ],
+      "retrieved_top_5": [
+        "2:80",
+        "3:24",
+        "2:111",
+        "17:90",
+        "3:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_088",
+      "category": "Exact Quote",
+      "question": "بَلَىٰ مَنْ كَسَبَ سَيِّئَةً وَأَحَاطَتْ بِهِ",
+      "expected": [
+        "2:81"
+      ],
+      "retrieved_top_5": [
+        "2:81",
+        "84:15",
+        "52:21",
+        "2:112",
+        "2:260"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_089",
+      "category": "Exact Quote",
+      "question": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُولَٰئِكَ أَصْحَابُ",
+      "expected": [
+        "2:82"
+      ],
+      "retrieved_top_5": [
+        "2:82",
+        "7:42",
+        "11:23",
+        "34:4",
+        "98:7"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_090",
+      "category": "Exact Quote",
+      "question": "وَإِذْ أَخَذْنَا مِيثَاقَ بَنِي إِسْرَائِيلَ لَا",
+      "expected": [
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "2:83",
+        "5:70",
+        "5:12",
+        "2:84",
+        "2:63"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_091",
+      "category": "Exact Quote",
+      "question": "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ لَا تَسْفِكُونَ دِمَاءَكُمْ",
+      "expected": [
+        "2:84"
+      ],
+      "retrieved_top_5": [
+        "2:84",
+        "2:83",
+        "2:63",
+        "2:93",
+        "3:81"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_092",
+      "category": "Exact Quote",
+      "question": "ثُمَّ أَنْتُمْ هَٰؤُلَاءِ تَقْتُلُونَ أَنْفُسَكُمْ وَتُخْرِجُونَ",
+      "expected": [
+        "2:85"
+      ],
+      "retrieved_top_5": [
+        "2:85",
+        "47:38",
+        "2:87",
+        "3:66",
+        "4:109"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_093",
+      "category": "Exact Quote",
+      "question": "أُولَٰئِكَ الَّذِينَ اشْتَرَوُا الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ",
+      "expected": [
+        "2:86"
+      ],
+      "retrieved_top_5": [
+        "2:86",
+        "14:3",
+        "4:74",
+        "6:32",
+        "9:38"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_094",
+      "category": "Exact Quote",
+      "question": "وَلَقَدْ آتَيْنَا مُوسَى الْكِتَابَ وَقَفَّيْنَا مِنْ",
+      "expected": [
+        "2:87"
+      ],
+      "retrieved_top_5": [
+        "2:87",
+        "11:110",
+        "28:43",
+        "32:23",
+        "41:45"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_095",
+      "category": "Exact Quote",
+      "question": "وَقَالُوا قُلُوبُنَا غُلْفٌ ۚ بَلْ لَعَنَهُمُ",
+      "expected": [
+        "2:88"
+      ],
+      "retrieved_top_5": [
+        "2:88",
+        "4:155",
+        "3:156",
+        "41:5",
+        "2:116"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_096",
+      "category": "Exact Quote",
+      "question": "وَلَمَّا جَاءَهُمْ كِتَابٌ مِنْ عِنْدِ اللَّهِ",
+      "expected": [
+        "2:89"
+      ],
+      "retrieved_top_5": [
+        "2:89",
+        "2:101",
+        "3:19",
+        "3:81",
+        "5:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_097",
+      "category": "Exact Quote",
+      "question": "بِئْسَمَا اشْتَرَوْا بِهِ أَنْفُسَهُمْ أَنْ يَكْفُرُوا",
+      "expected": [
+        "2:90"
+      ],
+      "retrieved_top_5": [
+        "2:90",
+        "2:93",
+        "4:60",
+        "2:235",
+        "4:66"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_098",
+      "category": "Exact Quote",
+      "question": "وَإِذَا قِيلَ لَهُمْ آمِنُوا بِمَا أَنْزَلَ",
+      "expected": [
+        "2:91"
+      ],
+      "retrieved_top_5": [
+        "2:91",
+        "2:170",
+        "4:61",
+        "5:104",
+        "16:24"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_099",
+      "category": "Exact Quote",
+      "question": "۞ وَلَقَدْ جَاءَكُمْ مُوسَىٰ بِالْبَيِّنَاتِ ثُمَّ",
+      "expected": [
+        "2:92"
+      ],
+      "retrieved_top_5": [
+        "2:92",
+        "2:87",
+        "17:101",
+        "29:39",
+        "10:93"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_quote_100",
+      "category": "Exact Quote",
+      "question": "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ",
+      "expected": [
+        "2:93"
+      ],
+      "retrieved_top_5": [
+        "2:63",
+        "2:93",
+        "4:154",
+        "2:83",
+        "2:84"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_surah_001",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 94",
+      "expected": [
+        "2:94"
+      ],
+      "retrieved_top_5": [
+        "2:94"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_002",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 95",
+      "expected": [
+        "2:95"
+      ],
+      "retrieved_top_5": [
+        "2:95"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_003",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 96",
+      "expected": [
+        "2:96"
+      ],
+      "retrieved_top_5": [
+        "2:96"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_004",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 97",
+      "expected": [
+        "2:97"
+      ],
+      "retrieved_top_5": [
+        "2:97"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_005",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 98",
+      "expected": [
+        "2:98"
+      ],
+      "retrieved_top_5": [
+        "2:98"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_006",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 99",
+      "expected": [
+        "2:99"
+      ],
+      "retrieved_top_5": [
+        "2:99"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_007",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 100",
+      "expected": [
+        "2:100"
+      ],
+      "retrieved_top_5": [
+        "2:100"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_008",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 101",
+      "expected": [
+        "2:101"
+      ],
+      "retrieved_top_5": [
+        "2:101"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_009",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 102",
+      "expected": [
+        "2:102"
+      ],
+      "retrieved_top_5": [
+        "2:102"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_010",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 103",
+      "expected": [
+        "2:103"
+      ],
+      "retrieved_top_5": [
+        "2:103"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_011",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 104",
+      "expected": [
+        "2:104"
+      ],
+      "retrieved_top_5": [
+        "2:104"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_012",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 105",
+      "expected": [
+        "2:105"
+      ],
+      "retrieved_top_5": [
+        "2:105"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_013",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 106",
+      "expected": [
+        "2:106"
+      ],
+      "retrieved_top_5": [
+        "2:106"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_014",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 107",
+      "expected": [
+        "2:107"
+      ],
+      "retrieved_top_5": [
+        "2:107"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_015",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 108",
+      "expected": [
+        "2:108"
+      ],
+      "retrieved_top_5": [
+        "2:108"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_016",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 109",
+      "expected": [
+        "2:109"
+      ],
+      "retrieved_top_5": [
+        "2:109"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_017",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 110",
+      "expected": [
+        "2:110"
+      ],
+      "retrieved_top_5": [
+        "2:110"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_018",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 111",
+      "expected": [
+        "2:111"
+      ],
+      "retrieved_top_5": [
+        "2:111"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_019",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 112",
+      "expected": [
+        "2:112"
+      ],
+      "retrieved_top_5": [
+        "2:112"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_020",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 113",
+      "expected": [
+        "2:113"
+      ],
+      "retrieved_top_5": [
+        "2:113"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_021",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 114",
+      "expected": [
+        "2:114"
+      ],
+      "retrieved_top_5": [
+        "2:114"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_022",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 115",
+      "expected": [
+        "2:115"
+      ],
+      "retrieved_top_5": [
+        "2:115"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_023",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 116",
+      "expected": [
+        "2:116"
+      ],
+      "retrieved_top_5": [
+        "2:116"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_024",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 117",
+      "expected": [
+        "2:117"
+      ],
+      "retrieved_top_5": [
+        "2:117"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_025",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 118",
+      "expected": [
+        "2:118"
+      ],
+      "retrieved_top_5": [
+        "2:118"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_026",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 119",
+      "expected": [
+        "2:119"
+      ],
+      "retrieved_top_5": [
+        "2:119"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_027",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 120",
+      "expected": [
+        "2:120"
+      ],
+      "retrieved_top_5": [
+        "2:120"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_028",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 121",
+      "expected": [
+        "2:121"
+      ],
+      "retrieved_top_5": [
+        "2:121"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_029",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 122",
+      "expected": [
+        "2:122"
+      ],
+      "retrieved_top_5": [
+        "2:122"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_030",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 123",
+      "expected": [
+        "2:123"
+      ],
+      "retrieved_top_5": [
+        "2:123"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_031",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 124",
+      "expected": [
+        "2:124"
+      ],
+      "retrieved_top_5": [
+        "2:124"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_032",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 125",
+      "expected": [
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_033",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 126",
+      "expected": [
+        "2:126"
+      ],
+      "retrieved_top_5": [
+        "2:126"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_034",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 127",
+      "expected": [
+        "2:127"
+      ],
+      "retrieved_top_5": [
+        "2:127"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_035",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 128",
+      "expected": [
+        "2:128"
+      ],
+      "retrieved_top_5": [
+        "2:128"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_036",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 129",
+      "expected": [
+        "2:129"
+      ],
+      "retrieved_top_5": [
+        "2:129"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_037",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 130",
+      "expected": [
+        "2:130"
+      ],
+      "retrieved_top_5": [
+        "2:130"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_038",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 131",
+      "expected": [
+        "2:131"
+      ],
+      "retrieved_top_5": [
+        "2:131"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_039",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 132",
+      "expected": [
+        "2:132"
+      ],
+      "retrieved_top_5": [
+        "2:132"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_040",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 133",
+      "expected": [
+        "2:133"
+      ],
+      "retrieved_top_5": [
+        "2:133"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_041",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 134",
+      "expected": [
+        "2:134"
+      ],
+      "retrieved_top_5": [
+        "2:134"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_042",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 135",
+      "expected": [
+        "2:135"
+      ],
+      "retrieved_top_5": [
+        "2:135"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_043",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 136",
+      "expected": [
+        "2:136"
+      ],
+      "retrieved_top_5": [
+        "2:136"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_044",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 137",
+      "expected": [
+        "2:137"
+      ],
+      "retrieved_top_5": [
+        "2:137"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_045",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 138",
+      "expected": [
+        "2:138"
+      ],
+      "retrieved_top_5": [
+        "2:138"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_046",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 139",
+      "expected": [
+        "2:139"
+      ],
+      "retrieved_top_5": [
+        "2:139"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_047",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 140",
+      "expected": [
+        "2:140"
+      ],
+      "retrieved_top_5": [
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_048",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 141",
+      "expected": [
+        "2:141"
+      ],
+      "retrieved_top_5": [
+        "2:141"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_049",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 142",
+      "expected": [
+        "2:142"
+      ],
+      "retrieved_top_5": [
+        "2:142"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_surah_050",
+      "category": "Surah Reference",
+      "question": "سورة البقرة آية 143",
+      "expected": [
+        "2:143"
+      ],
+      "retrieved_top_5": [
+        "2:143"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_001",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "3:200",
+        "16:127",
+        "2:249"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_002",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_003",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_004",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_005",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_006",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "31:14",
+        "46:15",
+        "2:83",
+        "2:180"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_007",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "20:49"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_008",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_009",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "84:12",
+        "98:2",
+        "39:14",
+        "44:18"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_010",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_011",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 11)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_012",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 12)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_013",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 13)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_014",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 14)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_015",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 15)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_016",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 16)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_017",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 17)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "29:30"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_018",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 18)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_019",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 19)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "98:2",
+        "106:1",
+        "22:16",
+        "61:13"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_020",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 20)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_021",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 21)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_022",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 22)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_023",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 23)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_024",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 24)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_025",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 25)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_026",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 26)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_027",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 27)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "34:48"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_028",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 28)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_029",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 29)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "98:2",
+        "22:16",
+        "61:13",
+        "44:18"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_030",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 30)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_031",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 31)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_032",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 32)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_033",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 33)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_034",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 34)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_035",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 35)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_036",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 36)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_037",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 37)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "72:4"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_038",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 38)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_039",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 39)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "98:2",
+        "22:16",
+        "61:13",
+        "44:18"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_040",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 40)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_041",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 41)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_042",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 42)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_043",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 43)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_044",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 44)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_045",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 45)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_046",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 46)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_047",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 47)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "37:31"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_048",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 48)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_049",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 49)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "106:1",
+        "98:2",
+        "22:16",
+        "61:13"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_050",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 50)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_051",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 51)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_052",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 52)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_053",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 53)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_054",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 54)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_055",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 55)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_056",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 56)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_057",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 57)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "20:25"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_058",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 58)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_059",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 59)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "98:2",
+        "106:1",
+        "24:46",
+        "22:16"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_060",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 60)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_061",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 61)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_062",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 62)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_063",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 63)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_064",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 64)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_065",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 65)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_066",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 66)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_067",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 67)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "39:14"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_068",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 68)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_069",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 69)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "44:18",
+        "61:13",
+        "98:2",
+        "30:5"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_070",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 70)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_071",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 71)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_072",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 72)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_073",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 73)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_074",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 74)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_075",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 75)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_076",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 76)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_077",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 77)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "36:58"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_078",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 78)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_079",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 79)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "44:18",
+        "106:1",
+        "98:2",
+        "70:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_080",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 80)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_081",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 81)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_082",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 82)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_083",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 83)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_084",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 84)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_085",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 85)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_086",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 86)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_087",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 87)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "36:58"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_088",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 88)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_089",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 89)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "98:2",
+        "22:16",
+        "106:1",
+        "4:26"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_090",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 90)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_091",
+      "category": "Colloquial",
+      "question": "عايز آية عن الصبر (صيغة 91)",
+      "expected": [
+        "65:3",
+        "3:200",
+        "2:153"
+      ],
+      "retrieved_top_5": [
+        "2:45",
+        "2:153",
+        "10:109",
+        "11:49",
+        "11:115"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_092",
+      "category": "Colloquial",
+      "question": "فين ربنا ذكر الجنة والنعيم (صيغة 92)",
+      "expected": [
+        "76:12",
+        "55:46",
+        "47:15"
+      ],
+      "retrieved_top_5": [
+        "26:85",
+        "70:38",
+        "47:15",
+        "5:65",
+        "9:21"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_colloquial_093",
+      "category": "Colloquial",
+      "question": "ايه الآية اللي فيها إن مع العسر يسرا (صيغة 93)",
+      "expected": [
+        "94:5",
+        "94:6"
+      ],
+      "retrieved_top_5": [
+        "94:6",
+        "94:5",
+        "65:7",
+        "65:4",
+        "2:153"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_094",
+      "category": "Colloquial",
+      "question": "عايز الآية بتاعة الله لا إله إلا هو الحي القيوم (صيغة 94)",
+      "expected": [
+        "2:255",
+        "3:2"
+      ],
+      "retrieved_top_5": [
+        "2:255",
+        "3:2",
+        "3:18",
+        "40:65",
+        "4:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_095",
+      "category": "Colloquial",
+      "question": "فين كلمة الاستغفار والمغفرة بالليل والنهار (صيغة 95)",
+      "expected": [
+        "4:110",
+        "3:135",
+        "3:17"
+      ],
+      "retrieved_top_5": [
+        "2:164",
+        "2:274",
+        "3:27",
+        "3:190",
+        "6:13"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_096",
+      "category": "Colloquial",
+      "question": "عايز آية عن بر الوالدين (صيغة 96)",
+      "expected": [
+        "46:15",
+        "17:23",
+        "2:83"
+      ],
+      "retrieved_top_5": [
+        "17:23",
+        "2:83",
+        "2:180",
+        "2:215",
+        "2:233"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_097",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن خلع النعلين لموسى (صيغة 97)",
+      "expected": [
+        "20:11",
+        "20:12"
+      ],
+      "retrieved_top_5": [
+        "10:83",
+        "20:12",
+        "20:11",
+        "4:164",
+        "20:25"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_colloquial_098",
+      "category": "Colloquial",
+      "question": "ايه آية الدين في سورة البقرة (صيغة 98)",
+      "expected": [
+        "2:282"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "5:3",
+        "9:64",
+        "47:20"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_colloquial_099",
+      "category": "Colloquial",
+      "question": "عايز سورة الإخلاص (صيغة 99)",
+      "expected": [
+        "112:1"
+      ],
+      "retrieved_top_5": [
+        "112:1",
+        "98:2",
+        "106:1",
+        "61:13",
+        "4:26"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_colloquial_100",
+      "category": "Colloquial",
+      "question": "فين ربنا قال عن سفينة نوح والطوفان (صيغة 100)",
+      "expected": [
+        "11:40",
+        "29:14"
+      ],
+      "retrieved_top_5": [
+        "29:14",
+        "7:133",
+        "18:71",
+        "18:79",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_001",
+      "category": "Prophets & Persons",
+      "question": "قصة آدم وإبليس والشجرة",
+      "expected": [
+        "20:115",
+        "2:35",
+        "7:19"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "20:120",
+        "2:37",
+        "7:20"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_002",
+      "category": "Prophets & Persons",
+      "question": "دعاء نوح ربي لا تذر على الأرض من الكافرين ديارا",
+      "expected": [
+        "71:26"
+      ],
+      "retrieved_top_5": [
+        "71:26",
+        "2:286",
+        "13:14",
+        "4:101",
+        "47:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_003",
+      "category": "Prophets & Persons",
+      "question": "قصة إبراهيم وإسماعيل في بناء الكعبة",
+      "expected": [
+        "2:127",
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125",
+        "2:127",
+        "2:133",
+        "2:136",
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_004",
+      "category": "Prophets & Persons",
+      "question": "تكليم الله لموسى بالواد المقدس طوى",
+      "expected": [
+        "20:11",
+        "7:143",
+        "4:164"
+      ],
+      "retrieved_top_5": [
+        "20:12",
+        "79:16",
+        "28:30",
+        "4:164",
+        "10:83"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.25
+    },
+    {
+      "id": "q500_prophet_005",
+      "category": "Prophets & Persons",
+      "question": "دعاء يونس في بطن الحوت",
+      "expected": [
+        "21:87"
+      ],
+      "retrieved_top_5": [
+        "21:87",
+        "10:98",
+        "18:63",
+        "13:14",
+        "40:50"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_006",
+      "category": "Prophets & Persons",
+      "question": "قصة يوسف وإخوته والرؤيا",
+      "expected": [
+        "12:7",
+        "12:4",
+        "12:15"
+      ],
+      "retrieved_top_5": [
+        "12:7",
+        "12:4",
+        "12:43",
+        "17:60",
+        "37:105"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_007",
+      "category": "Prophets & Persons",
+      "question": "دعاء أيوب أني مسني الضر",
+      "expected": [
+        "21:83",
+        "38:41"
+      ],
+      "retrieved_top_5": [
+        "21:83",
+        "38:41",
+        "14:37",
+        "19:4",
+        "21:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_008",
+      "category": "Prophets & Persons",
+      "question": "قصة سليمان والهدهد وملكة سبأ",
+      "expected": [
+        "27:30",
+        "27:20",
+        "27:23"
+      ],
+      "retrieved_top_5": [
+        "27:20",
+        "27:18",
+        "27:22",
+        "2:102",
+        "21:79"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_009",
+      "category": "Prophets & Persons",
+      "question": "معجزة عيسى ابن مريم بالمهد وإحياء الموتى",
+      "expected": [
+        "5:110",
+        "3:49",
+        "19:30"
+      ],
+      "retrieved_top_5": [
+        "5:110",
+        "2:87",
+        "2:253",
+        "3:45",
+        "4:157"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_010",
+      "category": "Prophets & Persons",
+      "question": "قصة ذي القرنين وبناء السد",
+      "expected": [
+        "18:94",
+        "18:96",
+        "18:83"
+      ],
+      "retrieved_top_5": [
+        "18:83",
+        "18:94",
+        "6:6",
+        "18:86",
+        "19:74"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_011",
+      "category": "Prophets & Persons",
+      "question": "قصة آدم وإبليس والشجرة - تساؤل 11",
+      "expected": [
+        "20:115",
+        "2:35",
+        "7:19"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "20:120",
+        "2:37",
+        "4:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_012",
+      "category": "Prophets & Persons",
+      "question": "دعاء نوح ربي لا تذر على الأرض من الكافرين ديارا - تساؤل 12",
+      "expected": [
+        "71:26"
+      ],
+      "retrieved_top_5": [
+        "71:26",
+        "2:286",
+        "13:14",
+        "4:101",
+        "47:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_013",
+      "category": "Prophets & Persons",
+      "question": "قصة إبراهيم وإسماعيل في بناء الكعبة - تساؤل 13",
+      "expected": [
+        "2:127",
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125",
+        "2:127",
+        "2:133",
+        "2:136",
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_014",
+      "category": "Prophets & Persons",
+      "question": "تكليم الله لموسى بالواد المقدس طوى - تساؤل 14",
+      "expected": [
+        "20:11",
+        "7:143",
+        "4:164"
+      ],
+      "retrieved_top_5": [
+        "20:12",
+        "79:16",
+        "4:1",
+        "28:30",
+        "4:164"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_015",
+      "category": "Prophets & Persons",
+      "question": "دعاء يونس في بطن الحوت - تساؤل 15",
+      "expected": [
+        "21:87"
+      ],
+      "retrieved_top_5": [
+        "10:98",
+        "18:63",
+        "13:14",
+        "40:50",
+        "21:87"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_016",
+      "category": "Prophets & Persons",
+      "question": "قصة يوسف وإخوته والرؤيا - تساؤل 16",
+      "expected": [
+        "12:7",
+        "12:4",
+        "12:15"
+      ],
+      "retrieved_top_5": [
+        "12:7",
+        "12:4",
+        "4:1",
+        "12:43",
+        "17:60"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_017",
+      "category": "Prophets & Persons",
+      "question": "دعاء أيوب أني مسني الضر - تساؤل 17",
+      "expected": [
+        "21:83",
+        "38:41"
+      ],
+      "retrieved_top_5": [
+        "21:83",
+        "38:41",
+        "14:37",
+        "19:4",
+        "21:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_018",
+      "category": "Prophets & Persons",
+      "question": "قصة سليمان والهدهد وملكة سبأ - تساؤل 18",
+      "expected": [
+        "27:30",
+        "27:20",
+        "27:23"
+      ],
+      "retrieved_top_5": [
+        "27:20",
+        "27:18",
+        "4:1",
+        "27:22",
+        "2:102"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_019",
+      "category": "Prophets & Persons",
+      "question": "معجزة عيسى ابن مريم بالمهد وإحياء الموتى - تساؤل 19",
+      "expected": [
+        "5:110",
+        "3:49",
+        "19:30"
+      ],
+      "retrieved_top_5": [
+        "5:110",
+        "2:87",
+        "2:253",
+        "3:45",
+        "4:157"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_020",
+      "category": "Prophets & Persons",
+      "question": "قصة ذي القرنين وبناء السد - تساؤل 20",
+      "expected": [
+        "18:94",
+        "18:96",
+        "18:83"
+      ],
+      "retrieved_top_5": [
+        "18:83",
+        "18:94",
+        "4:1",
+        "6:6",
+        "18:86"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_021",
+      "category": "Prophets & Persons",
+      "question": "قصة آدم وإبليس والشجرة - تساؤل 21",
+      "expected": [
+        "20:115",
+        "2:35",
+        "7:19"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "20:120",
+        "2:37",
+        "4:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_022",
+      "category": "Prophets & Persons",
+      "question": "دعاء نوح ربي لا تذر على الأرض من الكافرين ديارا - تساؤل 22",
+      "expected": [
+        "71:26"
+      ],
+      "retrieved_top_5": [
+        "71:26",
+        "2:286",
+        "13:14",
+        "4:101",
+        "47:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_023",
+      "category": "Prophets & Persons",
+      "question": "قصة إبراهيم وإسماعيل في بناء الكعبة - تساؤل 23",
+      "expected": [
+        "2:127",
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125",
+        "2:127",
+        "2:133",
+        "2:136",
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_024",
+      "category": "Prophets & Persons",
+      "question": "تكليم الله لموسى بالواد المقدس طوى - تساؤل 24",
+      "expected": [
+        "20:11",
+        "7:143",
+        "4:164"
+      ],
+      "retrieved_top_5": [
+        "20:12",
+        "79:16",
+        "4:1",
+        "28:30",
+        "4:164"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_025",
+      "category": "Prophets & Persons",
+      "question": "دعاء يونس في بطن الحوت - تساؤل 25",
+      "expected": [
+        "21:87"
+      ],
+      "retrieved_top_5": [
+        "10:98",
+        "18:63",
+        "13:14",
+        "40:50",
+        "21:87"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_026",
+      "category": "Prophets & Persons",
+      "question": "قصة يوسف وإخوته والرؤيا - تساؤل 26",
+      "expected": [
+        "12:7",
+        "12:4",
+        "12:15"
+      ],
+      "retrieved_top_5": [
+        "12:7",
+        "12:4",
+        "4:1",
+        "12:43",
+        "17:60"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_027",
+      "category": "Prophets & Persons",
+      "question": "دعاء أيوب أني مسني الضر - تساؤل 27",
+      "expected": [
+        "21:83",
+        "38:41"
+      ],
+      "retrieved_top_5": [
+        "21:83",
+        "38:41",
+        "14:37",
+        "19:4",
+        "21:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_028",
+      "category": "Prophets & Persons",
+      "question": "قصة سليمان والهدهد وملكة سبأ - تساؤل 28",
+      "expected": [
+        "27:30",
+        "27:20",
+        "27:23"
+      ],
+      "retrieved_top_5": [
+        "27:20",
+        "27:18",
+        "4:1",
+        "27:22",
+        "2:102"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_029",
+      "category": "Prophets & Persons",
+      "question": "معجزة عيسى ابن مريم بالمهد وإحياء الموتى - تساؤل 29",
+      "expected": [
+        "5:110",
+        "3:49",
+        "19:30"
+      ],
+      "retrieved_top_5": [
+        "5:110",
+        "2:87",
+        "2:253",
+        "3:45",
+        "4:157"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_030",
+      "category": "Prophets & Persons",
+      "question": "قصة ذي القرنين وبناء السد - تساؤل 30",
+      "expected": [
+        "18:94",
+        "18:96",
+        "18:83"
+      ],
+      "retrieved_top_5": [
+        "18:83",
+        "18:94",
+        "4:1",
+        "6:6",
+        "18:86"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_031",
+      "category": "Prophets & Persons",
+      "question": "قصة آدم وإبليس والشجرة - تساؤل 31",
+      "expected": [
+        "20:115",
+        "2:35",
+        "7:19"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "20:120",
+        "2:37",
+        "4:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_032",
+      "category": "Prophets & Persons",
+      "question": "دعاء نوح ربي لا تذر على الأرض من الكافرين ديارا - تساؤل 32",
+      "expected": [
+        "71:26"
+      ],
+      "retrieved_top_5": [
+        "71:26",
+        "2:286",
+        "13:14",
+        "4:101",
+        "47:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_033",
+      "category": "Prophets & Persons",
+      "question": "قصة إبراهيم وإسماعيل في بناء الكعبة - تساؤل 33",
+      "expected": [
+        "2:127",
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125",
+        "2:127",
+        "2:133",
+        "2:136",
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_034",
+      "category": "Prophets & Persons",
+      "question": "تكليم الله لموسى بالواد المقدس طوى - تساؤل 34",
+      "expected": [
+        "20:11",
+        "7:143",
+        "4:164"
+      ],
+      "retrieved_top_5": [
+        "20:12",
+        "79:16",
+        "4:1",
+        "28:30",
+        "4:164"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_035",
+      "category": "Prophets & Persons",
+      "question": "دعاء يونس في بطن الحوت - تساؤل 35",
+      "expected": [
+        "21:87"
+      ],
+      "retrieved_top_5": [
+        "10:98",
+        "18:63",
+        "13:14",
+        "40:50",
+        "21:87"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_036",
+      "category": "Prophets & Persons",
+      "question": "قصة يوسف وإخوته والرؤيا - تساؤل 36",
+      "expected": [
+        "12:7",
+        "12:4",
+        "12:15"
+      ],
+      "retrieved_top_5": [
+        "12:7",
+        "12:4",
+        "4:1",
+        "12:43",
+        "17:60"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_037",
+      "category": "Prophets & Persons",
+      "question": "دعاء أيوب أني مسني الضر - تساؤل 37",
+      "expected": [
+        "21:83",
+        "38:41"
+      ],
+      "retrieved_top_5": [
+        "21:83",
+        "38:41",
+        "14:37",
+        "19:4",
+        "21:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_038",
+      "category": "Prophets & Persons",
+      "question": "قصة سليمان والهدهد وملكة سبأ - تساؤل 38",
+      "expected": [
+        "27:30",
+        "27:20",
+        "27:23"
+      ],
+      "retrieved_top_5": [
+        "27:20",
+        "27:18",
+        "4:1",
+        "27:22",
+        "2:102"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_039",
+      "category": "Prophets & Persons",
+      "question": "معجزة عيسى ابن مريم بالمهد وإحياء الموتى - تساؤل 39",
+      "expected": [
+        "5:110",
+        "3:49",
+        "19:30"
+      ],
+      "retrieved_top_5": [
+        "5:110",
+        "2:87",
+        "2:253",
+        "3:45",
+        "4:157"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_040",
+      "category": "Prophets & Persons",
+      "question": "قصة ذي القرنين وبناء السد - تساؤل 40",
+      "expected": [
+        "18:94",
+        "18:96",
+        "18:83"
+      ],
+      "retrieved_top_5": [
+        "18:83",
+        "18:94",
+        "4:1",
+        "6:6",
+        "18:86"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_041",
+      "category": "Prophets & Persons",
+      "question": "قصة آدم وإبليس والشجرة - تساؤل 41",
+      "expected": [
+        "20:115",
+        "2:35",
+        "7:19"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "20:120",
+        "2:37",
+        "4:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_042",
+      "category": "Prophets & Persons",
+      "question": "دعاء نوح ربي لا تذر على الأرض من الكافرين ديارا - تساؤل 42",
+      "expected": [
+        "71:26"
+      ],
+      "retrieved_top_5": [
+        "71:26",
+        "2:286",
+        "13:14",
+        "4:101",
+        "47:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_043",
+      "category": "Prophets & Persons",
+      "question": "قصة إبراهيم وإسماعيل في بناء الكعبة - تساؤل 43",
+      "expected": [
+        "2:127",
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125",
+        "2:127",
+        "2:133",
+        "2:136",
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_044",
+      "category": "Prophets & Persons",
+      "question": "تكليم الله لموسى بالواد المقدس طوى - تساؤل 44",
+      "expected": [
+        "20:11",
+        "7:143",
+        "4:164"
+      ],
+      "retrieved_top_5": [
+        "20:12",
+        "79:16",
+        "4:1",
+        "28:30",
+        "4:164"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_045",
+      "category": "Prophets & Persons",
+      "question": "دعاء يونس في بطن الحوت - تساؤل 45",
+      "expected": [
+        "21:87"
+      ],
+      "retrieved_top_5": [
+        "10:98",
+        "18:63",
+        "13:14",
+        "40:50",
+        "21:87"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_046",
+      "category": "Prophets & Persons",
+      "question": "قصة يوسف وإخوته والرؤيا - تساؤل 46",
+      "expected": [
+        "12:7",
+        "12:4",
+        "12:15"
+      ],
+      "retrieved_top_5": [
+        "12:7",
+        "12:4",
+        "4:1",
+        "12:43",
+        "17:60"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_047",
+      "category": "Prophets & Persons",
+      "question": "دعاء أيوب أني مسني الضر - تساؤل 47",
+      "expected": [
+        "21:83",
+        "38:41"
+      ],
+      "retrieved_top_5": [
+        "21:83",
+        "38:41",
+        "14:37",
+        "19:4",
+        "21:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_048",
+      "category": "Prophets & Persons",
+      "question": "قصة سليمان والهدهد وملكة سبأ - تساؤل 48",
+      "expected": [
+        "27:30",
+        "27:20",
+        "27:23"
+      ],
+      "retrieved_top_5": [
+        "27:20",
+        "27:18",
+        "4:1",
+        "27:22",
+        "2:102"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_049",
+      "category": "Prophets & Persons",
+      "question": "معجزة عيسى ابن مريم بالمهد وإحياء الموتى - تساؤل 49",
+      "expected": [
+        "5:110",
+        "3:49",
+        "19:30"
+      ],
+      "retrieved_top_5": [
+        "5:110",
+        "2:87",
+        "2:253",
+        "3:45",
+        "4:157"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_050",
+      "category": "Prophets & Persons",
+      "question": "قصة ذي القرنين وبناء السد - تساؤل 50",
+      "expected": [
+        "18:94",
+        "18:96",
+        "18:83"
+      ],
+      "retrieved_top_5": [
+        "18:83",
+        "18:94",
+        "4:1",
+        "6:6",
+        "18:86"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_051",
+      "category": "Prophets & Persons",
+      "question": "قصة آدم وإبليس والشجرة - تساؤل 51",
+      "expected": [
+        "20:115",
+        "2:35",
+        "7:19"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "20:120",
+        "2:37",
+        "4:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_052",
+      "category": "Prophets & Persons",
+      "question": "دعاء نوح ربي لا تذر على الأرض من الكافرين ديارا - تساؤل 52",
+      "expected": [
+        "71:26"
+      ],
+      "retrieved_top_5": [
+        "71:26",
+        "2:286",
+        "13:14",
+        "4:101",
+        "47:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_053",
+      "category": "Prophets & Persons",
+      "question": "قصة إبراهيم وإسماعيل في بناء الكعبة - تساؤل 53",
+      "expected": [
+        "2:127",
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125",
+        "2:127",
+        "2:133",
+        "2:136",
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_054",
+      "category": "Prophets & Persons",
+      "question": "تكليم الله لموسى بالواد المقدس طوى - تساؤل 54",
+      "expected": [
+        "20:11",
+        "7:143",
+        "4:164"
+      ],
+      "retrieved_top_5": [
+        "20:12",
+        "79:16",
+        "4:1",
+        "28:30",
+        "4:164"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_055",
+      "category": "Prophets & Persons",
+      "question": "دعاء يونس في بطن الحوت - تساؤل 55",
+      "expected": [
+        "21:87"
+      ],
+      "retrieved_top_5": [
+        "10:98",
+        "18:63",
+        "13:14",
+        "40:50",
+        "21:87"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_056",
+      "category": "Prophets & Persons",
+      "question": "قصة يوسف وإخوته والرؤيا - تساؤل 56",
+      "expected": [
+        "12:7",
+        "12:4",
+        "12:15"
+      ],
+      "retrieved_top_5": [
+        "12:7",
+        "12:4",
+        "4:1",
+        "12:43",
+        "17:60"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_057",
+      "category": "Prophets & Persons",
+      "question": "دعاء أيوب أني مسني الضر - تساؤل 57",
+      "expected": [
+        "21:83",
+        "38:41"
+      ],
+      "retrieved_top_5": [
+        "21:83",
+        "38:41",
+        "14:37",
+        "19:4",
+        "21:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_058",
+      "category": "Prophets & Persons",
+      "question": "قصة سليمان والهدهد وملكة سبأ - تساؤل 58",
+      "expected": [
+        "27:30",
+        "27:20",
+        "27:23"
+      ],
+      "retrieved_top_5": [
+        "27:20",
+        "27:18",
+        "4:1",
+        "27:22",
+        "2:102"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_059",
+      "category": "Prophets & Persons",
+      "question": "معجزة عيسى ابن مريم بالمهد وإحياء الموتى - تساؤل 59",
+      "expected": [
+        "5:110",
+        "3:49",
+        "19:30"
+      ],
+      "retrieved_top_5": [
+        "5:110",
+        "2:87",
+        "2:253",
+        "3:45",
+        "4:157"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_060",
+      "category": "Prophets & Persons",
+      "question": "قصة ذي القرنين وبناء السد - تساؤل 60",
+      "expected": [
+        "18:94",
+        "18:96",
+        "18:83"
+      ],
+      "retrieved_top_5": [
+        "18:83",
+        "18:94",
+        "4:1",
+        "6:6",
+        "18:86"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_061",
+      "category": "Prophets & Persons",
+      "question": "قصة آدم وإبليس والشجرة - تساؤل 61",
+      "expected": [
+        "20:115",
+        "2:35",
+        "7:19"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "20:120",
+        "2:37",
+        "4:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_062",
+      "category": "Prophets & Persons",
+      "question": "دعاء نوح ربي لا تذر على الأرض من الكافرين ديارا - تساؤل 62",
+      "expected": [
+        "71:26"
+      ],
+      "retrieved_top_5": [
+        "71:26",
+        "2:286",
+        "13:14",
+        "4:101",
+        "47:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_063",
+      "category": "Prophets & Persons",
+      "question": "قصة إبراهيم وإسماعيل في بناء الكعبة - تساؤل 63",
+      "expected": [
+        "2:127",
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125",
+        "2:127",
+        "2:133",
+        "2:136",
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_064",
+      "category": "Prophets & Persons",
+      "question": "تكليم الله لموسى بالواد المقدس طوى - تساؤل 64",
+      "expected": [
+        "20:11",
+        "7:143",
+        "4:164"
+      ],
+      "retrieved_top_5": [
+        "20:12",
+        "79:16",
+        "4:1",
+        "28:30",
+        "4:164"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_065",
+      "category": "Prophets & Persons",
+      "question": "دعاء يونس في بطن الحوت - تساؤل 65",
+      "expected": [
+        "21:87"
+      ],
+      "retrieved_top_5": [
+        "10:98",
+        "18:63",
+        "13:14",
+        "40:50",
+        "21:87"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_066",
+      "category": "Prophets & Persons",
+      "question": "قصة يوسف وإخوته والرؤيا - تساؤل 66",
+      "expected": [
+        "12:7",
+        "12:4",
+        "12:15"
+      ],
+      "retrieved_top_5": [
+        "12:7",
+        "12:4",
+        "4:1",
+        "12:43",
+        "17:60"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_067",
+      "category": "Prophets & Persons",
+      "question": "دعاء أيوب أني مسني الضر - تساؤل 67",
+      "expected": [
+        "21:83",
+        "38:41"
+      ],
+      "retrieved_top_5": [
+        "21:83",
+        "38:41",
+        "14:37",
+        "19:4",
+        "21:87"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_068",
+      "category": "Prophets & Persons",
+      "question": "قصة سليمان والهدهد وملكة سبأ - تساؤل 68",
+      "expected": [
+        "27:30",
+        "27:20",
+        "27:23"
+      ],
+      "retrieved_top_5": [
+        "27:20",
+        "27:18",
+        "4:1",
+        "27:22",
+        "2:102"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_069",
+      "category": "Prophets & Persons",
+      "question": "معجزة عيسى ابن مريم بالمهد وإحياء الموتى - تساؤل 69",
+      "expected": [
+        "5:110",
+        "3:49",
+        "19:30"
+      ],
+      "retrieved_top_5": [
+        "5:110",
+        "2:87",
+        "2:253",
+        "3:45",
+        "4:157"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_070",
+      "category": "Prophets & Persons",
+      "question": "قصة ذي القرنين وبناء السد - تساؤل 70",
+      "expected": [
+        "18:94",
+        "18:96",
+        "18:83"
+      ],
+      "retrieved_top_5": [
+        "18:83",
+        "18:94",
+        "4:1",
+        "6:6",
+        "18:86"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_071",
+      "category": "Prophets & Persons",
+      "question": "قصة آدم وإبليس والشجرة - تساؤل 71",
+      "expected": [
+        "20:115",
+        "2:35",
+        "7:19"
+      ],
+      "retrieved_top_5": [
+        "2:35",
+        "7:19",
+        "20:120",
+        "2:37",
+        "4:1"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_072",
+      "category": "Prophets & Persons",
+      "question": "دعاء نوح ربي لا تذر على الأرض من الكافرين ديارا - تساؤل 72",
+      "expected": [
+        "71:26"
+      ],
+      "retrieved_top_5": [
+        "71:26",
+        "2:286",
+        "13:14",
+        "4:101",
+        "47:10"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_073",
+      "category": "Prophets & Persons",
+      "question": "قصة إبراهيم وإسماعيل في بناء الكعبة - تساؤل 73",
+      "expected": [
+        "2:127",
+        "2:125"
+      ],
+      "retrieved_top_5": [
+        "2:125",
+        "2:127",
+        "2:133",
+        "2:136",
+        "2:140"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_prophet_074",
+      "category": "Prophets & Persons",
+      "question": "تكليم الله لموسى بالواد المقدس طوى - تساؤل 74",
+      "expected": [
+        "20:11",
+        "7:143",
+        "4:164"
+      ],
+      "retrieved_top_5": [
+        "20:12",
+        "79:16",
+        "4:1",
+        "28:30",
+        "4:164"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_prophet_075",
+      "category": "Prophets & Persons",
+      "question": "دعاء يونس في بطن الحوت - تساؤل 75",
+      "expected": [
+        "21:87"
+      ],
+      "retrieved_top_5": [
+        "10:98",
+        "18:63",
+        "13:14",
+        "40:50",
+        "21:87"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.2
+    },
+    {
+      "id": "q500_fiqh_001",
+      "category": "Rulings & Topics",
+      "question": "أحكام الصيام وشهر رمضان",
+      "expected": [
+        "2:183",
+        "2:185"
+      ],
+      "retrieved_top_5": [
+        "2:185",
+        "2:196",
+        "2:183",
+        "2:187",
+        "2:282"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_002",
+      "category": "Rulings & Topics",
+      "question": "أحكام الحج والعمرة والصفا والمروة",
+      "expected": [
+        "2:158",
+        "3:97",
+        "2:196"
+      ],
+      "retrieved_top_5": [
+        "2:158",
+        "2:196",
+        "35:11",
+        "2:197",
+        "9:3"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_003",
+      "category": "Rulings & Topics",
+      "question": "تحريم الربا وعاقبة أكل الربا",
+      "expected": [
+        "2:275",
+        "2:278",
+        "3:130"
+      ],
+      "retrieved_top_5": [
+        "2:275",
+        "3:130",
+        "2:276",
+        "2:278",
+        "4:161"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_004",
+      "category": "Rulings & Topics",
+      "question": "أحكام المواريث والتركة",
+      "expected": [
+        "4:176",
+        "4:12",
+        "4:11"
+      ],
+      "retrieved_top_5": [
+        "4:11",
+        "4:12",
+        "4:176",
+        "2:196",
+        "2:282"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_005",
+      "category": "Rulings & Topics",
+      "question": "أحكام التيمم والطهارة",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "2:196",
+        "2:282",
+        "4:11",
+        "4:135",
+        "17:34"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_006",
+      "category": "Rulings & Topics",
+      "question": "تحريم الخمر والميسر",
+      "expected": [
+        "5:90",
+        "2:219"
+      ],
+      "retrieved_top_5": [
+        "2:219",
+        "5:90",
+        "5:91",
+        "47:15",
+        "2:275"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_007",
+      "category": "Rulings & Topics",
+      "question": "أحكام القصاص والقتل الخطأ",
+      "expected": [
+        "2:178",
+        "4:92",
+        "5:32"
+      ],
+      "retrieved_top_5": [
+        "4:92",
+        "17:33",
+        "2:178",
+        "2:179",
+        "2:194"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_008",
+      "category": "Rulings & Topics",
+      "question": "أحكام السرقة والحدود",
+      "expected": [
+        "5:38"
+      ],
+      "retrieved_top_5": [
+        "2:187",
+        "2:229",
+        "2:230",
+        "4:13",
+        "9:97"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_009",
+      "category": "Rulings & Topics",
+      "question": "أحكام الزواج والمهور والطلاق",
+      "expected": [
+        "65:1",
+        "2:228",
+        "4:4"
+      ],
+      "retrieved_top_5": [
+        "2:227",
+        "2:229",
+        "3:15",
+        "9:24",
+        "13:23"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_010",
+      "category": "Rulings & Topics",
+      "question": "أحكام الجهاد والمرابطة في سبيل الله",
+      "expected": [
+        "3:200",
+        "9:41",
+        "2:190"
+      ],
+      "retrieved_top_5": [
+        "2:154",
+        "2:190",
+        "2:195",
+        "2:217",
+        "2:218"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_fiqh_011",
+      "category": "Rulings & Topics",
+      "question": "أحكام الصيام وشهر رمضان - بيان 11",
+      "expected": [
+        "2:183",
+        "2:185"
+      ],
+      "retrieved_top_5": [
+        "2:185",
+        "2:196",
+        "3:138",
+        "55:4",
+        "2:183"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_012",
+      "category": "Rulings & Topics",
+      "question": "أحكام الحج والعمرة والصفا والمروة - بيان 12",
+      "expected": [
+        "2:158",
+        "3:97",
+        "2:196"
+      ],
+      "retrieved_top_5": [
+        "2:158",
+        "2:196",
+        "3:138",
+        "35:11",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_013",
+      "category": "Rulings & Topics",
+      "question": "تحريم الربا وعاقبة أكل الربا - بيان 13",
+      "expected": [
+        "2:275",
+        "2:278",
+        "3:130"
+      ],
+      "retrieved_top_5": [
+        "2:275",
+        "3:130",
+        "3:138",
+        "55:4",
+        "2:276"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_014",
+      "category": "Rulings & Topics",
+      "question": "أحكام المواريث والتركة - بيان 14",
+      "expected": [
+        "4:176",
+        "4:12",
+        "4:11"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "4:11",
+        "4:12",
+        "4:176"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_fiqh_015",
+      "category": "Rulings & Topics",
+      "question": "أحكام التيمم والطهارة - بيان 15",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:196",
+        "2:282",
+        "4:11"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_016",
+      "category": "Rulings & Topics",
+      "question": "تحريم الخمر والميسر - بيان 16",
+      "expected": [
+        "5:90",
+        "2:219"
+      ],
+      "retrieved_top_5": [
+        "2:219",
+        "5:90",
+        "5:91",
+        "3:138",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_017",
+      "category": "Rulings & Topics",
+      "question": "أحكام القصاص والقتل الخطأ - بيان 17",
+      "expected": [
+        "2:178",
+        "4:92",
+        "5:32"
+      ],
+      "retrieved_top_5": [
+        "4:92",
+        "17:33",
+        "3:138",
+        "55:4",
+        "2:178"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_018",
+      "category": "Rulings & Topics",
+      "question": "أحكام السرقة والحدود - بيان 18",
+      "expected": [
+        "5:38"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:187",
+        "2:229",
+        "2:230"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_019",
+      "category": "Rulings & Topics",
+      "question": "أحكام الزواج والمهور والطلاق - بيان 19",
+      "expected": [
+        "65:1",
+        "2:228",
+        "4:4"
+      ],
+      "retrieved_top_5": [
+        "2:227",
+        "2:229",
+        "3:138",
+        "55:4",
+        "3:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_020",
+      "category": "Rulings & Topics",
+      "question": "أحكام الجهاد والمرابطة في سبيل الله - بيان 20",
+      "expected": [
+        "3:200",
+        "9:41",
+        "2:190"
+      ],
+      "retrieved_top_5": [
+        "2:154",
+        "2:190",
+        "2:195",
+        "2:217",
+        "2:218"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_fiqh_021",
+      "category": "Rulings & Topics",
+      "question": "أحكام الصيام وشهر رمضان - بيان 21",
+      "expected": [
+        "2:183",
+        "2:185"
+      ],
+      "retrieved_top_5": [
+        "2:185",
+        "2:196",
+        "3:138",
+        "55:4",
+        "2:183"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_022",
+      "category": "Rulings & Topics",
+      "question": "أحكام الحج والعمرة والصفا والمروة - بيان 22",
+      "expected": [
+        "2:158",
+        "3:97",
+        "2:196"
+      ],
+      "retrieved_top_5": [
+        "2:158",
+        "2:196",
+        "3:138",
+        "35:11",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_023",
+      "category": "Rulings & Topics",
+      "question": "تحريم الربا وعاقبة أكل الربا - بيان 23",
+      "expected": [
+        "2:275",
+        "2:278",
+        "3:130"
+      ],
+      "retrieved_top_5": [
+        "2:275",
+        "3:130",
+        "3:138",
+        "55:4",
+        "2:276"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_024",
+      "category": "Rulings & Topics",
+      "question": "أحكام المواريث والتركة - بيان 24",
+      "expected": [
+        "4:176",
+        "4:12",
+        "4:11"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "4:11",
+        "4:12",
+        "4:176"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_fiqh_025",
+      "category": "Rulings & Topics",
+      "question": "أحكام التيمم والطهارة - بيان 25",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:196",
+        "2:282",
+        "4:11"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_026",
+      "category": "Rulings & Topics",
+      "question": "تحريم الخمر والميسر - بيان 26",
+      "expected": [
+        "5:90",
+        "2:219"
+      ],
+      "retrieved_top_5": [
+        "2:219",
+        "5:90",
+        "5:91",
+        "3:138",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_027",
+      "category": "Rulings & Topics",
+      "question": "أحكام القصاص والقتل الخطأ - بيان 27",
+      "expected": [
+        "2:178",
+        "4:92",
+        "5:32"
+      ],
+      "retrieved_top_5": [
+        "4:92",
+        "17:33",
+        "3:138",
+        "55:4",
+        "2:178"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_028",
+      "category": "Rulings & Topics",
+      "question": "أحكام السرقة والحدود - بيان 28",
+      "expected": [
+        "5:38"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:187",
+        "2:229",
+        "2:230"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_029",
+      "category": "Rulings & Topics",
+      "question": "أحكام الزواج والمهور والطلاق - بيان 29",
+      "expected": [
+        "65:1",
+        "2:228",
+        "4:4"
+      ],
+      "retrieved_top_5": [
+        "2:227",
+        "2:229",
+        "3:138",
+        "55:4",
+        "3:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_030",
+      "category": "Rulings & Topics",
+      "question": "أحكام الجهاد والمرابطة في سبيل الله - بيان 30",
+      "expected": [
+        "3:200",
+        "9:41",
+        "2:190"
+      ],
+      "retrieved_top_5": [
+        "2:154",
+        "2:190",
+        "2:195",
+        "2:217",
+        "2:218"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_fiqh_031",
+      "category": "Rulings & Topics",
+      "question": "أحكام الصيام وشهر رمضان - بيان 31",
+      "expected": [
+        "2:183",
+        "2:185"
+      ],
+      "retrieved_top_5": [
+        "2:185",
+        "2:196",
+        "3:138",
+        "55:4",
+        "2:183"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_032",
+      "category": "Rulings & Topics",
+      "question": "أحكام الحج والعمرة والصفا والمروة - بيان 32",
+      "expected": [
+        "2:158",
+        "3:97",
+        "2:196"
+      ],
+      "retrieved_top_5": [
+        "2:158",
+        "2:196",
+        "3:138",
+        "35:11",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_033",
+      "category": "Rulings & Topics",
+      "question": "تحريم الربا وعاقبة أكل الربا - بيان 33",
+      "expected": [
+        "2:275",
+        "2:278",
+        "3:130"
+      ],
+      "retrieved_top_5": [
+        "2:275",
+        "3:130",
+        "3:138",
+        "55:4",
+        "2:276"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_034",
+      "category": "Rulings & Topics",
+      "question": "أحكام المواريث والتركة - بيان 34",
+      "expected": [
+        "4:176",
+        "4:12",
+        "4:11"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "4:11",
+        "4:12",
+        "4:176"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_fiqh_035",
+      "category": "Rulings & Topics",
+      "question": "أحكام التيمم والطهارة - بيان 35",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:196",
+        "2:282",
+        "4:11"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_036",
+      "category": "Rulings & Topics",
+      "question": "تحريم الخمر والميسر - بيان 36",
+      "expected": [
+        "5:90",
+        "2:219"
+      ],
+      "retrieved_top_5": [
+        "2:219",
+        "5:90",
+        "5:91",
+        "3:138",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_037",
+      "category": "Rulings & Topics",
+      "question": "أحكام القصاص والقتل الخطأ - بيان 37",
+      "expected": [
+        "2:178",
+        "4:92",
+        "5:32"
+      ],
+      "retrieved_top_5": [
+        "4:92",
+        "17:33",
+        "3:138",
+        "55:4",
+        "2:178"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_038",
+      "category": "Rulings & Topics",
+      "question": "أحكام السرقة والحدود - بيان 38",
+      "expected": [
+        "5:38"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:187",
+        "2:229",
+        "2:230"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_039",
+      "category": "Rulings & Topics",
+      "question": "أحكام الزواج والمهور والطلاق - بيان 39",
+      "expected": [
+        "65:1",
+        "2:228",
+        "4:4"
+      ],
+      "retrieved_top_5": [
+        "2:227",
+        "2:229",
+        "3:138",
+        "55:4",
+        "3:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_040",
+      "category": "Rulings & Topics",
+      "question": "أحكام الجهاد والمرابطة في سبيل الله - بيان 40",
+      "expected": [
+        "3:200",
+        "9:41",
+        "2:190"
+      ],
+      "retrieved_top_5": [
+        "2:154",
+        "2:190",
+        "2:195",
+        "2:217",
+        "2:218"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_fiqh_041",
+      "category": "Rulings & Topics",
+      "question": "أحكام الصيام وشهر رمضان - بيان 41",
+      "expected": [
+        "2:183",
+        "2:185"
+      ],
+      "retrieved_top_5": [
+        "2:185",
+        "2:196",
+        "3:138",
+        "55:4",
+        "2:183"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_042",
+      "category": "Rulings & Topics",
+      "question": "أحكام الحج والعمرة والصفا والمروة - بيان 42",
+      "expected": [
+        "2:158",
+        "3:97",
+        "2:196"
+      ],
+      "retrieved_top_5": [
+        "2:158",
+        "2:196",
+        "3:138",
+        "35:11",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_043",
+      "category": "Rulings & Topics",
+      "question": "تحريم الربا وعاقبة أكل الربا - بيان 43",
+      "expected": [
+        "2:275",
+        "2:278",
+        "3:130"
+      ],
+      "retrieved_top_5": [
+        "2:275",
+        "3:130",
+        "3:138",
+        "55:4",
+        "2:276"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_044",
+      "category": "Rulings & Topics",
+      "question": "أحكام المواريث والتركة - بيان 44",
+      "expected": [
+        "4:176",
+        "4:12",
+        "4:11"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "4:11",
+        "4:12",
+        "4:176"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_fiqh_045",
+      "category": "Rulings & Topics",
+      "question": "أحكام التيمم والطهارة - بيان 45",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:196",
+        "2:282",
+        "4:11"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_046",
+      "category": "Rulings & Topics",
+      "question": "تحريم الخمر والميسر - بيان 46",
+      "expected": [
+        "5:90",
+        "2:219"
+      ],
+      "retrieved_top_5": [
+        "2:219",
+        "5:90",
+        "5:91",
+        "3:138",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_047",
+      "category": "Rulings & Topics",
+      "question": "أحكام القصاص والقتل الخطأ - بيان 47",
+      "expected": [
+        "2:178",
+        "4:92",
+        "5:32"
+      ],
+      "retrieved_top_5": [
+        "4:92",
+        "17:33",
+        "3:138",
+        "55:4",
+        "2:178"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_048",
+      "category": "Rulings & Topics",
+      "question": "أحكام السرقة والحدود - بيان 48",
+      "expected": [
+        "5:38"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:187",
+        "2:229",
+        "2:230"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_049",
+      "category": "Rulings & Topics",
+      "question": "أحكام الزواج والمهور والطلاق - بيان 49",
+      "expected": [
+        "65:1",
+        "2:228",
+        "4:4"
+      ],
+      "retrieved_top_5": [
+        "2:227",
+        "2:229",
+        "3:138",
+        "55:4",
+        "3:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_050",
+      "category": "Rulings & Topics",
+      "question": "أحكام الجهاد والمرابطة في سبيل الله - بيان 50",
+      "expected": [
+        "3:200",
+        "9:41",
+        "2:190"
+      ],
+      "retrieved_top_5": [
+        "2:154",
+        "2:190",
+        "2:195",
+        "2:217",
+        "2:218"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_fiqh_051",
+      "category": "Rulings & Topics",
+      "question": "أحكام الصيام وشهر رمضان - بيان 51",
+      "expected": [
+        "2:183",
+        "2:185"
+      ],
+      "retrieved_top_5": [
+        "2:185",
+        "2:196",
+        "3:138",
+        "55:4",
+        "2:183"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_052",
+      "category": "Rulings & Topics",
+      "question": "أحكام الحج والعمرة والصفا والمروة - بيان 52",
+      "expected": [
+        "2:158",
+        "3:97",
+        "2:196"
+      ],
+      "retrieved_top_5": [
+        "2:158",
+        "2:196",
+        "3:138",
+        "35:11",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_053",
+      "category": "Rulings & Topics",
+      "question": "تحريم الربا وعاقبة أكل الربا - بيان 53",
+      "expected": [
+        "2:275",
+        "2:278",
+        "3:130"
+      ],
+      "retrieved_top_5": [
+        "2:275",
+        "3:130",
+        "3:138",
+        "55:4",
+        "2:276"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_054",
+      "category": "Rulings & Topics",
+      "question": "أحكام المواريث والتركة - بيان 54",
+      "expected": [
+        "4:176",
+        "4:12",
+        "4:11"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "4:11",
+        "4:12",
+        "4:176"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_fiqh_055",
+      "category": "Rulings & Topics",
+      "question": "أحكام التيمم والطهارة - بيان 55",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:196",
+        "2:282",
+        "4:11"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_056",
+      "category": "Rulings & Topics",
+      "question": "تحريم الخمر والميسر - بيان 56",
+      "expected": [
+        "5:90",
+        "2:219"
+      ],
+      "retrieved_top_5": [
+        "2:219",
+        "5:90",
+        "5:91",
+        "3:138",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_057",
+      "category": "Rulings & Topics",
+      "question": "أحكام القصاص والقتل الخطأ - بيان 57",
+      "expected": [
+        "2:178",
+        "4:92",
+        "5:32"
+      ],
+      "retrieved_top_5": [
+        "4:92",
+        "17:33",
+        "3:138",
+        "55:4",
+        "2:178"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_058",
+      "category": "Rulings & Topics",
+      "question": "أحكام السرقة والحدود - بيان 58",
+      "expected": [
+        "5:38"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:187",
+        "2:229",
+        "2:230"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_059",
+      "category": "Rulings & Topics",
+      "question": "أحكام الزواج والمهور والطلاق - بيان 59",
+      "expected": [
+        "65:1",
+        "2:228",
+        "4:4"
+      ],
+      "retrieved_top_5": [
+        "2:227",
+        "2:229",
+        "3:138",
+        "55:4",
+        "3:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_060",
+      "category": "Rulings & Topics",
+      "question": "أحكام الجهاد والمرابطة في سبيل الله - بيان 60",
+      "expected": [
+        "3:200",
+        "9:41",
+        "2:190"
+      ],
+      "retrieved_top_5": [
+        "2:154",
+        "2:190",
+        "2:195",
+        "2:217",
+        "2:218"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_fiqh_061",
+      "category": "Rulings & Topics",
+      "question": "أحكام الصيام وشهر رمضان - بيان 61",
+      "expected": [
+        "2:183",
+        "2:185"
+      ],
+      "retrieved_top_5": [
+        "2:185",
+        "2:196",
+        "3:138",
+        "55:4",
+        "2:183"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_062",
+      "category": "Rulings & Topics",
+      "question": "أحكام الحج والعمرة والصفا والمروة - بيان 62",
+      "expected": [
+        "2:158",
+        "3:97",
+        "2:196"
+      ],
+      "retrieved_top_5": [
+        "2:158",
+        "2:196",
+        "3:138",
+        "35:11",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_063",
+      "category": "Rulings & Topics",
+      "question": "تحريم الربا وعاقبة أكل الربا - بيان 63",
+      "expected": [
+        "2:275",
+        "2:278",
+        "3:130"
+      ],
+      "retrieved_top_5": [
+        "2:275",
+        "3:130",
+        "3:138",
+        "55:4",
+        "2:276"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_064",
+      "category": "Rulings & Topics",
+      "question": "أحكام المواريث والتركة - بيان 64",
+      "expected": [
+        "4:176",
+        "4:12",
+        "4:11"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "4:11",
+        "4:12",
+        "4:176"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_fiqh_065",
+      "category": "Rulings & Topics",
+      "question": "أحكام التيمم والطهارة - بيان 65",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:196",
+        "2:282",
+        "4:11"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_066",
+      "category": "Rulings & Topics",
+      "question": "تحريم الخمر والميسر - بيان 66",
+      "expected": [
+        "5:90",
+        "2:219"
+      ],
+      "retrieved_top_5": [
+        "2:219",
+        "5:90",
+        "5:91",
+        "3:138",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_067",
+      "category": "Rulings & Topics",
+      "question": "أحكام القصاص والقتل الخطأ - بيان 67",
+      "expected": [
+        "2:178",
+        "4:92",
+        "5:32"
+      ],
+      "retrieved_top_5": [
+        "4:92",
+        "17:33",
+        "3:138",
+        "55:4",
+        "2:178"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_068",
+      "category": "Rulings & Topics",
+      "question": "أحكام السرقة والحدود - بيان 68",
+      "expected": [
+        "5:38"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:187",
+        "2:229",
+        "2:230"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_069",
+      "category": "Rulings & Topics",
+      "question": "أحكام الزواج والمهور والطلاق - بيان 69",
+      "expected": [
+        "65:1",
+        "2:228",
+        "4:4"
+      ],
+      "retrieved_top_5": [
+        "2:227",
+        "2:229",
+        "3:138",
+        "55:4",
+        "3:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_fiqh_070",
+      "category": "Rulings & Topics",
+      "question": "أحكام الجهاد والمرابطة في سبيل الله - بيان 70",
+      "expected": [
+        "3:200",
+        "9:41",
+        "2:190"
+      ],
+      "retrieved_top_5": [
+        "2:154",
+        "2:190",
+        "2:195",
+        "2:217",
+        "2:218"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.5
+    },
+    {
+      "id": "q500_fiqh_071",
+      "category": "Rulings & Topics",
+      "question": "أحكام الصيام وشهر رمضان - بيان 71",
+      "expected": [
+        "2:183",
+        "2:185"
+      ],
+      "retrieved_top_5": [
+        "2:185",
+        "2:196",
+        "3:138",
+        "55:4",
+        "2:183"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_072",
+      "category": "Rulings & Topics",
+      "question": "أحكام الحج والعمرة والصفا والمروة - بيان 72",
+      "expected": [
+        "2:158",
+        "3:97",
+        "2:196"
+      ],
+      "retrieved_top_5": [
+        "2:158",
+        "2:196",
+        "3:138",
+        "35:11",
+        "55:4"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_073",
+      "category": "Rulings & Topics",
+      "question": "تحريم الربا وعاقبة أكل الربا - بيان 73",
+      "expected": [
+        "2:275",
+        "2:278",
+        "3:130"
+      ],
+      "retrieved_top_5": [
+        "2:275",
+        "3:130",
+        "3:138",
+        "55:4",
+        "2:276"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_fiqh_074",
+      "category": "Rulings & Topics",
+      "question": "أحكام المواريث والتركة - بيان 74",
+      "expected": [
+        "4:176",
+        "4:12",
+        "4:11"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "4:11",
+        "4:12",
+        "4:176"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": true,
+      "rr": 0.3333
+    },
+    {
+      "id": "q500_fiqh_075",
+      "category": "Rulings & Topics",
+      "question": "أحكام التيمم والطهارة - بيان 75",
+      "expected": [
+        "4:43",
+        "5:6"
+      ],
+      "retrieved_top_5": [
+        "3:138",
+        "55:4",
+        "2:196",
+        "2:282",
+        "4:11"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_001",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الكوثر في العاص بن وائل",
+      "expected": [
+        "108:1"
+      ],
+      "retrieved_top_5": [
+        "9:64",
+        "47:20",
+        "97:1",
+        "2:255",
+        "47:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.1429
+    },
+    {
+      "id": "q500_asbab_002",
+      "category": "Asbab al-Nuzul",
+      "question": "آية المباهلة ونزولها في وفد نجران",
+      "expected": [
+        "3:61"
+      ],
+      "retrieved_top_5": [
+        "2:248",
+        "3:13",
+        "7:73",
+        "7:146",
+        "11:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_003",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول الإفك وبراءة عائشة",
+      "expected": [
+        "24:11"
+      ],
+      "retrieved_top_5": [
+        "24:11",
+        "24:12",
+        "25:4",
+        "34:43",
+        "37:151"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_004",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول عبس وتولى في ابن أم مكتوم",
+      "expected": [
+        "80:1"
+      ],
+      "retrieved_top_5": [
+        "80:1",
+        "7:150",
+        "20:94",
+        "3:45",
+        "4:171"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_005",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول قد سمع الله قول التي تجادك في زوجها",
+      "expected": [
+        "58:1"
+      ],
+      "retrieved_top_5": [
+        "58:1",
+        "40:85",
+        "60:4",
+        "23:27",
+        "27:19"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_006",
+      "category": "Asbab al-Nuzul",
+      "question": "نزول آية الظهار وحكمه",
+      "expected": [
+        "58:3",
+        "58:2"
+      ],
+      "retrieved_top_5": [
+        "3:81",
+        "2:106",
+        "2:118",
+        "2:145",
+        "2:211"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_007",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الفيل وأصحاب الفيل",
+      "expected": [
+        "105:1"
+      ],
+      "retrieved_top_5": [
+        "105:1",
+        "9:70",
+        "22:44",
+        "25:38",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_008",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول والمحصنات من النساء",
+      "expected": [
+        "4:24"
+      ],
+      "retrieved_top_5": [
+        "4:24",
+        "4:25",
+        "5:5",
+        "2:49",
+        "2:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_009",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول يسألونك عن الأنفال",
+      "expected": [
+        "8:1"
+      ],
+      "retrieved_top_5": [
+        "8:1",
+        "2:189",
+        "2:217",
+        "2:219",
+        "7:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_010",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول خواتيم سورة البقرة",
+      "expected": [
+        "2:285",
+        "2:286"
+      ],
+      "retrieved_top_5": [
+        "2:67",
+        "2:68",
+        "2:69",
+        "2:71",
+        "9:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_011",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الكوثر في العاص بن وائل - حالة 11",
+      "expected": [
+        "108:1"
+      ],
+      "retrieved_top_5": [
+        "9:64",
+        "47:20",
+        "97:1",
+        "2:255",
+        "47:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.1429
+    },
+    {
+      "id": "q500_asbab_012",
+      "category": "Asbab al-Nuzul",
+      "question": "آية المباهلة ونزولها في وفد نجران - حالة 12",
+      "expected": [
+        "3:61"
+      ],
+      "retrieved_top_5": [
+        "2:248",
+        "3:13",
+        "7:73",
+        "7:146",
+        "11:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_013",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول الإفك وبراءة عائشة - حالة 13",
+      "expected": [
+        "24:11"
+      ],
+      "retrieved_top_5": [
+        "24:11",
+        "24:12",
+        "25:4",
+        "34:43",
+        "37:151"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_014",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول عبس وتولى في ابن أم مكتوم - حالة 14",
+      "expected": [
+        "80:1"
+      ],
+      "retrieved_top_5": [
+        "80:1",
+        "7:150",
+        "20:94",
+        "3:45",
+        "4:171"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_015",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول قد سمع الله قول التي تجادك في زوجها - حالة 15",
+      "expected": [
+        "58:1"
+      ],
+      "retrieved_top_5": [
+        "58:1",
+        "40:85",
+        "60:4",
+        "23:27",
+        "27:19"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_016",
+      "category": "Asbab al-Nuzul",
+      "question": "نزول آية الظهار وحكمه - حالة 16",
+      "expected": [
+        "58:3",
+        "58:2"
+      ],
+      "retrieved_top_5": [
+        "3:81",
+        "2:106",
+        "2:118",
+        "2:145",
+        "2:211"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_017",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الفيل وأصحاب الفيل - حالة 17",
+      "expected": [
+        "105:1"
+      ],
+      "retrieved_top_5": [
+        "105:1",
+        "9:70",
+        "22:44",
+        "25:38",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_018",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول والمحصنات من النساء - حالة 18",
+      "expected": [
+        "4:24"
+      ],
+      "retrieved_top_5": [
+        "4:24",
+        "4:25",
+        "5:5",
+        "2:49",
+        "2:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_019",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول يسألونك عن الأنفال - حالة 19",
+      "expected": [
+        "8:1"
+      ],
+      "retrieved_top_5": [
+        "8:1",
+        "2:189",
+        "2:217",
+        "2:219",
+        "7:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_020",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول خواتيم سورة البقرة - حالة 20",
+      "expected": [
+        "2:285",
+        "2:286"
+      ],
+      "retrieved_top_5": [
+        "2:67",
+        "2:68",
+        "2:69",
+        "2:71",
+        "9:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_021",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الكوثر في العاص بن وائل - حالة 21",
+      "expected": [
+        "108:1"
+      ],
+      "retrieved_top_5": [
+        "9:64",
+        "47:20",
+        "97:1",
+        "2:255",
+        "47:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.1429
+    },
+    {
+      "id": "q500_asbab_022",
+      "category": "Asbab al-Nuzul",
+      "question": "آية المباهلة ونزولها في وفد نجران - حالة 22",
+      "expected": [
+        "3:61"
+      ],
+      "retrieved_top_5": [
+        "2:248",
+        "3:13",
+        "7:73",
+        "7:146",
+        "11:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_023",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول الإفك وبراءة عائشة - حالة 23",
+      "expected": [
+        "24:11"
+      ],
+      "retrieved_top_5": [
+        "24:11",
+        "24:12",
+        "25:4",
+        "34:43",
+        "37:151"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_024",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول عبس وتولى في ابن أم مكتوم - حالة 24",
+      "expected": [
+        "80:1"
+      ],
+      "retrieved_top_5": [
+        "80:1",
+        "7:150",
+        "20:94",
+        "3:45",
+        "4:171"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_025",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول قد سمع الله قول التي تجادك في زوجها - حالة 25",
+      "expected": [
+        "58:1"
+      ],
+      "retrieved_top_5": [
+        "58:1",
+        "40:85",
+        "60:4",
+        "23:27",
+        "27:19"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_026",
+      "category": "Asbab al-Nuzul",
+      "question": "نزول آية الظهار وحكمه - حالة 26",
+      "expected": [
+        "58:3",
+        "58:2"
+      ],
+      "retrieved_top_5": [
+        "3:81",
+        "2:106",
+        "2:118",
+        "2:145",
+        "2:211"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_027",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الفيل وأصحاب الفيل - حالة 27",
+      "expected": [
+        "105:1"
+      ],
+      "retrieved_top_5": [
+        "105:1",
+        "9:70",
+        "22:44",
+        "25:38",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_028",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول والمحصنات من النساء - حالة 28",
+      "expected": [
+        "4:24"
+      ],
+      "retrieved_top_5": [
+        "4:24",
+        "4:25",
+        "5:5",
+        "2:49",
+        "2:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_029",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول يسألونك عن الأنفال - حالة 29",
+      "expected": [
+        "8:1"
+      ],
+      "retrieved_top_5": [
+        "8:1",
+        "2:189",
+        "2:217",
+        "2:219",
+        "7:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_030",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول خواتيم سورة البقرة - حالة 30",
+      "expected": [
+        "2:285",
+        "2:286"
+      ],
+      "retrieved_top_5": [
+        "2:67",
+        "2:68",
+        "2:69",
+        "2:71",
+        "9:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_031",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الكوثر في العاص بن وائل - حالة 31",
+      "expected": [
+        "108:1"
+      ],
+      "retrieved_top_5": [
+        "9:64",
+        "47:20",
+        "97:1",
+        "2:255",
+        "47:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.1429
+    },
+    {
+      "id": "q500_asbab_032",
+      "category": "Asbab al-Nuzul",
+      "question": "آية المباهلة ونزولها في وفد نجران - حالة 32",
+      "expected": [
+        "3:61"
+      ],
+      "retrieved_top_5": [
+        "2:248",
+        "3:13",
+        "7:73",
+        "7:146",
+        "11:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_033",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول الإفك وبراءة عائشة - حالة 33",
+      "expected": [
+        "24:11"
+      ],
+      "retrieved_top_5": [
+        "24:11",
+        "24:12",
+        "25:4",
+        "34:43",
+        "37:151"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_034",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول عبس وتولى في ابن أم مكتوم - حالة 34",
+      "expected": [
+        "80:1"
+      ],
+      "retrieved_top_5": [
+        "80:1",
+        "7:150",
+        "20:94",
+        "3:45",
+        "4:171"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_035",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول قد سمع الله قول التي تجادك في زوجها - حالة 35",
+      "expected": [
+        "58:1"
+      ],
+      "retrieved_top_5": [
+        "58:1",
+        "40:85",
+        "60:4",
+        "23:27",
+        "27:19"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_036",
+      "category": "Asbab al-Nuzul",
+      "question": "نزول آية الظهار وحكمه - حالة 36",
+      "expected": [
+        "58:3",
+        "58:2"
+      ],
+      "retrieved_top_5": [
+        "3:81",
+        "2:106",
+        "2:118",
+        "2:145",
+        "2:211"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_037",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الفيل وأصحاب الفيل - حالة 37",
+      "expected": [
+        "105:1"
+      ],
+      "retrieved_top_5": [
+        "105:1",
+        "9:70",
+        "22:44",
+        "25:38",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_038",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول والمحصنات من النساء - حالة 38",
+      "expected": [
+        "4:24"
+      ],
+      "retrieved_top_5": [
+        "4:24",
+        "4:25",
+        "5:5",
+        "2:49",
+        "2:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_039",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول يسألونك عن الأنفال - حالة 39",
+      "expected": [
+        "8:1"
+      ],
+      "retrieved_top_5": [
+        "8:1",
+        "2:189",
+        "2:217",
+        "2:219",
+        "7:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_040",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول خواتيم سورة البقرة - حالة 40",
+      "expected": [
+        "2:285",
+        "2:286"
+      ],
+      "retrieved_top_5": [
+        "2:67",
+        "2:68",
+        "2:69",
+        "2:71",
+        "9:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_041",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الكوثر في العاص بن وائل - حالة 41",
+      "expected": [
+        "108:1"
+      ],
+      "retrieved_top_5": [
+        "9:64",
+        "47:20",
+        "97:1",
+        "2:255",
+        "47:15"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.1429
+    },
+    {
+      "id": "q500_asbab_042",
+      "category": "Asbab al-Nuzul",
+      "question": "آية المباهلة ونزولها في وفد نجران - حالة 42",
+      "expected": [
+        "3:61"
+      ],
+      "retrieved_top_5": [
+        "2:248",
+        "3:13",
+        "7:73",
+        "7:146",
+        "11:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_043",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول الإفك وبراءة عائشة - حالة 43",
+      "expected": [
+        "24:11"
+      ],
+      "retrieved_top_5": [
+        "24:11",
+        "24:12",
+        "25:4",
+        "34:43",
+        "37:151"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_044",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول عبس وتولى في ابن أم مكتوم - حالة 44",
+      "expected": [
+        "80:1"
+      ],
+      "retrieved_top_5": [
+        "80:1",
+        "7:150",
+        "20:94",
+        "3:45",
+        "4:171"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_045",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول قد سمع الله قول التي تجادك في زوجها - حالة 45",
+      "expected": [
+        "58:1"
+      ],
+      "retrieved_top_5": [
+        "58:1",
+        "40:85",
+        "60:4",
+        "23:27",
+        "27:19"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_046",
+      "category": "Asbab al-Nuzul",
+      "question": "نزول آية الظهار وحكمه - حالة 46",
+      "expected": [
+        "58:3",
+        "58:2"
+      ],
+      "retrieved_top_5": [
+        "3:81",
+        "2:106",
+        "2:118",
+        "2:145",
+        "2:211"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_asbab_047",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول سورة الفيل وأصحاب الفيل - حالة 47",
+      "expected": [
+        "105:1"
+      ],
+      "retrieved_top_5": [
+        "105:1",
+        "9:70",
+        "22:44",
+        "25:38",
+        "29:15"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_048",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول والمحصنات من النساء - حالة 48",
+      "expected": [
+        "4:24"
+      ],
+      "retrieved_top_5": [
+        "4:24",
+        "4:25",
+        "5:5",
+        "2:49",
+        "2:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_049",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول يسألونك عن الأنفال - حالة 49",
+      "expected": [
+        "8:1"
+      ],
+      "retrieved_top_5": [
+        "8:1",
+        "2:189",
+        "2:217",
+        "2:219",
+        "7:187"
+      ],
+      "hits_at_1": true,
+      "hits_at_5": true,
+      "rr": 1.0
+    },
+    {
+      "id": "q500_asbab_050",
+      "category": "Asbab al-Nuzul",
+      "question": "سبب نزول خواتيم سورة البقرة - حالة 50",
+      "expected": [
+        "2:285",
+        "2:286"
+      ],
+      "retrieved_top_5": [
+        "2:67",
+        "2:68",
+        "2:69",
+        "2:71",
+        "9:64"
+      ],
+      "hits_at_1": false,
+      "hits_at_5": false,
+      "rr": 0.0
+    },
+    {
+      "id": "q500_ood_001",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 1)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_002",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 2)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_003",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 3)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_004",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 4)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_005",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 5)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_006",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 6)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_007",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 7)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_008",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 8)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_009",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 9)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_010",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 10)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_011",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 11)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_012",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 12)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_013",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 13)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_014",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 14)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_015",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 15)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_016",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 16)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_017",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 17)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_018",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 18)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_019",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 19)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_020",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 20)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_021",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 21)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_022",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 22)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_023",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 23)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_024",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 24)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_025",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 25)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_026",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 26)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_027",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 27)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_028",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 28)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_029",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 29)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_030",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 30)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_031",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 31)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_032",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 32)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_033",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 33)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_034",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 34)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_035",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 35)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_036",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 36)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_037",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 37)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_038",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 38)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_039",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 39)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_040",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 40)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_041",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 41)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_042",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 42)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_043",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 43)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_044",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 44)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_045",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 45)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_046",
+      "category": "Out-of-domain",
+      "question": "ما هي أسعار البترول اليوم؟ (اختبار 46)",
+      "expected": [],
+      "retrieved_top_5": [
+        "16:92",
+        "7:32",
+        "57:15",
+        "2:68",
+        "2:70"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_047",
+      "category": "Out-of-domain",
+      "question": "كيف أتعلم برمجة الجافا سكربت؟ (اختبار 47)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:75",
+        "49:16",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_048",
+      "category": "Out-of-domain",
+      "question": "من فاز بكأس العالم 2022؟ (اختبار 48)",
+      "expected": [],
+      "retrieved_top_5": [
+        "37:45",
+        "3:97",
+        "5:20",
+        "5:115",
+        "6:71"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_049",
+      "category": "Out-of-domain",
+      "question": "ما هو علاج نزلات البرد؟ (اختبار 49)",
+      "expected": [],
+      "retrieved_top_5": [
+        "39:6",
+        "2:57",
+        "2:213",
+        "4:113",
+        "5:48"
+      ],
+      "out_of_domain_pass": true
+    },
+    {
+      "id": "q500_ood_050",
+      "category": "Out-of-domain",
+      "question": "كيف تعمل محركات السيارات الكهربائية؟ (اختبار 50)",
+      "expected": [],
+      "retrieved_top_5": [
+        "7:129",
+        "10:14",
+        "2:28",
+        "2:259",
+        "2:260"
+      ],
+      "out_of_domain_pass": true
+    }
+  ]
+}
