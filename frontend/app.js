@@ -65,11 +65,35 @@ async function handleChatSubmit(event) {
         eventSource.onerror = () => {
             eventSource.close();
             if (!fullAnswer) {
-                textElem.innerText = "⚠️ حدث خطأ في الاتصال بالخادم عند البث المباشر.";
+                fetchStandardChat(text, textElem, citationsElem);
             }
         };
     } catch (err) {
-        textElem.innerText = "⚠️ تعذر الاتصال بالسيرفر.";
+        fetchStandardChat(text, textElem, citationsElem);
+    }
+}
+
+async function fetchStandardChat(text, textElem, citationsElem) {
+    try {
+        let url = `/chat?q=${encodeURIComponent(text)}&limit=5`;
+        if (currentDomain !== "hybrid") {
+            url += `&domain=${currentDomain}`;
+        }
+        const res = await fetch(url);
+        if (!res.ok) throw new Error("HTTP error");
+        const data = await res.json();
+        
+        if (data.citations) {
+            renderCitations(data.citations, citationsElem);
+        }
+        if (data.answer) {
+            textElem.innerHTML = formatParagraphs(escapeHtml(data.answer));
+        } else {
+            textElem.innerText = "لم يتم الحصول على إجابة من السيرفر.";
+        }
+        scrollToBottom();
+    } catch (err) {
+        textElem.innerText = "⚠️ تعذر الحصول على الإجابة من السيرفر.";
     }
 }
 
