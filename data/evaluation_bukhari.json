@@ -1,1202 +1,3140 @@
 [
   {
-    "id": "bk001",
-    "query": "إنما الأعمال بالنيات",
+    "id": "bk_curated_001",
+    "query": "عايز حديث النية بتاع البخاري",
+    "category": "Colloquial",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk_curated_002",
+    "query": "إيه الحديث اللي بيقول فمن كانت هجرته لدنيا",
+    "category": "Colloquial",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk_curated_003",
+    "query": "ممكن حديث بني الإسلام على خمس",
+    "category": "Colloquial",
+    "expected_hadith_number": 8
+  },
+  {
+    "id": "bk_curated_004",
+    "query": "إيه هو حديث المسلم من سلم المسلمون من لسانه ويده",
+    "category": "Colloquial",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk_curated_005",
+    "query": "عايز حديث شعب الإيمان والحياء",
+    "category": "Colloquial",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk_curated_006",
+    "query": "حديث الدين النصيحة لله ولرسوله بتاع البخاري",
+    "category": "Colloquial",
+    "expected_hadith_number": 55
+  },
+  {
+    "id": "bk_curated_007",
+    "query": "عن أبي هريرة الإيمان بضع وستون شعبة",
+    "category": "Narrator",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk_curated_008",
+    "query": "عن ابن عمر بني الإسلام على خمس",
+    "category": "Narrator",
+    "expected_hadith_number": 8
+  },
+  {
+    "id": "bk_curated_009",
+    "query": "حديث أم المؤمنين عائشة في ركعتي الضحى",
+    "category": "Narrator",
+    "expected_hadith_number": 1178
+  },
+  {
+    "id": "bk_curated_010",
+    "query": "عن ابن عباس في صفة صلاة النبي",
+    "category": "Narrator",
+    "expected_hadith_number": 138
+  },
+  {
+    "id": "bk_curated_011",
+    "query": "عن أبي موسى الأشعري مثل المؤمن الذي يقترأ القرآن",
+    "category": "Narrator",
+    "expected_hadith_number": 5059
+  },
+  {
+    "id": "bk_curated_012",
+    "query": "عن انس بن مالك خادم رسول الله في شفاعة النبي",
+    "category": "Narrator",
+    "expected_hadith_number": 4476
+  },
+  {
+    "id": "bk_curated_013",
+    "query": "حديث النية المشهور",
     "category": "Exact Quote",
     "expected_hadith_number": 1
   },
   {
-    "id": "bk002",
-    "query": "فمن كانت هجرته إلى دنيا يصيبها",
+    "id": "bk_curated_014",
+    "query": "حديث الأعمال بالنيات",
     "category": "Exact Quote",
     "expected_hadith_number": 1
   },
   {
-    "id": "bk003",
-    "query": "بني الإسلام على خمس",
+    "id": "bk_curated_015",
+    "query": "حديث من رغب عن سنتي فليس مني",
+    "category": "Exact Quote",
+    "expected_hadith_number": 5063
+  },
+  {
+    "id": "bk_curated_016",
+    "query": "حديث لا يزني الزاني وهو مؤمن",
+    "category": "Exact Quote",
+    "expected_hadith_number": 2475
+  },
+  {
+    "id": "bk_curated_017",
+    "query": "حديث إذا غضب أحدكم فليستعذ بالله",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3282
+  },
+  {
+    "id": "bk_curated_018",
+    "query": "حديث اتق الله حيثما كنت وأتبع السيئة الحسنة تمحها",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6016
+  },
+  {
+    "id": "bk_curated_019",
+    "query": "حديث كلمتان خفيفتان على اللسان ثقيلتان في الميزان",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6406
+  },
+  {
+    "id": "bk_curated_020",
+    "query": "كتاب الإيمان باب بني الإسلام على خمس",
+    "category": "Book Reference",
+    "expected_hadith_number": 8
+  },
+  {
+    "id": "bk_curated_021",
+    "query": "كتاب بدء الوحي كيف كان بدء الوحي إلى رسول الله",
+    "category": "Book Reference",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk_curated_022",
+    "query": "كتاب العلم باب فضل العلم",
+    "category": "Book Reference",
+    "expected_hadith_number": 71
+  },
+  {
+    "id": "bk_curated_023",
+    "query": "كتاب الصلاة باب وجوب الصلاة",
+    "category": "Book Reference",
+    "expected_hadith_number": 349
+  },
+  {
+    "id": "bk_curated_0024",
+    "query": "حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 1
+  },
+  {
+    "id": "bk_curated_0025",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 2
+  },
+  {
+    "id": "bk_curated_0026",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 3
+  },
+  {
+    "id": "bk_curated_0027",
+    "query": "قَالَ ابْنُ شِهَابٍ وَأَخْبَرَنِي أَبُو سَلَمَةَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 4
+  },
+  {
+    "id": "bk_curated_0028",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 5
+  },
+  {
+    "id": "bk_curated_0029",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 6
+  },
+  {
+    "id": "bk_curated_0030",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 7
+  },
+  {
+    "id": "bk_curated_0031",
+    "query": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، قَالَ",
     "category": "Exact Quote",
     "expected_hadith_number": 8
   },
   {
-    "id": "bk004",
-    "query": "أفضل الإسلام تطعم الطعام",
+    "id": "bk_curated_0032",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 9
+  },
+  {
+    "id": "bk_curated_0033",
+    "query": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 10
+  },
+  {
+    "id": "bk_curated_0034",
+    "query": "حَدَّثَنَا سَعِيدُ بْنُ يَحْيَى بْنِ سَعِيدٍ",
     "category": "Exact Quote",
     "expected_hadith_number": 11
   },
   {
-    "id": "bk005",
-    "query": "لا يؤمن أحدكم حتى أكون أحب إليه من والده وولده",
+    "id": "bk_curated_0035",
+    "query": "حَدَّثَنَا عَمْرُو بْنُ خَالِدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 12
+  },
+  {
+    "id": "bk_curated_0036",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 13
+  },
+  {
+    "id": "bk_curated_0037",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
     "category": "Exact Quote",
     "expected_hadith_number": 14
   },
   {
-    "id": "bk006",
-    "query": "المسلم من سلم المسلمون من لسانه ويده",
+    "id": "bk_curated_0038",
+    "query": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 9
+    "expected_hadith_number": 15
   },
   {
-    "id": "bk007",
-    "query": "الإيمان بضع وستون شعبة",
+    "id": "bk_curated_0039",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 9
+    "expected_hadith_number": 16
   },
   {
-    "id": "bk008",
-    "query": "من يرد الله به خيرا يفقهه في الدين",
+    "id": "bk_curated_0040",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 17
+  },
+  {
+    "id": "bk_curated_0041",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 18
+  },
+  {
+    "id": "bk_curated_0042",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 19
+  },
+  {
+    "id": "bk_curated_0043",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 20
+  },
+  {
+    "id": "bk_curated_0044",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 21
+  },
+  {
+    "id": "bk_curated_0045",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 22
+  },
+  {
+    "id": "bk_curated_0046",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 23
+  },
+  {
+    "id": "bk_curated_0047",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 24
+  },
+  {
+    "id": "bk_curated_0048",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ الْمُسْنَدِيُّ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 25
+  },
+  {
+    "id": "bk_curated_0049",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، وَمُوسَى بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 26
+  },
+  {
+    "id": "bk_curated_0050",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 27
+  },
+  {
+    "id": "bk_curated_0051",
+    "query": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 28
+  },
+  {
+    "id": "bk_curated_0052",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 29
+  },
+  {
+    "id": "bk_curated_0053",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 30
+  },
+  {
+    "id": "bk_curated_0054",
+    "query": "حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ الْمُبَارَكِ، حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 31
+  },
+  {
+    "id": "bk_curated_0055",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 32
+  },
+  {
+    "id": "bk_curated_0056",
+    "query": "حَدَّثَنَا سُلَيْمَانُ أَبُو الرَّبِيعِ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 33
+  },
+  {
+    "id": "bk_curated_0057",
+    "query": "حَدَّثَنَا قَبِيصَةُ بْنُ عُقْبَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 34
+  },
+  {
+    "id": "bk_curated_0058",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 35
+  },
+  {
+    "id": "bk_curated_0059",
+    "query": "حَدَّثَنَا حَرَمِيُّ بْنُ حَفْصٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 36
+  },
+  {
+    "id": "bk_curated_0060",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 37
+  },
+  {
+    "id": "bk_curated_0061",
+    "query": "حَدَّثَنَا ابْنُ سَلاَمٍ، قَالَ أَخْبَرَنَا مُحَمَّدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 38
+  },
+  {
+    "id": "bk_curated_0062",
+    "query": "حَدَّثَنَا عَبْدُ السَّلاَمِ بْنُ مُطَهَّرٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 39
+  },
+  {
+    "id": "bk_curated_0063",
+    "query": "حَدَّثَنَا عَمْرُو بْنُ خَالِدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 40
+  },
+  {
+    "id": "bk_curated_0064",
+    "query": "قَالَ مَالِكٌ أَخْبَرَنِي زَيْدُ بْنُ أَسْلَمَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 41
+  },
+  {
+    "id": "bk_curated_0065",
+    "query": "حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 42
+  },
+  {
+    "id": "bk_curated_0066",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 43
+  },
+  {
+    "id": "bk_curated_0067",
+    "query": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 44
+  },
+  {
+    "id": "bk_curated_0068",
+    "query": "حَدَّثَنَا الْحَسَنُ بْنُ الصَّبَّاحِ، سَمِعَ جَعْفَرَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 45
+  },
+  {
+    "id": "bk_curated_0069",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 46
+  },
+  {
+    "id": "bk_curated_0070",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدِ اللَّهِ بْنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 47
+  },
+  {
+    "id": "bk_curated_0071",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ عَرْعَرَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 48
+  },
+  {
+    "id": "bk_curated_0072",
+    "query": "أَخْبَرَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا إِسْمَاعِيلُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 49
+  },
+  {
+    "id": "bk_curated_0073",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 50
+  },
+  {
+    "id": "bk_curated_0074",
+    "query": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ حَمْزَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 51
+  },
+  {
+    "id": "bk_curated_0075",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا زَكَرِيَّاءُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 52
+  },
+  {
+    "id": "bk_curated_0076",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ الْجَعْدِ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 53
+  },
+  {
+    "id": "bk_curated_0077",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 54
+  },
+  {
+    "id": "bk_curated_0078",
+    "query": "حَدَّثَنَا حَجَّاجُ بْنُ مِنْهَالٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 55
+  },
+  {
+    "id": "bk_curated_0079",
+    "query": "حَدَّثَنَا الْحَكَمُ بْنُ نَافِعٍ قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 56
+  },
+  {
+    "id": "bk_curated_0080",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 57
+  },
+  {
+    "id": "bk_curated_0081",
+    "query": "حَدَّثَنَا أَبُو النُّعْمَانِ، قَالَ حَدَّثَنَا أَبُو",
+    "category": "Exact Quote",
+    "expected_hadith_number": 58
+  },
+  {
+    "id": "bk_curated_0082",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ سِنَانٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 59
+  },
+  {
+    "id": "bk_curated_0083",
+    "query": "حَدَّثَنَا أَبُو النُّعْمَانِ، عَارِمُ بْنُ الْفَضْلِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 60
+  },
+  {
+    "id": "bk_curated_0084",
+    "query": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 61
+  },
+  {
+    "id": "bk_curated_0085",
+    "query": "حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، حَدَّثَنَا سُلَيْمَانُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 62
+  },
+  {
+    "id": "bk_curated_0086",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 63
+  },
+  {
+    "id": "bk_curated_0087",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 64
+  },
+  {
+    "id": "bk_curated_0088",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ أَبُو الْحَسَنِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 65
+  },
+  {
+    "id": "bk_curated_0089",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 66
+  },
+  {
+    "id": "bk_curated_0090",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا بِشْرٌ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 67
+  },
+  {
+    "id": "bk_curated_0091",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 68
+  },
+  {
+    "id": "bk_curated_0092",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 69
+  },
+  {
+    "id": "bk_curated_0093",
+    "query": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 70
+  },
+  {
+    "id": "bk_curated_0094",
+    "query": "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
     "expected_hadith_number": 71
   },
   {
-    "id": "bk009",
-    "query": "بلغوا عني ولو آية",
+    "id": "bk_curated_0095",
+    "query": "حَدَّثَنَا عَلِيٌّ، حَدَّثَنَا سُفْيَانُ، قَالَ قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 3461
+    "expected_hadith_number": 72
   },
   {
-    "id": "bk010",
-    "query": "لا تقبل صلاة من أحدث حتى يتوضأ",
+    "id": "bk_curated_0096",
+    "query": "حَدَّثَنَا الْحُمَيْدِيُّ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 73
+  },
+  {
+    "id": "bk_curated_0097",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ غُرَيْرٍ الزُّهْرِيُّ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 74
+  },
+  {
+    "id": "bk_curated_0098",
+    "query": "حَدَّثَنَا أَبُو مَعْمَرٍ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 75
+  },
+  {
+    "id": "bk_curated_0099",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 76
+  },
+  {
+    "id": "bk_curated_0100",
+    "query": "حَدَّثَنِي مُحَمَّدُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 77
+  },
+  {
+    "id": "bk_curated_0101",
+    "query": "حَدَّثَنَا أَبُو الْقَاسِمِ، خَالِدُ بْنُ خَلِيٍّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 78
+  },
+  {
+    "id": "bk_curated_0102",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 79
+  },
+  {
+    "id": "bk_curated_0103",
+    "query": "حَدَّثَنَا عِمْرَانُ بْنُ مَيْسَرَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 80
+  },
+  {
+    "id": "bk_curated_0104",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 81
+  },
+  {
+    "id": "bk_curated_0105",
+    "query": "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، قَالَ حَدَّثَنِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 82
+  },
+  {
+    "id": "bk_curated_0106",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 83
+  },
+  {
+    "id": "bk_curated_0107",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 84
+  },
+  {
+    "id": "bk_curated_0108",
+    "query": "حَدَّثَنَا الْمَكِّيُّ بْنُ إِبْرَاهِيمَ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 85
+  },
+  {
+    "id": "bk_curated_0109",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 86
+  },
+  {
+    "id": "bk_curated_0110",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 87
+  },
+  {
+    "id": "bk_curated_0111",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ أَبُو الْحَسَنِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 88
+  },
+  {
+    "id": "bk_curated_0112",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 89
+  },
+  {
+    "id": "bk_curated_0113",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 90
+  },
+  {
+    "id": "bk_curated_0114",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 91
+  },
+  {
+    "id": "bk_curated_0115",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 92
+  },
+  {
+    "id": "bk_curated_0116",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 93
+  },
+  {
+    "id": "bk_curated_0117",
+    "query": "حَدَّثَنَا عَبْدَةُ، قَالَ حَدَّثَنَا عَبْدُ الصَّمَدِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 94
+  },
+  {
+    "id": "bk_curated_0118",
+    "query": "حَدَّثَنَا عَبْدَةُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 95
+  },
+  {
+    "id": "bk_curated_0119",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا أَبُو عَوَانَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 96
+  },
+  {
+    "id": "bk_curated_0120",
+    "query": "أَخْبَرَنَا مُحَمَّدٌ ـ هُوَ ابْنُ سَلاَمٍ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 97
+  },
+  {
+    "id": "bk_curated_0121",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 98
+  },
+  {
+    "id": "bk_curated_0122",
+    "query": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 99
+  },
+  {
+    "id": "bk_curated_0123",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 100
+  },
+  {
+    "id": "bk_curated_0124",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 101
+  },
+  {
+    "id": "bk_curated_0125",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 102
+  },
+  {
+    "id": "bk_curated_0126",
+    "query": "حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 103
+  },
+  {
+    "id": "bk_curated_0127",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 104
+  },
+  {
+    "id": "bk_curated_0128",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الْوَهَّابِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 105
+  },
+  {
+    "id": "bk_curated_0129",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ الْجَعْدِ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 106
+  },
+  {
+    "id": "bk_curated_0130",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 107
+  },
+  {
+    "id": "bk_curated_0131",
+    "query": "حَدَّثَنَا أَبُو مَعْمَرٍ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 108
+  },
+  {
+    "id": "bk_curated_0132",
+    "query": "حَدَّثَنَا مَكِّيُّ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 109
+  },
+  {
+    "id": "bk_curated_0133",
+    "query": "حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا أَبُو عَوَانَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 110
+  },
+  {
+    "id": "bk_curated_0134",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 111
+  },
+  {
+    "id": "bk_curated_0135",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ الْفَضْلُ بْنُ دُكَيْنٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 112
+  },
+  {
+    "id": "bk_curated_0136",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 113
+  },
+  {
+    "id": "bk_curated_0137",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 114
+  },
+  {
+    "id": "bk_curated_0138",
+    "query": "حَدَّثَنَا صَدَقَةُ، أَخْبَرَنَا ابْنُ عُيَيْنَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 115
+  },
+  {
+    "id": "bk_curated_0139",
+    "query": "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، قَالَ حَدَّثَنِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 116
+  },
+  {
+    "id": "bk_curated_0140",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 117
+  },
+  {
+    "id": "bk_curated_0141",
+    "query": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 118
+  },
+  {
+    "id": "bk_curated_0142",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ أَبِي بَكْرٍ أَبُو",
+    "category": "Exact Quote",
+    "expected_hadith_number": 119
+  },
+  {
+    "id": "bk_curated_0143",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي أَخِي، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 120
+  },
+  {
+    "id": "bk_curated_0144",
+    "query": "حَدَّثَنَا حَجَّاجٌ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 121
+  },
+  {
+    "id": "bk_curated_0145",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 122
+  },
+  {
+    "id": "bk_curated_0146",
+    "query": "حَدَّثَنَا عُثْمَانُ، قَالَ أَخْبَرَنَا جَرِيرٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 123
+  },
+  {
+    "id": "bk_curated_0147",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 124
+  },
+  {
+    "id": "bk_curated_0148",
+    "query": "حَدَّثَنَا قَيْسُ بْنُ حَفْصٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 125
+  },
+  {
+    "id": "bk_curated_0149",
+    "query": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 126
+  },
+  {
+    "id": "bk_curated_0150",
+    "query": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 127
+  },
+  {
+    "id": "bk_curated_0151",
+    "query": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 128
+  },
+  {
+    "id": "bk_curated_0152",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا مُعْتَمِرٌ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 129
+  },
+  {
+    "id": "bk_curated_0153",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 130
+  },
+  {
+    "id": "bk_curated_0154",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 131
+  },
+  {
+    "id": "bk_curated_0155",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا عَبْدُ اللَّهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 132
+  },
+  {
+    "id": "bk_curated_0156",
+    "query": "حَدَّثَنِي قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 133
+  },
+  {
+    "id": "bk_curated_0157",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا ابْنُ أَبِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 134
+  },
+  {
+    "id": "bk_curated_0158",
+    "query": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، قَالَ",
     "category": "Exact Quote",
     "expected_hadith_number": 135
   },
   {
-    "id": "bk011",
-    "query": "إذا استيقظ أحدكم من نومه فلا يغمس يده في الإناء",
+    "id": "bk_curated_0159",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 136
+  },
+  {
+    "id": "bk_curated_0160",
+    "query": "حَدَّثَنَا عَلِيٌّ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 137
+  },
+  {
+    "id": "bk_curated_0161",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 138
+  },
+  {
+    "id": "bk_curated_0162",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 139
+  },
+  {
+    "id": "bk_curated_0163",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 140
+  },
+  {
+    "id": "bk_curated_0164",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 141
+  },
+  {
+    "id": "bk_curated_0165",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 142
+  },
+  {
+    "id": "bk_curated_0166",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 143
+  },
+  {
+    "id": "bk_curated_0167",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا ابْنُ أَبِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 144
+  },
+  {
+    "id": "bk_curated_0168",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 145
+  },
+  {
+    "id": "bk_curated_0169",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 146
+  },
+  {
+    "id": "bk_curated_0170",
+    "query": "حَدَّثَنَا زَكَرِيَّاءُ، قَالَ حَدَّثَنَا أَبُو أُسَامَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 147
+  },
+  {
+    "id": "bk_curated_0171",
+    "query": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ الْمُنْذِرِ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 148
+  },
+  {
+    "id": "bk_curated_0172",
+    "query": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 149
+  },
+  {
+    "id": "bk_curated_0173",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، هِشَامُ بْنُ عَبْدِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 150
+  },
+  {
+    "id": "bk_curated_0174",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 151
+  },
+  {
+    "id": "bk_curated_0175",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 152
+  },
+  {
+    "id": "bk_curated_0176",
+    "query": "حَدَّثَنَا مُعَاذُ بْنُ فَضَالَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 153
+  },
+  {
+    "id": "bk_curated_0177",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 154
+  },
+  {
+    "id": "bk_curated_0178",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدٍ الْمَكِّيُّ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 155
+  },
+  {
+    "id": "bk_curated_0179",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا زُهَيْرٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 156
+  },
+  {
+    "id": "bk_curated_0180",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 157
+  },
+  {
+    "id": "bk_curated_0181",
+    "query": "حَدَّثَنَا حُسَيْنُ بْنُ عِيسَى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 158
+  },
+  {
+    "id": "bk_curated_0182",
+    "query": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 159
+  },
+  {
+    "id": "bk_curated_0183",
+    "query": "وَعَنْ إِبْرَاهِيمَ، قَالَ قَالَ صَالِحُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 160
+  },
+  {
+    "id": "bk_curated_0184",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 161
+  },
+  {
+    "id": "bk_curated_0185",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
     "category": "Exact Quote",
     "expected_hadith_number": 162
   },
   {
-    "id": "bk012",
-    "query": "إذا أقيمت الصلاة فلا تأتوها تسعون",
+    "id": "bk_curated_0186",
+    "query": "حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا أَبُو عَوَانَةَ،",
     "category": "Exact Quote",
-    "expected_hadith_number": 636
+    "expected_hadith_number": 163
   },
   {
-    "id": "bk013",
-    "query": "صلاة الجماعة أفضل من صلاة الفذ بسبع وعشرين درجة",
+    "id": "bk_curated_0187",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
     "category": "Exact Quote",
-    "expected_hadith_number": 645
+    "expected_hadith_number": 164
   },
   {
-    "id": "bk014",
-    "query": "من شهد الجنازة حتى يصلى عليها فله قيراط",
+    "id": "bk_curated_0188",
+    "query": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 1253
+    "expected_hadith_number": 165
   },
   {
-    "id": "bk015",
-    "query": "أسرعوا بالجنازة فإن تك صالحة فخير تقدمونها إليه",
+    "id": "bk_curated_0189",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 1315
+    "expected_hadith_number": 166
   },
   {
-    "id": "bk016",
-    "query": "في كل أربعين شاة شاة",
+    "id": "bk_curated_0190",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا إِسْمَاعِيلُ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 1454
+    "expected_hadith_number": 167
   },
   {
-    "id": "bk017",
-    "query": "صدقة السر تطفئ غضب الرب",
+    "id": "bk_curated_0191",
+    "query": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 1421
+    "expected_hadith_number": 168
   },
   {
-    "id": "bk018",
-    "query": "من صام رمضان إيمانا واحتسابا غفر له ما تقدم من ذنبه",
+    "id": "bk_curated_0192",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 1901
+    "expected_hadith_number": 169
   },
   {
-    "id": "bk019",
-    "query": "الصوم جنة",
+    "id": "bk_curated_0193",
+    "query": "حَدَّثَنَا مَالِكُ بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 1894
+    "expected_hadith_number": 170
   },
   {
-    "id": "bk020",
-    "query": "الصائم في عبادة وإن كان نائما",
+    "id": "bk_curated_0194",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 1894
+    "expected_hadith_number": 171
   },
   {
-    "id": "bk021",
-    "query": "من حج فلم يرفث ولم يفسق رجع كيوم ولدته أمه",
+    "id": "bk_curated_0195",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، عَنْ",
     "category": "Exact Quote",
-    "expected_hadith_number": 1521
+    "expected_hadith_number": 172
   },
   {
-    "id": "bk022",
-    "query": "العمرة إلى العمرة كفارة لما بينهما",
+    "id": "bk_curated_0196",
+    "query": "حَدَّثَنَا إِسْحَاقُ، أَخْبَرَنَا عَبْدُ الصَّمَدِ، حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 1773
+    "expected_hadith_number": 173
   },
   {
-    "id": "bk023",
-    "query": "الجهاد ماضٍ منذ بعثني الله إلى أن يقاتل آخر أمتي الدجال",
+    "id": "bk_curated_0197",
+    "query": "وَقَالَ أَحْمَدُ بْنُ شَبِيبٍ حَدَّثَنَا أَبِي،",
     "category": "Exact Quote",
-    "expected_hadith_number": 2797
+    "expected_hadith_number": 174
   },
   {
-    "id": "bk024",
-    "query": "انتدب الله لمن خرج في سبيله",
+    "id": "bk_curated_0198",
+    "query": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 2787
+    "expected_hadith_number": 175
   },
   {
-    "id": "bk025",
-    "query": "تنكح المرأة لأربع لمالها ولحسبها ولجمالها ولدينها",
+    "id": "bk_curated_0199",
+    "query": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 5090
+    "expected_hadith_number": 176
   },
   {
-    "id": "bk026",
-    "query": "يا معشر الشباب من استطاع منكم الباءة فليتزوج",
+    "id": "bk_curated_0200",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا ابْنُ",
     "category": "Exact Quote",
-    "expected_hadith_number": 5065
+    "expected_hadith_number": 177
   },
   {
-    "id": "bk027",
-    "query": "أحب الناس إلى الله أنفعهم للناس",
+    "id": "bk_curated_0201",
+    "query": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 6011
+    "expected_hadith_number": 178
   },
   {
-    "id": "bk028",
-    "query": "ليس الشديد بالصرعة إنما الشديد الذي يملك نفسه عند الغضب",
+    "id": "bk_curated_0202",
+    "query": "حَدَّثَنَا سَعْدُ بْنُ حَفْصٍ، حَدَّثَنَا شَيْبَانُ،",
     "category": "Exact Quote",
-    "expected_hadith_number": 6114
+    "expected_hadith_number": 179
   },
   {
-    "id": "bk029",
-    "query": "سيد الاستغفار أن تقول اللهم أنت ربي لا إله إلا أنت",
+    "id": "bk_curated_0203",
+    "query": "حَدَّثَنَا إِسْحَاقُ، قَالَ أَخْبَرَنَا النَّضْرُ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 6306
+    "expected_hadith_number": 180
   },
   {
-    "id": "bk030",
-    "query": "من قال حين يصبح وحين يمسي سبحان الله وبحمده مائة مرة",
+    "id": "bk_curated_0204",
+    "query": "حَدَّثَنِي مُحَمَّدُ بْنُ سَلاَمٍ، قَالَ أَخْبَرَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 6405
+    "expected_hadith_number": 181
   },
   {
-    "id": "bk031",
-    "query": "كن في الدنيا كأنك غريب أو عابر سبيل",
+    "id": "bk_curated_0205",
+    "query": "حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 6416
+    "expected_hadith_number": 182
   },
   {
-    "id": "bk032",
-    "query": "ما أصغر ما أخاف عليكم الفقر ولكن أخاف عليكم الدنيا",
+    "id": "bk_curated_0206",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ",
     "category": "Exact Quote",
-    "expected_hadith_number": 6425
+    "expected_hadith_number": 183
   },
   {
-    "id": "bk033",
-    "query": "لا يحل دم امرئ مسلم إلا بإحدى ثلاث",
+    "id": "bk_curated_0207",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ",
     "category": "Exact Quote",
-    "expected_hadith_number": 6878
+    "expected_hadith_number": 184
   },
   {
-    "id": "bk034",
-    "query": "تعافوا الحدود فيما بينكم فما بلغني من حد فقد وجب",
+    "id": "bk_curated_0208",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 6787
+    "expected_hadith_number": 185
   },
   {
-    "id": "bk035",
-    "query": "لا ترجعوا بعدي كفارا يضرب بعضكم رقاب بعض",
+    "id": "bk_curated_0209",
+    "query": "حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا وُهَيْبٌ، عَنْ",
     "category": "Exact Quote",
-    "expected_hadith_number": 7080
+    "expected_hadith_number": 186
   },
   {
-    "id": "bk036",
-    "query": "من رأى منكم منكرا فليغيره بيده",
+    "id": "bk_curated_0210",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 7054
+    "expected_hadith_number": 187
   },
   {
-    "id": "bk037",
-    "query": "إن الله لا ينام ولا ينبغي له أن ينام",
+    "id": "bk_curated_0211",
+    "query": "وَقَالَ أَبُو مُوسَى دَعَا النَّبِيُّ صلى",
     "category": "Exact Quote",
-    "expected_hadith_number": 7404
+    "expected_hadith_number": 188
   },
   {
-    "id": "bk038",
-    "query": "يتنزل ربنا تبارك وتعالى كل ليلة إلى السماء الدنيا",
+    "id": "bk_curated_0212",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 1145
+    "expected_hadith_number": 189
   },
   {
-    "id": "bk039",
-    "query": "كل أمتي يدخلون الجنة إلا من أبى",
+    "id": "bk_curated_0213",
+    "query": "حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ يُونُسَ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 7280
+    "expected_hadith_number": 190
   },
   {
-    "id": "bk040",
-    "query": "إن الله جميل يحب الجمال",
+    "id": "bk_curated_0214",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا خَالِدُ بْنُ",
     "category": "Exact Quote",
-    "expected_hadith_number": 6029
+    "expected_hadith_number": 191
   },
   {
-    "id": "bk041",
-    "query": "لقد كان في يوسف وإخوته آيات للسائلين",
+    "id": "bk_curated_0215",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 3382
+    "expected_hadith_number": 192
   },
   {
-    "id": "bk042",
-    "query": "أُعطيت مفاتيح خزائن الأرض",
+    "id": "bk_curated_0216",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 3255
+    "expected_hadith_number": 193
   },
   {
-    "id": "bk043",
-    "query": "إن موسى كان رجلا حييا",
+    "id": "bk_curated_0217",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
     "category": "Exact Quote",
-    "expected_hadith_number": 3404
+    "expected_hadith_number": 194
   },
   {
-    "id": "bk044",
-    "query": "كانت غزوة بدر في رمضان",
+    "id": "bk_curated_0218",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُنِيرٍ، سَمِعَ",
     "category": "Exact Quote",
-    "expected_hadith_number": 3998
+    "expected_hadith_number": 195
   },
   {
-    "id": "bk045",
-    "query": "اللهم أنجز لي ما وعدتني",
+    "id": "bk_curated_0219",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 3953
+    "expected_hadith_number": 196
   },
   {
-    "id": "bk046",
-    "query": "اقرأ باسم ربك الذي خلق",
+    "id": "bk_curated_0220",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 4953
+    "expected_hadith_number": 197
   },
   {
-    "id": "bk047",
-    "query": "نزلت آية الكرسي",
+    "id": "bk_curated_0221",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
     "category": "Exact Quote",
-    "expected_hadith_number": 5010
+    "expected_hadith_number": 198
   },
   {
-    "id": "bk048",
-    "query": "ما أنزل الله داء إلا أنزل له شفاء",
+    "id": "bk_curated_0222",
+    "query": "حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، قَالَ حَدَّثَنَا",
     "category": "Exact Quote",
-    "expected_hadith_number": 5678
+    "expected_hadith_number": 199
   },
   {
-    "id": "bk049",
-    "query": "في الحبة السوداء شفاء من كل داء إلا السام",
+    "id": "bk_curated_0223",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا حَمَّادٌ، عَنْ",
     "category": "Exact Quote",
-    "expected_hadith_number": 5688
+    "expected_hadith_number": 200
   },
   {
-    "id": "bk050",
-    "query": "الشفاء في ثلاثة شربة عسل وشرطة محجم وكية نار",
+    "id": "bk_curated_0224",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا مِسْعَرٌ،",
     "category": "Exact Quote",
-    "expected_hadith_number": 5680
+    "expected_hadith_number": 201
   },
   {
-    "id": "bk051",
-    "query": "حديث أبي هريرة عن فضل الصلاة في جماعة",
-    "category": "Narrator",
-    "expected_hadith_number": 645
+    "id": "bk_curated_0225",
+    "query": "حَدَّثَنَا أَصْبَغُ بْنُ الْفَرَجِ الْمِصْرِيُّ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 202
   },
   {
-    "id": "bk052",
-    "query": "ما روته عائشة عن بدء الوحي",
-    "category": "Narrator",
-    "expected_hadith_number": 2
+    "id": "bk_curated_0226",
+    "query": "حَدَّثَنَا عَمْرُو بْنُ خَالِدٍ الْحَرَّانِيُّ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 203
   },
   {
-    "id": "bk053",
-    "query": "حديث أنس بن مالك عن محبة الله للعبد",
-    "category": "Narrator",
-    "expected_hadith_number": 6502
+    "id": "bk_curated_0227",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا شَيْبَانُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 204
   },
   {
-    "id": "bk054",
-    "query": "ما روى ابن عمر عن الجهاد",
-    "category": "Narrator",
-    "expected_hadith_number": 2797
+    "id": "bk_curated_0228",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 205
   },
   {
-    "id": "bk055",
-    "query": "حديث ابن عباس في تفسير سورة الفاتحة",
-    "category": "Narrator",
-    "expected_hadith_number": 4474
+    "id": "bk_curated_0229",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا زَكَرِيَّاءُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 206
   },
   {
-    "id": "bk056",
-    "query": "ما روى أبو سعيد الخدري عن الصوم",
-    "category": "Narrator",
-    "expected_hadith_number": 1894
+    "id": "bk_curated_0230",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 207
   },
   {
-    "id": "bk057",
-    "query": "حديث جابر بن عبد الله في الحج",
-    "category": "Narrator",
-    "expected_hadith_number": 1521
+    "id": "bk_curated_0231",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 208
   },
   {
-    "id": "bk058",
-    "query": "ما روى عمر بن الخطاب عن النية",
-    "category": "Narrator",
-    "expected_hadith_number": 1
+    "id": "bk_curated_0232",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 209
   },
   {
-    "id": "bk059",
-    "query": "حديث أبي هريرة في الاستغفار",
-    "category": "Narrator",
-    "expected_hadith_number": 6307
+    "id": "bk_curated_0233",
+    "query": "وَحَدَّثَنَا أَصْبَغُ، قَالَ أَخْبَرَنَا ابْنُ وَهْبٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 210
   },
   {
-    "id": "bk060",
-    "query": "ما روته أم سلمة عن النكاح",
-    "category": "Narrator",
-    "expected_hadith_number": 5090
+    "id": "bk_curated_0234",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، وَقُتَيْبَةُ، قَالاَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 211
   },
   {
-    "id": "bk061",
-    "query": "حديث أبي ذر في التواضع",
-    "category": "Narrator",
-    "expected_hadith_number": 6050
+    "id": "bk_curated_0235",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 212
   },
   {
-    "id": "bk062",
-    "query": "حديث معاذ بن جبل عن حق الله على العباد",
-    "category": "Narrator",
-    "expected_hadith_number": 6267
+    "id": "bk_curated_0236",
+    "query": "حَدَّثَنَا أَبُو مَعْمَرٍ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 213
   },
   {
-    "id": "bk063",
-    "query": "ما روى أبو موسى الأشعري عن الأخلاق",
-    "category": "Narrator",
-    "expected_hadith_number": 6018
+    "id": "bk_curated_0237",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 214
   },
   {
-    "id": "bk064",
-    "query": "حديث عائشة في صيام النبي",
-    "category": "Narrator",
-    "expected_hadith_number": 1969
+    "id": "bk_curated_0238",
+    "query": "حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 215
   },
   {
-    "id": "bk065",
-    "query": "ما روى ابن مسعود عن القرآن",
-    "category": "Narrator",
-    "expected_hadith_number": 5027
+    "id": "bk_curated_0239",
+    "query": "حَدَّثَنَا عُثْمَانُ، قَالَ حَدَّثَنَا جَرِيرٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 216
   },
   {
-    "id": "bk066",
-    "query": "حديث أنس في المعراج",
-    "category": "Narrator",
-    "expected_hadith_number": 3207
+    "id": "bk_curated_0240",
+    "query": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 217
   },
   {
-    "id": "bk067",
-    "query": "ما روى أبو هريرة عن صفة الجنة",
-    "category": "Narrator",
-    "expected_hadith_number": 3254
+    "id": "bk_curated_0241",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 218
   },
   {
-    "id": "bk068",
-    "query": "حديث ابن عباس في فضل القرآن",
-    "category": "Narrator",
-    "expected_hadith_number": 5027
+    "id": "bk_curated_0242",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 219
   },
   {
-    "id": "bk069",
-    "query": "ما روت عائشة عن غزوة بدر",
-    "category": "Narrator",
-    "expected_hadith_number": 3998
+    "id": "bk_curated_0243",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 220
   },
   {
-    "id": "bk070",
-    "query": "حديث أبي هريرة في الصدقة الجارية",
-    "category": "Narrator",
-    "expected_hadith_number": 1383
+    "id": "bk_curated_0244",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 221
   },
   {
-    "id": "bk071",
-    "query": "ما روى سلمة بن الأكوع في الجهاد",
-    "category": "Narrator",
-    "expected_hadith_number": 2864
+    "id": "bk_curated_0245",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 222
   },
   {
-    "id": "bk072",
-    "query": "حديث ابن عمر في الطهارة",
-    "category": "Narrator",
-    "expected_hadith_number": 135
+    "id": "bk_curated_0246",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 223
   },
   {
-    "id": "bk073",
-    "query": "ما روى أبو بكر الصديق عن الإيمان",
-    "category": "Narrator",
-    "expected_hadith_number": 8
+    "id": "bk_curated_0247",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 224
   },
   {
-    "id": "bk074",
-    "query": "حديث عمر في النهي عن الغلو",
-    "category": "Narrator",
-    "expected_hadith_number": 3261
+    "id": "bk_curated_0248",
+    "query": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 225
   },
   {
-    "id": "bk075",
-    "query": "ما روى أبو هريرة عن الكلمة الطيبة",
-    "category": "Narrator",
-    "expected_hadith_number": 2989
+    "id": "bk_curated_0249",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ عَرْعَرَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 226
   },
   {
-    "id": "bk076",
-    "query": "حديث أنس في حسن الخلق",
-    "category": "Narrator",
-    "expected_hadith_number": 6035
+    "id": "bk_curated_0250",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 227
   },
   {
-    "id": "bk077",
-    "query": "ما روى ابن عباس عن خطبة الوداع",
-    "category": "Narrator",
-    "expected_hadith_number": 4406
+    "id": "bk_curated_0251",
+    "query": "حَدَّثَنَا مُحَمَّدٌ، قَالَ حَدَّثَنَا أَبُو مُعَاوِيَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 228
   },
   {
-    "id": "bk078",
-    "query": "حديث عائشة عن صلاة الليل",
-    "category": "Narrator",
-    "expected_hadith_number": 1130
+    "id": "bk_curated_0252",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 229
   },
   {
-    "id": "bk079",
-    "query": "ما روى أبو هريرة عن المساجد",
-    "category": "Narrator",
-    "expected_hadith_number": 450
+    "id": "bk_curated_0253",
+    "query": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا يَزِيدُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 230
   },
   {
-    "id": "bk080",
-    "query": "حديث جابر في الزكاة",
-    "category": "Narrator",
-    "expected_hadith_number": 1399
+    "id": "bk_curated_0254",
+    "query": "حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا عَبْدُ الْوَاحِدِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 231
   },
   {
-    "id": "bk081",
-    "query": "ما روى أنس عن فضل قراءة القرآن",
-    "category": "Narrator",
-    "expected_hadith_number": 5027
+    "id": "bk_curated_0255",
+    "query": "حَدَّثَنَا عَمْرُو بْنُ خَالِدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 232
   },
   {
-    "id": "bk082",
-    "query": "حديث أبي هريرة عن صدقة الفطر",
-    "category": "Narrator",
-    "expected_hadith_number": 1503
+    "id": "bk_curated_0256",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 233
   },
   {
-    "id": "bk083",
-    "query": "ما روى ابن عمر عن الطلاق",
-    "category": "Narrator",
-    "expected_hadith_number": 5251
+    "id": "bk_curated_0257",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 234
   },
   {
-    "id": "bk084",
-    "query": "حديث عائشة في أدب النبي",
-    "category": "Narrator",
-    "expected_hadith_number": 6030
+    "id": "bk_curated_0258",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 235
   },
   {
-    "id": "bk085",
-    "query": "ما روى أبو موسى عن العلم",
-    "category": "Narrator",
-    "expected_hadith_number": 79
+    "id": "bk_curated_0259",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 236
   },
   {
-    "id": "bk086",
-    "query": "حديث ابن عباس في الحج",
-    "category": "Narrator",
-    "expected_hadith_number": 1513
+    "id": "bk_curated_0260",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدٍ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 237
   },
   {
-    "id": "bk087",
-    "query": "ما روى أبو هريرة عن رمضان",
-    "category": "Narrator",
-    "expected_hadith_number": 1901
+    "id": "bk_curated_0261",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 238
   },
   {
-    "id": "bk088",
-    "query": "حديث أنس في فضل العلم",
-    "category": "Narrator",
-    "expected_hadith_number": 100
+    "id": "bk_curated_0262",
+    "query": "وَبِإِسْنَادِهِ قَالَ ‏ \"‏ لاَ يَبُولَنَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 239
   },
   {
-    "id": "bk089",
-    "query": "ما روى ابن مسعود عن الصلاة الوسطى",
-    "category": "Narrator",
+    "id": "bk_curated_0263",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنِي أَبِي، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 240
+  },
+  {
+    "id": "bk_curated_0264",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 241
+  },
+  {
+    "id": "bk_curated_0265",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 242
+  },
+  {
+    "id": "bk_curated_0266",
+    "query": "حَدَّثَنَا مُحَمَّدٌ، قَالَ أَخْبَرَنَا سُفْيَانُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 243
+  },
+  {
+    "id": "bk_curated_0267",
+    "query": "حَدَّثَنَا أَبُو النُّعْمَانِ، قَالَ حَدَّثَنَا حَمَّادُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 244
+  },
+  {
+    "id": "bk_curated_0268",
+    "query": "حَدَّثَنَا عُثْمَانُ، قَالَ حَدَّثَنَا جَرِيرٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 245
+  },
+  {
+    "id": "bk_curated_0269",
+    "query": "وَقَالَ عَفَّانُ حَدَّثَنَا صَخْرُ بْنُ جُوَيْرِيَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 246
+  },
+  {
+    "id": "bk_curated_0270",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 247
+  },
+  {
+    "id": "bk_curated_0271",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 248
+  },
+  {
+    "id": "bk_curated_0272",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 249
+  },
+  {
+    "id": "bk_curated_0273",
+    "query": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 250
+  },
+  {
+    "id": "bk_curated_0274",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 251
+  },
+  {
+    "id": "bk_curated_0275",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 252
+  },
+  {
+    "id": "bk_curated_0276",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا ابْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 253
+  },
+  {
+    "id": "bk_curated_0277",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا زُهَيْرٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 254
+  },
+  {
+    "id": "bk_curated_0278",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 255
+  },
+  {
+    "id": "bk_curated_0279",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا مَعْمَرُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 256
+  },
+  {
+    "id": "bk_curated_0280",
+    "query": "حَدَّثَنَا مُوسَى، قَالَ حَدَّثَنَا عَبْدُ الْوَاحِدِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 257
+  },
+  {
+    "id": "bk_curated_0281",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 258
+  },
+  {
+    "id": "bk_curated_0282",
+    "query": "حَدَّثَنَا عُمَرُ بْنُ حَفْصِ بْنِ غِيَاثٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 259
+  },
+  {
+    "id": "bk_curated_0283",
+    "query": "حَدَّثَنَا الْحُمَيْدِيُّ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 260
+  },
+  {
+    "id": "bk_curated_0284",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 261
+  },
+  {
+    "id": "bk_curated_0285",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا حَمَّادٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 262
+  },
+  {
+    "id": "bk_curated_0286",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 263
+  },
+  {
+    "id": "bk_curated_0287",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 264
+  },
+  {
+    "id": "bk_curated_0288",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ مَحْبُوبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 265
+  },
+  {
+    "id": "bk_curated_0289",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 266
+  },
+  {
+    "id": "bk_curated_0290",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 267
+  },
+  {
+    "id": "bk_curated_0291",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 268
+  },
+  {
+    "id": "bk_curated_0292",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا زَائِدَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 269
+  },
+  {
+    "id": "bk_curated_0293",
+    "query": "حَدَّثَنَا أَبُو النُّعْمَانِ، قَالَ حَدَّثَنَا أَبُو",
+    "category": "Exact Quote",
+    "expected_hadith_number": 270
+  },
+  {
+    "id": "bk_curated_0294",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 271
+  },
+  {
+    "id": "bk_curated_0295",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 272
+  },
+  {
+    "id": "bk_curated_0296",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 273
+  },
+  {
+    "id": "bk_curated_0297",
+    "query": "حَدَّثَنَا يُوسُفُ بْنُ عِيسَى، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 274
+  },
+  {
+    "id": "bk_curated_0298",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 275
+  },
+  {
+    "id": "bk_curated_0299",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا أَبُو حَمْزَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 276
+  },
+  {
+    "id": "bk_curated_0300",
+    "query": "حَدَّثَنَا خَلاَّدُ بْنُ يَحْيَى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 277
+  },
+  {
+    "id": "bk_curated_0301",
+    "query": "حَدَّثَنَا إِسْحَاقُ بْنُ نَصْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 278
+  },
+  {
+    "id": "bk_curated_0302",
+    "query": "وَعَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 279
+  },
+  {
+    "id": "bk_curated_0303",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 280
+  },
+  {
+    "id": "bk_curated_0304",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 281
+  },
+  {
+    "id": "bk_curated_0305",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 282
+  },
+  {
+    "id": "bk_curated_0306",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 283
+  },
+  {
+    "id": "bk_curated_0307",
+    "query": "حَدَّثَنَا عَبْدُ الأَعْلَى بْنُ حَمَّادٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 284
+  },
+  {
+    "id": "bk_curated_0308",
+    "query": "حَدَّثَنَا عَيَّاشٌ، قَالَ حَدَّثَنَا عَبْدُ الأَعْلَى،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 285
+  },
+  {
+    "id": "bk_curated_0309",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا هِشَامٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 286
+  },
+  {
+    "id": "bk_curated_0310",
+    "query": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 287
+  },
+  {
+    "id": "bk_curated_0311",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 288
+  },
+  {
+    "id": "bk_curated_0312",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 289
+  },
+  {
+    "id": "bk_curated_0313",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 290
+  },
+  {
+    "id": "bk_curated_0314",
+    "query": "حَدَّثَنَا مُعَاذُ بْنُ فَضَالَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 291
+  },
+  {
+    "id": "bk_curated_0315",
+    "query": "حَدَّثَنَا أَبُو مَعْمَرٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 292
+  },
+  {
+    "id": "bk_curated_0316",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ هِشَامِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 293
+  },
+  {
+    "id": "bk_curated_0317",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 294
+  },
+  {
+    "id": "bk_curated_0318",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 295
+  },
+  {
+    "id": "bk_curated_0319",
+    "query": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 296
+  },
+  {
+    "id": "bk_curated_0320",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ الْفَضْلُ بْنُ دُكَيْنٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 297
+  },
+  {
+    "id": "bk_curated_0321",
+    "query": "حَدَّثَنَا الْمَكِّيُّ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 298
+  },
+  {
+    "id": "bk_curated_0322",
+    "query": "حَدَّثَنَا قَبِيصَةُ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 299
+  },
+  {
+    "id": "bk_curated_0323",
+    "query": "حَدَّثَنَا قَبِيصَةُ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 300
+  },
+  {
+    "id": "bk_curated_0324",
+    "query": "حَدَّثَنَا قَبِيصَةُ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 301
+  },
+  {
+    "id": "bk_curated_0325",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ خَلِيلٍ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 302
+  },
+  {
+    "id": "bk_curated_0326",
+    "query": "حَدَّثَنَا أَبُو النُّعْمَانِ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 303
+  },
+  {
+    "id": "bk_curated_0327",
+    "query": "حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 304
+  },
+  {
+    "id": "bk_curated_0328",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا عَبْدُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 305
+  },
+  {
+    "id": "bk_curated_0329",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 306
+  },
+  {
+    "id": "bk_curated_0330",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 307
+  },
+  {
+    "id": "bk_curated_0331",
+    "query": "حَدَّثَنَا أَصْبَغُ، قَالَ أَخْبَرَنِي ابْنُ وَهْبٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 308
+  },
+  {
+    "id": "bk_curated_0332",
+    "query": "حَدَّثَنَا إِسْحَاقُ، قَالَ حَدَّثَنَا خَالِدُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 309
+  },
+  {
+    "id": "bk_curated_0333",
+    "query": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا يَزِيدُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 310
+  },
+  {
+    "id": "bk_curated_0334",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا مُعْتَمِرٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 311
+  },
+  {
+    "id": "bk_curated_0335",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا إِبْرَاهِيمُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 312
+  },
+  {
+    "id": "bk_curated_0336",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الْوَهَّابِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 313
+  },
+  {
+    "id": "bk_curated_0337",
+    "query": "حَدَّثَنَا يَحْيَى، قَالَ حَدَّثَنَا ابْنُ عُيَيْنَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 314
+  },
+  {
+    "id": "bk_curated_0338",
+    "query": "حَدَّثَنَا مُسْلِمٌ، قَالَ حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 315
+  },
+  {
+    "id": "bk_curated_0339",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا إِبْرَاهِيمُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 316
+  },
+  {
+    "id": "bk_curated_0340",
+    "query": "حَدَّثَنَا عُبَيْدُ بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 317
+  },
+  {
+    "id": "bk_curated_0341",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا حَمَّادٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 318
+  },
+  {
+    "id": "bk_curated_0342",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 319
+  },
+  {
+    "id": "bk_curated_0343",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 320
+  },
+  {
+    "id": "bk_curated_0344",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 321
+  },
+  {
+    "id": "bk_curated_0345",
+    "query": "حَدَّثَنَا سَعْدُ بْنُ حَفْصٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 322
+  },
+  {
+    "id": "bk_curated_0346",
+    "query": "حَدَّثَنَا مُعَاذُ بْنُ فَضَالَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 323
+  },
+  {
+    "id": "bk_curated_0347",
+    "query": "حَدَّثَنَا مُحَمَّدٌ ـ هُوَ ابْنُ سَلاَمٍ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 324
+  },
+  {
+    "id": "bk_curated_0348",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ أَبِي رَجَاءٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 325
+  },
+  {
+    "id": "bk_curated_0349",
+    "query": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 326
+  },
+  {
+    "id": "bk_curated_0350",
+    "query": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ الْمُنْذِرِ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 327
+  },
+  {
+    "id": "bk_curated_0351",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 328
+  },
+  {
+    "id": "bk_curated_0352",
+    "query": "حَدَّثَنَا مُعَلَّى بْنُ أَسَدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 329
+  },
+  {
+    "id": "bk_curated_0353",
+    "query": "حَدَّثَنَا مُعَلَّى بْنُ أَسَدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 330
+  },
+  {
+    "id": "bk_curated_0354",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، عَنْ زُهَيْرٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 331
+  },
+  {
+    "id": "bk_curated_0355",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ أَبِي سُرَيْجٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 332
+  },
+  {
+    "id": "bk_curated_0356",
+    "query": "حَدَّثَنَا الْحَسَنُ بْنُ مُدْرِكٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 333
+  },
+  {
+    "id": "bk_curated_0357",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 334
+  },
+  {
+    "id": "bk_curated_0358",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ سِنَانٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 335
+  },
+  {
+    "id": "bk_curated_0359",
+    "query": "حَدَّثَنَا زَكَرِيَّاءُ بْنُ يَحْيَى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 336
+  },
+  {
+    "id": "bk_curated_0360",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 337
+  },
+  {
+    "id": "bk_curated_0361",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 338
+  },
+  {
+    "id": "bk_curated_0362",
+    "query": "حَدَّثَنَا حَجَّاجٌ، قَالَ أَخْبَرَنَا شُعْبَةُ، أَخْبَرَنِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 339
+  },
+  {
+    "id": "bk_curated_0363",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 340
+  },
+  {
+    "id": "bk_curated_0364",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا شُعْبَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 341
+  },
+  {
+    "id": "bk_curated_0365",
+    "query": "حَدَّثَنَا مُسْلِمٌ، حَدَّثَنَا شُعْبَةُ، عَنِ الْحَكَمِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 342
+  },
+  {
+    "id": "bk_curated_0366",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 343
+  },
+  {
+    "id": "bk_curated_0367",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنِي يَحْيَى بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 344
+  },
+  {
+    "id": "bk_curated_0368",
+    "query": "حَدَّثَنَا بِشْرُ بْنُ خَالِدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 345
+  },
+  {
+    "id": "bk_curated_0369",
+    "query": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 346
+  },
+  {
+    "id": "bk_curated_0370",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 347
+  },
+  {
+    "id": "bk_curated_0371",
+    "query": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 348
+  },
+  {
+    "id": "bk_curated_0372",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 349
+  },
+  {
+    "id": "bk_curated_0373",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 350
+  },
+  {
+    "id": "bk_curated_0374",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 351
+  },
+  {
+    "id": "bk_curated_0375",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 352
+  },
+  {
+    "id": "bk_curated_0376",
+    "query": "حَدَّثَنَا مُطَرِّفٌ أَبُو مُصْعَبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 353
+  },
+  {
+    "id": "bk_curated_0377",
+    "query": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 354
+  },
+  {
+    "id": "bk_curated_0378",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 355
+  },
+  {
+    "id": "bk_curated_0379",
+    "query": "حَدَّثَنَا عُبَيْدُ بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 356
+  },
+  {
+    "id": "bk_curated_0380",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 357
+  },
+  {
+    "id": "bk_curated_0381",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 358
+  },
+  {
+    "id": "bk_curated_0382",
+    "query": "حَدَّثَنَا أَبُو عَاصِمٍ، عَنْ مَالِكٍ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 359
+  },
+  {
+    "id": "bk_curated_0383",
+    "query": "حَدَّثَنَا أَبُو نُعَيْمٍ، قَالَ حَدَّثَنَا شَيْبَانُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 360
+  },
+  {
+    "id": "bk_curated_0384",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ صَالِحٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 361
+  },
+  {
+    "id": "bk_curated_0385",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 362
+  },
+  {
+    "id": "bk_curated_0386",
+    "query": "حَدَّثَنَا يَحْيَى، قَالَ حَدَّثَنَا أَبُو مُعَاوِيَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 363
+  },
+  {
+    "id": "bk_curated_0387",
+    "query": "حَدَّثَنَا مَطَرُ بْنُ الْفَضْلِ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 364
+  },
+  {
+    "id": "bk_curated_0388",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 365
+  },
+  {
+    "id": "bk_curated_0389",
+    "query": "حَدَّثَنَا عَاصِمُ بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 366
+  },
+  {
+    "id": "bk_curated_0390",
+    "query": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 367
+  },
+  {
+    "id": "bk_curated_0391",
+    "query": "حَدَّثَنَا قَبِيصَةُ بْنُ عُقْبَةَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 368
+  },
+  {
+    "id": "bk_curated_0392",
+    "query": "حَدَّثَنَا إِسْحَاقُ، قَالَ حَدَّثَنَا يَعْقُوبُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 369
+  },
+  {
+    "id": "bk_curated_0393",
+    "query": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 370
+  },
+  {
+    "id": "bk_curated_0394",
+    "query": "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
     "expected_hadith_number": 371
   },
   {
-    "id": "bk090",
-    "query": "حديث عمر بن الخطاب في العدل",
-    "category": "Narrator",
-    "expected_hadith_number": 7138
+    "id": "bk_curated_0395",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 372
   },
   {
-    "id": "bk091",
-    "query": "ما حكم الصلاة في الجماعة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 645
+    "id": "bk_curated_0396",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 373
   },
   {
-    "id": "bk092",
-    "query": "حكم الإسلام في الزكاة على الذهب والفضة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 1454
+    "id": "bk_curated_0397",
+    "query": "حَدَّثَنَا أَبُو مَعْمَرٍ عَبْدُ اللَّهِ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 374
   },
   {
-    "id": "bk093",
-    "query": "ما حكم الصوم في رمضان",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 1901
+    "id": "bk_curated_0398",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 375
   },
   {
-    "id": "bk094",
-    "query": "حكم الحج على المستطيع",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 1513
+    "id": "bk_curated_0399",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ عَرْعَرَةَ، قَالَ حَدَّثَنِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 376
   },
   {
-    "id": "bk095",
-    "query": "ما أقوال النبي في الطهارة قبل الصلاة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 135
+    "id": "bk_curated_0400",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 377
   },
   {
-    "id": "bk096",
-    "query": "حكم شرب الخمر في الإسلام",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 5575
+    "id": "bk_curated_0401",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 378
   },
   {
-    "id": "bk097",
-    "query": "ما حكم الغيبة والنميمة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6056
+    "id": "bk_curated_0402",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، عَنْ خَالِدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 379
   },
   {
-    "id": "bk098",
-    "query": "حكم الربا في البيوع",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 2083
+    "id": "bk_curated_0403",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ، قَالَ أَخْبَرَنَا مَالِكٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 380
   },
   {
-    "id": "bk099",
-    "query": "ما حكم الطلاق في الإسلام",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 5251
+    "id": "bk_curated_0404",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 381
   },
   {
-    "id": "bk100",
-    "query": "حكم قتل النفس في الإسلام",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6878
+    "id": "bk_curated_0405",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 382
   },
   {
-    "id": "bk101",
-    "query": "ما فضل قراءة القرآن",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 5027
+    "id": "bk_curated_0406",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 383
   },
   {
-    "id": "bk102",
-    "query": "حكم السرقة وما الحد فيها",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6789
+    "id": "bk_curated_0407",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 384
   },
   {
-    "id": "bk103",
-    "query": "أحاديث في فضل الصدقة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 1421
+    "id": "bk_curated_0408",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، هِشَامُ بْنُ عَبْدِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 385
   },
   {
-    "id": "bk104",
-    "query": "ما أحاديث النبي في برّ الوالدين",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 5971
+    "id": "bk_curated_0409",
+    "query": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 386
   },
   {
-    "id": "bk105",
-    "query": "حكم الغناء والموسيقى",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 5590
+    "id": "bk_curated_0410",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 387
   },
   {
-    "id": "bk106",
-    "query": "فضل ليلة القدر وفضل العبادة فيها",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 2014
+    "id": "bk_curated_0411",
+    "query": "حَدَّثَنَا إِسْحَاقُ بْنُ نَصْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 388
   },
   {
-    "id": "bk107",
-    "query": "ما حديث النبي في الحسد",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 2452
+    "id": "bk_curated_0412",
+    "query": "أَخْبَرَنَا الصَّلْتُ بْنُ مُحَمَّدٍ، أَخْبَرَنَا مَهْدِيٌّ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 389
   },
   {
-    "id": "bk108",
-    "query": "أحاديث في فضل ذكر الله",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6407
+    "id": "bk_curated_0413",
+    "query": "أَخْبَرَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا بَكْرُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 390
   },
   {
-    "id": "bk109",
-    "query": "حكم لحم الخنزير في الإسلام",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 5212
+    "id": "bk_curated_0414",
+    "query": "حَدَّثَنَا عَمْرُو بْنُ عَبَّاسٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 391
   },
   {
-    "id": "bk110",
-    "query": "ما أحاديث النبي في التوكل على الله",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6416
+    "id": "bk_curated_0415",
+    "query": "حَدَّثَنَا نُعَيْمٌ، قَالَ حَدَّثَنَا ابْنُ الْمُبَارَكِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 392
   },
   {
-    "id": "bk111",
-    "query": "أحاديث في صفة الجنة والنار",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 3254
+    "id": "bk_curated_0416",
+    "query": "قَالَ ابْنُ أَبِي مَرْيَمَ أَخْبَرَنَا يَحْيَى،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 393
   },
   {
-    "id": "bk112",
-    "query": "ما حديث النبي في الأمانة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 33
+    "id": "bk_curated_0417",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 394
   },
   {
-    "id": "bk113",
-    "query": "أحاديث في فضل الاستغفار",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6307
+    "id": "bk_curated_0418",
+    "query": "حَدَّثَنَا الْحُمَيْدِيُّ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 395
   },
   {
-    "id": "bk114",
-    "query": "ما حديث النبي في التواضع",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6050
+    "id": "bk_curated_0419",
+    "query": "حَدَّثَنَا الْحُمَيْدِيُّ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 396
   },
   {
-    "id": "bk115",
-    "query": "أحاديث في حسن معاملة الجيران",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6015
+    "id": "bk_curated_0420",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 397
   },
   {
-    "id": "bk116",
-    "query": "حكم الزنا وحده في الإسلام",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6830
+    "id": "bk_curated_0421",
+    "query": "حَدَّثَنَا إِسْحَاقُ بْنُ نَصْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 398
   },
   {
-    "id": "bk117",
-    "query": "ما أحاديث النبي في طلب العلم",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 79
+    "id": "bk_curated_0422",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ رَجَاءٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 399
   },
   {
-    "id": "bk118",
-    "query": "فضل صيام يوم عرفة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 1988
+    "id": "bk_curated_0423",
+    "query": "حَدَّثَنَا مُسْلِمٌ، قَالَ حَدَّثَنَا هِشَامٌ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 400
   },
   {
-    "id": "bk119",
-    "query": "أحاديث في الدعاء وأوقات الإجابة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6304
+    "id": "bk_curated_0424",
+    "query": "حَدَّثَنَا عُثْمَانُ، قَالَ حَدَّثَنَا جَرِيرٌ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 401
   },
   {
-    "id": "bk120",
-    "query": "ما حديث النبي في الصبر على البلاء",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 5641
+    "id": "bk_curated_0425",
+    "query": "حَدَّثَنَا عَمْرُو بْنُ عَوْنٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 402
   },
   {
-    "id": "bk121",
-    "query": "حكم الخروج على الحاكم الظالم",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 7055
+    "id": "bk_curated_0426",
+    "query": "حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 402
   },
   {
-    "id": "bk122",
-    "query": "أحاديث في فضل العمل الصالح",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6407
+    "id": "bk_curated_0427",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 403
   },
   {
-    "id": "bk123",
-    "query": "ما حديث النبي في الحياء",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6118
+    "id": "bk_curated_0428",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 404
   },
   {
-    "id": "bk124",
-    "query": "أحاديث عن علامات الساعة",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 7121
+    "id": "bk_curated_0429",
+    "query": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 405
   },
   {
-    "id": "bk125",
-    "query": "حكم إخراج زكاة الفطر",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 1503
+    "id": "bk_curated_0430",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 406
   },
   {
-    "id": "bk126",
-    "query": "أحاديث في فضل الشهادة في سبيل الله",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 2787
+    "id": "bk_curated_0431",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 407
   },
   {
-    "id": "bk127",
-    "query": "ما حكم كتابة الوصية",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 2738
+    "id": "bk_curated_0432",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 408
   },
   {
-    "id": "bk128",
-    "query": "أحاديث عن المسيح الدجال",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 7122
+    "id": "bk_curated_0433",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 409
   },
   {
-    "id": "bk129",
-    "query": "فضل صلاة الفجر وصلاة العصر",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 529
+    "id": "bk_curated_0434",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 410
   },
   {
-    "id": "bk130",
-    "query": "ما حديث النبي في كتمان الأسرار",
-    "category": "Topic/Ruling",
-    "expected_hadith_number": 6289
+    "id": "bk_curated_0435",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 411
   },
   {
-    "id": "bk131",
-    "query": "أحاديث كتاب الإيمان في صحيح البخاري",
-    "category": "Book Reference",
-    "expected_hadith_number": 8
+    "id": "bk_curated_0436",
+    "query": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 412
   },
   {
-    "id": "bk132",
-    "query": "ما أحاديث كتاب العلم",
-    "category": "Book Reference",
-    "expected_hadith_number": 59
+    "id": "bk_curated_0437",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 413
   },
   {
-    "id": "bk133",
-    "query": "أحاديث كتاب الصوم عند البخاري",
-    "category": "Book Reference",
-    "expected_hadith_number": 1886
+    "id": "bk_curated_0438",
+    "query": "حَدَّثَنَا عَلِيٌّ، قَالَ حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 414
   },
   {
-    "id": "bk134",
-    "query": "أحاديث كتاب الحج",
-    "category": "Book Reference",
-    "expected_hadith_number": 1513
+    "id": "bk_curated_0439",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 415
   },
   {
-    "id": "bk135",
-    "query": "ما أحاديث كتاب البيوع",
-    "category": "Book Reference",
-    "expected_hadith_number": 2046
+    "id": "bk_curated_0440",
+    "query": "حَدَّثَنَا إِسْحَاقُ بْنُ نَصْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 416
   },
   {
-    "id": "bk136",
-    "query": "أحاديث كتاب الجهاد والسير",
-    "category": "Book Reference",
-    "expected_hadith_number": 2782
+    "id": "bk_curated_0441",
+    "query": "حَدَّثَنَا مَالِكُ بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 417
   },
   {
-    "id": "bk137",
-    "query": "ما أحاديث كتاب الأدب",
-    "category": "Book Reference",
-    "expected_hadith_number": 5994
+    "id": "bk_curated_0442",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 418
   },
   {
-    "id": "bk138",
-    "query": "أحاديث كتاب الطب عند البخاري",
-    "category": "Book Reference",
-    "expected_hadith_number": 5641
+    "id": "bk_curated_0443",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ صَالِحٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 419
   },
   {
-    "id": "bk139",
-    "query": "أحاديث كتاب التوحيد",
-    "category": "Book Reference",
-    "expected_hadith_number": 7274
+    "id": "bk_curated_0444",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 420
   },
   {
-    "id": "bk140",
-    "query": "ما أحاديث كتاب النكاح",
-    "category": "Book Reference",
-    "expected_hadith_number": 5083
+    "id": "bk_curated_0445",
+    "query": "وَقَالَ إِبْرَاهِيمُ عَنْ عَبْدِ الْعَزِيزِ بْنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 421
   },
   {
-    "id": "bk141",
-    "query": "أحاديث كتاب الزكاة",
-    "category": "Book Reference",
-    "expected_hadith_number": 1399
+    "id": "bk_curated_0446",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 422
   },
   {
-    "id": "bk142",
-    "query": "أحاديث كتاب الجنائز",
-    "category": "Book Reference",
-    "expected_hadith_number": 1250
+    "id": "bk_curated_0447",
+    "query": "حَدَّثَنَا يَحْيَى، قَالَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 423
   },
   {
-    "id": "bk143",
-    "query": "أحاديث كتاب الوضوء",
-    "category": "Book Reference",
-    "expected_hadith_number": 135
+    "id": "bk_curated_0448",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 424
   },
   {
-    "id": "bk144",
-    "query": "ما أحاديث كتاب الفتن",
-    "category": "Book Reference",
-    "expected_hadith_number": 7047
+    "id": "bk_curated_0449",
+    "query": "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، قَالَ حَدَّثَنِي",
+    "category": "Exact Quote",
+    "expected_hadith_number": 425
   },
   {
-    "id": "bk145",
-    "query": "أحاديث كتاب الرقاق",
-    "category": "Book Reference",
-    "expected_hadith_number": 6407
+    "id": "bk_curated_0450",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 426
   },
   {
-    "id": "bk146",
-    "query": "ما أحاديث كتاب الأحكام",
-    "category": "Book Reference",
-    "expected_hadith_number": 7138
+    "id": "bk_curated_0451",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 427
   },
   {
-    "id": "bk147",
-    "query": "أحاديث كتاب الدعوات",
-    "category": "Book Reference",
-    "expected_hadith_number": 6304
+    "id": "bk_curated_0452",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا عَبْدُ الْوَارِثِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 428
   },
   {
-    "id": "bk148",
-    "query": "أحاديث كتاب المناقب في البخاري",
-    "category": "Book Reference",
-    "expected_hadith_number": 3481
+    "id": "bk_curated_0453",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 429
   },
   {
-    "id": "bk149",
-    "query": "ما أحاديث كتاب التفسير",
-    "category": "Book Reference",
-    "expected_hadith_number": 4474
+    "id": "bk_curated_0454",
+    "query": "حَدَّثَنَا صَدَقَةُ بْنُ الْفَضْلِ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 430
   },
   {
-    "id": "bk150",
-    "query": "أحاديث كتاب المغازي",
-    "category": "Book Reference",
-    "expected_hadith_number": 3913
+    "id": "bk_curated_0455",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 431
   },
   {
-    "id": "bk151",
-    "query": "ما أحاديث كتاب الأنبياء",
-    "category": "Book Reference",
-    "expected_hadith_number": 3254
+    "id": "bk_curated_0456",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 432
   },
   {
-    "id": "bk152",
-    "query": "أحاديث كتاب الشهادات",
-    "category": "Book Reference",
-    "expected_hadith_number": 2632
+    "id": "bk_curated_0457",
+    "query": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 433
   },
   {
-    "id": "bk153",
-    "query": "أحاديث كتاب الحدود",
-    "category": "Book Reference",
-    "expected_hadith_number": 6768
+    "id": "bk_curated_0458",
+    "query": "حَدَّثَنَا مُحَمَّدٌ، قَالَ أَخْبَرَنَا عَبْدَةُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 434
   },
   {
-    "id": "bk154",
-    "query": "ما أحاديث كتاب القدر",
-    "category": "Book Reference",
-    "expected_hadith_number": 6594
+    "id": "bk_curated_0459",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 435
   },
   {
-    "id": "bk155",
-    "query": "أحاديث كتاب الديات",
-    "category": "Book Reference",
-    "expected_hadith_number": 6879
+    "id": "bk_curated_0460",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 436
   },
   {
-    "id": "bk156",
-    "query": "أحاديث كتاب الأطعمة عند البخاري",
-    "category": "Book Reference",
-    "expected_hadith_number": 5354
+    "id": "bk_curated_0461",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 437
   },
   {
-    "id": "bk157",
-    "query": "أحاديث كتاب اللباس",
-    "category": "Book Reference",
-    "expected_hadith_number": 5780
+    "id": "bk_curated_0462",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ سِنَانٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 438
   },
   {
-    "id": "bk158",
-    "query": "ما أحاديث كتاب فضائل القرآن",
-    "category": "Book Reference",
-    "expected_hadith_number": 5063
+    "id": "bk_curated_0463",
+    "query": "حَدَّثَنَا عُبَيْدُ بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 439
   },
   {
-    "id": "bk159",
-    "query": "أحاديث كتاب الاعتكاف",
-    "category": "Book Reference",
-    "expected_hadith_number": 2025
+    "id": "bk_curated_0464",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 440
   },
   {
-    "id": "bk160",
-    "query": "ما أحاديث كتاب النفقات",
-    "category": "Book Reference",
-    "expected_hadith_number": 5318
+    "id": "bk_curated_0465",
+    "query": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 441
   },
   {
-    "id": "bk161",
-    "query": "النبي اتكلم إيه عن النية",
-    "category": "Colloquial",
-    "expected_hadith_number": 1
+    "id": "bk_curated_0466",
+    "query": "حَدَّثَنَا يُوسُفُ بْنُ عِيسَى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 442
   },
   {
-    "id": "bk162",
-    "query": "فين الحديث عن بني الإسلام على خمس",
-    "category": "Colloquial",
-    "expected_hadith_number": 8
+    "id": "bk_curated_0467",
+    "query": "حَدَّثَنَا خَلاَّدُ بْنُ يَحْيَى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 443
   },
   {
-    "id": "bk163",
-    "query": "حديث بيتكلم عن الصلاة في جماعة",
-    "category": "Colloquial",
-    "expected_hadith_number": 645
+    "id": "bk_curated_0468",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 444
   },
   {
-    "id": "bk164",
-    "query": "إيه الحديث عن فضل صوم رمضان",
-    "category": "Colloquial",
-    "expected_hadith_number": 1901
+    "id": "bk_curated_0469",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 445
   },
   {
-    "id": "bk165",
-    "query": "النبي قال إيه عن طلب العلم",
-    "category": "Colloquial",
-    "expected_hadith_number": 79
+    "id": "bk_curated_0470",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 446
   },
   {
-    "id": "bk166",
-    "query": "فين حديث الحبة السودا شفاء",
-    "category": "Colloquial",
-    "expected_hadith_number": 5688
+    "id": "bk_curated_0471",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا عَبْدُ الْعَزِيزِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 447
   },
   {
-    "id": "bk167",
-    "query": "عايز حديث عن الصدقة الجارية",
-    "category": "Colloquial",
-    "expected_hadith_number": 1383
+    "id": "bk_curated_0472",
+    "query": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا عَبْدُ الْعَزِيزِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 448
   },
   {
-    "id": "bk168",
-    "query": "النبي اتكلم عن الغضب إزاي",
-    "category": "Colloquial",
-    "expected_hadith_number": 6114
+    "id": "bk_curated_0473",
+    "query": "حَدَّثَنَا خَلاَّدٌ، قَالَ حَدَّثَنَا عَبْدُ الْوَاحِدِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 449
   },
   {
-    "id": "bk169",
-    "query": "فين حديث من صام رمضان إيمانا واحتسابا",
-    "category": "Colloquial",
-    "expected_hadith_number": 1901
+    "id": "bk_curated_0474",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ سُلَيْمَانَ، حَدَّثَنِي ابْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 450
   },
   {
-    "id": "bk170",
-    "query": "إيه حديث النبي في الحسد والعين",
-    "category": "Colloquial",
-    "expected_hadith_number": 2452
+    "id": "bk_curated_0475",
+    "query": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 451
   },
   {
-    "id": "bk171",
-    "query": "حديث بيقول الشديد اللي بيتحكم في نفسه",
-    "category": "Colloquial",
-    "expected_hadith_number": 6114
+    "id": "bk_curated_0476",
+    "query": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 452
   },
   {
-    "id": "bk172",
-    "query": "عايز حديث عن الكلمة الطيبة صدقة",
-    "category": "Colloquial",
-    "expected_hadith_number": 2989
+    "id": "bk_curated_0477",
+    "query": "حَدَّثَنَا أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 453
   },
   {
-    "id": "bk173",
-    "query": "النبي قال إيه في موضوع الجيران",
-    "category": "Colloquial",
-    "expected_hadith_number": 6015
+    "id": "bk_curated_0478",
+    "query": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 454
   },
   {
-    "id": "bk174",
-    "query": "فين الحديث عن علامات القيامة الكبرى",
-    "category": "Colloquial",
-    "expected_hadith_number": 7121
+    "id": "bk_curated_0479",
+    "query": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 455
   },
   {
-    "id": "bk175",
-    "query": "حديث عن الكن في الدنيا زي الغريب",
-    "category": "Colloquial",
-    "expected_hadith_number": 6416
+    "id": "bk_curated_0480",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 456
   },
   {
-    "id": "bk176",
-    "query": "إيه قال النبي عن الأمانة",
-    "category": "Colloquial",
-    "expected_hadith_number": 33
+    "id": "bk_curated_0481",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 457
   },
   {
-    "id": "bk177",
-    "query": "حديث النبي عن بر الأم والأب",
-    "category": "Colloquial",
-    "expected_hadith_number": 5971
+    "id": "bk_curated_0482",
+    "query": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 458
   },
   {
-    "id": "bk178",
-    "query": "عايز حديث عن سيد الاستغفار",
-    "category": "Colloquial",
-    "expected_hadith_number": 6306
+    "id": "bk_curated_0483",
+    "query": "حَدَّثَنَا عَبْدَانُ، عَنْ أَبِي حَمْزَةَ، عَنِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 459
   },
   {
-    "id": "bk179",
-    "query": "إيه حديث النبي عن الحياء",
-    "category": "Colloquial",
-    "expected_hadith_number": 6118
+    "id": "bk_curated_0484",
+    "query": "حَدَّثَنَا أَحْمَدُ بْنُ وَاقِدٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 460
   },
   {
-    "id": "bk180",
-    "query": "فين حديث تنكح المرأة لأربع",
-    "category": "Colloquial",
-    "expected_hadith_number": 5090
+    "id": "bk_curated_0485",
+    "query": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 461
   },
   {
-    "id": "bk181",
-    "query": "ما معنى آية الكرسي",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0486",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 462
   },
   {
-    "id": "bk182",
-    "query": "سورة الفاتحة كاملة",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0487",
+    "query": "حَدَّثَنَا زَكَرِيَّاءُ بْنُ يَحْيَى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 463
   },
   {
-    "id": "bk183",
-    "query": "ما هو حكم الصلاة في الفقه الشافعي",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0488",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 464
   },
   {
-    "id": "bk184",
-    "query": "شرح الأربعين النووية",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0489",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 465
   },
   {
-    "id": "bk185",
-    "query": "أين يقع المسجد النبوي",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0490",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ سِنَانٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 466
   },
   {
-    "id": "bk186",
-    "query": "ما أسماء الله الحسنى",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0491",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ الْجُعْفِيُّ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 467
   },
   {
-    "id": "bk187",
-    "query": "رياض الصالحين حديث",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0492",
+    "query": "حَدَّثَنَا أَبُو النُّعْمَانِ، وَقُتَيْبَةُ، قَالاَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 468
   },
   {
-    "id": "bk188",
-    "query": "ما صحيح مسلم في الصلاة",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0493",
+    "query": "حَدَّثَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 469
   },
   {
-    "id": "bk189",
-    "query": "كيف أحفظ القرآن",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0494",
+    "query": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 470
   },
   {
-    "id": "bk190",
-    "query": "ما قصة آدم وحواء في القرآن",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0495",
+    "query": "حَدَّثَنَا أَحْمَدُ، قَالَ حَدَّثَنَا ابْنُ وَهْبٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 471
   },
   {
-    "id": "bk191",
-    "query": "ما هو معنى التوحيد",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0496",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا بِشْرُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 472
   },
   {
-    "id": "bk192",
-    "query": "قصة يوسف عليه السلام في القرآن",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0497",
+    "query": "حَدَّثَنَا أَبُو النُّعْمَانِ، قَالَ حَدَّثَنَا حَمَّادٌ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 473
   },
   {
-    "id": "bk193",
-    "query": "شرح خطبة الجمعة",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0498",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 474
   },
   {
-    "id": "bk194",
-    "query": "حكم اللحية في المذاهب الأربعة",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0499",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 475
   },
   {
-    "id": "bk195",
-    "query": "ما الفرق بين السنة والحديث",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0500",
+    "query": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 476
   },
   {
-    "id": "bk196",
-    "query": "كيف أؤدي مناسك الحج خطوة خطوة",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0501",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا أَبُو مُعَاوِيَةَ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 477
   },
   {
-    "id": "bk197",
-    "query": "تفسير ابن كثير سورة البقرة",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0502",
+    "query": "حَدَّثَنَا حَامِدُ بْنُ عُمَرَ، عَنْ بِشْرٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 478
   },
   {
-    "id": "bk198",
-    "query": "ما حكم الصلاة على النبي في التشهد",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0503",
+    "query": "حَدَّثَنَا حَامِدُ بْنُ عُمَرَ، عَنْ بِشْرٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 479
   },
   {
-    "id": "bk199",
-    "query": "شرح الطهارة في الفقه الحنفي",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0504",
+    "query": "وَقَالَ عَاصِمُ بْنُ عَلِيٍّ حَدَّثَنَا عَاصِمُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 480
   },
   {
-    "id": "bk200",
-    "query": "ما الفرق بين البخاري ومسلم",
-    "category": "Out-of-domain",
-    "expected_hadith_number": null
+    "id": "bk_curated_0505",
+    "query": "حَدَّثَنَا خَلاَّدُ بْنُ يَحْيَى، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 481
+  },
+  {
+    "id": "bk_curated_0506",
+    "query": "حَدَّثَنَا إِسْحَاقُ، قَالَ حَدَّثَنَا ابْنُ شُمَيْلٍ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 482
+  },
+  {
+    "id": "bk_curated_0507",
+    "query": "حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي بَكْرٍ الْمُقَدَّمِيُّ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 483
+  },
+  {
+    "id": "bk_curated_0508",
+    "query": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ الْمُنْذِرِ، قَالَ حَدَّثَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 484
+  },
+  {
+    "id": "bk_curated_0509",
+    "query": "وَأَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ حَدَّثَهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 485
+  },
+  {
+    "id": "bk_curated_0510",
+    "query": "وَأَنَّ ابْنَ عُمَرَ كَانَ يُصَلِّي إِلَى",
+    "category": "Exact Quote",
+    "expected_hadith_number": 486
+  },
+  {
+    "id": "bk_curated_0511",
+    "query": "وَأَنَّ عَبْدَ اللَّهِ حَدَّثَهُ أَنَّ النَّبِيَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 487
+  },
+  {
+    "id": "bk_curated_0512",
+    "query": "وَأَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ حَدَّثَهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 488
+  },
+  {
+    "id": "bk_curated_0513",
+    "query": "وَأَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ حَدَّثَهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 489
+  },
+  {
+    "id": "bk_curated_0514",
+    "query": "وَأَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ حَدَّثَهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 490
+  },
+  {
+    "id": "bk_curated_0515",
+    "query": "وَأَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ حَدَّثَهُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 491
+  },
+  {
+    "id": "bk_curated_0516",
+    "query": "وَأَنَّ عَبْدَ اللَّهِ حَدَّثَهُ أَنَّ النَّبِيَّ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 492
+  },
+  {
+    "id": "bk_curated_0517",
+    "query": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 493
+  },
+  {
+    "id": "bk_curated_0518",
+    "query": "حَدَّثَنَا إِسْحَاقُ، قَالَ حَدَّثَنَا عَبْدُ اللَّهِ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 494
+  },
+  {
+    "id": "bk_curated_0519",
+    "query": "حَدَّثَنَا أَبُو الْوَلِيدِ، قَالَ حَدَّثَنَا شُعْبَةُ،",
+    "category": "Exact Quote",
+    "expected_hadith_number": 495
+  },
+  {
+    "id": "bk_curated_0520",
+    "query": "حَدَّثَنَا عَمْرُو بْنُ زُرَارَةَ، قَالَ أَخْبَرَنَا",
+    "category": "Exact Quote",
+    "expected_hadith_number": 496
+  },
+  {
+    "id": "bk_curated_0521",
+    "query": "حَدَّثَنَا الْمَكِّيُّ، قَالَ حَدَّثَنَا يَزِيدُ بْنُ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 497
+  },
+  {
+    "id": "bk_curated_0522",
+    "query": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 498
+  },
+  {
+    "id": "bk_curated_0523",
+    "query": "حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+    "category": "Exact Quote",
+    "expected_hadith_number": 499
   }
 ]

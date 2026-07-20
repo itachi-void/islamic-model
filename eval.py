@@ -361,12 +361,13 @@ def evaluate_tafsir_collection(benchmarks: List[dict], top_k: int):
 def main():
     parser = argparse.ArgumentParser(description="Unified Evaluation CLI")
     parser.add_argument("--collection", type=str, required=True, choices=["quran", "bukhari", "muslim", "tafsir"])
+    parser.add_argument("--benchmark_file", type=str, default=None, help="Custom benchmark file path (e.g. data/evaluation_bukhari_3000.json)")
     parser.add_argument("--top_k", type=int, default=5, help="Top-K candidates limit")
     parser.add_argument("--debug", action="store_true", help="Print per-document score breakdown (Semantic / BM25 / Metadata / Final)")
     args = parser.parse_args()
 
     collection = args.collection.lower()
-    file_path = get_benchmark_file(collection)
+    file_path = args.benchmark_file if args.benchmark_file and os.path.exists(args.benchmark_file) else get_benchmark_file(collection)
 
     with open(file_path, "r", encoding="utf-8") as f:
         benchmarks = json.load(f)

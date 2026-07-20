@@ -43,12 +43,17 @@ def load_bukhari_documents() -> List[BaseDocument]:
             "topics": r.get("topics", []),
             "keywords": r.get("keywords", []),
             "aliases": r.get("aliases", []),
+            "original_matn": r.get("matn", "")
         }
+        # Enriched searchable text containing matn + book + chapter + narrator + aliases
+        aliases_str = " ".join(r.get("aliases", []))
+        search_text = f"{r.get('matn', '')} {r.get('book', '')} {r.get('chapter', '')} {r.get('narrator', '')} {aliases_str}".strip()
+
         docs.append(BaseDocument(
             id=r["id"],
             type="hadith",
             source="bukhari",
-            text=r["matn"],
+            text=search_text,
             metadata=meta
         ))
     return docs
@@ -87,6 +92,12 @@ class HadithSearchService:
         book: Optional[str] = None,
         narrator: Optional[str] = None
     ) -> SearchResponse:
+        from backend.rag.query_normalizer import normalize_query_dialect
+        from backend.data.alias_dictionary import expand_query_aliases
+
+        cleaned_query = normalize_query_dialect(query_text)
+        expanded_query = expand_query_aliases(cleaned_query)
+
         filters: Dict[str, Any] = {}
         if book:
             filters["book"] = book
@@ -94,7 +105,7 @@ class HadithSearchService:
             filters["narrator"] = narrator
 
         query = SearchQuery(
-            text=query_text,
+            text=expanded_query,
             limit=limit,
             filters=filters if filters else None
         )

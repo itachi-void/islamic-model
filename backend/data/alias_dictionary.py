@@ -1,0 +1,68 @@
+# -*- coding: utf-8 -*-
+"""
+Narrator & Hadith Alias Dictionary
+====================================
+Knowledge dictionary mapping narrator kunyas, titles, and famous Hadith names
+to canonical narrator names and core text anchors.
+"""
+from typing import Dict, List, Optional
+from backend.rag.search import normalize_arabic
+
+# Narrator Kunya & Title Knowledge Graph
+NARRATOR_ALIASES: Dict[str, List[str]] = {
+    "ابو هريرة": ["أبو هريرة", "عبد الرحمن بن صخر الدوسي", "دوسي", "أبي هريرة"],
+    "ابن عمر": ["عبد الله بن عمر", "ابن عمر", "عبد الله بن عمر بن الخطاب"],
+    "ابن عباس": ["عبد الله بن عباس", "ابن عباس", "حبر الأمة", "ترجمان القرآن"],
+    "عائشة": ["عائشة", "عائشة بنت أبي بكر", "أم المؤمنين", "الصديقة بنت الصديق"],
+    "ابو بكر": ["أبو بكر الصديق", "عبد الله بن عثمان", "الصديق", "أبي بكر"],
+    "عمر بن الخطاب": ["عمر بن الخطاب", "الفاروق", "أبو حفص"],
+    "علي بن ابي طالب": ["علي بن أبي طالب", "أبو الحسن", "إمام المتقين"],
+    "انس بن مالك": ["أنس بن مالك", "أنس بن مالك الأنصاري", "خادم رسول الله"],
+    "ابو موسى الاشعرى": ["أبو موسى الأشعري", "عبد الله بن قيس"],
+    "ابو سعيد الخدري": ["أبو سعيد الخدري", "سعد بن مالك بن سنان"],
+    "جابر بن عبد الله": ["جابر بن عبد الله", "جابر بن عبد الله الأنصاري"],
+    "ابو ذر الغفاري": ["أبو ذر الغفاري", "جندب بن جنادة"],
+    "عبد الله بن مسعود": ["عبد الله بن مسعود", "ابن مسعود", "ابن أم عبد"],
+    "معاذ بن جبل": ["معاذ بن جبل", "أعلم الأمة بالحلال والحرام"],
+}
+
+# Famous Hadith Titles & Common References -> Core Text Keywords
+HADITH_ALIASES: Dict[str, str] = {
+    "حديث النية": "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى فمن كانت هجرته إلى دنيا",
+    "حديث اعمال بالنيات": "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى",
+    "حديث جبريل": "بينما نحن عند رسول الله رجل شديد بياض الثياب الإيمان الإسلام الإحسان",
+    "حديث بني الاسلام على خمس": "بني الإسلام على خمس شهادة أن لا إله إلا الله وإقام الصلاة وإيتاء الزكاة",
+    "حديث شعب الايمان": "الإيمان بضع وسبعون شعبة أو بضع وستون شعبة والحياء شعبة من الإيمان",
+    "حديث الدين النصيحة": "الدين النصيحة لله ولكتابه ولرسوله ولأئمة المسلمين وعامتهم",
+    "حديث من راى منكم منكرا": "من رأى منكم منكرا فليغيره بيده فإن لم يستطع فبلسانه",
+    "حديث البطاقة": "فتخرج له بطاقة فيها أشهد أن لا إله إلا الله وأن محمدا عبده ورسوله",
+    "حديث الإفك": "حدثتني عائشة زوج النبي صلى الله عليه وسلم حين قال لها أهل الإفك ما قالوا",
+    "حديث الشفاعة": "أنا سيد الناس يوم القيامة هل تدورن لم يجمع الله الأولين والآخرين",
+    "حديث صلاة الضحى": "أوصاني خليلي بثلاث صيام ثلاثة أيام من كل شهر وركعتي الضحى",
+}
+
+
+def expand_query_aliases(query: str) -> str:
+    """
+    Expands narrator kunyas and famous Hadith aliases in a search query
+    to include canonical terms for improved BM25 & exact retrieval.
+    """
+    if not query:
+        return query
+
+    norm_q = normalize_arabic(query)
+
+    # 1. Check famous Hadith alias lookup
+    for alias_key, target_text in HADITH_ALIASES.items():
+        if normalize_arabic(alias_key) in norm_q:
+            query = f"{query} {target_text}"
+            break
+
+    # 2. Check narrator kunya expansion
+    for main_narrator, aliases in NARRATOR_ALIASES.items():
+        for alias in aliases:
+            if normalize_arabic(alias) in norm_q:
+                query = f"{query} {main_narrator} {aliases[0]}"
+                break
+
+    return query.strip()
