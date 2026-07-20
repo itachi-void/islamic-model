@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from typing import List
-import ollama
+try:
+    import ollama
+except ImportError:
+    ollama = None
 
 class BaseEmbeddingProvider:
     def embed_query(self, text: str) -> List[float]:
@@ -15,6 +18,8 @@ class BGEEmbeddingProvider(BaseEmbeddingProvider):
         self.model_name = model_name
 
     def embed_query(self, text: str) -> List[float]:
+        if not ollama:
+            return []
         try:
             res = ollama.embed(model=self.model_name, input=text)
             if hasattr(res, "embeddings") and res.embeddings:
