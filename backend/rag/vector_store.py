@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 import os
 from typing import List, Dict, Any, Optional
-import chromadb
+try:
+    import chromadb
+except ImportError:
+    chromadb = None
+
 from backend.domain.document import BaseDocument
 from backend.rag.embeddings import BaseEmbeddingProvider
 
@@ -20,6 +24,11 @@ class ChromaVectorStore(BaseVectorStore):
         self.collection_name = collection_name
         
         os.makedirs(persist_directory, exist_ok=True)
+        if not chromadb:
+            self.client = None
+            self.collection = None
+            return
+
         try:
             self.client = chromadb.PersistentClient(path=persist_directory)
             self.collection = self.client.get_or_create_collection(name=collection_name)
