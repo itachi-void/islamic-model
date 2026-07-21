@@ -34,7 +34,7 @@ class BGEEmbeddingProvider(BaseEmbeddingProvider):
         try:
             url = "http://127.0.0.1:11434/api/embed"
             payload = {"model": self.model_name, "input": text}
-            res = requests.post(url, json=payload, timeout=1.5)
+            res = requests.post(url, json=payload, timeout=0.8)
             if res.status_code == 200:
                 data = res.json()
                 embs = data.get("embeddings", [])

@@ -92,24 +92,40 @@ class ChromaVectorStore(BaseVectorStore):
     def similarity_search(self, query: str, limit: int = 5, filters: Optional[Dict[str, Any]] = None) -> List[BaseDocument]:
         """
         Performs vector similarity search on Chroma collection using the query embedding.
+        Uses a strict 2-second timeout to prevent CPU/memory stalls.
         """
         if not self.collection:
             return []
 
+        import threading
         query_embedding = self.embedding_provider.embed_query(query)
         if not query_embedding:
             return []
 
         where_clause = self._build_where_clause(filters)
+        results_container = [None]
+        error_container = [None]
 
-        results = self.collection.query(
-            query_embeddings=[query_embedding],
-            n_results=limit,
-            where=where_clause
-        )
+        def _do_query():
+            try:
+                results_container[0] = self.collection.query(
+                    query_embeddings=[query_embedding],
+                    n_results=limit,
+                    where=where_clause
+                )
+            except Exception as e:
+                error_container[0] = e
 
+        t = threading.Thread(target=_do_query, daemon=True)
+        t.start()
+        t.join(timeout=2.0)
+
+        if t.is_alive() or not results_container[0]:
+            return []
+
+        results = results_container[0]
         documents = []
-        if not results or not results["ids"] or not results["ids"][0]:
+        if not results or not results.get("ids") or not results["ids"][0]:
             return []
 
         for idx in range(len(results["ids"][0])):
@@ -117,7 +133,7 @@ class ChromaVectorStore(BaseVectorStore):
             text = results["documents"][0][idx]
             meta = results["metadatas"][0][idx] or {}
             
-            distance = results["distances"][0][idx] if results["distances"] else 0.0
+            distance = results["distances"][0][idx] if results.get("distances") and results["distances"] else 0.0
             similarity = round(max(0.0, 1.0 - (distance / 2)), 4)
 
             doc_source = meta.pop("source", self.collection_name)

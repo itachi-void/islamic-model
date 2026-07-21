@@ -88,7 +88,7 @@ def generate(prompt: str) -> str:
             "messages": [{"role": "user", "content": prompt}],
             "stream": False,
         }
-        res = requests.post(url, json=payload, timeout=3.0)
+        res = requests.post(url, json=payload, timeout=1.5)
         res.raise_for_status()
         data = res.json()
         return data.get("message", {}).get("content", "")
