@@ -2,7 +2,7 @@
 """
 Unified Research Evaluation CLI for Islamic AI Engine (IRB-v1 Specification)
 =============================================================================
-Computes Recall@1, Recall@5, Recall@10, Precision@5, nDCG@5, and OOD Guard Accuracy.
+Calculates Hits@1..5, Recall@1..10, Precision@5, MRR, nDCG@5, and OOD Accuracy.
 
 Usage:
     python eval.py --collection irb --split dev
@@ -49,6 +49,9 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
     ood_total = 0
     ood_correct = 0
 
+    hits_1 = 0
+    hits_3 = 0
+    hits_5 = 0
     recall_1 = 0
     recall_5 = 0
     recall_10 = 0
@@ -62,7 +65,7 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
 
     for item in benchmarks:
         q_text = item["query"]
-        gold_evidence = item.get("gold_evidence", [])
+        acceptable_answers = item.get("acceptable_answers", item.get("gold_evidence", []))
         cat = item.get("category", "General")
         diff = item.get("difficulty", "medium")
         answer_type = item.get("answer_type", "hadith")
@@ -89,8 +92,8 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
 
         in_domain_total += 1
 
-        # Build Gold ID set including canonical equivalents
-        gold_set = set(gold_evidence)
+        # Build Gold ID set including multi-variant acceptable answers and canonical equivalents
+        gold_set = set(acceptable_answers)
         if expected_h_num is not None:
             c_set = canonical_map.get(int(expected_h_num), {int(expected_h_num)})
             for h in c_set:
@@ -115,8 +118,12 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
 
         if hit_rank is not None:
             if hit_rank == 1:
+                hits_1 += 1
                 recall_1 += 1
+            if hit_rank <= 3:
+                hits_3 += 1
             if hit_rank <= 5:
+                hits_5 += 1
                 recall_5 += 1
                 category_stats[cat]["hits_5"] += 1
                 difficulty_stats[diff]["hits_5"] += 1
@@ -142,6 +149,9 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
         "in_domain_total": in_domain_total,
         "ood_total": ood_total,
         "ood_accuracy": (ood_correct / ood_total * 100) if ood_total > 0 else 100.0,
+        "hits_1": (hits_1 / in_domain_total * 100) if in_domain_total > 0 else 0,
+        "hits_3": (hits_3 / in_domain_total * 100) if in_domain_total > 0 else 0,
+        "hits_5": (hits_5 / in_domain_total * 100) if in_domain_total > 0 else 0,
         "recall_1": (recall_1 / in_domain_total * 100) if in_domain_total > 0 else 0,
         "recall_5": (recall_5 / in_domain_total * 100) if in_domain_total > 0 else 0,
         "recall_10": (recall_10 / in_domain_total * 100) if in_domain_total > 0 else 0,
@@ -182,9 +192,12 @@ def main():
 
     metrics = evaluate_irb_v1(benchmarks, args.top_k)
 
-    print("\n[Extended Research ML Metrics]")
+    print("\n[Extended 11 IR Research Metrics]")
+    print(f"Hits@1             : {metrics['hits_1']:.2f}%")
+    print(f"Hits@3             : {metrics['hits_3']:.2f}%")
+    print(f"Hits@5             : {metrics['hits_5']:.2f}%")
     print(f"Recall@1           : {metrics['recall_1']:.2f}%")
-    print(f"Recall@5 (Hits@5)  : {metrics['recall_5']:.2f}%")
+    print(f"Recall@5           : {metrics['recall_5']:.2f}%")
     print(f"Recall@10          : {metrics['recall_10']:.2f}%")
     print(f"Precision@5        : {metrics['precision_5']:.2f}%")
     print(f"MRR                : {metrics['mrr']:.4f}")
@@ -215,13 +228,13 @@ def main():
         collection="IRB-v1",
         split_type=args.split,
         metrics={
-            "hits_1": metrics["recall_1"] / 100.0,
-            "hits_5": metrics["recall_5"] / 100.0,
+            "hits_1": metrics["hits_1"] / 100.0,
+            "hits_5": metrics["hits_5"] / 100.0,
             "mrr": metrics["mrr"],
             "avg_latency_ms": metrics["avg_latency_ms"],
             "in_domain_total": metrics["in_domain_total"]
         },
-        notes=f"IRB-v1 Extended Metrics on {args.split} split"
+        notes=f"IRB-v1 11-Metric Suite on {args.split} split"
     )
     print(f"[EXPERIMENT LOGGED]: Run ID {rec['run_id']} logged to experiment_history.json")
 
