@@ -46,8 +46,18 @@ async function handleChatSubmit(event) {
 
         const eventSource = new EventSource(url);
         let fullAnswer = "";
+        let receivedAnyData = false;
+
+        const streamTimeout = setTimeout(() => {
+            if (!receivedAnyData) {
+                eventSource.close();
+                fetchStandardChat(text, textElem, citationsElem);
+            }
+        }, 2500);
 
         eventSource.onmessage = (e) => {
+            receivedAnyData = true;
+            clearTimeout(streamTimeout);
             if (!e.data) return;
             const data = JSON.parse(e.data);
 
@@ -63,6 +73,7 @@ async function handleChatSubmit(event) {
         };
 
         eventSource.onerror = () => {
+            clearTimeout(streamTimeout);
             eventSource.close();
             if (!fullAnswer) {
                 fetchStandardChat(text, textElem, citationsElem);
