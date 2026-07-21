@@ -196,8 +196,9 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Islamic Retrieval Benchmark (IRB-v1) Evaluation CLI")
+    parser = argparse.ArgumentParser(description="Islamic Retrieval Benchmark (IRB) Evaluation CLI")
     parser.add_argument("--collection", type=str, default="irb", choices=["irb", "bukhari", "quran"])
+    parser.add_argument("--version", type=str, default="v1", choices=["v1", "v2"], help="IRB version (v1=frozen baseline, v2=disambiguated)")
     parser.add_argument("--split", type=str, default="dev", choices=["train", "dev", "test"], help="IRB split")
     parser.add_argument("--top_k", type=int, default=5, help="Top-K limit")
     parser.add_argument("--dashboard", action="store_true", help="View experiment history dashboard")
@@ -208,7 +209,8 @@ def main():
         print_experiment_dashboard(args.collection)
         return
 
-    benchmark_file = os.path.join(IRB_V1_DIR, f"{args.split}.json")
+    benchmark_dir = os.path.join(r"d:\model\data\benchmarks\irb", args.version)
+    benchmark_file = os.path.join(benchmark_dir, f"{args.split}.json")
     if not os.path.exists(benchmark_file):
         benchmark_file = os.path.join("data", "bukhari", "benchmarks", "evaluation_bukhari.json")
 
@@ -216,7 +218,7 @@ def main():
         benchmarks = json.load(f)
 
     print("=" * 80)
-    print(f"ISLAMIC RETRIEVAL BENCHMARK (IRB-v1) - [SPLIT: {args.split.upper()}]")
+    print(f"ISLAMIC RETRIEVAL BENCHMARK (IRB-{args.version.upper()}) - [SPLIT: {args.split.upper()}]")
     print(f"Benchmark File : {benchmark_file}")
     print(f"Total Cases    : {len(benchmarks)}")
     print("=" * 80)
