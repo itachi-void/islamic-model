@@ -140,17 +140,17 @@ class CoverageRanker(BaseRanker):
             # 3a. Narrator exact match (highest weight: 0.50)
             doc_narrator = normalize_arabic(str(doc.metadata.get("narrator", "")))
             doc_narrator_tokens = extract_stemmed_tokens(doc_narrator)
-            if narrator_hint_tokens and doc_narrator_tokens and (narrator_hint_tokens & doc_narrator_tokens):
+            if narrator_hint_tokens and doc_narrator_tokens and (set(narrator_hint_tokens) & set(doc_narrator_tokens)):
                 metadata_score += 0.50
                 metadata_reasons.append("Matched narrator")
-            elif query_tokens and doc_narrator_tokens and (query_tokens & doc_narrator_tokens):
+            elif query_tokens and doc_narrator_tokens and (set(query_tokens) & set(doc_narrator_tokens)):
                 metadata_score += 0.30
                 metadata_reasons.append("Partial narrator match")
 
             # 3b. Book name match in query (weight: 0.25)
             doc_book = normalize_arabic(str(doc.metadata.get("book", "")))
             doc_book_tokens = extract_stemmed_tokens(doc_book)
-            if doc_book_tokens and query_tokens and (query_tokens & doc_book_tokens):
+            if doc_book_tokens and query_tokens and (set(query_tokens) & set(doc_book_tokens)):
                 metadata_score += 0.25
                 metadata_reasons.append("Matched book")
 
@@ -176,8 +176,8 @@ class CoverageRanker(BaseRanker):
                 if norm_query in doc_text_norm:
                     metadata_score += 0.15
                     metadata_reasons.append("Exact phrase in text")
-                elif query_tokens & doc_tokens:
-                    overlap = len(query_tokens & doc_tokens) / float(len(query_tokens))
+                elif set(query_tokens) & set(doc_tokens):
+                    overlap = len(set(query_tokens) & set(doc_tokens)) / float(len(query_tokens))
                     metadata_score += round(0.10 * overlap, 4)
                     metadata_reasons.append(f"Text overlap ({overlap:.0%})")
 

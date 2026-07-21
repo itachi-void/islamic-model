@@ -7,6 +7,8 @@ import json
 import os
 
 sys.path.insert(0, r"d:\model")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 from backend.rag.router import QueryRouter
 from backend.rag.hadith_search import HadithSearchService

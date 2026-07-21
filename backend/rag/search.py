@@ -1,44 +1,48 @@
 # -*- coding: utf-8 -*-
+"""
+Exact Match & BM25 Inverted Search Engine
+==========================================
+High-performance inverted index search engine with exact token matching and IDF token weighting.
+"""
 import re
-import math
-from typing import List, Set, Any, Dict
 from collections import defaultdict
+import math
+from typing import List, Dict, Set, Tuple
 from backend.domain.document import BaseDocument
 
-def strip_dialectal_phrases(text: str) -> str:
-    """
-    Strips dialectal Egyptian/Levantine query prefixes to extract core intent keywords.
-    """
-    patterns = [
-        r'^(?:عايز|عاوز|محتاج|ابغى|ودي)\s+(?:اية|آية|سورة|حديث|كلام|معنى)?\s*(?:عن|بتتكلم عن|بتقول|فيها|بتاعة)?\s*',
-        r'^(?:فين|وين|اين)\s+(?:ربنا قال عن|ربنا ذكر|ربنا قال|الجملة اللي|كلمة)?\s*',
-        r'^(?:ايه|ايه هي|ايه هي الـ)\s+(?:الآية|الاية|السورة)\s+(?:اللي فيها|اللي بتقول|بتاعة)?\s*',
-        r'^(?:آية عن|اية عن|سورة عن)\s*'
-    ]
-    cleaned = text
-    for p in patterns:
-        cleaned = re.sub(p, '', cleaned, flags=re.IGNORECASE).strip()
-    return cleaned if len(cleaned) >= 3 else text
+ARABIC_DIACRITICS = re.compile(r"[\u064B-\u0652\u0670]")
 
 
 def normalize_arabic(text: str) -> str:
-    """
-    Normalizes Arabic text by removing diacritics (tashkeel), tatweel (kashida),
-    and unifying characters.
-    """
-    text = re.sub(r'[\u064B-\u0652\u0670]', '', text)
-    text = re.sub(r'\u0640', '', text)
-    text = re.sub(r'[أإآٱ]', 'ا', text)
-    text = re.sub(r'ة', 'ه', text)
-    text = re.sub(r'ى', 'ي', text)
-    text = re.sub(r'[ؤئ]', 'ء', text)
-    return text.strip()
+    if not text:
+        return ""
+    text = ARABIC_DIACRITICS.sub("", text)
+    text = re.sub(r"[إأآء]", "ا", text)
+    text = re.sub(r"ى", "ي", text)
+    text = re.sub(r"ؤ", "و", text)
+    text = re.sub(r"ئ", "ي", text)
+    text = re.sub(r"ة", "ه", text)
+    text = re.sub(r"[^\w\s]", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip().lower()
+
+
+def strip_dialectal_phrases(query: str) -> str:
+    if not query:
+        return query
+    prefixes = [
+        "عايز حديث", "اريد حديث", "ما هو حديث", "ايه الحديث اللي بيقول",
+        "ممكن حديث", "حديث عن", "حديث يشرح", "معنى حديث"
+    ]
+    norm = query.strip()
+    for p in prefixes:
+        if norm.startswith(p):
+            norm = norm[len(p):].strip()
+            break
+    return norm or query
 
 
 def light_stem_arabic(word: str) -> str:
-    """
-    Applies Arabic light stemming to strip common prefixes and suffixes.
-    """
     word = normalize_arabic(word)
     if len(word) <= 3:
         return word
@@ -58,96 +62,91 @@ def light_stem_arabic(word: str) -> str:
     return word
 
 
-def extract_stemmed_tokens(text: str) -> Set[str]:
-    """
-    Tokenizes and light-stems words from Arabic text after stripping dialectal query prefixes.
-    """
-    text_clean = strip_dialectal_phrases(text)
-    words = re.findall(r'\w+', normalize_arabic(text_clean))
-    tokens = set()
+def extract_search_tokens(text: str) -> List[str]:
+    norm = strip_dialectal_phrases(text)
+    norm = normalize_arabic(norm)
+    words = norm.split()
+    tokens = []
+    stop_words = {"في", "على", "إلى", "عن", "مع", "هذا", "هذه", "أن", "إن", "كان", "كانت", "هو", "هي"}
     for w in words:
-        stemmed = light_stem_arabic(w)
-        if len(stemmed) >= 2:
-            tokens.add(stemmed)
+        if len(w) > 1 and w not in stop_words:
+            tokens.append(w)
+            stem = light_stem_arabic(w)
+            if stem and stem != w and len(stem) >= 2:
+                tokens.append(stem)
     return tokens
 
 
-class BaseSearchEngine:
-    def search(self, query: str, limit: int = 5) -> List[BaseDocument]:
-        raise NotImplementedError("Subclasses must implement search")
+def extract_stemmed_tokens(text: str) -> List[str]:
+    return extract_search_tokens(text)
 
 
-def _safe_str(val: Any) -> str:
-    if isinstance(val, list):
-        return " ".join([str(v) for v in val if v])
-    elif val is None:
-        return ""
-    return str(val)
-
-
-class ExactSearchEngine(BaseSearchEngine):
-    """
-    BM25/Exact Keyword Match Search Engine with IDF-Weighted Root/Stem Coverage Scoring.
-    Pattern C: Weights each matched token by its inverse document frequency (IDF),
-    so rare domain-specific stems (e.g. 'نعلين', 'البقره') score higher than
-    common function words (e.g. 'موسى', 'قال', 'الله') that appear in many verses.
-    """
+class ExactSearchEngine:
+    """Inverted Index Search Engine for Hadith and Quranic text."""
     def __init__(self, documents: List[BaseDocument]):
         self.documents = documents
-        self.doc_tokens = []
-        token_doc_freq: Dict[str, int] = defaultdict(int)
-
-        # First pass: build token sets per document and count document frequencies
-        all_doc_tokens = []
-        for doc in documents:
-            title = _safe_str(doc.metadata.get("title_ar"))
-            aliases = _safe_str(doc.metadata.get("aliases"))
-            topics = _safe_str(doc.metadata.get("topics"))
-            book = _safe_str(doc.metadata.get("book"))
-            narrator = _safe_str(doc.metadata.get("narrator"))
-            chapter = _safe_str(doc.metadata.get("chapter"))
-            sanad = _safe_str(doc.metadata.get("sanad"))
-            meta_text = f"{doc.text} {title} {aliases} {topics} {book} {narrator} {chapter} {sanad}"
-            tokens = extract_stemmed_tokens(meta_text)
-            all_doc_tokens.append((doc, tokens))
-            for t in tokens:
-                token_doc_freq[t] += 1
-
-        # Second pass: compute IDF for each token
-        N = len(documents)
+        self.doc_map: Dict[str, BaseDocument] = {doc.id: doc for doc in documents}
+        self.inverted_index: Dict[str, Set[str]] = defaultdict(set)
+        self.doc_tokens: List[Tuple[BaseDocument, Set[str]]] = []
         self._idf: Dict[str, float] = {}
-        for token, df in token_doc_freq.items():
-            self._idf[token] = math.log((N + 1) / (df + 1)) + 1.0
 
-        for doc, tokens in all_doc_tokens:
+        self._build_index()
+
+    def _build_index(self):
+        total_docs = len(self.documents)
+        if total_docs == 0:
+            return
+
+        df: Dict[str, int] = defaultdict(int)
+
+        for doc in self.documents:
+            meta_str = f"{doc.metadata.get('book', '')} {doc.metadata.get('chapter', '')} {doc.metadata.get('narrator', '')}"
+            full_text = f"{doc.text} {meta_str}"
+            tokens = set(extract_search_tokens(full_text))
+
             self.doc_tokens.append((doc, tokens))
+            for token in tokens:
+                self.inverted_index[token].add(doc.id)
+                df[token] += 1
 
-    def search(self, query: str, limit: int = 5) -> List[BaseDocument]:
-        cleaned_query = strip_dialectal_phrases(query)
-        q_tokens = extract_stemmed_tokens(cleaned_query)
+        for token, doc_freq in df.items():
+            self._idf[token] = math.log((total_docs - doc_freq + 0.5) / (doc_freq + 0.5) + 1.0)
+
+    def search(self, query_text: str, limit: int = 50) -> List[BaseDocument]:
+        """Fast BM25 / exact overlap search."""
+        q_tokens = set(extract_search_tokens(query_text))
         if not q_tokens:
             return []
 
-        # Pattern C: IDF-weighted query token score
-        # Total query weight = sum of IDF weights of all query tokens
-        total_q_weight = sum(self._idf.get(t, 1.0) for t in q_tokens)
-        if total_q_weight == 0:
-            return []
+        total_q_weight = sum(self._idf.get(t, 1.0) for t in q_tokens) or 1.0
+
+        # Candidate lookup via inverted index
+        candidate_ids = set()
+        for qt in q_tokens:
+            candidate_ids.update(self.inverted_index.get(qt, set()))
+
+        # Fallback if no exact candidate found
+        if not candidate_ids:
+            for qt in q_tokens:
+                if len(qt) >= 4:
+                    prefix = qt[:4]
+                    for term, ids in self.inverted_index.items():
+                        if term.startswith(prefix):
+                            candidate_ids.update(ids)
 
         scored_docs = []
-        for doc, d_tokens in self.doc_tokens:
-            matched_tokens = q_tokens & d_tokens
-            if matched_tokens:
-                # Weight matched tokens by their IDF — rare specific tokens score more
-                weighted_overlap = sum(self._idf.get(t, 1.0) for t in matched_tokens)
-                score = round(weighted_overlap / total_q_weight, 4)
+        for doc_id in candidate_ids:
+            doc = self.doc_map[doc_id]
+            d_tokens = self.doc_tokens[self.documents.index(doc)][1] if doc in self.documents else set()
+            matched = q_tokens & d_tokens
+            if matched:
+                score = round(sum(self._idf.get(t, 1.0) for t in matched) / total_q_weight, 4)
                 scored_docs.append((doc, score))
 
         scored_docs.sort(key=lambda x: x[1], reverse=True)
 
-        # Return BaseDocument objects with scores attached
         results = []
-        for doc, score in scored_docs[:limit]:
+        for doc, score in scored_docs[:max(limit, 50)]:
             results.append(BaseDocument(
                 id=doc.id,
                 type=doc.type,
@@ -156,4 +155,9 @@ class ExactSearchEngine(BaseSearchEngine):
                 metadata=doc.metadata,
                 score=score
             ))
+
         return results
+
+
+# Backward compatibility alias
+BaseSearchEngine = ExactSearchEngine
