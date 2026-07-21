@@ -24,5 +24,44 @@
     "avg_latency_ms": 637.21,
     "total_queries": 105,
     "notes": "Evaluated on split 'test' from bukhari_test.json"
+  },
+  {
+    "run_id": "run_003",
+    "timestamp": "2026-07-21 01:26:37",
+    "collection": "quran",
+    "split_type": "all",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 95.79,
+    "hits_5": 97.89,
+    "mrr": 0.9684,
+    "avg_latency_ms": 602.44,
+    "total_queries": 95,
+    "notes": "Evaluated on split 'all' from evaluation_golden.json"
+  },
+  {
+    "run_id": "run_004",
+    "timestamp": "2026-07-21 01:32:25",
+    "collection": "bukhari",
+    "split_type": "all",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 28.68,
+    "hits_5": 60.23,
+    "mrr": 0.4132,
+    "avg_latency_ms": 619.51,
+    "total_queries": 523,
+    "notes": "Evaluated on split 'all' from evaluation_bukhari.json"
+  },
+  {
+    "run_id": "run_005",
+    "timestamp": "2026-07-21 08:20:02",
+    "collection": "bukhari",
+    "split_type": "dev",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 25.0,
+    "hits_5": 50.0,
+    "mrr": 0.3548,
+    "avg_latency_ms": 1684.97,
+    "total_queries": 100,
+    "notes": "Evaluated on split 'dev' from dev.json"
   }
 ]

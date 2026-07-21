@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0",
+  "created_at": "2026-07-21",
+  "entities": {
+    "narrators": {
+      "narrator_00001": {
+        "entity_id": "narrator_00001",
+        "canonical_name": "عبد الرحمن بن صخر الدوسي",
+        "aliases": ["أبو هريرة", "ابو هريره", "أبي هريرة", "أبوهريرة", "الدوسي"],
+        "type": "narrator",
+        "era": "صحابي",
+        "famous_hadiths": ["bukhari_9", "bukhari_2475", "bukhari_3282", "bukhari_5059", "bukhari_6406"]
+      },
+      "narrator_00002": {
+        "entity_id": "narrator_00002",
+        "canonical_name": "عمر بن الخطاب القرشي",
+        "aliases": ["عمر بن الخطاب", "الفاروق", "أبو حفص", "أمير المؤمنين"],
+        "type": "narrator",
+        "era": "صحابي",
+        "famous_hadiths": ["bukhari_1"]
+      },
+      "narrator_00003": {
+        "entity_id": "narrator_00003",
+        "canonical_name": "عبد الله بن عمر بن الخطاب",
+        "aliases": ["ابن عمر", "عبد الله بن عمر", "ابن عمر بن الخطاب"],
+        "type": "narrator",
+        "era": "صحابي",
+        "famous_hadiths": ["bukhari_8", "bukhari_1344"]
+      },
+      "narrator_00004": {
+        "entity_id": "narrator_00004",
+        "canonical_name": "عبد الله بن عباس بن عبد المطلب",
+        "aliases": ["ابن عباس", "عبد الله بن عباس", "ترجمان القرآن", "حبر الأمة"],
+        "type": "narrator",
+        "era": "صحابي",
+        "famous_hadiths": ["bukhari_138", "bukhari_5059"]
+      },
+      "narrator_00005": {
+        "entity_id": "narrator_00005",
+        "canonical_name": "عائشة بنت أبي بكر الصديق",
+        "aliases": ["عائشة", "عائشة بنت أبي بكر", "أم المؤمنين", "الصديقة بنت الصديق"],
+        "type": "narrator",
+        "era": "صحابية",
+        "famous_hadiths": ["bukhari_3", "bukhari_1053", "bukhari_1178", "bukhari_4750"]
+      },
+      "narrator_00006": {
+        "entity_id": "narrator_00006",
+        "canonical_name": "أنس بن مالك الأنصاري",
+        "aliases": ["أنس بن مالك", "أنس", "خادم رسول الله"],
+        "type": "narrator",
+        "era": "صحابي",
+        "famous_hadiths": ["bukhari_13", "bukhari_4476"]
+      }
+    },
+    "books": {
+      "book_00001": {
+        "entity_id": "book_00001",
+        "canonical_name": "كتاب بدء الوحي",
+        "aliases": ["بدء الوحي", "كتاب الوحي"],
+        "book_number": 1,
+        "hadith_count": 7
+      },
+      "book_00002": {
+        "entity_id": "book_00002",
+        "canonical_name": "كتاب الإيمان",
+        "aliases": ["الإيمان", "كتاب الايمان"],
+        "book_number": 2,
+        "hadith_count": 50
+      }
+    },
+    "hadith_titles": {
+      "hadith_title_00001": {
+        "entity_id": "hadith_title_00001",
+        "canonical_title": "إنما الأعمال بالنيات",
+        "aliases": ["حديث النية", "حديث الأعمال بالنيات", "حديث النيات"],
+        "gold_evidence": ["bukhari_1"]
+      },
+      "hadith_title_00002": {
+        "entity_id": "hadith_title_00002",
+        "canonical_title": "بني الإسلام على خمس",
+        "aliases": ["حديث بني الإسلام على خمس", "حديث أركان الإسلام"],
+        "gold_evidence": ["bukhari_8"]
+      },
+      "hadith_title_00003": {
+        "entity_id": "hadith_title_00003",
+        "canonical_title": "حديث جبريل عليه السلام",
+        "aliases": ["حديث جبريل", "سؤال جبريل عن الإيمان والإسلام"],
+        "gold_evidence": ["bukhari_50", "muslim_1"]
+      }
+    }
+  }
+}
