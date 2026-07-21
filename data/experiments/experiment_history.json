@@ -63,5 +63,18 @@
     "avg_latency_ms": 1684.97,
     "total_queries": 100,
     "notes": "Evaluated on split 'dev' from dev.json"
+  },
+  {
+    "run_id": "run_006",
+    "timestamp": "2026-07-21 08:21:12",
+    "collection": "IRB-v1",
+    "split_type": "dev",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 20.62,
+    "hits_5": 38.14,
+    "mrr": 0.3008,
+    "avg_latency_ms": 1600.9,
+    "total_queries": 97,
+    "notes": "IRB-v1 Extended Metrics on dev split"
   }
 ]

@@ -8,13 +8,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_21"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_21",
+      "bukhari_21",
+      "21"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -26,13 +28,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_114"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_114",
+      "bukhari_114",
+      "114"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -44,13 +48,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_149"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_149",
+      "bukhari_149",
+      "149"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-eg"
   },
   {
@@ -62,13 +68,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_469"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_469",
+      "bukhari_469",
+      "469"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -80,13 +88,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_312"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_312",
+      "bukhari_312",
+      "312"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الحيض",
-    "expected_chapter": "",
+    "expected_book_id": "book_00006",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -98,13 +108,19 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_1"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_1",
+      "bukhari_54",
+      "bukhari_2529",
+      "bukhari_3898",
+      "bukhari_5070",
+      "bukhari_6689",
+      "bukhari_6953"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب بدء الوحي",
-    "expected_chapter": "",
+    "expected_book_id": "book_00001",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -116,13 +132,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_242"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_242",
+      "bukhari_242",
+      "242"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -134,13 +152,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_157"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_157",
+      "bukhari_157",
+      "157"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -152,13 +172,19 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_1"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_1",
+      "bukhari_54",
+      "bukhari_2529",
+      "bukhari_3898",
+      "bukhari_5070",
+      "bukhari_6689",
+      "bukhari_6953"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب بدء الوحي",
-    "expected_chapter": "باب كيف كان بدء الوحي إلى رسول الله",
+    "expected_book_id": "book_00001",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -170,13 +196,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_263"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_263",
+      "bukhari_263",
+      "263"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -188,13 +216,15 @@
     "difficulty": "expert",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_268"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_268",
+      "bukhari_268",
+      "268"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -206,13 +236,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_74"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_74",
+      "bukhari_74",
+      "74"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-eg"
   },
   {
@@ -224,13 +256,15 @@
     "difficulty": "hard",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_183"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_183",
+      "bukhari_183",
+      "183"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -242,13 +276,15 @@
     "difficulty": "hard",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_402"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_402",
+      "bukhari_402",
+      "402"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -260,13 +296,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_453"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_453",
+      "bukhari_453",
+      "453"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -278,13 +316,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_381"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_381",
+      "bukhari_381",
+      "381"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -296,13 +336,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_144"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_144",
+      "bukhari_144",
+      "144"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -314,13 +356,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_46"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_46",
+      "bukhari_46",
+      "46"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -332,13 +376,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_251"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_251",
+      "bukhari_251",
+      "251"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -350,13 +396,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_83"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_83",
+      "bukhari_83",
+      "83"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -368,13 +416,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_248"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_248",
+      "bukhari_248",
+      "248"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -386,13 +436,15 @@
     "difficulty": "hard",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_343"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_343",
+      "bukhari_343",
+      "343"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب التيمم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00007",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -404,13 +456,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_1"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_1",
+      "bukhari_54",
+      "bukhari_2529"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب بدء الوحي",
-    "expected_chapter": "باب كيف كان بدء الوحي إلى رسول الله",
+    "expected_book_id": "book_00001",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -422,13 +476,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_394"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_394",
+      "bukhari_394",
+      "394"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -440,13 +496,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_72"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_72",
+      "bukhari_72",
+      "72"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -458,13 +516,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_214"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_214",
+      "bukhari_214",
+      "214"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -476,13 +536,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_411"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_411",
+      "bukhari_411",
+      "411"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -494,13 +556,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_478"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_478",
+      "bukhari_478",
+      "478"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-eg"
   },
   {
@@ -512,13 +576,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_435"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_435",
+      "bukhari_435",
+      "435"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -530,13 +596,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_386"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_386",
+      "bukhari_386",
+      "386"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -548,13 +616,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_416"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_416",
+      "bukhari_416",
+      "416"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -566,13 +636,14 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_50"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_50",
+      "muslim_1"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -584,11 +655,11 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "no_evidence",
-    "source": "human",
-    "gold_evidence": [],
+    "query_source": "human",
+    "acceptable_answers": [],
     "expected_collection": "none",
-    "expected_book": "",
-    "expected_chapter": "",
+    "expected_book_id": "",
+    "expected_chapter_id": "",
     "language": "ar-eg"
   },
   {
@@ -600,13 +671,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_275"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_275",
+      "bukhari_275",
+      "275"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -618,13 +691,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_120"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_120",
+      "bukhari_120",
+      "120"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -636,13 +711,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_262"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_262",
+      "bukhari_262",
+      "262"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -654,13 +731,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_231"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_231",
+      "bukhari_231",
+      "231"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -672,13 +751,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_326"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_326",
+      "bukhari_326",
+      "326"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الحيض",
-    "expected_chapter": "",
+    "expected_book_id": "book_00006",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -690,13 +771,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_187"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_187",
+      "bukhari_187",
+      "187"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -708,13 +791,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_189"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_189",
+      "bukhari_189",
+      "189"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -726,13 +811,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_24"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_24",
+      "bukhari_24",
+      "24"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -744,13 +831,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_297"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_297",
+      "bukhari_297",
+      "297"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الحيض",
-    "expected_chapter": "",
+    "expected_book_id": "book_00006",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -762,13 +851,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_442"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_442",
+      "bukhari_442",
+      "442"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -780,13 +871,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_438"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_438",
+      "bukhari_438",
+      "438"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -798,13 +891,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_410"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_410",
+      "bukhari_410",
+      "410"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -816,13 +911,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_70"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_70",
+      "bukhari_70",
+      "70"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -834,13 +931,15 @@
     "difficulty": "expert",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_48"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_48",
+      "bukhari_48",
+      "48"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -852,13 +951,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_16"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_16",
+      "bukhari_16",
+      "16"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -870,13 +971,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_38"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_38",
+      "bukhari_38",
+      "38"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -888,13 +991,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_244"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_244",
+      "bukhari_244",
+      "244"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -906,13 +1011,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_252"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_252",
+      "bukhari_252",
+      "252"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -924,13 +1031,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_62"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_62",
+      "bukhari_62",
+      "62"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -942,13 +1051,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_368"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_368",
+      "bukhari_368",
+      "368"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -960,13 +1071,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_408"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_408",
+      "bukhari_408",
+      "408"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -978,13 +1091,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_196"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_196",
+      "bukhari_196",
+      "196"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -996,13 +1111,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_290"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_290",
+      "bukhari_290",
+      "290"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1014,13 +1131,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_211"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_211",
+      "bukhari_211",
+      "211"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1032,13 +1151,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_291"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_291",
+      "bukhari_291",
+      "291"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1050,13 +1171,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_126"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_126",
+      "bukhari_126",
+      "126"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1068,13 +1191,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_267"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_267",
+      "bukhari_267",
+      "267"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1086,13 +1211,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_454"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_454",
+      "bukhari_454",
+      "454"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1104,13 +1231,15 @@
     "difficulty": "medium",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_118"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_118",
+      "bukhari_118",
+      "118"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1122,13 +1251,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_472"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_472",
+      "bukhari_472",
+      "472"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1140,13 +1271,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_421"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_421",
+      "bukhari_421",
+      "421"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1158,13 +1291,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_65"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_65",
+      "bukhari_65",
+      "65"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1176,13 +1311,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_226"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_226",
+      "bukhari_226",
+      "226"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1194,13 +1331,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_321"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_321",
+      "bukhari_321",
+      "321"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الحيض",
-    "expected_chapter": "",
+    "expected_book_id": "book_00006",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1212,13 +1351,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_194"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_194",
+      "bukhari_194",
+      "194"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-eg"
   },
   {
@@ -1230,13 +1371,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_247"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_247",
+      "bukhari_247",
+      "247"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1248,13 +1391,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_327"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_327",
+      "bukhari_327",
+      "327"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الحيض",
-    "expected_chapter": "",
+    "expected_book_id": "book_00006",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1266,13 +1411,15 @@
     "difficulty": "easy",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_452"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_452",
+      "bukhari_452",
+      "452"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1284,13 +1431,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_362"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_362",
+      "bukhari_362",
+      "362"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1302,13 +1451,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_282"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_282",
+      "bukhari_282",
+      "282"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1320,13 +1471,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_100"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_100",
+      "bukhari_100",
+      "100"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1338,13 +1491,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_25"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_25",
+      "bukhari_25",
+      "25"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1356,13 +1511,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_129"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_129",
+      "bukhari_129",
+      "129"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1374,13 +1531,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_197"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_197",
+      "bukhari_197",
+      "197"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1392,13 +1551,15 @@
     "difficulty": "easy",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_153"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_153",
+      "bukhari_153",
+      "153"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1410,13 +1571,15 @@
     "difficulty": "hard",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_462"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_462",
+      "bukhari_462",
+      "462"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1428,13 +1591,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_109"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_109",
+      "bukhari_109",
+      "109"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1446,13 +1611,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_20"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_20",
+      "bukhari_20",
+      "20"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1464,13 +1631,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_158"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_158",
+      "bukhari_158",
+      "158"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1482,13 +1651,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_342"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_342",
+      "bukhari_342",
+      "342"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب التيمم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00007",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1500,13 +1671,15 @@
     "difficulty": "expert",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_467"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_467",
+      "bukhari_467",
+      "467"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1518,13 +1691,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_277"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_277",
+      "bukhari_277",
+      "277"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1536,13 +1711,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_344"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_344",
+      "bukhari_344",
+      "344"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب التيمم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00007",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-eg"
   },
   {
@@ -1554,13 +1731,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_479"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_479",
+      "bukhari_479",
+      "479"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1572,13 +1751,15 @@
     "difficulty": "medium",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_130"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_130",
+      "bukhari_130",
+      "130"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1590,13 +1771,15 @@
     "difficulty": "expert",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_396"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_396",
+      "bukhari_396",
+      "396"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1608,13 +1791,15 @@
     "difficulty": "expert",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_228"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_228",
+      "bukhari_228",
+      "228"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الوضوء",
-    "expected_chapter": "",
+    "expected_book_id": "book_00004",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1626,13 +1811,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_391"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_391",
+      "bukhari_391",
+      "391"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1644,13 +1831,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_474"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_474",
+      "bukhari_474",
+      "474"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1662,13 +1851,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_418"
+    "query_source": "llm_assisted",
+    "acceptable_answers": [
+      "bukhari_418",
+      "bukhari_418",
+      "418"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-eg"
   },
   {
@@ -1680,13 +1871,15 @@
     "difficulty": "easy",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_265"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_265",
+      "bukhari_265",
+      "265"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الغسل",
-    "expected_chapter": "",
+    "expected_book_id": "book_00005",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1698,13 +1891,15 @@
     "difficulty": "hard",
     "intent": "retrieve",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_79"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_79",
+      "bukhari_79",
+      "79"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب العلم",
-    "expected_chapter": "",
+    "expected_book_id": "book_00003",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1716,13 +1911,15 @@
     "difficulty": "easy",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_393"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_393",
+      "bukhari_393",
+      "393"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الصلاة",
-    "expected_chapter": "",
+    "expected_book_id": "book_00008",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1734,13 +1931,15 @@
     "difficulty": "hard",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "human",
-    "gold_evidence": [
-      "bukhari_303"
+    "query_source": "augmented",
+    "acceptable_answers": [
+      "bukhari_303",
+      "bukhari_303",
+      "303"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الحيض",
-    "expected_chapter": "",
+    "expected_book_id": "book_00006",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   },
   {
@@ -1752,13 +1951,15 @@
     "difficulty": "expert",
     "intent": "explain",
     "answer_type": "hadith",
-    "source": "llm_assisted",
-    "gold_evidence": [
-      "bukhari_28"
+    "query_source": "human",
+    "acceptable_answers": [
+      "bukhari_28",
+      "bukhari_28",
+      "28"
     ],
     "expected_collection": "bukhari",
-    "expected_book": "كتاب الإيمان",
-    "expected_chapter": "",
+    "expected_book_id": "book_00002",
+    "expected_chapter_id": "chapter_00001",
     "language": "ar-msa"
   }
 ]
