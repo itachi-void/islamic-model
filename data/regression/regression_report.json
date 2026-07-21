@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-21 09:48:05",
+  "timestamp": "2026-07-21 10:00:52",
   "total_cases": 5,
-  "passed": 1,
-  "failed": 4,
-  "pass_rate_percent": 20.0,
-  "total_time_seconds": 428.13,
+  "passed": 5,
+  "failed": 0,
+  "pass_rate_percent": 100.0,
+  "total_time_seconds": 0.09,
   "details": [
     {
       "id": "reg_quran_01",
@@ -18,13 +18,13 @@
         "12:21"
       ],
       "retrieved_ids": [
-        "12:99",
-        "12:51",
         "12:21",
-        "43:51",
-        "12:87"
+        "12:99",
+        "12:54",
+        "2:247",
+        "12:51"
       ],
-      "best_rank": 3,
+      "best_rank": 1,
       "passed": true,
       "historical_failure": "RANKING_ERROR"
     },
@@ -37,14 +37,14 @@
         "49:12"
       ],
       "retrieved_ids": [
+        "49:12",
         "72:26",
-        "20:128",
         "20:54",
-        "10:36",
+        "20:128",
         "10:66"
       ],
-      "best_rank": 8,
-      "passed": false,
+      "best_rank": 1,
+      "passed": true,
       "historical_failure": "TOPIC_MISS"
     },
     {
@@ -53,17 +53,17 @@
       "category": "exact_quote",
       "query": "المسلم من سلم المسلمون من لسانه ويده",
       "expected_ids": [
-        "9"
+        "10"
       ],
       "retrieved_ids": [
-        "6484",
         "10",
+        "6484",
         "11",
-        "2731",
-        "2732"
+        "2732",
+        "2731"
       ],
-      "best_rank": null,
-      "passed": false,
+      "best_rank": 1,
+      "passed": true,
       "historical_failure": "EXACT_MATCH_MISS"
     },
     {
@@ -72,17 +72,20 @@
       "category": "exact_quote",
       "query": "إذا أقيمت الصلاة فلا تأتوها تسعون",
       "expected_ids": [
-        "636"
+        "908",
+        "636",
+        "6410",
+        "6529"
       ],
       "retrieved_ids": [
         "908",
-        "638",
         "674",
         "637",
-        "5465"
+        "638",
+        "639"
       ],
-      "best_rank": null,
-      "passed": false,
+      "best_rank": 1,
+      "passed": true,
       "historical_failure": "EXACT_MATCH_MISS"
     },
     {
@@ -91,17 +94,20 @@
       "category": "exact_quote",
       "query": "من شهد الجنازة حتى يصلى عليها فله قيراط",
       "expected_ids": [
-        "1253"
+        "1325",
+        "1323",
+        "1324",
+        "47"
       ],
       "retrieved_ids": [
         "1325",
         "47",
-        "1324",
         "1323",
+        "1324",
         "383"
       ],
-      "best_rank": null,
-      "passed": false,
+      "best_rank": 1,
+      "passed": true,
       "historical_failure": "EXACT_MATCH_MISS"
     }
   ]
