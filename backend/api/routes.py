@@ -28,30 +28,71 @@ _pipeline = None
 _hadith_service = None
 _chat_service = None
 
+def _try_init_chroma(embedding_provider, timeout_s: float = 3.0):
+    """
+    Attempts to initialize ChromaDB with a strict timeout.
+    On PythonAnywhere (missing SQLite native) chromadb.PersistentClient() may hang.
+    Returns ChromaVectorStore or None on timeout/error.
+    """
+    import threading
+    result = [None]
+    error = [None]
+
+    def _init():
+        try:
+            result[0] = ChromaVectorStore(
+                persist_directory=settings.CHROMA_PATH,
+                embedding_provider=embedding_provider,
+                collection_name="quran"
+            )
+        except Exception as e:
+            error[0] = e
+
+    t = threading.Thread(target=_init, daemon=True)
+    t.start()
+    t.join(timeout=timeout_s)
+    if t.is_alive():
+        import logging
+        logging.getLogger(__name__).warning(
+            f"ChromaDB init timed out after {timeout_s}s — falling back to ExactRetriever only."
+        )
+        return None
+    return result[0]
+
+
 def get_pipeline():
     global _pipeline
     if _pipeline is None:
         search_documents = load_search_documents()
         exact_engine = ExactSearchEngine(search_documents)
-        embedding_provider = BGEEmbeddingProvider(settings.EMBEDDING_MODEL)
-        chroma_store = ChromaVectorStore(
-            persist_directory=settings.CHROMA_PATH,
-            embedding_provider=embedding_provider,
-            collection_name="quran"
-        )
         exact_retriever = ExactRetriever(exact_engine)
-        semantic_retriever = SemanticRetriever(chroma_store)
-        hybrid_retriever = HybridRetriever(
-            exact_retriever=exact_retriever,
-            semantic_retriever=semantic_retriever
-        )
+
+        # Try ChromaDB + BGE with a strict 3-second timeout.
+        # On PythonAnywhere free tier, chromadb.PersistentClient() hangs (missing native SQLite).
+        try:
+            embedding_provider = BGEEmbeddingProvider(settings.EMBEDDING_MODEL)
+            chroma_store = _try_init_chroma(embedding_provider, timeout_s=3.0)
+        except Exception:
+            chroma_store = None
+
+        if chroma_store and chroma_store.collection:
+            semantic_retriever = SemanticRetriever(chroma_store)
+            retriever = HybridRetriever(
+                exact_retriever=exact_retriever,
+                semantic_retriever=semantic_retriever
+            )
+        else:
+            # ExactRetriever-only: BM25 inverted index, no ChromaDB needed
+            retriever = exact_retriever
+
         _pipeline = RetrievalPipeline(
-            retriever=hybrid_retriever,
+            retriever=retriever,
             ranker=CoverageRanker(),
             filter_step=MetadataFilter(),
             response_builder=ResponseBuilder()
         )
     return _pipeline
+
 
 def get_hadith_service():
     global _hadith_service
