@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-21 10:51:07",
+  "timestamp": "2026-07-21 11:30:15",
   "total_cases": 5,
   "passed": 5,
   "failed": 0,
   "pass_rate_percent": 100.0,
-  "total_time_seconds": 0.11,
+  "total_time_seconds": 3.57,
   "details": [
     {
       "id": "reg_quran_01",
@@ -79,10 +79,10 @@
       ],
       "retrieved_ids": [
         "908",
-        "674",
         "638",
+        "674",
         "637",
-        "5465"
+        "639"
       ],
       "best_rank": 1,
       "passed": true,
