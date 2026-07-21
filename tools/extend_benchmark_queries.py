@@ -32,64 +32,83 @@ def normalize(text: str) -> str:
     return text.lower().strip()
 
 
-def find_query_in_matn(query_clean: str, matn_clean: str) -> int:
-    """Find where the query ends in the matn (char offset)."""
-    q = query_clean.strip()
-    # Try progressively shorter prefixes
-    while len(q) > 10:
-        idx = matn_clean.find(q)
-        if idx >= 0:
-            return idx + len(q)
-        q = q[:-5]  # trim last 5 chars
-    return -1
-
-
-def extend_query_from_matn(current_query: str, matn: str, extra_chars: int = 50) -> str:
+def extend_query_from_matn(current_query: str, matn: str, extra_chars: int = 60) -> str:
     """
     Given a (possibly truncated) query and the gold hadith's matn,
-    extend the query to include `extra_chars` more characters.
+    extend the query to include extra characters.
+
+    Strategy:
+    - Strip "حديث" prefix and diacritics from both
+    - Find the normalized query in the normalized matn
+    - Use the matn ORIGINAL text from the start, extended by extra_chars
+    - Always include complete words (break at word boundary)
     """
-    # Remove the leading "حديث" prefix for matching
     prefix = "حديث"
-    working_query = current_query
+    working_query = current_query.strip()
     if working_query.startswith(prefix):
         working_query = working_query[len(prefix):].strip()
 
-    # Normalize both for matching
-    q_norm = normalize(working_query)
-    m_norm = normalize(matn)
+    q_stripped = strip_diacritics(working_query).strip()
+    m_stripped = strip_diacritics(matn).strip()
 
-    end_idx = find_query_in_matn(q_norm, m_norm)
-    if end_idx < 0:
-        return current_query  # can't find — leave unchanged
-
-    # Extend the matn (original, with diacritics) by extra_chars
-    # Map normalized end_idx back to original — use char-by-char heuristic
-    # Simple approach: find the same endpoint in original matn
-    char_count = 0
-    orig_idx = 0
-    norm_chars_seen = 0
-    for ci, ch in enumerate(matn):
-        nc = normalize(ch)
-        if nc and nc != ' ':
-            norm_chars_seen += 1
-        if norm_chars_seen >= end_idx:
-            orig_idx = ci
-            break
-
-    # Take next `extra_chars` from original matn
-    extension = matn[orig_idx: orig_idx + extra_chars].strip()
-    # Find a clean breaking point (comma, space before common words)
-    for sep in ['، ', '، ', ', ', ' ']:
-        last = extension.rfind(sep)
-        if last > 20:
-            extension = extension[:last].strip()
-            break
-
-    if not extension:
+    if not q_stripped or not m_stripped:
         return current_query
 
-    extended = f"{prefix} {working_query} {extension}".strip()
+    # Find where normalized query ends in normalized matn
+    idx = m_stripped.find(q_stripped)
+    if idx < 0:
+        # Try shorter prefix (up to 70% of query length)
+        for trim in range(5, len(q_stripped) // 3, 5):
+            short = q_stripped[:-trim]
+            if len(short) < 10:
+                break
+            idx2 = m_stripped.find(short)
+            if idx2 >= 0:
+                idx = idx2
+                q_stripped = short
+                break
+
+    if idx < 0:
+        return current_query
+
+    end_norm = idx + len(q_stripped)
+
+    # Map normalized end position back to original matn position
+    # We walk original matn and count non-diacritic characters
+    norm_count = 0
+    orig_end = 0
+    for ci, ch in enumerate(matn):
+        if strip_diacritics(ch) and ch != ' ':
+            norm_count += 1
+        if norm_count >= end_norm:
+            orig_end = ci + 1
+            break
+
+    if orig_end == 0:
+        return current_query
+
+    # Take next extra_chars characters from original matn
+    extension_raw = matn[orig_end: orig_end + extra_chars + 30]
+
+    # Find clean word boundary
+    clean_ext = extension_raw.strip()
+    # Break at last comma/space before limit
+    for sep in ['، ', '، ']:
+        last = clean_ext[:extra_chars].rfind(sep)
+        if last > 10:
+            clean_ext = clean_ext[:last].strip()
+            break
+    else:
+        # Just take first `extra_chars` chars and trim to last space
+        clean_ext = clean_ext[:extra_chars]
+        last_space = clean_ext.rfind(' ')
+        if last_space > 10:
+            clean_ext = clean_ext[:last_space].strip()
+
+    if not clean_ext or len(clean_ext) < 5:
+        return current_query
+
+    extended = f"{prefix} {working_query} {clean_ext}".strip()
     return extended
 
 
