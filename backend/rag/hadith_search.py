@@ -167,27 +167,29 @@ class HadithSearchService:
             if has_chroma:
                 pipeline_response = self.pipeline.retrieve(query)
                 pipeline_docs = pipeline_response.documents
+            else:
+                pipeline_docs = self.exact_engine.search(expanded_query, limit=limit * 4)
 
-                # Merge isnad + pipeline results using RRF
-                merged = {}
-                k = 60
-                for rank, doc in enumerate(isnad_docs, 1):
-                    merged[doc.id] = doc
-                    merged[doc.id].score = merged[doc.id].score or 0.0
+            # Merge isnad + pipeline results using RRF
+            merged = {}
+            k = 60
+            for rank, doc in enumerate(isnad_docs, 1):
+                merged[doc.id] = doc
+                merged[doc.id].score = merged[doc.id].score or 0.0
+                merged[doc.id].metadata["_rrf"] = merged[doc.id].metadata.get("_rrf", 0.0) + 1.0 / (k + rank)
+
+            for rank, doc in enumerate(pipeline_docs, 1):
+                if doc.id in merged:
                     merged[doc.id].metadata["_rrf"] = merged[doc.id].metadata.get("_rrf", 0.0) + 1.0 / (k + rank)
+                else:
+                    doc.score = doc.score or 0.0
+                    doc.metadata["_rrf"] = 1.0 / (k + rank)
+                    merged[doc.id] = doc
 
-                for rank, doc in enumerate(pipeline_docs, 1):
-                    if doc.id in merged:
-                        merged[doc.id].metadata["_rrf"] = merged[doc.id].metadata.get("_rrf", 0.0) + 1.0 / (k + rank)
-                    else:
-                        doc.score = doc.score or 0.0
-                        doc.metadata["_rrf"] = 1.0 / (k + rank)
-                        merged[doc.id] = doc
-
-                final = sorted(merged.values(), key=lambda d: d.metadata.get("_rrf", 0), reverse=True)[:limit]
-                for d in final:
-                    d.score = d.metadata.pop("_rrf", 0.0)
-                return SearchResponse(query=query_text, count=len(final), documents=final)
+            final = sorted(merged.values(), key=lambda d: d.metadata.get("_rrf", 0), reverse=True)[:limit]
+            for d in final:
+                d.score = d.metadata.pop("_rrf", 0.0)
+            return SearchResponse(query=query_text, count=len(final), documents=final)
 
         filters: Dict[str, Any] = {}
         if book:
