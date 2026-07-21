@@ -5,6 +5,16 @@ try:
 except ImportError:
     ollama = None
 
+import socket
+
+def _is_ollama_running() -> bool:
+    try:
+        with socket.create_connection(("127.0.0.1", 11434), timeout=0.1):
+            return True
+    except Exception:
+        return False
+
+
 class BaseEmbeddingProvider:
     def embed_query(self, text: str) -> List[float]:
         raise NotImplementedError("Subclasses must implement embed_query")
@@ -18,7 +28,7 @@ class BGEEmbeddingProvider(BaseEmbeddingProvider):
         self.model_name = model_name
 
     def embed_query(self, text: str) -> List[float]:
-        if not ollama:
+        if not ollama or not _is_ollama_running():
             return []
         try:
             res = ollama.embed(model=self.model_name, input=text)
@@ -28,11 +38,14 @@ class BGEEmbeddingProvider(BaseEmbeddingProvider):
                 return res["embeddings"][0]
         except Exception:
             pass
-        response = ollama.embeddings(model=self.model_name, prompt=text)
-        return response["embedding"]
+        try:
+            response = ollama.embeddings(model=self.model_name, prompt=text)
+            return response.get("embedding", [])
+        except Exception:
+            return []
 
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
-        if not texts:
+        if not texts or not ollama or not _is_ollama_running():
             return []
 
         try:

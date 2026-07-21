@@ -97,6 +97,9 @@ class ChromaVectorStore(BaseVectorStore):
             return []
 
         query_embedding = self.embedding_provider.embed_query(query)
+        if not query_embedding:
+            return []
+
         where_clause = self._build_where_clause(filters)
 
         results = self.collection.query(
