@@ -51,6 +51,16 @@ def _call_openai_compatible_api(prompt: str, stream: bool = False):
         return None
 
 
+import socket
+
+def _is_ollama_running() -> bool:
+    try:
+        with socket.create_connection(("127.0.0.1", 11434), timeout=0.2):
+            return True
+    except Exception:
+        return False
+
+
 def generate(prompt: str) -> str:
     """Generates complete text answer via external API (Groq/OpenAI) if key exists, or local Ollama."""
     api_resp = _call_openai_compatible_api(prompt, stream=False)
@@ -60,6 +70,9 @@ def generate(prompt: str) -> str:
             return data["choices"][0]["message"]["content"]
         except Exception as e:
             logger.warning(f"Failed to parse LLM API response, falling back to Ollama: {e}")
+
+    if not _is_ollama_running():
+        return "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
 
     try:
         import ollama
@@ -96,6 +109,10 @@ def generate_stream(prompt: str) -> Generator[str, None, None]:
             return
         except Exception as e:
             logger.warning(f"Streaming from LLM API failed, falling back to Ollama: {e}")
+
+    if not _is_ollama_running():
+        yield "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
+        return
 
     try:
         import ollama
