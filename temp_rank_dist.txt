@@ -1,0 +1,49 @@
+=== RANK DISTRIBUTION OF FAILING QUERIES ===
+Total failing: 28
+Not found: 1
+Ranks 6-10 (close): 16
+Ranks 11-50 (far): 11
+
+Rank distribution:
+  Rank 6: 4 queries
+  Rank 7: 2 queries
+  Rank 8: 6 queries
+  Rank 10: 4 queries
+  Rank 11: 3 queries
+  Rank 14: 2 queries
+  Rank 28: 1 queries
+  Rank 30: 1 queries
+  Rank 33: 1 queries
+  Rank 39: 1 queries
+  Rank 40: 1 queries
+  Rank 41: 1 queries
+
+=== PER QUERY RANK ===
+  irb_v1_00233: rank=6 | expected=bukhari_224
+  irb_v1_00437: rank=6 | expected=bukhari_427
+  irb_v1_00173: rank=6 | expected=bukhari_164
+  irb_v1_00328: rank=6 | expected=bukhari_319
+  irb_v1_00414: rank=7 | expected=bukhari_404
+  irb_v1_00072: rank=7 | expected=bukhari_63
+  irb_v1_00374: rank=8 | expected=bukhari_365
+  irb_v1_00434: rank=8 | expected=bukhari_424
+  irb_v1_00358: rank=8 | expected=bukhari_349
+  irb_v1_00113: rank=8 | expected=bukhari_104
+  irb_v1_00360: rank=8 | expected=bukhari_351
+  irb_v1_00280: rank=8 | expected=bukhari_271
+  irb_v1_00396: rank=10 | expected=bukhari_387
+  irb_v1_00391: rank=10 | expected=bukhari_382
+  irb_v1_00303: rank=10 | expected=bukhari_294
+  irb_v1_00486: rank=10 | expected=bukhari_476
+  irb_v1_00468: rank=11 | expected=bukhari_458
+  irb_v1_00423: rank=11 | expected=bukhari_413
+  irb_v1_00175: rank=11 | expected=bukhari_166
+  irb_v1_00194: rank=14 | expected=bukhari_185
+  irb_v1_00480: rank=14 | expected=bukhari_470
+  irb_v1_00302: rank=28 | expected=bukhari_293
+  irb_v1_00367: rank=30 | expected=bukhari_358
+  irb_v1_00413: rank=33 | expected=bukhari_403
+  irb_v1_00454: rank=39 | expected=bukhari_444
+  irb_v1_00050: rank=40 | expected=bukhari_41
+  irb_v1_00446: rank=41 | expected=bukhari_436
+  irb_v1_00288: rank=NF | expected=bukhari_279

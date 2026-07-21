@@ -47,14 +47,17 @@ def extract_isnad_narrators(text: str) -> List[str]:
         matches = pattern.findall(cleaned)
         for m in matches:
             if isinstance(m, tuple):
-                name = " ".join(x.strip() for x in m if x and len(x.strip()) > 2)
+                # Multiple groups = separate narrators (e.g., "قال مالك وأخبرني زيد")
+                for group in m:
+                    name = group.strip()
+                    name = re.sub(r'\s+(?:قال|يقول|عن|أنه|في|على|من)$', '', name)
+                    if len(name) > 2:
+                        names.append(name)
             else:
                 name = m.strip()
-            # Remove trailing verbs and prepositions
-            name = re.sub(r'\s+(?:قال|يقول|عن|أنه|في|على|من)$', '', name)
-            name = name.strip()
-            if len(name) > 2:
-                names.append(name)
+                name = re.sub(r'\s+(?:قال|يقول|عن|أنه|في|على|من)$', '', name)
+                if len(name) > 2:
+                    names.append(name)
     return names
 
 
