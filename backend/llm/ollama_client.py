@@ -19,11 +19,14 @@ def _call_openai_compatible_api(prompt: str, stream: bool = False):
     openai_key = os.getenv("OPENAI_API_KEY", getattr(settings, "OPENAI_API_KEY", ""))
     openai_base = os.getenv("OPENAI_BASE_URL", getattr(settings, "OPENAI_BASE_URL", ""))
 
-    if groq_key:
+    is_valid_groq = bool(groq_key and not groq_key.startswith("YOUR_") and len(groq_key) > 10)
+    is_valid_openai = bool(openai_key and not openai_key.startswith("YOUR_") and len(openai_key) > 10)
+
+    if is_valid_groq:
         url = "https://api.groq.com/openai/v1/chat/completions"
         api_key = groq_key
         model = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
-    elif openai_key:
+    elif is_valid_openai:
         base_url = openai_base.rstrip('/') if openai_base else "https://api.openai.com/v1"
         url = f"{base_url}/chat/completions"
         api_key = openai_key
@@ -43,7 +46,7 @@ def _call_openai_compatible_api(prompt: str, stream: bool = False):
     }
 
     try:
-        response = requests.post(url, headers=headers, json=payload, stream=stream, timeout=60)
+        response = requests.post(url, headers=headers, json=payload, stream=stream, timeout=8)
         response.raise_for_status()
         return response
     except Exception as e:
