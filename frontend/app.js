@@ -42,7 +42,15 @@ async function handleChatSubmit(event) {
 
 async function fetchStandardChat(text, textElem, citationsElem) {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 30000); // 30s max
+    const timer = setTimeout(() => controller.abort(), 60000); // 60s max for cold-start
+
+    // Show warmup notice if server takes more than 5s (PythonAnywhere cold-start)
+    const warmupNotice = setTimeout(() => {
+        if (textElem.innerHTML.includes('⏳')) {
+            textElem.innerHTML = '<p>جاري تهيئة المحرك... قد يستغرق هذا بضع ثوانٍ في أول استخدام ⏳</p>';
+        }
+    }, 5000);
+
     try {
         let url = `/chat?q=${encodeURIComponent(text)}&limit=5`;
         if (currentDomain !== "hybrid") {
@@ -50,6 +58,7 @@ async function fetchStandardChat(text, textElem, citationsElem) {
         }
         const res = await fetch(url, { signal: controller.signal });
         clearTimeout(timer);
+        clearTimeout(warmupNotice);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
 
@@ -64,8 +73,9 @@ async function fetchStandardChat(text, textElem, citationsElem) {
         scrollToBottom();
     } catch (err) {
         clearTimeout(timer);
+        clearTimeout(warmupNotice);
         if (err.name === 'AbortError') {
-            textElem.innerText = "⏱️ انتهت مهلة الانتظار (30 ثانية). يرجى المحاولة مرة أخرى.";
+            textElem.innerText = "⏱️ انتهت مهلة الانتظار (60 ثانية). يرجى المحاولة مرة أخرى.";
         } else {
             textElem.innerText = "⚠️ تعذر الحصول على الإجابة من السيرفر. يرجى المحاولة مرة أخرى.";
         }
