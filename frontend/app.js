@@ -41,28 +41,37 @@ async function handleChatSubmit(event) {
 }
 
 async function fetchStandardChat(text, textElem, citationsElem) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 30000); // 30s max
     try {
         let url = `/chat?q=${encodeURIComponent(text)}&limit=5`;
         if (currentDomain !== "hybrid") {
             url += `&domain=${currentDomain}`;
         }
-        const res = await fetch(url);
-        if (!res.ok) throw new Error("HTTP error");
+        const res = await fetch(url, { signal: controller.signal });
+        clearTimeout(timer);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        
-        if (data.citations) {
+
+        if (data.citations && data.citations.length > 0) {
             renderCitations(data.citations, citationsElem);
         }
         if (data.answer) {
             textElem.innerHTML = formatParagraphs(escapeHtml(data.answer));
         } else {
-            textElem.innerText = "لم يتم الحصول على إجابة من السيرفر.";
+            textElem.innerText = "لم يتم الحصول على إجابة واضحة من المصادر المتاحة.";
         }
         scrollToBottom();
     } catch (err) {
-        textElem.innerText = "⚠️ تعذر الحصول على الإجابة من السيرفر.";
+        clearTimeout(timer);
+        if (err.name === 'AbortError') {
+            textElem.innerText = "⏱️ انتهت مهلة الانتظار (30 ثانية). يرجى المحاولة مرة أخرى.";
+        } else {
+            textElem.innerText = "⚠️ تعذر الحصول على الإجابة من السيرفر. يرجى المحاولة مرة أخرى.";
+        }
     }
 }
+
 
 function createAssistantStreamingMessage() {
     const history = document.getElementById("chat-history");
