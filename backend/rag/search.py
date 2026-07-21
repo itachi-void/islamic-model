@@ -158,6 +158,10 @@ class ExactSearchEngine:
                         if term.startswith(prefix):
                             candidate_ids.update(ids)
 
+        # Prepare normalized query words for prefix sequence alignment bonus
+        q_norm = normalize_arabic(re.sub(r'حديث\s*', '', query_text or '').strip())
+        q_words = q_norm.split()
+
         # --- Score only the candidates, not all documents ---
         scored_docs = []
         for doc_id in candidate_ids:
@@ -166,6 +170,20 @@ class ExactSearchEngine:
             matched = q_tokens & d_tokens
             if matched:
                 score = round(sum(self._idf.get(t, 1.0) for t in matched) / total_q_weight, 4)
+
+                # Sequence alignment bonus: reward word-for-word prefix match
+                if q_words:
+                    d_norm = normalize_arabic(doc.text)
+                    d_words = d_norm.split()
+                    prefix_matches = 0
+                    for qw, dw in zip(q_words, d_words):
+                        if qw == dw:
+                            prefix_matches += 1
+                        else:
+                            break
+                    bonus = (prefix_matches / float(len(q_words))) * 0.40
+                    score = round(score + bonus, 4)
+
                 scored_docs.append((doc, score))
 
         scored_docs.sort(key=lambda x: x[1], reverse=True)
