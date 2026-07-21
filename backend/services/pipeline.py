@@ -97,24 +97,28 @@ def _extract_narrator_hint(query: str) -> Optional[str]:
 
 class CoverageRanker(BaseRanker):
     """
-    Hybrid Ranker: 0.55 * Semantic + 0.30 * BM25 + 0.15 * Metadata.
+    Hybrid Ranker: Semantic + BM25 + Metadata + Isnad Matching.
     Supports per-document debug output for diagnostics.
     """
     def __init__(
         self,
         k: int = 60,
-        semantic_weight: float = 0.55,
+        semantic_weight: float = 0.40,
         bm25_weight: float = 0.30,
         metadata_weight: float = 0.15,
+        isnad_weight: float = 0.15,
         debug: bool = False
     ):
         self.k = k
         self.semantic_weight = semantic_weight
         self.bm25_weight = bm25_weight
         self.metadata_weight = metadata_weight
+        self.isnad_weight = isnad_weight
         self.debug = debug
 
     def rank_documents(self, documents: List[BaseDocument], query: str, debug: Optional[bool] = None) -> List[BaseDocument]:
+        from backend.rag.isnad_index import extract_isnad_narrators, strip_diacritics
+        
         emit_debug = debug if debug is not None else self.debug
         ranked = []
         clean_q = strip_dialectal_phrases(query)
@@ -125,14 +129,17 @@ class CoverageRanker(BaseRanker):
         narrator_hint = _extract_narrator_hint(query)
         narrator_hint_tokens = extract_stemmed_tokens(narrator_hint) if narrator_hint else set()
 
+        # Extract isnad narrators from query for isnad matching
+        query_isnad_narrators = extract_isnad_narrators(query)
+
         for doc in documents:
             exact_rank = doc.metadata.get("_exact_rank")
             semantic_rank = doc.metadata.get("_semantic_rank")
-            bm25_score = doc.metadata.get("_bm25_score", 0.0)  # Raw IDF-weighted BM25 score
+            bm25_score = doc.metadata.get("_bm25_score", 0.0)
 
             # --- Component 1: Semantic Score (normalized RRF → [0, 1]) ---
             semantic_rrf = (1.0 / (self.k + semantic_rank)) if semantic_rank else 0.0
-            semantic_norm = semantic_rrf * (self.k + 1)  # max possible = 1.0 when rank=1
+            semantic_norm = semantic_rrf * (self.k + 1)
 
             # --- Component 2: BM25 Score (already [0, 1] as IDF ratio) ---
             bm25_norm = min(1.0, float(bm25_score))
@@ -187,6 +194,19 @@ class CoverageRanker(BaseRanker):
 
             metadata_norm = min(1.0, metadata_score)
 
+            # --- Component 4: Isnad Chain Matching ---
+            isnad_score = 0.0
+            if query_isnad_narrators:
+                doc_text_clean = strip_diacritics(normalize_arabic(doc.text))
+                matching_narrators = 0
+                for qn in query_isnad_narrators:
+                    if qn in doc_text_clean:
+                        matching_narrators += 1
+                
+                if matching_narrators > 0:
+                    isnad_score = min(1.0, matching_narrators / len(query_isnad_narrators))
+                    metadata_reasons.append(f"Isnad match ({matching_narrators}/{len(query_isnad_narrators)})")
+
             # --- Exact Rank Bonus (independent component) ---
             exact_bonus = 0.0
             if exact_rank:
@@ -202,6 +222,7 @@ class CoverageRanker(BaseRanker):
                 self.semantic_weight * semantic_norm +
                 self.bm25_weight * bm25_norm +
                 self.metadata_weight * metadata_norm +
+                self.isnad_weight * isnad_score +
                 exact_bonus,
                 4
             )
@@ -225,7 +246,7 @@ class CoverageRanker(BaseRanker):
                 h_num = doc.metadata.get("hadith_number", "?")
                 book = doc.metadata.get("book", "?")[:20]
                 print(
-                    f"  [DEBUG] #{h_num:<6} | Sem={semantic_norm:.3f} | BM25={bm25_norm:.3f} | Meta={metadata_norm:.3f} | Bonus={exact_bonus:.2f} | Final={final_score:.4f}"
+                    f"  [DEBUG] #{h_num:<6} | Sem={semantic_norm:.3f} | BM25={bm25_norm:.3f} | Meta={metadata_norm:.3f} | Isnad={isnad_score:.3f} | Bonus={exact_bonus:.2f} | Final={final_score:.4f}"
                     f"  | Reasons: {', '.join(metadata_reasons) or 'none'} | Book: {book}"
                 )
 
