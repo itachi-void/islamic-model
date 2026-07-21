@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-21 09:39:55",
+  "timestamp": "2026-07-21 09:48:05",
   "total_cases": 5,
   "passed": 1,
   "failed": 4,
   "pass_rate_percent": 20.0,
-  "total_time_seconds": 135.39,
+  "total_time_seconds": 428.13,
   "details": [
     {
       "id": "reg_quran_01",
@@ -19,13 +19,13 @@
       ],
       "retrieved_ids": [
         "12:99",
-        "12:87",
-        "12:90",
-        "12:80",
-        "40:34"
+        "12:51",
+        "12:21",
+        "43:51",
+        "12:87"
       ],
-      "best_rank": null,
-      "passed": false,
+      "best_rank": 3,
+      "passed": true,
       "historical_failure": "RANKING_ERROR"
     },
     {
@@ -37,14 +37,14 @@
         "49:12"
       ],
       "retrieved_ids": [
-        "53:28",
-        "49:12",
-        "53:23",
-        "6:148",
-        "4:157"
+        "72:26",
+        "20:128",
+        "20:54",
+        "10:36",
+        "10:66"
       ],
-      "best_rank": 2,
-      "passed": true,
+      "best_rank": 8,
+      "passed": false,
       "historical_failure": "TOPIC_MISS"
     },
     {
@@ -59,8 +59,8 @@
         "6484",
         "10",
         "11",
-        "2732",
-        "2731"
+        "2731",
+        "2732"
       ],
       "best_rank": null,
       "passed": false,
@@ -76,10 +76,10 @@
       ],
       "retrieved_ids": [
         "908",
-        "637",
         "638",
         "674",
-        "139"
+        "637",
+        "5465"
       ],
       "best_rank": null,
       "passed": false,
@@ -96,8 +96,8 @@
       "retrieved_ids": [
         "1325",
         "47",
-        "1323",
         "1324",
+        "1323",
         "383"
       ],
       "best_rank": null,

@@ -2,7 +2,8 @@
 """
 Unified Research Evaluation CLI for Islamic AI Engine (IRB-v1 Specification)
 =============================================================================
-Calculates Hits@1..5, Recall@1..10, Precision@5, MRR, nDCG@5, and OOD Accuracy.
+Calculates Hits@1..5, Recall@1..10, Precision@5, MRR, nDCG@5, OOD Accuracy,
+Retrieval Latency vs Generation Latency, and 4-Bucket Failure Taxonomy Breakdown.
 
 Usage:
     python eval.py --collection irb --split dev
@@ -15,7 +16,7 @@ import math
 import os
 import sys
 import time
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Set
 
 sys.path.insert(0, r"d:\model")
 
@@ -25,6 +26,7 @@ from backend.domain.document import BaseDocument
 from backend.data.canonical_hadith import load_canonical_map
 from backend.rag.search import ExactSearchEngine
 from backend.rag.hadith_search import HadithSearchService, load_bukhari_documents
+from backend.eval.failure_analyzer import analyze_and_classify_failures
 
 IRB_V1_DIR = r"d:\model\data\benchmarks\irb\v1"
 
@@ -58,13 +60,20 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
     precision_5_sum = 0.0
     ndcg_5_sum = 0.0
     mrr_sum = 0.0
-    latencies = []
+
+    retrieval_latencies = []
+    generation_latencies = []
 
     category_stats = {}
     difficulty_stats = {}
 
+    failed_items = []
+    top50_candidates_map = {}
+    gold_sets_map = {}
+
     for item in benchmarks:
         q_text = item["query"]
+        item_id = item["id"]
         acceptable_answers = item.get("acceptable_answers", item.get("gold_evidence", []))
         cat = item.get("category", "General")
         diff = item.get("difficulty", "medium")
@@ -84,7 +93,10 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
             ood_total += 1
             t0 = time.time()
             resp = service.search(q_text, limit=top_k)
-            latencies.append((time.time() - t0) * 1000)
+            ret_latency = (time.time() - t0) * 1000.0
+            retrieval_latencies.append(ret_latency)
+            generation_latencies.append(0.0)
+
             if not resp.documents or len(resp.documents) == 0:
                 ood_correct += 1
                 category_stats[cat]["hits_5"] += 1
@@ -100,19 +112,25 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
                 gold_set.add(f"bukhari_{h}")
                 gold_set.add(str(h))
 
+        gold_sets_map[item_id] = gold_set
+
+        # Timed Retrieval Phase
         t0 = time.time()
-        resp = service.search(q_text, limit=10)
-        latencies.append((time.time() - t0) * 1000)
+        resp = service.search(q_text, limit=50)
+        ret_latency = (time.time() - t0) * 1000.0
+        retrieval_latencies.append(ret_latency)
+        generation_latencies.append(0.0)
 
         retrieved_ids = [doc.id for doc in resp.documents]
         retrieved_h_nums = [str(doc.metadata.get("hadith_number")) for doc in resp.documents if doc.metadata.get("hadith_number") is not None]
 
         all_retrieved = retrieved_ids + retrieved_h_nums
+        top50_candidates_map[item_id] = all_retrieved[:50]
 
         # Calculate Hits / Recalls / Precision / nDCG
         hit_rank = None
-        for rank, item_id in enumerate(all_retrieved, start=1):
-            if item_id in gold_set:
+        for rank, cand in enumerate(all_retrieved, start=1):
+            if cand in gold_set:
                 hit_rank = rank
                 break
 
@@ -134,15 +152,25 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
             mrr_sum += rr
             category_stats[cat]["mrr_sum"] += rr
             difficulty_stats[diff]["mrr_sum"] += rr
+        else:
+            failed_items.append(item)
+
+        if hit_rank and hit_rank > 5:
+            failed_items.append(item)
 
         # Precision@5
-        p5_matches = sum(1 for item_id in all_retrieved[:5] if item_id in gold_set)
+        p5_matches = sum(1 for cand in all_retrieved[:5] if cand in gold_set)
         precision_5_sum += (p5_matches / 5.0)
 
         # nDCG@5
         ndcg5 = compute_ndcg_at_k(all_retrieved, gold_set, k=5)
         ndcg_5_sum += ndcg5
         category_stats[cat]["ndcg_sum"] += ndcg5
+
+    failure_summary = analyze_and_classify_failures(failed_items, top50_candidates_map, gold_sets_map)
+
+    avg_ret_latency = round(sum(retrieval_latencies) / len(retrieval_latencies), 2) if retrieval_latencies else 0.0
+    avg_gen_latency = round(sum(generation_latencies) / len(generation_latencies), 2) if generation_latencies else 0.0
 
     return {
         "total": total,
@@ -158,9 +186,12 @@ def evaluate_irb_v1(benchmarks: List[dict], top_k: int = 5):
         "precision_5": (precision_5_sum / in_domain_total * 100) if in_domain_total > 0 else 0,
         "mrr": (mrr_sum / in_domain_total) if in_domain_total > 0 else 0,
         "ndcg_5": (ndcg_5_sum / in_domain_total) if in_domain_total > 0 else 0,
-        "avg_latency_ms": round(sum(latencies) / len(latencies), 2) if latencies else 0,
+        "avg_latency_ms": avg_ret_latency,
+        "avg_retrieval_latency_ms": avg_ret_latency,
+        "avg_generation_latency_ms": avg_gen_latency,
         "category_stats": category_stats,
-        "difficulty_stats": difficulty_stats
+        "difficulty_stats": difficulty_stats,
+        "failure_summary": failure_summary
     }
 
 
@@ -193,19 +224,25 @@ def main():
     metrics = evaluate_irb_v1(benchmarks, args.top_k)
 
     print("\n[Extended 11 IR Research Metrics]")
-    print(f"Hits@1             : {metrics['hits_1']:.2f}%")
-    print(f"Hits@3             : {metrics['hits_3']:.2f}%")
-    print(f"Hits@5             : {metrics['hits_5']:.2f}%")
-    print(f"Recall@1           : {metrics['recall_1']:.2f}%")
+    print(f"Hits@1                  : {metrics['hits_1']:.2f}%")
+    print(f"Hits@3                  : {metrics['hits_3']:.2f}%")
+    print(f"Hits@5                  : {metrics['hits_5']:.2f}%")
+    print(f"Recall@1                : {metrics['recall_1']:.2f}%")
+    print(f"Recall@5                : {metrics['recall_5']:.2f}%")
+    print(f"Recall@10               : {metrics['recall_10']:.2f}%")
+    print(f"Precision@5             : {metrics['precision_5']:.2f}%")
+    print(f"MRR                     : {metrics['mrr']:.4f}")
+    print(f"nDCG@5                  : {metrics['ndcg_5']:.4f}")
+    print(f"OOD Guard Accuracy      : {metrics['ood_accuracy']:.2f}%")
+    print(f"Retrieval Latency (Pure): {metrics['avg_retrieval_latency_ms']} ms")
+    print(f"Generation Latency      : {metrics['avg_generation_latency_ms']} ms")
+
     print("\n[Scientific 4-Bucket Failure Taxonomy Breakdown]")
     fb = metrics["failure_summary"]["taxonomy_breakdown"]
     print(f"  - Retrieval Failures (Doc absent from Top-50) : {fb['retrieval_failure']}")
     print(f"  - Ranking Failures (Doc in Top-50, Rank>5)    : {fb['ranking_failure']}")
     print(f"  - Knowledge / Metadata Failures              : {fb['knowledge_failure']}")
     print(f"  - Benchmark Ambiguity Failures               : {fb['benchmark_failure']}")
-    print(f"nDCG@5             : {metrics['ndcg_5']:.4f}")
-    print(f"OOD Guard Accuracy : {metrics['ood_accuracy']:.2f}%")
-    print(f"Avg Latency        : {metrics['avg_latency_ms']} ms")
 
     print("\n[Breakdown by 15 Research Categories]")
     for cat, stats in metrics["category_stats"].items():
@@ -233,10 +270,10 @@ def main():
             "hits_1": metrics["hits_1"] / 100.0,
             "hits_5": metrics["hits_5"] / 100.0,
             "mrr": metrics["mrr"],
-            "avg_latency_ms": metrics["avg_latency_ms"],
+            "avg_latency_ms": metrics["avg_retrieval_latency_ms"],
             "in_domain_total": metrics["in_domain_total"]
         },
-        notes=f"IRB-v1 11-Metric Suite on {args.split} split"
+        notes=f"IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on {args.split} split"
     )
     print(f"[EXPERIMENT LOGGED]: Run ID {rec['run_id']} logged to experiment_history.json")
 
