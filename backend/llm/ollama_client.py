@@ -47,11 +47,11 @@ def _call_openai_compatible_api(prompt: str, stream: bool = False):
 
     try:
         logger.info(f"Calling LLM API: {url[:40]}... model={model}")
-        response = requests.post(url, headers=headers, json=payload, stream=stream, timeout=5)
+        response = requests.post(url, headers=headers, json=payload, stream=stream, timeout=3.0)
         response.raise_for_status()
         return response
     except requests.exceptions.Timeout:
-        logger.error(f"LLM API timeout after 5s: {url[:40]}")
+        logger.error(f"LLM API timeout after 3s: {url[:40]}")
         return None
     except Exception as e:
         logger.error(f"External LLM API call failed: {e}")
@@ -88,7 +88,7 @@ def generate(prompt: str) -> str:
             "messages": [{"role": "user", "content": prompt}],
             "stream": False,
         }
-        res = requests.post(url, json=payload, timeout=5.0)
+        res = requests.post(url, json=payload, timeout=3.0)
         res.raise_for_status()
         data = res.json()
         return data.get("message", {}).get("content", "")
@@ -132,7 +132,7 @@ def generate_stream(prompt: str) -> Generator[str, None, None]:
             "messages": [{"role": "user", "content": prompt}],
             "stream": True,
         }
-        res = requests.post(url, json=payload, stream=True, timeout=5.0)
+        res = requests.post(url, json=payload, stream=True, timeout=3.0)
         res.raise_for_status()
         for line in res.iter_lines():
             if not line:
