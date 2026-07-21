@@ -26,8 +26,16 @@ def strip_diacritics(text: str) -> str:
 
 # Pattern to extract narrator names from isnad chains
 ISNAD_PATTERNS = [
+    # Standard: حدثنا X, حدثني X, أخبرنا X, أخبرني X, قال حدثنا X
     re.compile(r'(?:حدثنا|حدثني|اخبرنا|اخبرني|قال حدثنا|سمعت)\s+([^،,]+)'),
+    # From: عن X (with 3-40 chars)
     re.compile(r'عن\s+([^،,]{3,40}?)(?:\s+عن|\s+قال|\s+يقول|$)'),
+    # قال فلان وأخبرني/وحدثنا Y: "قال مالك وأخبرني زيد" or "قال مالك قال حدثنا زيد"
+    re.compile(r'قال\s+([^،,]{3,30}?)\s+(?:و)?(?:اخبرني|اخبرنا|حدثنا|حدثني)\s+([^،,]+)'),
+    # و عن / وعن patterns: "وعن أبي هريرة"
+    re.compile(r'وعن\s+([^،,]{3,40}?)(?:\s+عن|\s+قال|\s+يقول|$)'),
+    # Ibn X as narrator at start of chain
+    re.compile(r'^ابن\s+([^،,]{3,30}?)(?:\s+و|\s+قال|\s+يقول|$)'),
 ]
 
 
@@ -38,7 +46,10 @@ def extract_isnad_narrators(text: str) -> List[str]:
     for pattern in ISNAD_PATTERNS:
         matches = pattern.findall(cleaned)
         for m in matches:
-            name = m.strip()
+            if isinstance(m, tuple):
+                name = " ".join(x.strip() for x in m if x and len(x.strip()) > 2)
+            else:
+                name = m.strip()
             # Remove trailing verbs and prepositions
             name = re.sub(r'\s+(?:قال|يقول|عن|أنه|في|على|من)$', '', name)
             name = name.strip()
@@ -113,9 +124,10 @@ class IsnadIndex:
         Search the isnad index with a query.
         Returns list of (hadith_id, score) tuples sorted by score descending.
         
-        Scoring uses IDF-weighted narrator matches:
-        - Rare narrators contribute more to the score
-        - Consecutive chain matching gets a bonus
+        Scoring uses:
+        1. IDF-weighted narrator matches (rare narrators weigh more)
+        2. Consecutive chain order bonus (sequential matches in order)
+        3. Second-narrator content bonus (for queries with "عن" patterns)
         """
         query_narrators = extract_isnad_narrators(query_text)
         if not query_narrators:
@@ -124,9 +136,9 @@ class IsnadIndex:
         # For each hadith, compute IDF-weighted score
         hadith_scores: Dict[str, float] = defaultdict(float)
         hadith_match_count: Dict[str, int] = defaultdict(int)
+        hadith_match_details: Dict[str, Dict] = {}
         
         for qn in query_narrators:
-            # Direct match
             matches = self.narrator_to_hadiths.get(qn, set())
             idf = self.narrator_idf.get(qn, 1.0)
             
@@ -134,8 +146,10 @@ class IsnadIndex:
                 for h_id in matches:
                     hadith_scores[h_id] += idf
                     hadith_match_count[h_id] += 1
+                    if h_id not in hadith_match_details:
+                        hadith_match_details[h_id] = {"matched": [], "missing": []}
+                    hadith_match_details[h_id]["matched"].append(qn)
             else:
-                # Partial match: check if any indexed narrator contains this query narrator
                 for indexed_narrator, h_ids in self.narrator_to_hadiths.items():
                     if qn in indexed_narrator or indexed_narrator in qn:
                         partial_idf = self.narrator_idf.get(indexed_narrator, 1.0) * 0.5
@@ -143,32 +157,57 @@ class IsnadIndex:
                             hadith_scores[h_id] += partial_idf
                             hadith_match_count[h_id] += 1
         
-        # Bonus for consecutive chain matches
-        for h_id in hadith_scores:
+        # Chain order bonus and "عن" (from) pattern matching
+        for h_id in list(hadith_scores.keys()):
             h_narrators = self.hadith_to_narrators.get(h_id, [])
-            if len(h_narrators) < 2:
+            if not h_narrators:
                 continue
             
-            # Check how many consecutive query narrators appear in sequence
-            consecutive = 0
+            # 1. Consecutive chain order bonus
             max_consecutive = 0
+            consecutive = 0
+            h_idx = 0
             for qn in query_narrators:
-                if qn in h_narrators:
+                found = False
+                while h_idx < len(h_narrators):
+                    if qn in h_narrators[h_idx] or h_narrators[h_idx] in qn:
+                        found = True
+                        h_idx += 1
+                        break
+                    h_idx += 1
+                
+                if found:
                     consecutive += 1
                     max_consecutive = max(max_consecutive, consecutive)
                 else:
                     consecutive = 0
+                    h_idx = 0  # Reset for next query narrator
             
             if max_consecutive >= 2:
-                hadith_scores[h_id] *= (1.0 + 0.2 * max_consecutive)
+                hadith_scores[h_id] *= (1.0 + 0.3 * max_consecutive)
+            
+            # 2. "عن" (from) pattern: if query has "عن narrator", check if that narrator appears
+            # in the hadith isnad chain AFTER the other matched narrators
+            query_clean = strip_diacritics(normalize_arabic(query_text))
+            from_patterns = re.findall(r'عن\s+([^،,]{3,40}?)(?:\s+عن|\s+قال|\s+يقول|$)', query_clean)
+            if from_patterns:
+                from_matches = 0
+                for fp in from_patterns:
+                    fp = fp.strip()
+                    if len(fp) > 2:
+                        for hn in h_narrators:
+                            if fp in hn or hn in fp:
+                                from_matches += 1
+                                break
+                if from_matches > 0:
+                    hadith_scores[h_id] *= (1.0 + 0.2 * from_matches)
         
-        # Normalize by number of query narrators
+        # Normalize and sort
         total_q_narrators = len(query_narrators)
         results = []
         for h_id, raw_score in hadith_scores.items():
             match_count = hadith_match_count[h_id]
             if match_count >= min_matches:
-                # Normalize: divide by total query narrators, then scale
                 normalized_score = raw_score / total_q_narrators
                 results.append((h_id, round(normalized_score, 4)))
         

@@ -1,0 +1,23 @@
+
+=== ENTITY RESOLVER UNIT TESTS ===
+
+  PASS [Nabi]: من هو النبي محمد صلى الله عليه وسلم
+  PASS [Nabi Musa not expanded]: من هو نبي الله موسى موسى عليه السلام
+  PASS [Rasul Allah]: حديث عن رسول الله محمد صلى الله عليه وسلم
+  PASS [Al-Siddiq]: الصديق أبو بكر الصديق
+  PASS [Al-Faruq]: الفاروق عمر بن الخطاب القرشي
+  PASS [Dhu al-Nurayn]: ذو النورين عثمان بن عفان
+  PASS [Abu Turab]: أبو تراب علي بن أبي طالب
+  PASS [Taybah]: طيبة المدينة المنورة
+  PASS [Bayt al-Haram]: البيت الحرام الكعبة
+  PASS [Abu Hurayrah]: أبو هريرة عبد الرحمن بن صخر الدوسي
+  PASS [Ibn Abbas]: ابن عباس عبد الله بن عباس بن عبد المطلب
+  PASS [Ibn Umar]: ابن عمر عبد الله بن عمر بن الخطاب
+  PASS [Hadith al-Niyyah]: عايز الحديث بتاع إنما الأعمال بالنيات في البخاري
+  PASS [Multiple entities]: النبي في المدينة المدينة المنورة محمد صلى الله عليه وسلم
+  PASS [Prophet exclusion]: نبي الله إبراهيم خليل الله إبراهيم عليه السلام
+  PASS [Preserve original]: أبو هريرة عن رسول الله عبد الرحمن بن صخر الدوسي محمد صلى الله عليه وسلم
+  PASS [Empty query]
+  PASS [No entities - unchanged]
+
+=== Results: 18 passed, 0 failed ===
