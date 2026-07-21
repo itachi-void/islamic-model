@@ -37,51 +37,7 @@ async function handleChatSubmit(event) {
     appendUserMessage(text);
 
     const { msgId, textElem, citationsElem } = createAssistantStreamingMessage();
-
-    try {
-        let url = `/chat/stream?q=${encodeURIComponent(text)}&limit=5`;
-        if (currentDomain !== "hybrid") {
-            url += `&domain=${currentDomain}`;
-        }
-
-        const eventSource = new EventSource(url);
-        let fullAnswer = "";
-        let receivedAnyData = false;
-
-        const streamTimeout = setTimeout(() => {
-            if (!receivedAnyData) {
-                eventSource.close();
-                fetchStandardChat(text, textElem, citationsElem);
-            }
-        }, 2500);
-
-        eventSource.onmessage = (e) => {
-            receivedAnyData = true;
-            clearTimeout(streamTimeout);
-            if (!e.data) return;
-            const data = JSON.parse(e.data);
-
-            if (data.type === "meta") {
-                renderCitations(data.citations, citationsElem);
-            } else if (data.type === "token") {
-                fullAnswer += data.content;
-                textElem.innerHTML = formatParagraphs(escapeHtml(fullAnswer));
-                scrollToBottom();
-            } else if (data.type === "done") {
-                eventSource.close();
-            }
-        };
-
-        eventSource.onerror = () => {
-            clearTimeout(streamTimeout);
-            eventSource.close();
-            if (!fullAnswer) {
-                fetchStandardChat(text, textElem, citationsElem);
-            }
-        };
-    } catch (err) {
-        fetchStandardChat(text, textElem, citationsElem);
-    }
+    fetchStandardChat(text, textElem, citationsElem);
 }
 
 async function fetchStandardChat(text, textElem, citationsElem) {
