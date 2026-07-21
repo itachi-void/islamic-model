@@ -427,5 +427,31 @@
     "avg_latency_ms": 29.51,
     "total_queries": 98,
     "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
+  },
+  {
+    "run_id": "run_034",
+    "timestamp": "2026-07-21 16:10:04",
+    "collection": "IRB-v1",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 38.78,
+    "hits_5": 71.43,
+    "mrr": 0.5307,
+    "avg_latency_ms": 20.62,
+    "total_queries": 98,
+    "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
+  },
+  {
+    "run_id": "run_035",
+    "timestamp": "2026-07-21 16:18:38",
+    "collection": "IRB-v1",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 38.78,
+    "hits_5": 71.43,
+    "mrr": 0.5297,
+    "avg_latency_ms": 24.37,
+    "total_queries": 98,
+    "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
   }
 ]
