@@ -131,6 +131,7 @@ class HadithSearchService:
         expanded_query = expand_query_aliases(cleaned_query)
 
         # Stage 0: Direct Isnad Index Lookup (fastest path for chain queries)
+        isnad_docs = []
         isnad_results = self.isnad_index.search(query_text, min_matches=1)
         if isnad_results:
             isnad_doc_map = {doc.id: doc for doc in self.documents}
@@ -148,45 +149,45 @@ class HadithSearchService:
                     ))
 
             # If isnad found high-confidence match (score >= 0.5), boost it into pipeline candidates
-            if isnad_docs and isnad_docs[0].score >= 0.5:
-                # Run normal pipeline too, then merge with isnad results via RRF
-                filters: Dict[str, Any] = {}
-                if book:
-                    filters["book"] = book
-                if narrator:
-                    filters["narrator"] = narrator
+        has_chroma = bool(self.vector_store and getattr(self.vector_store, "collection", None) is not None)
 
-                query = SearchQuery(
-                    text=expanded_query,
-                    limit=limit,
-                    filters=filters if filters else None
-                )
+        if isnad_docs and isnad_docs[0].score >= 0.5:
+            filters: Dict[str, Any] = {}
+            if book:
+                filters["book"] = book
+            if narrator:
+                filters["narrator"] = narrator
 
-                if self.vector_store.collection and self.vector_store.collection.count() > 0:
-                    pipeline_response = self.pipeline.retrieve(query)
-                    pipeline_docs = pipeline_response.documents
+            query = SearchQuery(
+                text=expanded_query,
+                limit=limit,
+                filters=filters if filters else None
+            )
 
-                    # Merge isnad + pipeline results using RRF
-                    merged = {}
-                    k = 60
-                    for rank, doc in enumerate(isnad_docs, 1):
-                        merged[doc.id] = doc
-                        merged[doc.id].score = merged[doc.id].score or 0.0
+            if has_chroma:
+                pipeline_response = self.pipeline.retrieve(query)
+                pipeline_docs = pipeline_response.documents
+
+                # Merge isnad + pipeline results using RRF
+                merged = {}
+                k = 60
+                for rank, doc in enumerate(isnad_docs, 1):
+                    merged[doc.id] = doc
+                    merged[doc.id].score = merged[doc.id].score or 0.0
+                    merged[doc.id].metadata["_rrf"] = merged[doc.id].metadata.get("_rrf", 0.0) + 1.0 / (k + rank)
+
+                for rank, doc in enumerate(pipeline_docs, 1):
+                    if doc.id in merged:
                         merged[doc.id].metadata["_rrf"] = merged[doc.id].metadata.get("_rrf", 0.0) + 1.0 / (k + rank)
+                    else:
+                        doc.score = doc.score or 0.0
+                        doc.metadata["_rrf"] = 1.0 / (k + rank)
+                        merged[doc.id] = doc
 
-                    for rank, doc in enumerate(pipeline_docs, 1):
-                        if doc.id in merged:
-                            merged[doc.id].metadata["_rrf"] = merged[doc.id].metadata.get("_rrf", 0.0) + 1.0 / (k + rank)
-                        else:
-                            doc.score = doc.score or 0.0
-                            doc.metadata["_rrf"] = 1.0 / (k + rank)
-                            merged[doc.id] = doc
-
-                    # Sort by RRF score
-                    final = sorted(merged.values(), key=lambda d: d.metadata.get("_rrf", 0), reverse=True)[:limit]
-                    for d in final:
-                        d.score = d.metadata.pop("_rrf", 0.0)
-                    return SearchResponse(query=query_text, count=len(final), documents=final)
+                final = sorted(merged.values(), key=lambda d: d.metadata.get("_rrf", 0), reverse=True)[:limit]
+                for d in final:
+                    d.score = d.metadata.pop("_rrf", 0.0)
+                return SearchResponse(query=query_text, count=len(final), documents=final)
 
         filters: Dict[str, Any] = {}
         if book:
@@ -200,9 +201,8 @@ class HadithSearchService:
             filters=filters if filters else None
         )
 
-        # Fallback to exact BM25/Exact match if Chroma vector store is uninitialized or empty
-        if not self.vector_store.collection or self.vector_store.collection.count() == 0:
-            # Try isnad results first
+        # Fallback to exact BM25/Exact match if Chroma vector store is uninitialized or absent
+        if not has_chroma:
             if isnad_results:
                 isnad_doc_map = {doc.id: doc for doc in self.documents}
                 isnad_docs = []
