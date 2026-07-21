@@ -1,8 +1,8 @@
 {
-  "total_failures": 33,
+  "total_failures": 28,
   "taxonomy_breakdown": {
     "retrieval_failure": 0,
-    "ranking_failure": 32,
+    "ranking_failure": 27,
     "knowledge_failure": 1,
     "benchmark_failure": 0
   },
@@ -19,11 +19,11 @@
           "bukhari_224"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_676",
-          "bukhari_271",
-          "bukhari_499",
-          "bukhari_771",
-          "bukhari_670"
+          "bukhari_15",
+          "bukhari_101",
+          "bukhari_117",
+          "bukhari_142",
+          "bukhari_187"
         ],
         "in_top50": true
       },
@@ -73,11 +73,11 @@
           "bukhari_413"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_676",
-          "bukhari_271",
-          "bukhari_499",
-          "bukhari_771",
-          "bukhari_670"
+          "bukhari_15",
+          "bukhari_101",
+          "bukhari_117",
+          "bukhari_142",
+          "bukhari_187"
         ],
         "in_top50": true
       },
@@ -91,47 +91,11 @@
           "bukhari_387"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_676",
-          "bukhari_271",
-          "bukhari_499",
-          "bukhari_771",
-          "bukhari_670"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00036",
-        "query": "حديث حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
-        "category": "Event",
-        "difficulty": "hard",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_27"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_14",
-          "bukhari_734",
-          "bukhari_1036",
-          "bukhari_35",
-          "bukhari_876"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00151",
-        "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ",
-        "category": "Narrator",
-        "difficulty": "medium",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_142"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_676",
-          "bukhari_271",
-          "bukhari_499",
-          "bukhari_771",
-          "bukhari_670"
+          "bukhari_15",
+          "bukhari_101",
+          "bukhari_117",
+          "bukhari_142",
+          "bukhari_187"
         ],
         "in_top50": true
       },
@@ -145,11 +109,11 @@
           "bukhari_185"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_4",
           "bukhari_867",
           "bukhari_1566",
           "bukhari_1988",
-          "bukhari_2",
-          "bukhari_4"
+          "bukhari_2"
         ],
         "in_top50": true
       },
@@ -182,10 +146,10 @@
         ],
         "retrieved_candidates_top5": [
           "bukhari_214",
-          "bukhari_591",
-          "bukhari_599",
-          "bukhari_997",
-          "bukhari_512"
+          "bukhari_13",
+          "bukhari_57",
+          "bukhari_81",
+          "bukhari_362"
         ],
         "in_top50": true
       },
@@ -217,11 +181,11 @@
           "bukhari_41"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_4963",
-          "bukhari_748",
-          "bukhari_1840",
-          "bukhari_5012",
-          "bukhari_2371"
+          "bukhari_1890",
+          "bukhari_4581",
+          "bukhari_4160",
+          "bukhari_5767",
+          "bukhari_2914"
         ],
         "in_top50": true
       },
@@ -236,7 +200,7 @@
         ],
         "retrieved_candidates_top5": [
           "bukhari_377",
-          "bukhari_7481",
+          "bukhari_393",
           "bukhari_113",
           "bukhari_138",
           "bukhari_141"
@@ -254,10 +218,10 @@
         ],
         "retrieved_candidates_top5": [
           "bukhari_14",
-          "bukhari_734",
-          "bukhari_1036",
+          "bukhari_18",
+          "bukhari_27",
           "bukhari_35",
-          "bukhari_876"
+          "bukhari_93"
         ],
         "in_top50": true
       },
@@ -271,11 +235,11 @@
           "bukhari_382"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_1566",
           "bukhari_22",
           "bukhari_37",
           "bukhari_46",
-          "bukhari_66"
+          "bukhari_66",
+          "bukhari_83"
         ],
         "in_top50": true
       },
@@ -289,11 +253,11 @@
           "bukhari_444"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_4",
           "bukhari_867",
           "bukhari_1566",
           "bukhari_1988",
-          "bukhari_2",
-          "bukhari_4"
+          "bukhari_2"
         ],
         "in_top50": true
       },
@@ -307,11 +271,11 @@
           "bukhari_166"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_4",
           "bukhari_867",
           "bukhari_1566",
           "bukhari_1988",
-          "bukhari_2",
-          "bukhari_4"
+          "bukhari_2"
         ],
         "in_top50": true
       },
@@ -343,11 +307,11 @@
           "bukhari_403"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_4",
           "bukhari_867",
           "bukhari_1566",
           "bukhari_1988",
-          "bukhari_2",
-          "bukhari_4"
+          "bukhari_2"
         ],
         "in_top50": true
       },
@@ -362,10 +326,10 @@
         ],
         "retrieved_candidates_top5": [
           "bukhari_14",
-          "bukhari_734",
-          "bukhari_1036",
+          "bukhari_18",
+          "bukhari_27",
           "bukhari_35",
-          "bukhari_876"
+          "bukhari_93"
         ],
         "in_top50": true
       },
@@ -379,29 +343,11 @@
           "bukhari_293"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_4413",
-          "bukhari_3309",
-          "bukhari_1942",
           "bukhari_5468",
-          "bukhari_671"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00230",
-        "query": "حديث حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ،",
-        "category": "Place",
-        "difficulty": "easy",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_221"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_6",
-          "bukhari_348",
-          "bukhari_281",
-          "bukhari_910",
-          "bukhari_161"
+          "bukhari_3309",
+          "bukhari_4413",
+          "bukhari_1942",
+          "bukhari_5219"
         ],
         "in_top50": true
       },
@@ -415,11 +361,11 @@
           "bukhari_104"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_4",
           "bukhari_867",
           "bukhari_1566",
           "bukhari_1988",
-          "bukhari_2",
-          "bukhari_4"
+          "bukhari_2"
         ],
         "in_top50": true
       },
@@ -451,29 +397,11 @@
           "bukhari_358"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_4",
           "bukhari_867",
           "bukhari_1566",
           "bukhari_1988",
-          "bukhari_2",
-          "bukhari_4"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00102",
-        "query": "حديث حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
-        "category": "Meaning",
-        "difficulty": "easy",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_93"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_14",
-          "bukhari_734",
-          "bukhari_1036",
-          "bukhari_35",
-          "bukhari_876"
+          "bukhari_2"
         ],
         "in_top50": true
       },
@@ -488,10 +416,28 @@
         ],
         "retrieved_candidates_top5": [
           "bukhari_377",
-          "bukhari_7481",
+          "bukhari_393",
           "bukhari_113",
           "bukhari_138",
           "bukhari_141"
+        ],
+        "in_top50": true
+      },
+      {
+        "id": "irb_v1_00280",
+        "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+        "category": "Exact Quote",
+        "difficulty": "hard",
+        "expected_hadith_number": null,
+        "acceptable_answers": [
+          "bukhari_271"
+        ],
+        "retrieved_candidates_top5": [
+          "bukhari_15",
+          "bukhari_101",
+          "bukhari_117",
+          "bukhari_142",
+          "bukhari_187"
         ],
         "in_top50": true
       },
@@ -523,47 +469,11 @@
           "bukhari_63"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_4",
           "bukhari_867",
           "bukhari_1566",
           "bukhari_1988",
-          "bukhari_2",
-          "bukhari_4"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00126",
-        "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
-        "category": "Event",
-        "difficulty": "easy",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_117"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_676",
-          "bukhari_271",
-          "bukhari_499",
-          "bukhari_771",
-          "bukhari_670"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00013",
-        "query": "حديث قَالَ ابْنُ شِهَابٍ وَأَخْبَرَنِي أَبُو سَلَمَةَ",
-        "category": "Topic",
-        "difficulty": "expert",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_4"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_3790",
-          "bukhari_7198",
-          "bukhari_3238",
-          "bukhari_6420",
-          "bukhari_4710"
+          "bukhari_2"
         ],
         "in_top50": true
       },
@@ -597,11 +507,11 @@
           "bukhari_279"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_461",
-          "bukhari_7284",
-          "bukhari_640",
-          "bukhari_797",
-          "bukhari_6406"
+          "bukhari_4736",
+          "bukhari_5429",
+          "bukhari_2083",
+          "bukhari_477",
+          "bukhari_7288"
         ],
         "in_top50": false
       }
