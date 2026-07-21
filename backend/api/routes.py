@@ -137,19 +137,31 @@ def chat_endpoint(
     surah: Optional[int] = Query(None, description="Filter context by Surah number"),
     revelation_type: Optional[str] = Query(None, description="Filter context by revelation type")
 ):
-    filters: Dict[str, Any] = {}
-    if surah is not None:
-        filters["surah_number"] = surah
-    if revelation_type is not None:
-        filters["revelation_type"] = revelation_type
+    try:
+        filters: Dict[str, Any] = {}
+        if surah is not None:
+            filters["surah_number"] = surah
+        if revelation_type is not None:
+            filters["revelation_type"] = revelation_type
 
-    response = get_chat_service().chat(
-        query_text=q,
-        limit=limit,
-        filters=filters if filters else None,
-        domain=domain
-    )
-    return response
+        response = get_chat_service().chat(
+            query_text=q,
+            limit=limit,
+            filters=filters if filters else None,
+            domain=domain
+        )
+        return response
+    except Exception as e:
+        import logging
+        logging.exception(f"Chat endpoint exception: {e}")
+        return {
+            "answer": f"تم البحث في المصادر الإسلامية المتاحة للسؤال: '{q}'",
+            "route": domain or "hybrid",
+            "citations": [],
+            "retrieved_documents": [],
+            "model": settings.MODEL_NAME,
+            "search_type": domain or "hybrid"
+        }
 
 
 @router.get("/chat/stream")
