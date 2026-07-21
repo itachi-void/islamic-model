@@ -20,7 +20,26 @@ from backend.services.pipeline import (
     RetrievalPipeline
 )
 
-BUKHARI_PROCESSED_PATH = r"d:\model\data\bukhari\bukhari_processed.json"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BUKHARI_PROCESSED_PATH = os.path.join(BASE_DIR, "data", "bukhari", "bukhari_processed.json")
+
+
+def _try_init_chroma(embedding_provider, collection_name: str = "bukhari", timeout_s: float = 2.0):
+    import threading
+    result = [None]
+    def _init():
+        try:
+            result[0] = ChromaVectorStore(
+                persist_directory=settings.CHROMA_PATH,
+                embedding_provider=embedding_provider,
+                collection_name=collection_name
+            )
+        except Exception:
+            pass
+    t = threading.Thread(target=_init, daemon=True)
+    t.start()
+    t.join(timeout=timeout_s)
+    return result[0]
 
 
 def load_bukhari_documents() -> List[BaseDocument]:
@@ -65,11 +84,12 @@ class HadithSearchService:
         self.documents = load_bukhari_documents()
         self.exact_engine = ExactSearchEngine(self.documents)
         self.embedding_provider = BGEEmbeddingProvider(settings.EMBEDDING_MODEL)
-        self.vector_store = ChromaVectorStore(
-            persist_directory=settings.CHROMA_PATH,
-            embedding_provider=self.embedding_provider,
-            collection_name="bukhari"
-        )
+        
+        # Try ChromaDB + BGE with a strict 2-second timeout.
+        try:
+            self.vector_store = _try_init_chroma(self.embedding_provider, collection_name="bukhari", timeout_s=2.0)
+        except Exception:
+            self.vector_store = None
 
         # Build isnad index for direct chain-of-narration matching
         self.isnad_index = IsnadIndex()
@@ -79,11 +99,15 @@ class HadithSearchService:
             self.isnad_index.build(bukhari_data)
 
         exact_retriever = ExactRetriever(self.exact_engine)
-        semantic_retriever = SemanticRetriever(self.vector_store)
-        hybrid_retriever = HybridRetriever(exact_retriever, semantic_retriever)
+        
+        if self.vector_store and self.vector_store.collection:
+            semantic_retriever = SemanticRetriever(self.vector_store)
+            retriever = HybridRetriever(exact_retriever, semantic_retriever)
+        else:
+            retriever = exact_retriever
 
         self.pipeline = RetrievalPipeline(
-            retriever=hybrid_retriever,
+            retriever=retriever,
             ranker=CoverageRanker(
                 semantic_weight=0.40,
                 bm25_weight=0.35,
