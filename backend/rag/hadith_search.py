@@ -10,6 +10,7 @@ from backend.rag.search import ExactSearchEngine
 from backend.rag.embeddings import BGEEmbeddingProvider
 from backend.rag.vector_store import ChromaVectorStore
 from backend.rag.isnad_index import IsnadIndex, build_isnad_index_from_file
+from backend.data.entity_resolver import EntityResolver
 from backend.services.pipeline import (
     ExactRetriever,
     SemanticRetriever,
@@ -96,6 +97,9 @@ class HadithSearchService:
                 bukhari_data = json.load(f)
             self.isnad_index.build(bukhari_data)
 
+        # Initialize Entity Resolution Layer
+        self.entity_resolver = EntityResolver()
+
         exact_retriever = ExactRetriever(self.exact_engine)
         
         if self.vector_store and self.vector_store.collection:
@@ -125,7 +129,11 @@ class HadithSearchService:
         from backend.rag.query_normalizer import normalize_query_dialect
         from backend.data.alias_dictionary import expand_query_aliases
 
-        cleaned_query = normalize_query_dialect(query_text)
+        # Entity Resolution Layer
+        original_query = query_text
+        resolved_query = self.entity_resolver.expand_query(original_query)
+
+        cleaned_query = normalize_query_dialect(resolved_query)
         expanded_query = expand_query_aliases(cleaned_query)
 
         # Stage 0: Direct Isnad Index Lookup (fastest path for chain queries)
@@ -216,7 +224,7 @@ class HadithSearchService:
                             score=score
                         ))
                 return SearchResponse(query=query_text, count=len(isnad_docs), documents=isnad_docs)
-            results = self.exact_engine.search(query_text, limit=limit)
+            results = self.exact_engine.search(expanded_query, limit=limit)
             return SearchResponse(query=query_text, count=len(results), documents=results)
 
         return self.pipeline.retrieve(query)

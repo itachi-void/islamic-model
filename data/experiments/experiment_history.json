@@ -362,5 +362,70 @@
     "avg_latency_ms": 2591.75,
     "total_queries": 98,
     "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
+  },
+  {
+    "run_id": "run_029",
+    "timestamp": "2026-07-21 14:39:27",
+    "collection": "IRB-v1",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 34.69,
+    "hits_5": 63.27,
+    "mrr": 0.4792,
+    "avg_latency_ms": 2588.72,
+    "total_queries": 98,
+    "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
+  },
+  {
+    "run_id": "run_030",
+    "timestamp": "2026-07-21 14:45:20",
+    "collection": "IRB-v1",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 30.61,
+    "hits_5": 61.22,
+    "mrr": 0.4426,
+    "avg_latency_ms": 2558.02,
+    "total_queries": 98,
+    "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
+  },
+  {
+    "run_id": "run_031",
+    "timestamp": "2026-07-21 15:10:44",
+    "collection": "IRB-v1",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 31.63,
+    "hits_5": 63.27,
+    "mrr": 0.456,
+    "avg_latency_ms": 2461.53,
+    "total_queries": 98,
+    "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
+  },
+  {
+    "run_id": "run_032",
+    "timestamp": "2026-07-21 15:19:07",
+    "collection": "IRB-v1",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 34.69,
+    "hits_5": 63.27,
+    "mrr": 0.4775,
+    "avg_latency_ms": 2424.39,
+    "total_queries": 98,
+    "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
+  },
+  {
+    "run_id": "run_033",
+    "timestamp": "2026-07-21 15:33:50",
+    "collection": "IRB-v1",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 39.8,
+    "hits_5": 72.45,
+    "mrr": 0.5392,
+    "avg_latency_ms": 29.51,
+    "total_queries": 98,
+    "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
   }
 ]

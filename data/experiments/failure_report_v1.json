@@ -1,102 +1,84 @@
 {
-  "total_failures": 33,
+  "total_failures": 27,
   "taxonomy_breakdown": {
-    "retrieval_failure": 3,
-    "ranking_failure": 30,
-    "knowledge_failure": 0,
+    "retrieval_failure": 2,
+    "ranking_failure": 24,
+    "knowledge_failure": 1,
     "benchmark_failure": 0
   },
   "details": {
     "retrieval_failures": [
       {
-        "id": "irb_v1_00434",
-        "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، قَالَ",
-        "category": "Fiqh",
+        "id": "irb_v1_00050",
+        "query": "حديث قَالَ مَالِكٌ أَخْبَرَنِي زَيْدُ بْنُ أَسْلَمَ،",
+        "category": "Place",
         "difficulty": "easy",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_424"
+          "bukhari_41"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_861",
-          "bukhari_475",
-          "bukhari_261",
-          "bukhari_1209",
-          "bukhari_2142"
+          "bukhari_5146",
+          "bukhari_7356",
+          "bukhari_694",
+          "bukhari_4581",
+          "bukhari_7320"
         ],
         "in_top50": false
       },
       {
-        "id": "irb_v1_00454",
-        "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
-        "category": "Person",
-        "difficulty": "easy",
+        "id": "irb_v1_00013",
+        "query": "حديث قَالَ ابْنُ شِهَابٍ وَأَخْبَرَنِي أَبُو سَلَمَةَ",
+        "category": "Topic",
+        "difficulty": "expert",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_444"
+          "bukhari_4"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_222",
-          "bukhari_295",
-          "bukhari_207",
-          "bukhari_193",
-          "bukhari_145"
-        ],
-        "in_top50": false
-      },
-      {
-        "id": "irb_v1_00367",
-        "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
-        "category": "Comparison",
-        "difficulty": "medium",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_358"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_222",
-          "bukhari_295",
-          "bukhari_207",
-          "bukhari_193",
-          "bukhari_145"
+          "bukhari_6147",
+          "bukhari_6995",
+          "bukhari_4925",
+          "bukhari_6731",
+          "bukhari_6986"
         ],
         "in_top50": false
       }
     ],
     "ranking_failures": [
       {
-        "id": "irb_v1_00460",
-        "query": "حديث حَدَّثَنَا يَحْيَى بْنُ سُلَيْمَانَ، حَدَّثَنِي ابْنُ",
-        "category": "Exact Quote",
-        "difficulty": "hard",
+        "id": "irb_v1_00233",
+        "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنِ",
+        "category": "Egyptian",
+        "difficulty": "expert",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_450"
+          "bukhari_224"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_3928",
-          "bukhari_6932",
-          "bukhari_6845",
-          "bukhari_7387",
-          "bukhari_4370"
+          "bukhari_15",
+          "bukhari_101",
+          "bukhari_117",
+          "bukhari_142",
+          "bukhari_187"
         ],
         "in_top50": true
       },
       {
-        "id": "irb_v1_00052",
-        "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى،",
-        "category": "Comparison",
-        "difficulty": "hard",
+        "id": "irb_v1_00437",
+        "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا",
+        "category": "Book",
+        "difficulty": "expert",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_43"
+          "bukhari_427"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_2019",
-          "bukhari_2028",
-          "bukhari_1928",
-          "bukhari_1375",
-          "bukhari_3684"
+          "bukhari_16",
+          "bukhari_218",
+          "bukhari_227",
+          "bukhari_258",
+          "bukhari_355"
         ],
         "in_top50": true
       },
@@ -110,11 +92,11 @@
           "bukhari_458"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_21",
           "bukhari_30",
-          "bukhari_340",
           "bukhari_98",
           "bukhari_151",
-          "bukhari_426"
+          "bukhari_192"
         ],
         "in_top50": true
       },
@@ -128,29 +110,11 @@
           "bukhari_413"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_271",
-          "bukhari_224",
-          "bukhari_562",
-          "bukhari_415",
-          "bukhari_234"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00149",
-        "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ",
-        "category": "Fiqh",
-        "difficulty": "expert",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_140"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_820",
-          "bukhari_1812",
-          "bukhari_3985",
-          "bukhari_2770",
-          "bukhari_4193"
+          "bukhari_15",
+          "bukhari_101",
+          "bukhari_117",
+          "bukhari_142",
+          "bukhari_187"
         ],
         "in_top50": true
       },
@@ -164,46 +128,10 @@
           "bukhari_387"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_224",
-          "bukhari_271",
-          "bukhari_562",
-          "bukhari_775",
-          "bukhari_234"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00036",
-        "query": "حديث حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
-        "category": "Event",
-        "difficulty": "hard",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_27"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_18",
-          "bukhari_93",
-          "bukhari_238",
-          "bukhari_164",
-          "bukhari_864"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00151",
-        "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ",
-        "category": "Narrator",
-        "difficulty": "medium",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_142"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_224",
-          "bukhari_271",
-          "bukhari_562",
-          "bukhari_775",
+          "bukhari_15",
+          "bukhari_101",
+          "bukhari_117",
+          "bukhari_142",
           "bukhari_187"
         ],
         "in_top50": true
@@ -218,11 +146,11 @@
           "bukhari_185"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_222",
-          "bukhari_295",
-          "bukhari_207",
-          "bukhari_193",
-          "bukhari_145"
+          "bukhari_867",
+          "bukhari_2",
+          "bukhari_4",
+          "bukhari_24",
+          "bukhari_63"
         ],
         "in_top50": true
       },
@@ -236,29 +164,11 @@
           "bukhari_365"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_21",
           "bukhari_30",
-          "bukhari_340",
           "bukhari_98",
           "bukhari_151",
-          "bukhari_426"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00023",
-        "query": "حديث حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
-        "category": "Egyptian",
-        "difficulty": "medium",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_14"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_18",
-          "bukhari_93",
-          "bukhari_238",
-          "bukhari_164",
-          "bukhari_864"
+          "bukhari_192"
         ],
         "in_top50": true
       },
@@ -272,47 +182,101 @@
           "bukhari_404"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_57",
-          "bukhari_498",
           "bukhari_13",
-          "bukhari_362",
-          "bukhari_591"
+          "bukhari_57",
+          "bukhari_81",
+          "bukhari_214",
+          "bukhari_362"
         ],
         "in_top50": true
       },
       {
-        "id": "irb_v1_00050",
-        "query": "حديث قَالَ مَالِكٌ أَخْبَرَنِي زَيْدُ بْنُ أَسْلَمَ،",
-        "category": "Place",
+        "id": "irb_v1_00434",
+        "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، قَالَ",
+        "category": "Fiqh",
         "difficulty": "easy",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_41"
+          "bukhari_424"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_5491",
-          "bukhari_3202",
-          "bukhari_3003",
-          "bukhari_3059",
-          "bukhari_5767"
+          "bukhari_4820",
+          "bukhari_19",
+          "bukhari_29",
+          "bukhari_54",
+          "bukhari_139"
         ],
         "in_top50": true
       },
       {
-        "id": "irb_v1_00111",
-        "query": "حديث حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا",
-        "category": "Event",
+        "id": "irb_v1_00480",
+        "query": "حديث حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، قَالَ",
+        "category": "Aqeedah",
+        "difficulty": "hard",
+        "expected_hadith_number": null,
+        "acceptable_answers": [
+          "bukhari_470"
+        ],
+        "retrieved_candidates_top5": [
+          "bukhari_113",
+          "bukhari_138",
+          "bukhari_141",
+          "bukhari_189",
+          "bukhari_236"
+        ],
+        "in_top50": true
+      },
+      {
+        "id": "irb_v1_00173",
+        "query": "حديث حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ أَخْبَرَنَا شُعَيْبٌ،",
+        "category": "Egyptian",
+        "difficulty": "expert",
+        "expected_hadith_number": null,
+        "acceptable_answers": [
+          "bukhari_164"
+        ],
+        "retrieved_candidates_top5": [
+          "bukhari_14",
+          "bukhari_18",
+          "bukhari_27",
+          "bukhari_35",
+          "bukhari_93"
+        ],
+        "in_top50": true
+      },
+      {
+        "id": "irb_v1_00391",
+        "query": "حديث حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ",
+        "category": "Narrator",
         "difficulty": "medium",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_102"
+          "bukhari_382"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_268",
-          "bukhari_343",
-          "bukhari_267",
-          "bukhari_152",
-          "bukhari_255"
+          "bukhari_22",
+          "bukhari_37",
+          "bukhari_46",
+          "bukhari_66",
+          "bukhari_83"
+        ],
+        "in_top50": true
+      },
+      {
+        "id": "irb_v1_00454",
+        "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
+        "category": "Person",
+        "difficulty": "easy",
+        "expected_hadith_number": null,
+        "acceptable_answers": [
+          "bukhari_444"
+        ],
+        "retrieved_candidates_top5": [
+          "bukhari_867",
+          "bukhari_2",
+          "bukhari_4",
+          "bukhari_24",
+          "bukhari_63"
         ],
         "in_top50": true
       },
@@ -326,11 +290,11 @@
           "bukhari_166"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_222",
-          "bukhari_295",
-          "bukhari_207",
-          "bukhari_193",
-          "bukhari_145"
+          "bukhari_867",
+          "bukhari_2",
+          "bukhari_4",
+          "bukhari_24",
+          "bukhari_63"
         ],
         "in_top50": true
       },
@@ -344,11 +308,11 @@
           "bukhari_349"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_288",
-          "bukhari_383",
+          "bukhari_3",
+          "bukhari_136",
+          "bukhari_146",
           "bukhari_208",
-          "bukhari_476",
-          "bukhari_566"
+          "bukhari_288"
         ],
         "in_top50": true
       },
@@ -362,11 +326,11 @@
           "bukhari_403"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_145",
-          "bukhari_166",
-          "bukhari_193",
-          "bukhari_290",
-          "bukhari_2"
+          "bukhari_867",
+          "bukhari_2",
+          "bukhari_4",
+          "bukhari_24",
+          "bukhari_63"
         ],
         "in_top50": true
       },
@@ -380,29 +344,11 @@
           "bukhari_436"
         ],
         "retrieved_candidates_top5": [
+          "bukhari_14",
           "bukhari_18",
-          "bukhari_93",
-          "bukhari_238",
-          "bukhari_164",
-          "bukhari_864"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00302",
-        "query": "حديث حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ هِشَامِ",
-        "category": "Book",
-        "difficulty": "easy",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_293"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_1942",
-          "bukhari_5468",
-          "bukhari_3309",
-          "bukhari_4413",
-          "bukhari_582"
+          "bukhari_27",
+          "bukhari_35",
+          "bukhari_93"
         ],
         "in_top50": true
       },
@@ -416,11 +362,11 @@
           "bukhari_104"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_222",
-          "bukhari_295",
-          "bukhari_207",
-          "bukhari_193",
-          "bukhari_145"
+          "bukhari_867",
+          "bukhari_2",
+          "bukhari_4",
+          "bukhari_24",
+          "bukhari_63"
         ],
         "in_top50": true
       },
@@ -434,65 +380,29 @@
           "bukhari_351"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_266",
-          "bukhari_289",
-          "bukhari_321",
-          "bukhari_529",
-          "bukhari_504"
+          "bukhari_5",
+          "bukhari_84",
+          "bukhari_86",
+          "bukhari_219",
+          "bukhari_266"
         ],
         "in_top50": true
       },
       {
-        "id": "irb_v1_00288",
-        "query": "حديث وَعَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى",
-        "category": "Chapter",
-        "difficulty": "hard",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_279"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_2543",
-          "bukhari_2635",
-          "bukhari_1219",
-          "bukhari_7198",
-          "bukhari_6772"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00014",
-        "query": "حديث حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا",
-        "category": "Fiqh",
-        "difficulty": "easy",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_5"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_266",
-          "bukhari_289",
-          "bukhari_321",
-          "bukhari_529",
-          "bukhari_504"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00112",
-        "query": "حديث حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، قَالَ",
+        "id": "irb_v1_00367",
+        "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
         "category": "Comparison",
-        "difficulty": "hard",
+        "difficulty": "medium",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_103"
+          "bukhari_358"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_918",
-          "bukhari_938",
-          "bukhari_941",
-          "bukhari_1388",
-          "bukhari_1034"
+          "bukhari_867",
+          "bukhari_2",
+          "bukhari_4",
+          "bukhari_24",
+          "bukhari_63"
         ],
         "in_top50": true
       },
@@ -507,82 +417,46 @@
         ],
         "retrieved_candidates_top5": [
           "bukhari_113",
-          "bukhari_377",
-          "bukhari_842",
-          "bukhari_456",
-          "bukhari_470"
+          "bukhari_138",
+          "bukhari_141",
+          "bukhari_189",
+          "bukhari_236"
         ],
         "in_top50": true
       },
       {
-        "id": "irb_v1_00053",
-        "query": "حديث حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
-        "category": "Egyptian",
-        "difficulty": "expert",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_44"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_565",
-          "bukhari_553",
-          "bukhari_629",
-          "bukhari_896",
-          "bukhari_897"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00072",
-        "query": "حديث حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ",
-        "category": "Meaning",
+        "id": "irb_v1_00280",
+        "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+        "category": "Exact Quote",
         "difficulty": "hard",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_63"
+          "bukhari_271"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_222",
-          "bukhari_295",
-          "bukhari_207",
-          "bukhari_193",
-          "bukhari_145"
+          "bukhari_15",
+          "bukhari_101",
+          "bukhari_117",
+          "bukhari_142",
+          "bukhari_187"
         ],
         "in_top50": true
       },
       {
-        "id": "irb_v1_00126",
-        "query": "حديث حَدَّثَنَا آدَمُ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ",
+        "id": "irb_v1_00486",
+        "query": "حديث حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا",
         "category": "Event",
         "difficulty": "easy",
         "expected_hadith_number": null,
         "acceptable_answers": [
-          "bukhari_117"
+          "bukhari_476"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_271",
-          "bukhari_224",
-          "bukhari_562",
-          "bukhari_415",
-          "bukhari_234"
-        ],
-        "in_top50": true
-      },
-      {
-        "id": "irb_v1_00380",
-        "query": "حديث حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا",
-        "category": "Place",
-        "difficulty": "hard",
-        "expected_hadith_number": null,
-        "acceptable_answers": [
-          "bukhari_371"
-        ],
-        "retrieved_candidates_top5": [
-          "bukhari_217",
-          "bukhari_15",
-          "bukhari_149",
-          "bukhari_963",
-          "bukhari_1134"
+          "bukhari_3",
+          "bukhari_136",
+          "bukhari_146",
+          "bukhari_208",
+          "bukhari_288"
         ],
         "in_top50": true
       },
@@ -596,16 +470,35 @@
           "bukhari_319"
         ],
         "retrieved_candidates_top5": [
-          "bukhari_288",
-          "bukhari_383",
+          "bukhari_3",
+          "bukhari_136",
+          "bukhari_146",
           "bukhari_208",
-          "bukhari_476",
-          "bukhari_566"
+          "bukhari_288"
         ],
         "in_top50": true
       }
     ],
-    "knowledge_failures": [],
+    "knowledge_failures": [
+      {
+        "id": "irb_v1_00302",
+        "query": "حديث حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ هِشَامِ",
+        "category": "Book",
+        "difficulty": "easy",
+        "expected_hadith_number": null,
+        "acceptable_answers": [
+          "bukhari_293"
+        ],
+        "retrieved_candidates_top5": [
+          "bukhari_5468",
+          "bukhari_1942",
+          "bukhari_3309",
+          "bukhari_4413",
+          "bukhari_5156"
+        ],
+        "in_top50": false
+      }
+    ],
     "benchmark_failures": []
   }
 }
