@@ -35,12 +35,13 @@ class SemanticRetriever(BaseRetriever):
 
 
 class HybridRetriever(BaseRetriever):
-    def __init__(self, exact_retriever: BaseRetriever, semantic_retriever: BaseRetriever):
+    def __init__(self, exact_retriever: BaseRetriever, semantic_retriever: BaseRetriever, rrf_k: int = 60):
         self.exact_retriever = exact_retriever
         self.semantic_retriever = semantic_retriever
+        self.rrf_k = rrf_k
 
     def retrieve_candidates(self, query: str, limit: int = 5) -> List[BaseDocument]:
-        exact_candidates = self.exact_retriever.retrieve_candidates(query, limit=20)
+        exact_candidates = self.exact_retriever.retrieve_candidates(query, limit=50)
         semantic_candidates = self.semantic_retriever.retrieve_candidates(query, limit=50)
 
         for rank, doc in enumerate(exact_candidates, 1):
@@ -49,23 +50,26 @@ class HybridRetriever(BaseRetriever):
         for rank, doc in enumerate(semantic_candidates, 1):
             doc.metadata["_semantic_rank"] = rank
 
+        # RRF Fusion: Reciprocal Rank Fusion to combine BM25 + Semantic rankings
+        rrf_scores: Dict[str, float] = {}
         candidate_map: Dict[str, BaseDocument] = {}
 
-        # Merge: exact first (they carry _bm25_score), then semantic
         for doc in exact_candidates:
-            if doc.id not in candidate_map:
-                candidate_map[doc.id] = doc
+            candidate_map[doc.id] = doc
+            rrf_scores[doc.id] = rrf_scores.get(doc.id, 0.0) + 1.0 / (self.rrf_k + doc.metadata["_exact_rank"])
 
         for doc in semantic_candidates:
             if doc.id not in candidate_map:
                 candidate_map[doc.id] = doc
             else:
-                # Merge semantic rank into existing doc from exact retrieval
                 existing = candidate_map[doc.id]
                 if "_semantic_rank" in doc.metadata and "_semantic_rank" not in existing.metadata:
                     existing.metadata["_semantic_rank"] = doc.metadata["_semantic_rank"]
+            rrf_scores[doc.id] = rrf_scores.get(doc.id, 0.0) + 1.0 / (self.rrf_k + doc.metadata.get("_semantic_rank", len(semantic_candidates)))
 
-        return list(candidate_map.values())
+        # Sort by RRF score descending
+        sorted_ids = sorted(rrf_scores.keys(), key=lambda x: rrf_scores[x], reverse=True)
+        return [candidate_map[did] for did in sorted_ids[:limit * 4]]
 
 
 class BaseRanker:

@@ -77,9 +77,9 @@ class HadithSearchService:
         self.pipeline = RetrievalPipeline(
             retriever=hybrid_retriever,
             ranker=CoverageRanker(
-                semantic_weight=0.05,
-                bm25_weight=0.50,
-                metadata_weight=0.45
+                semantic_weight=0.40,
+                bm25_weight=0.35,
+                metadata_weight=0.25
             ),
             filter_step=MetadataFilter(),
             response_builder=ResponseBuilder()
