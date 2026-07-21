@@ -9,7 +9,7 @@
         "aliases": ["أبو هريرة", "ابو هريره", "أبي هريرة", "أبوهريرة", "الدوسي"],
         "type": "narrator",
         "era": "صحابي",
-        "famous_hadiths": ["bukhari_9", "bukhari_2475", "bukhari_3282", "bukhari_5059", "bukhari_6406"]
+        "acceptable_hadiths": ["bukhari_9", "bukhari_2475", "bukhari_3282", "bukhari_5059", "bukhari_6016", "bukhari_6406"]
       },
       "narrator_00002": {
         "entity_id": "narrator_00002",
@@ -17,7 +17,7 @@
         "aliases": ["عمر بن الخطاب", "الفاروق", "أبو حفص", "أمير المؤمنين"],
         "type": "narrator",
         "era": "صحابي",
-        "famous_hadiths": ["bukhari_1"]
+        "acceptable_hadiths": ["bukhari_1", "bukhari_54", "bukhari_2529"]
       },
       "narrator_00003": {
         "entity_id": "narrator_00003",
@@ -25,7 +25,7 @@
         "aliases": ["ابن عمر", "عبد الله بن عمر", "ابن عمر بن الخطاب"],
         "type": "narrator",
         "era": "صحابي",
-        "famous_hadiths": ["bukhari_8", "bukhari_1344"]
+        "acceptable_hadiths": ["bukhari_8", "bukhari_1344"]
       },
       "narrator_00004": {
         "entity_id": "narrator_00004",
@@ -33,7 +33,7 @@
         "aliases": ["ابن عباس", "عبد الله بن عباس", "ترجمان القرآن", "حبر الأمة"],
         "type": "narrator",
         "era": "صحابي",
-        "famous_hadiths": ["bukhari_138", "bukhari_5059"]
+        "acceptable_hadiths": ["bukhari_138", "bukhari_5059"]
       },
       "narrator_00005": {
         "entity_id": "narrator_00005",
@@ -41,15 +41,7 @@
         "aliases": ["عائشة", "عائشة بنت أبي بكر", "أم المؤمنين", "الصديقة بنت الصديق"],
         "type": "narrator",
         "era": "صحابية",
-        "famous_hadiths": ["bukhari_3", "bukhari_1053", "bukhari_1178", "bukhari_4750"]
-      },
-      "narrator_00006": {
-        "entity_id": "narrator_00006",
-        "canonical_name": "أنس بن مالك الأنصاري",
-        "aliases": ["أنس بن مالك", "أنس", "خادم رسول الله"],
-        "type": "narrator",
-        "era": "صحابي",
-        "famous_hadiths": ["bukhari_13", "bukhari_4476"]
+        "acceptable_hadiths": ["bukhari_3", "bukhari_1053", "bukhari_1178", "bukhari_4750"]
       }
     },
     "books": {
@@ -57,15 +49,69 @@
         "entity_id": "book_00001",
         "canonical_name": "كتاب بدء الوحي",
         "aliases": ["بدء الوحي", "كتاب الوحي"],
-        "book_number": 1,
-        "hadith_count": 7
+        "book_number": 1
       },
       "book_00002": {
         "entity_id": "book_00002",
         "canonical_name": "كتاب الإيمان",
         "aliases": ["الإيمان", "كتاب الايمان"],
-        "book_number": 2,
-        "hadith_count": 50
+        "book_number": 2
+      }
+    },
+    "chapters": {
+      "chapter_00001": {
+        "entity_id": "chapter_00001",
+        "canonical_name": "باب كيف كان بدء الوحي إلى رسول الله",
+        "aliases": ["باب بدء الوحي", "كيف كان بدء الوحي"],
+        "book_id": "book_00001"
+      },
+      "chapter_00002": {
+        "entity_id": "chapter_00002",
+        "canonical_name": "باب بني الإسلام على خمس",
+        "aliases": ["باب أركان الإسلام", "بني الإسلام على خمس"],
+        "book_id": "book_00002"
+      }
+    },
+    "places": {
+      "place_00001": {
+        "entity_id": "place_00001",
+        "canonical_name": "غار حراء",
+        "aliases": ["حراء", "جبل النور", "غار حراء بمكة"],
+        "type": "place"
+      },
+      "place_00002": {
+        "entity_id": "place_00002",
+        "canonical_name": "المدينة المنورة",
+        "aliases": ["المدينة", "طيبة", "يثرب"],
+        "type": "place"
+      }
+    },
+    "battles": {
+      "battle_00001": {
+        "entity_id": "battle_00001",
+        "canonical_name": "غزوة بدر الكبرى",
+        "aliases": ["غزوة بدر", "يوم الفرقان", "بدر"],
+        "type": "battle"
+      },
+      "battle_00002": {
+        "entity_id": "battle_00002",
+        "canonical_name": "غزوة أحد",
+        "aliases": ["غزوة احد", "أحد"],
+        "type": "battle"
+      }
+    },
+    "prophets": {
+      "prophet_00001": {
+        "entity_id": "prophet_00001",
+        "canonical_name": "محمد صلى الله عليه وسلم",
+        "aliases": ["محمد", "رسول الله", "النبي", "مصطفى", "أحمد"],
+        "type": "prophet"
+      },
+      "prophet_00002": {
+        "entity_id": "prophet_00002",
+        "canonical_name": "إبراهيم عليه السلام",
+        "aliases": ["إبراهيم", "خليل الله", "ابراهيم الخليل"],
+        "type": "prophet"
       }
     },
     "hadith_titles": {
@@ -73,19 +119,19 @@
         "entity_id": "hadith_title_00001",
         "canonical_title": "إنما الأعمال بالنيات",
         "aliases": ["حديث النية", "حديث الأعمال بالنيات", "حديث النيات"],
-        "gold_evidence": ["bukhari_1"]
+        "acceptable_answers": ["bukhari_1", "bukhari_54", "bukhari_2529", "bukhari_3898", "bukhari_5070", "bukhari_6689", "bukhari_6953"]
       },
       "hadith_title_00002": {
         "entity_id": "hadith_title_00002",
         "canonical_title": "بني الإسلام على خمس",
         "aliases": ["حديث بني الإسلام على خمس", "حديث أركان الإسلام"],
-        "gold_evidence": ["bukhari_8"]
+        "acceptable_answers": ["bukhari_8"]
       },
       "hadith_title_00003": {
         "entity_id": "hadith_title_00003",
         "canonical_title": "حديث جبريل عليه السلام",
         "aliases": ["حديث جبريل", "سؤال جبريل عن الإيمان والإسلام"],
-        "gold_evidence": ["bukhari_50", "muslim_1"]
+        "acceptable_answers": ["bukhari_50", "muslim_1"]
       }
     }
   }
