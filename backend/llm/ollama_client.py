@@ -46,9 +46,13 @@ def _call_openai_compatible_api(prompt: str, stream: bool = False):
     }
 
     try:
-        response = requests.post(url, headers=headers, json=payload, stream=stream, timeout=8)
+        logger.info(f"Calling LLM API: {url[:40]}... model={model}")
+        response = requests.post(url, headers=headers, json=payload, stream=stream, timeout=25)
         response.raise_for_status()
         return response
+    except requests.exceptions.Timeout:
+        logger.error(f"LLM API timeout after 25s: {url[:40]}")
+        return None
     except Exception as e:
         logger.error(f"External LLM API call failed: {e}")
         return None

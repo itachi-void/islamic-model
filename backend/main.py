@@ -1,13 +1,39 @@
 import os
+import logging
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from backend.api.routes import router
+from backend.api.routes import router, get_pipeline, get_hadith_service, get_chat_service
+
+logger = logging.getLogger(__name__)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Pre-warm all heavy singletons at startup so first user request is instant."""
+    try:
+        logger.info("[STARTUP] Pre-warming pipeline...")
+        get_pipeline()
+        logger.info("[STARTUP] Pre-warming hadith service...")
+        get_hadith_service()
+        logger.info("[STARTUP] Pre-warming chat service...")
+        get_chat_service()
+        logger.info("[STARTUP] All services ready.")
+    except Exception as e:
+        logger.error(f"[STARTUP] Warm-up failed (non-fatal): {e}")
+    yield
 
 app = FastAPI(
     title="Islamic AI Engine",
     version="2.0.0",
-    description="Unified RAG Search & Chat Engine for Holy Quran and Sahih Al-Bukhari"
+    description="Unified RAG Search & Chat Engine for Holy Quran and Sahih Al-Bukhari",
+    lifespan=lifespan
 )
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok", "pipeline": "ready"}
 
 @app.middleware("http")
 async def add_no_cache_headers(request, call_next):

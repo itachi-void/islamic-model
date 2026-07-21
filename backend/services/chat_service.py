@@ -74,15 +74,9 @@ class ChatService:
         target_domain, retrieved_docs, citations = self._prepare_context(query_text, limit, filters, domain)
         answer = self.answer_generator.generate_answer(query_text, retrieved_docs)
 
-        if "لا توجد أدلة كافية" in answer or not retrieved_docs:
-            return {
-                "answer": "لا توجد أدلة كافية في المصادر المتاحة.",
-                "route": target_domain,
-                "citations": [],
-                "retrieved_documents": [doc.model_dump() for doc in retrieved_docs],
-                "model": settings.MODEL_NAME,
-                "search_type": target_domain
-            }
+        # answer_generator always returns a non-empty string; just pass it through
+        if not answer:
+            answer = "لا توجد أدلة كافية في المصادر المتاحة."
 
         return {
             "answer": answer,
