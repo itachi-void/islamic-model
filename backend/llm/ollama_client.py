@@ -82,14 +82,18 @@ def generate(prompt: str) -> str:
         return "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
 
     try:
-        import ollama
-        response = ollama.chat(
-            model=MODEL_NAME,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return response["message"]["content"]
+        url = "http://127.0.0.1:11434/api/chat"
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [{"role": "user", "content": prompt}],
+            "stream": False,
+        }
+        res = requests.post(url, json=payload, timeout=5.0)
+        res.raise_for_status()
+        data = res.json()
+        return data.get("message", {}).get("content", "")
     except Exception as e:
-        logger.warning(f"Local Ollama generation fallback triggered: {e}")
+        logger.warning(f"Local Ollama generation fallback triggered (timeout/error): {e}")
         return "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
 
 
@@ -122,18 +126,26 @@ def generate_stream(prompt: str) -> Generator[str, None, None]:
         return
 
     try:
-        import ollama
-        stream_response = ollama.chat(
-            model=MODEL_NAME,
-            messages=[{"role": "user", "content": prompt}],
-            stream=True
-        )
-        for chunk in stream_response:
-            content = chunk.get("message", {}).get("content", "")
-            if content:
-                yield content
+        url = "http://127.0.0.1:11434/api/chat"
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [{"role": "user", "content": prompt}],
+            "stream": True,
+        }
+        res = requests.post(url, json=payload, stream=True, timeout=5.0)
+        res.raise_for_status()
+        for line in res.iter_lines():
+            if not line:
+                continue
+            try:
+                chunk = json.loads(line.decode('utf-8'))
+                content = chunk.get("message", {}).get("content", "")
+                if content:
+                    yield content
+            except json.JSONDecodeError:
+                continue
     except Exception as e:
-        logger.warning(f"Local Ollama streaming fallback triggered: {e}")
+        logger.warning(f"Local Ollama streaming fallback triggered (timeout/error): {e}")
         yield "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
 
 
