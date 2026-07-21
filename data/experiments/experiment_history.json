@@ -258,5 +258,18 @@
     "avg_latency_ms": 1107.36,
     "total_queries": 97,
     "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on dev split"
+  },
+  {
+    "run_id": "run_021",
+    "timestamp": "2026-07-21 10:24:00",
+    "collection": "IRB-v1",
+    "split_type": "test",
+    "model_info": "BGE-M3 + BM25 + CrossEncoder",
+    "hits_1": 44.9,
+    "hits_5": 79.59,
+    "mrr": 0.58,
+    "avg_latency_ms": 1016.08,
+    "total_queries": 98,
+    "notes": "IRB-v1 11-Metric Suite & 4-Bucket Failure Taxonomy on test split"
   }
 ]
