@@ -1,7 +1,6 @@
 import os
 import logging
 import threading
-from contextlib import asynccontextmanager
 from fastapi import FastAPI, Response
 from fastapi.staticfiles import StaticFiles
 from backend.api.routes import router, get_pipeline, get_hadith_service, get_chat_service
@@ -36,19 +35,15 @@ def _background_warmup():
             _warmup_done = True
 
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    t = threading.Thread(target=_background_warmup, daemon=True, name="warmup-thread")
-    t.start()
-    logger.info("[STARTUP] Background warmup thread started.")
-    yield
+# Start background warmup immediately when module is imported
+_warmup_thread = threading.Thread(target=_background_warmup, daemon=True, name="warmup-thread")
+_warmup_thread.start()
 
 
 app = FastAPI(
     title="Islamic AI Engine",
     version="2.0.0",
-    description="Unified RAG Search & Chat Engine for Holy Quran and Sahih Al-Bukhari",
-    lifespan=lifespan
+    description="Unified RAG Search & Chat Engine for Holy Quran and Sahih Al-Bukhari"
 )
 
 
