@@ -28,21 +28,21 @@ class BGEEmbeddingProvider(BaseEmbeddingProvider):
         self.model_name = model_name
 
     def embed_query(self, text: str) -> List[float]:
-        if not ollama or not _is_ollama_running():
+        if not _is_ollama_running():
             return []
+        import requests
         try:
-            res = ollama.embed(model=self.model_name, input=text)
-            if hasattr(res, "embeddings") and res.embeddings:
-                return res.embeddings[0]
-            elif isinstance(res, dict) and "embeddings" in res and res["embeddings"]:
-                return res["embeddings"][0]
+            url = "http://127.0.0.1:11434/api/embed"
+            payload = {"model": self.model_name, "input": text}
+            res = requests.post(url, json=payload, timeout=1.5)
+            if res.status_code == 200:
+                data = res.json()
+                embs = data.get("embeddings", [])
+                if embs and len(embs) > 0:
+                    return embs[0]
         except Exception:
             pass
-        try:
-            response = ollama.embeddings(model=self.model_name, prompt=text)
-            return response.get("embedding", [])
-        except Exception:
-            return []
+        return []
 
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
         if not texts or not ollama or not _is_ollama_running():
