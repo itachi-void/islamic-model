@@ -2,7 +2,7 @@ import os
 import logging
 import threading
 from contextlib import asynccontextmanager
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 from fastapi.staticfiles import StaticFiles
 from backend.api.routes import router, get_pipeline, get_hadith_service, get_chat_service
 
@@ -17,8 +17,6 @@ def _background_warmup():
     """
     Run in a daemon thread at startup.
     Warms up all heavy singletons WITHOUT blocking WSGI from accepting requests.
-    PythonAnywhere free tier has 1 worker — if warmup is sync/blocking, first request
-    hangs until warmup finishes (15s+). Background thread releases the worker immediately.
     """
     global _warmup_done
     try:
@@ -35,16 +33,11 @@ def _background_warmup():
     except Exception as e:
         logger.error(f"[WARMUP] Background warmup failed (non-fatal): {e}")
         with _warmup_lock:
-            _warmup_done = True  # Mark done even on failure so requests proceed
+            _warmup_done = True
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """
-    Kicks off background warmup thread immediately at WSGI startup.
-    WSGI worker is free to handle requests within milliseconds.
-    First request to /chat will trigger lazy-init if warmup isn't done yet (still fast via inverted index).
-    """
     t = threading.Thread(target=_background_warmup, daemon=True, name="warmup-thread")
     t.start()
     logger.info("[STARTUP] Background warmup thread started.")
@@ -67,22 +60,9 @@ def health():
     return {"status": "ok", "pipeline_ready": ready}
 
 
-from fastapi import Response
-
 @app.get("/favicon.ico", include_in_schema=False)
 def favicon():
     return Response(status_code=204)
-
-
-@app.middleware("http")
-async def add_no_cache_headers(request, call_next):
-    response = await call_next(request)
-    path = request.url.path
-    if path == "/" or path.endswith((".js", ".css", ".html")):
-        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate, max-age=0"
-        response.headers["Pragma"] = "no-cache"
-        response.headers["Expires"] = "0"
-    return response
 
 
 app.include_router(router)
@@ -91,3 +71,20 @@ app.include_router(router)
 frontend_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")
 if os.path.exists(frontend_dir):
     app.mount("/", StaticFiles(directory=frontend_dir, html=True), name="static")
+
+
+# WSGI Adapter for PythonAnywhere / uWSGI servers
+try:
+    from a2wsgi import ASGIMiddleware
+    _raw_wsgi = ASGIMiddleware(app)
+
+    def wsgi_app(environ, start_response):
+        def safe_start_response(status, headers, exc_info=None):
+            try:
+                return start_response(status, headers, exc_info)
+            except TypeError:
+                return start_response(status, headers)
+        return _raw_wsgi(environ, safe_start_response)
+
+except ImportError:
+    wsgi_app = app
