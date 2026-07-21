@@ -67,6 +67,13 @@ def health():
     return {"status": "ok", "pipeline_ready": ready}
 
 
+from fastapi import Response
+
+@app.get("/favicon.ico", include_in_schema=False)
+def favicon():
+    return Response(status_code=204)
+
+
 @app.middleware("http")
 async def add_no_cache_headers(request, call_next):
     response = await call_next(request)
