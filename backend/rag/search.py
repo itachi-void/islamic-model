@@ -77,8 +77,8 @@ def extract_search_tokens(text: str) -> List[str]:
     return tokens
 
 
-def extract_stemmed_tokens(text: str) -> List[str]:
-    return extract_search_tokens(text)
+def extract_stemmed_tokens(text: str) -> Set[str]:
+    return set(extract_search_tokens(text))
 
 
 class ExactSearchEngine:
@@ -86,8 +86,8 @@ class ExactSearchEngine:
     def __init__(self, documents: List[BaseDocument]):
         self.documents = documents
         self.doc_map: Dict[str, BaseDocument] = {doc.id: doc for doc in documents}
+        self.doc_tokens_map: Dict[str, Set[str]] = {}
         self.inverted_index: Dict[str, Set[str]] = defaultdict(set)
-        self.doc_tokens: List[Tuple[BaseDocument, Set[str]]] = []
         self._idf: Dict[str, float] = {}
 
         self._build_index()
@@ -100,11 +100,11 @@ class ExactSearchEngine:
         df: Dict[str, int] = defaultdict(int)
 
         for doc in self.documents:
-            meta_str = f"{doc.metadata.get('book', '')} {doc.metadata.get('chapter', '')} {doc.metadata.get('narrator', '')}"
+            meta_str = f"{doc.metadata.get('book', '')} {doc.metadata.get('chapter', '')} {doc.metadata.get('narrator', '')} {doc.metadata.get('title_ar', '')} {doc.metadata.get('aliases', '')} {doc.metadata.get('topics', '')}"
             full_text = f"{doc.text} {meta_str}"
             tokens = set(extract_search_tokens(full_text))
 
-            self.doc_tokens.append((doc, tokens))
+            self.doc_tokens_map[doc.id] = tokens
             for token in tokens:
                 self.inverted_index[token].add(doc.id)
                 df[token] += 1
@@ -137,7 +137,7 @@ class ExactSearchEngine:
         scored_docs = []
         for doc_id in candidate_ids:
             doc = self.doc_map[doc_id]
-            d_tokens = self.doc_tokens[self.documents.index(doc)][1] if doc in self.documents else set()
+            d_tokens = self.doc_tokens_map.get(doc_id, set())
             matched = q_tokens & d_tokens
             if matched:
                 score = round(sum(self._idf.get(t, 1.0) for t in matched) / total_q_weight, 4)
