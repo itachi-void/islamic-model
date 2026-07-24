@@ -253,6 +253,57 @@ class FactsBuilder:
         }
 
 
+def build_smart_fallback(query: str, evidences: List[GenericEvidence]) -> str:
+    """
+    Constructs a beautifully formatted evidence summary if LLM API is offline or times out.
+    Uses Quranic brackets ﴿ ﴾ and Hadith quotes « » with precise references.
+    """
+    if not evidences:
+        return "لا توجد أدلة كافية في المصادر المتاحة."
+
+    primary = evidences[0]
+    quran_evs = [e for e in evidences if e.source == "quran"]
+    hadith_evs = [e for e in evidences if e.source in ["bukhari", "hadith", "muslim", "tirmidhi", "nasai", "abudawud", "ibnmajah"]]
+
+    lines = []
+
+    # 1. Primary Evidence
+    if primary.source == "quran":
+        surah = primary.metadata.get("surah_name_ar", "")
+        ayah = primary.metadata.get("ayah_number", "")
+        ref = f"سورة {surah}، آية {ayah}" if surah and ayah else primary.reference
+        title = primary.metadata.get("title_ar", "")
+        header_name = f"**{title}**" if title else "**النص القرآني الكريم**"
+        lines.append(f"{header_name} ({ref}):\n")
+        lines.append(f"﴿ {primary.text} ﴾")
+    elif primary.source in ["bukhari", "hadith", "muslim", "tirmidhi", "nasai", "abudawud", "ibnmajah"]:
+        book = primary.metadata.get("book", "")
+        ref = f"صحيح البخاري - {book}" if book else primary.reference
+        lines.append(f"**الحديث الشريف** ({ref}):\n")
+        lines.append(f"« {primary.text} »")
+
+    # 2. Supporting Quranic Verses
+    supporting_quran = [e for e in quran_evs if e != primary]
+    if supporting_quran:
+        lines.append("\n\n📖 **آيات قرآنية ذات صلة:**")
+        for ev in supporting_quran[:3]:
+            surah = ev.metadata.get("surah_name_ar", "")
+            ayah = ev.metadata.get("ayah_number", "")
+            ref = f"سورة {surah}: آية {ayah}" if surah and ayah else ev.reference
+            lines.append(f"- ﴿ {ev.text} ﴾ [{ref}]")
+
+    # 3. Supporting Hadiths
+    supporting_hadith = [e for e in hadith_evs if e != primary]
+    if supporting_hadith:
+        lines.append("\n\n📚 **أحاديث نبوية ذات صلة:**")
+        for ev in supporting_hadith[:3]:
+            book = ev.metadata.get("book", "")
+            ref = f"{ev.source.title()} - {book}" if book else ev.reference
+            lines.append(f"- « {ev.text} » [{ref}]")
+
+    return "\n".join(lines)
+
+
 class AnswerGenerator:
     """
     Post-Retrieval Reasoning Layer.
@@ -263,25 +314,20 @@ class AnswerGenerator:
     def __init__(self, dialect: str = "egyptian"):
         self.dialect = dialect
         self.system_instruction = (
-            "أنت مساعد إسلامي متخصص وموثوق للغاية، تعتمد حصراً على الأدلة الشرعية المسترجعة لمنع الهلوسة.\n"
-            "اقرأ سؤال المستخدم والأدلة المرفقة، واكتب فقط الأقسام التفسيرية والاستدلالية التالية بالترتيب الصارم دون إعادة كتابة آيات أو أحاديث أو مراجع كأقسام مستقلة:\n\n"
-            "📌 الإجابة المختصرة\n"
-            "(إجابة علمية مقتضبة بدقة باللغة العربية الفصحى تعتمد حصراً على الأدلة المسترجعة دون أي زيادة أو ادعاءات غير مذكورة)\n\n"
-            "💡 شرح مبسط\n"
-            "الفصحى المبسطة:\n"
-            "(شرح ميسر بلغة عربية مبسطة يوضح الفكرة العامة من الدليل الشرعي دون استخدام كلمات معقدة)\n\n"
-            "🇪🇬 بالمصري:\n"
-            "(شرح سلس جداً بالعامية المصرية البسيطة يفهمه الجميع بوضوح دون تغيير المعنى الشرعي أو إضافة معلومات خارجية)\n\n"
-            "🧠 كيف استنتجنا الإجابة؟\n"
-            "(توضيح كيفية الاستدلال بالنص وكيف يدل على الإجابة طبقاً لنوع السؤال: إن كان \"لماذا\" يوضح الحكمة والعلة المذكورة، وإن كان \"ما حكم\" يوضح وجه الدلالة المباشر)\n\n"
-            "⚠️ ملاحظات مهمة\n"
-            "(ذكر أي تنبيهات شرعية أو سياق نزول أو سبب ورود مذكور في الأدلة، أو كتابة \"لا توجد ملاحظات إضافية.\" إذا لم تتوافر ملاحظات)\n\n"
-            "🚫 قواعد صارمة يمنع مخالفتها حتماً:\n"
-            "1. إذا كانت الأدلة متعددة، فلا تعتمد على دليل واحد وتتجاهل الباقي. استخلص الإجابة والوجه الاستدلالي من جميع الأدلة المرفقة، وإذا تعارضت الأدلة أو لم تكفِ فاذكر ذلك صراحة.\n"
-            "2. يمنع منعاً باتاً استخدام مصطلحات مثل: \"متفق عليه\" (إلا إذا ورد البخاري ومسلم معاً صراحة في الأدلة المرفقة)، أو \"أجمع العلماء\"، أو \"جمهور العلماء\"، أو \"أصح الأقوال\"، أو ادعاء \"الأجر الكامل\" مالم يرد ذلك بنصه في الأدلة.\n"
-            "3. إذا كان الحديث من صحيح البخاري اذكر صراحة أنه في صحيح البخاري فقط ولا تقل \"متفق عليه\".\n"
-            "4. لا تكرر كتابة النصوص الأصلية للآيات أو الأحاديث أو قائمة المراجع المطبوعة لاحقاً، فقط صغ الشرح والاستدلال الإنساني.\n"
-            "5. إذا كانت الأدلة المسترجعة غير كافية أو خارج الموضوع، أجب بهذه الجملة فقط دون أي عناوين أو إضافات أخرى: \"لا توجد أدلة كافية في المصادر المتاحة.\""
+            "أنت مساعد إسلامي متخصص وموثوق للغاية، يكتب بإسلوب شائق وسلس وفصيح تماماً مثل أحدث شبكات الذكاء الاصطناعي (ChatGPT / Gemini).\n"
+            "اقرأ سؤال المستخدم والأدلة الشرعية المرفقة، واكتب إجابة علمية مسبوكة ومبوبة بوضوح طبقاً للتعليمات التنسيقية التالية:\n\n"
+            "✨ قواعد التنسيق والأسلوب (استنسخ أسلوب ChatGPT / Gemini):\n"
+            "1. **التنسيق الشكلي**:\n"
+            "   - ضع الآيات القرآنية الكريمة دائماً بين قوسين قرآنيين: ﴿ ... ﴾ مع ذكر اسم السورة ورقم الآية.\n"
+            "   - ضع الأحاديث النبوية الشريفة دائماً بين علامتي تنصيص: « ... » مع ذكر المصدر (مثلاً: رواه البخاري / رواه مسلم).\n"
+            "   - استخدم عناوين فرعية مناسبة ومبوبة حسب سياق الموضوع (مثل: **معناها**، **فضلها**، **الحكم الشرعي**، **سبب النزول**، **أهم الأحكام المستفادة**).\n\n"
+            "2. **الأسلوب واللغة**:\n"
+            "   - اكتب بلغة عربية فصيحة، سلسة، شائقة، ومبسطة يفهمها الجميع بوضوح.\n"
+            "   - ابدأ بفقرة تمهيدية مجيبة عن السؤال مباشرة، ثم بوب التفاصيل والفضائل والأحكام تحت عناوين واضحة ومستقلة.\n\n"
+            "3. **الأمان والدقة الشرعية (منع الهلوسة)**:\n"
+            "   - اعتمد حصراً على الأدلة الشرعية المرفقة في استخراج الحقائق والفضائل.\n"
+            "   - لا تضف أي أحاديث أو آيات غير مذكورة في النص المرفق.\n"
+            "   - إذا كانت الأدلة المسترجعة غير كافية للإجابة عن السؤال، أجب بهذه الجملة فقط دون أي عناوين: \"لا توجد أدلة كافية في المصادر المتاحة.\""
         )
 
     def build_prompt(self, query: str, evidences: List[GenericEvidence]) -> str:
@@ -298,7 +344,7 @@ class AnswerGenerator:
             f"{context_str}"
             f"=== سؤال المستخدم ===\n"
             f"{query}\n\n"
-            f"=== الشرح والاستدلال المنظم ==="
+            f"=== الإجابة الذكية المنظمة (بأسلوب ChatGPT/Gemini) ==="
         )
         return prompt
 
@@ -323,10 +369,11 @@ class AnswerGenerator:
         if not llm_reasoning or "لا توجد أدلة كافية" in llm_reasoning or "لا أملك إجابة" in llm_reasoning:
             return "لا توجد أدلة كافية في المصادر المتاحة."
 
-        fallback_msg = "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
+        fallback_msg_1 = "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
         fallback_msg_2 = "تم استخراج وتوثيق الأدلة المباشرة للسؤال من المصادر الشرعية المعتمدة."
-        if llm_reasoning == fallback_msg:
-            llm_reasoning = fallback_msg_2
+
+        if llm_reasoning in [fallback_msg_1, fallback_msg_2]:
+            llm_reasoning = build_smart_fallback(query, evidences)
 
         final_response_envelope = f"{confidence_header}\n\n{llm_reasoning}"
         return final_response_envelope

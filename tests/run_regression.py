@@ -99,7 +99,7 @@ def run_regression_tests():
             res = quran_pipeline.retrieve(search_q)
             retrieved_ids = [doc.id.split("_chunk_")[0] for doc in res.documents]
         elif domain == "bukhari":
-            raw_res = hadith_service.search(query, limit=10)
+            raw_res = hadith_service.search(query, limit=10, book="bukhari")
             retrieved_ids = [str(doc.metadata.get("hadith_number", "")) for doc in raw_res.documents]
 
         # Evaluate rank of best expected hit
