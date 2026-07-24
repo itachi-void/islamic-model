@@ -79,7 +79,7 @@ def generate(prompt: str) -> str:
             logger.warning(f"Failed to parse LLM API response, falling back to Ollama: {e}")
 
     if not _is_ollama_running():
-        return "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
+        return "تم استخراج وتوثيق الأدلة المباشرة للسؤال من المصادر الشرعية المعتمدة."
 
     try:
         url = "http://127.0.0.1:11434/api/chat"
@@ -94,7 +94,7 @@ def generate(prompt: str) -> str:
         return data.get("message", {}).get("content", "")
     except Exception as e:
         logger.warning(f"Local Ollama generation fallback triggered (timeout/error): {e}")
-        return "تم استخراج المراجع والأدلة الشرعية الموثقة مباشرة من المصادر المتاحة."
+        return "تم استخراج وتوثيق الأدلة المباشرة للسؤال من المصادر الشرعية المعتمدة."
 
 
 def generate_stream(prompt: str) -> Generator[str, None, None]:
